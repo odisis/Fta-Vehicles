@@ -1,0 +1,1505 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CVehicleMetadataMgr>
+
+
+<!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------  SEATINFO  ---------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+
+  <VehicleSeatInfos> 
+<!-------------------------------------------------------  PASSAGEIRO - MOTORISTA  -------------------------------------------------->
+    <Item type="CVehicleSeatInfo">
+      <Name>SEAT_CAVEIRAO_FRONT_MOTORISTA</Name>
+      <SeatBoneName>seat_dside_f</SeatBoneName>
+      <ShuffleLink />
+      <RearSeatLink />
+      <DefaultCarTask>TASK_DRIVE_WANDER</DefaultCarTask>
+      <SeatFlags>IsFrontSeat</SeatFlags>
+      <HairScale value="0.000000" />
+    </Item>
+<!-----------------------------------------------------------  ATIRADOR - 1  --------------------------------------------------------->
+    <Item type="CVehicleSeatInfo">
+      <Name>SEAT_CAVEIRAO_ATIRADOR_1</Name>
+      <SeatBoneName>seat_pside_f</SeatBoneName>
+      <ShuffleLink />
+      <RearSeatLink />
+      <DefaultCarTask>TASK_DRIVE_WANDER</DefaultCarTask>
+      <SeatFlags>IsFrontSeat</SeatFlags>
+      <HairScale value="0.000000" />
+    </Item>
+<!-----------------------------------------------------------  ATIRADOR - 2  --------------------------------------------------------->
+    <Item type="CVehicleSeatInfo">
+      <Name>SEAT_CAVEIRAO_ATIRADOR_2</Name>
+      <SeatBoneName>seat_dside_r</SeatBoneName>
+      <ShuffleLink />
+      <RearSeatLink />
+      <DefaultCarTask>TASK_DRIVE_WANDER</DefaultCarTask>
+      <SeatFlags>IsFrontSeat</SeatFlags>
+      <HairScale value="0.000000" />
+    </Item>
+<!-----------------------------------------------------------  ATIRADOR - 3  --------------------------------------------------------->
+    <Item type="CVehicleSeatInfo">
+      <Name>SEAT_CAVEIRAO_ATIRADOR_3</Name>
+      <SeatBoneName>seat_pside_r</SeatBoneName>
+      <ShuffleLink />
+      <RearSeatLink />
+      <DefaultCarTask>TASK_DRIVE_WANDER</DefaultCarTask>
+      <SeatFlags>IsFrontSeat</SeatFlags>
+      <HairScale value="0.000000" />
+    </Item>
+<!----------------------------------------------------------  PASSAGEIRO - P1  ------------------------------------------------------>
+    <Item type="CVehicleSeatInfo">
+      <Name>SEAT_CAVEIRAO_PASSAGEIRO_1</Name>
+      <SeatBoneName>seat_dside_r1</SeatBoneName>
+      <ShuffleLink />
+      <RearSeatLink />
+      <DefaultCarTask>TASK_DRIVE_WANDER</DefaultCarTask>
+      <SeatFlags>IsIdleSeat</SeatFlags>
+      <HairScale value="0.000000" />
+    </Item>
+<!-------------------------------------------------------  PASSAGEIRO - BACK - P2  --------------------------------------------------->
+    <Item type="CVehicleSeatInfo">
+      <Name>SEAT_CAVEIRAO_BPASSAGEIRO_2</Name>
+      <SeatBoneName>seat_pside_r1</SeatBoneName>
+      <ShuffleLink />
+      <RearSeatLink />
+      <DefaultCarTask>TASK_DRIVE_WANDER</DefaultCarTask>
+      <SeatFlags>IsIdleSeat</SeatFlags>
+      <HairScale value="0.000000" />
+    </Item>
+<!-------------------------------------------------------  PASSAGEIRO - BACK - P3  --------------------------------------------------->
+    <Item type="CVehicleSeatInfo">
+      <Name>SEAT_CAVEIRAO_BPASSAGEIRO_3</Name>
+      <SeatBoneName>seat_dside_r2</SeatBoneName>
+      <ShuffleLink />
+      <RearSeatLink />
+      <DefaultCarTask>TASK_DRIVE_WANDER</DefaultCarTask>
+      <SeatFlags>IsIdleSeat</SeatFlags>
+      <HairScale value="0.000000" />
+    </Item>
+<!-------------------------------------------------------  PASSAGEIRO - BACK - P4  --------------------------------------------------->
+    <Item type="CVehicleSeatInfo">
+      <Name>SEAT_CAVEIRAO_BPASSAGEIRO_4</Name>
+      <SeatBoneName>seat_pside_r2</SeatBoneName>
+      <ShuffleLink />
+      <RearSeatLink />
+      <DefaultCarTask>TASK_DRIVE_WANDER</DefaultCarTask>
+      <SeatFlags>IsIdleSeat</SeatFlags>
+      <HairScale value="0.000000" />
+    </Item>
+<!-------------------------------------------------------  PASSAGEIRO - BACK - P5  --------------------------------------------------->
+    <Item type="CVehicleSeatInfo">
+      <Name>SEAT_CAVEIRAO_BPASSAGEIRO_5</Name>
+      <SeatBoneName>seat_dside_r3</SeatBoneName>
+      <ShuffleLink />
+      <RearSeatLink />
+      <DefaultCarTask>TASK_DRIVE_WANDER</DefaultCarTask>
+      <SeatFlags>IsIdleSeat</SeatFlags>
+      <HairScale value="0.000000" />
+    </Item>
+<!-------------------------------------------------------  PASSAGEIRO - BACK - P6  --------------------------------------------------->
+    <Item type="CVehicleSeatInfo">
+      <Name>SEAT_CAVEIRAO_BPASSAGEIRO_6</Name>
+      <SeatBoneName>seat_pside_r3</SeatBoneName>
+      <ShuffleLink />
+      <RearSeatLink />
+      <DefaultCarTask>TASK_DRIVE_WANDER</DefaultCarTask>
+      <SeatFlags>IsIdleSeat</SeatFlags>
+      <HairScale value="0.000000" />
+    </Item>
+<!-------------------------------------------------------  PASSAGEIRO - BACK - P7  --------------------------------------------------->
+    <Item type="CVehicleSeatInfo">
+      <Name>SEAT_CAVEIRAO_BPASSAGEIRO_7</Name>
+      <SeatBoneName>seat_dside_r4</SeatBoneName>
+      <ShuffleLink />
+      <RearSeatLink />
+      <DefaultCarTask>TASK_DRIVE_WANDER</DefaultCarTask>
+      <SeatFlags>IsIdleSeat</SeatFlags>
+      <HairScale value="0.000000" />
+    </Item>
+<!-------------------------------------------------------  PASSAGEIRO - BACK - P8  --------------------------------------------------->
+    <Item type="CVehicleSeatInfo">
+      <Name>SEAT_CAVEIRAO_BPASSAGEIRO_8</Name>
+      <SeatBoneName>seat_pside_r4</SeatBoneName>
+      <ShuffleLink />
+      <RearSeatLink />
+      <DefaultCarTask>TASK_DRIVE_WANDER</DefaultCarTask>
+      <SeatFlags>IsIdleSeat</SeatFlags>
+      <HairScale value="0.000000" />
+    </Item>
+  </VehicleSeatInfos>
+
+
+<!------------------------------------------------------------------------------------------  SEATINFO  ---------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+
+
+
+<!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------  ENTRYPOINT  -------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+
+  <VehicleEntryPointInfos>
+<!-------------------------------------------------------  PASSAGEIRO - MOTORISTA  -------------------------------------------------->
+    <Item type="CVehicleEntryPointInfo">
+      <Name>ENTRY_POINT_CAVEIRAO_FRONT_MOTORISTA</Name>
+      <DoorBoneName>door_dside_f</DoorBoneName>
+      <SecondDoorBoneName />
+      <DoorHandleBoneName>handle_dside_f</DoorHandleBoneName>
+      <WindowId>INVALID</WindowId>
+      <VehicleSide>SIDE_LEFT</VehicleSide>
+      <AccessableSeats>
+        <Item ref="SEAT_CAVEIRAO_FRONT_MOTORISTA" />
+      </AccessableSeats>
+      <VehicleExtraPointsInfo ref="NULL" />
+      <Flags>IgnoreSmashWindowCheck</Flags>
+      <BlockJackReactionSides />
+    </Item>
+<!-----------------------------------------------------------  ATIRADOR - 1  --------------------------------------------------------->
+    <Item type="CVehicleEntryPointInfo">
+      <Name>ENTRY_POINT_CAVEIRAO_ATIRADOR_1</Name>
+      <DoorBoneName>door_dside_r</DoorBoneName>
+      <SecondDoorBoneName>door_pside_r</SecondDoorBoneName>
+      <DoorHandleBoneName />
+      <WindowId>INVALID</WindowId>
+      <VehicleSide>SIDE_RIGHT</VehicleSide>
+      <AccessableSeats>
+        <Item ref="SEAT_CAVEIRAO_ATIRADOR_1" />
+      </AccessableSeats>
+      <VehicleExtraPointsInfo ref="NULL" />
+      <Flags>IgnoreSmashWindowCheck</Flags>
+      <BlockJackReactionSides />
+    </Item>
+<!-----------------------------------------------------------  ATIRADOR - 2  --------------------------------------------------------->
+    <Item type="CVehicleEntryPointInfo">
+      <Name>ENTRY_POINT_CAVEIRAO_ATIRADOR_2</Name>
+      <DoorBoneName>cargodoor</DoorBoneName>
+      <SecondDoorBoneName />
+      <DoorHandleBoneName />
+      <WindowId>INVALID</WindowId>
+      <VehicleSide>SIDE_REAR</VehicleSide>
+      <AccessableSeats>
+        <Item ref="SEAT_CAVEIRAO_ATIRADOR_2" />
+      </AccessableSeats>
+      <VehicleExtraPointsInfo ref="NULL" />
+      <Flags>IgnoreSmashWindowCheck</Flags>
+      <BlockJackReactionSides />
+    </Item>
+<!-----------------------------------------------------------  ATIRADOR - 3  --------------------------------------------------------->
+    <Item type="CVehicleEntryPointInfo">
+      <Name>ENTRY_POINT_CAVEIRAO_ATIRADOR_3</Name>
+      <DoorBoneName>door_dside_r</DoorBoneName>
+      <SecondDoorBoneName>door_pside_r</SecondDoorBoneName>
+      <DoorHandleBoneName />
+      <WindowId>INVALID</WindowId>
+      <VehicleSide>SIDE_RIGHT</VehicleSide>
+      <AccessableSeats>
+        <Item ref="SEAT_CAVEIRAO_ATIRADOR_3" />
+      </AccessableSeats>
+      <VehicleExtraPointsInfo ref="NULL" />
+      <Flags>IgnoreSmashWindowCheck</Flags>
+      <BlockJackReactionSides />
+    </Item>
+<!----------------------------------------------------------  PASSAGEIRO - P1  ------------------------------------------------------>
+    <Item type="CVehicleEntryPointInfo">
+      <Name>ENTRY_POINT_CAVEIRAO_PASSAGEIRO_1</Name>
+      <DoorBoneName>door_pside_f</DoorBoneName>
+      <SecondDoorBoneName />
+      <DoorHandleBoneName>handle_pside_f</DoorHandleBoneName>
+      <WindowId>INVALID</WindowId>
+      <VehicleSide>SIDE_RIGHT</VehicleSide>
+      <AccessableSeats>
+        <Item ref="SEAT_CAVEIRAO_PASSAGEIRO_1" />
+      </AccessableSeats>
+      <VehicleExtraPointsInfo ref="NULL" />
+      <Flags>IgnoreSmashWindowCheck</Flags>
+      <BlockJackReactionSides />
+    </Item>
+<!-------------------------------------------------------  PASSAGEIRO - BACK - P2  --------------------------------------------------->
+    <Item type="CVehicleEntryPointInfo">
+      <Name>ENTRY_POINT_CAVEIRAO_BPASSAGEIRO_2</Name>
+      <DoorBoneName>cargodoor</DoorBoneName>
+      <SecondDoorBoneName />
+      <DoorHandleBoneName />
+      <WindowId>INVALID</WindowId>
+      <VehicleSide>SIDE_REAR</VehicleSide>
+      <AccessableSeats>
+        <Item ref="SEAT_CAVEIRAO_BPASSAGEIRO_2" />
+      </AccessableSeats>
+      <VehicleExtraPointsInfo ref="NULL" />
+      <Flags>IgnoreSmashWindowCheck</Flags>
+      <BlockJackReactionSides />
+    </Item>
+<!-------------------------------------------------------  PASSAGEIRO - BACK - P3  --------------------------------------------------->
+    <Item type="CVehicleEntryPointInfo">
+      <Name>ENTRY_POINT_CAVEIRAO_BPASSAGEIRO_3</Name>
+      <DoorBoneName>cargodoor</DoorBoneName>
+      <SecondDoorBoneName />
+      <DoorHandleBoneName />
+      <WindowId>INVALID</WindowId>
+      <VehicleSide>SIDE_REAR</VehicleSide>
+      <AccessableSeats>
+        <Item ref="SEAT_CAVEIRAO_BPASSAGEIRO_3" />
+      </AccessableSeats>
+      <VehicleExtraPointsInfo ref="NULL" />
+      <Flags>IgnoreSmashWindowCheck</Flags>
+      <BlockJackReactionSides />
+    </Item>
+<!-------------------------------------------------------  PASSAGEIRO - BACK - P4  --------------------------------------------------->
+    <Item type="CVehicleEntryPointInfo">
+      <Name>ENTRY_POINT_CAVEIRAO_BPASSAGEIRO_4</Name>
+      <DoorBoneName>boot</DoorBoneName>
+      <SecondDoorBoneName />
+      <DoorHandleBoneName />
+      <WindowId>INVALID</WindowId>
+      <VehicleSide>SIDE_REAR</VehicleSide>
+      <AccessableSeats>
+        <Item ref="SEAT_CAVEIRAO_BPASSAGEIRO_4" />
+      </AccessableSeats>
+      <VehicleExtraPointsInfo ref="NULL" />
+      <Flags>IgnoreSmashWindowCheck</Flags>
+      <BlockJackReactionSides />
+    </Item>
+<!-------------------------------------------------------  PASSAGEIRO - BACK - P5  --------------------------------------------------->
+    <Item type="CVehicleEntryPointInfo">
+      <Name>ENTRY_POINT_CAVEIRAO_BPASSAGEIRO_5</Name>
+      <DoorBoneName>bonnet</DoorBoneName>
+      <SecondDoorBoneName />
+      <DoorHandleBoneName />
+      <WindowId>INVALID</WindowId>
+      <VehicleSide>SIDE_LEFT</VehicleSide>
+      <AccessableSeats>
+        <Item ref="SEAT_CAVEIRAO_BPASSAGEIRO_5" />
+      </AccessableSeats>
+      <VehicleExtraPointsInfo ref="NULL" />
+      <Flags>IgnoreSmashWindowCheck</Flags>
+      <BlockJackReactionSides />
+    </Item>
+<!-------------------------------------------------------  PASSAGEIRO - BACK - P6  --------------------------------------------------->
+    <Item type="CVehicleEntryPointInfo">
+      <Name>ENTRY_POINT_CAVEIRAO_BPASSAGEIRO_6</Name>
+      <DoorBoneName>door_dside_r</DoorBoneName>
+      <SecondDoorBoneName>door_pside_r</SecondDoorBoneName>
+      <DoorHandleBoneName />
+      <WindowId>INVALID</WindowId>
+      <VehicleSide>SIDE_RIGHT</VehicleSide>
+      <AccessableSeats>
+        <Item ref="SEAT_CAVEIRAO_BPASSAGEIRO_6" />
+      </AccessableSeats>
+      <VehicleExtraPointsInfo ref="NULL" />
+      <Flags>IgnoreSmashWindowCheck</Flags>
+      <BlockJackReactionSides />
+    </Item>
+<!-------------------------------------------------------  PASSAGEIRO - BACK - P7  --------------------------------------------------->
+    <Item type="CVehicleEntryPointInfo">
+      <Name>ENTRY_POINT_CAVEIRAO_BPASSAGEIRO_7</Name>
+      <DoorBoneName>cargodoor</DoorBoneName>
+      <SecondDoorBoneName />
+      <DoorHandleBoneName />
+      <WindowId>INVALID</WindowId>
+      <VehicleSide>SIDE_REAR</VehicleSide>
+      <AccessableSeats>
+        <Item ref="SEAT_CAVEIRAO_BPASSAGEIRO_7" />
+      </AccessableSeats>
+      <VehicleExtraPointsInfo ref="NULL" />
+      <Flags>IgnoreSmashWindowCheck</Flags>
+      <BlockJackReactionSides />
+    </Item>
+<!-------------------------------------------------------  PASSAGEIRO - BACK - P8  --------------------------------------------------->
+    <Item type="CVehicleEntryPointInfo">
+      <Name>ENTRY_POINT_CAVEIRAO_BPASSAGEIRO_8</Name>
+      <DoorBoneName>door_dside_r</DoorBoneName>
+      <SecondDoorBoneName>door_pside_r</SecondDoorBoneName>
+      <DoorHandleBoneName />
+      <WindowId>INVALID</WindowId>
+      <VehicleSide>SIDE_RIGHT</VehicleSide>
+      <AccessableSeats>
+        <Item ref="SEAT_CAVEIRAO_BPASSAGEIRO_8" />
+      </AccessableSeats>
+      <VehicleExtraPointsInfo ref="NULL" />
+      <Flags>IgnoreSmashWindowCheck</Flags>
+      <BlockJackReactionSides />
+    </Item>
+  </VehicleEntryPointInfos> 
+
+
+<!------------------------------------------------------------------------------------------  ENTRYPOINT  -------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+
+
+
+<!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------  CLIP SETS  --------------------------------------------------------------------------------------------------------------------------------------------------------->
+  
+   <ClipSetMaps>
+<!-------------------------------------------------------  PASSAGEIRO - MOTORISTA  -------------------------------------------------->
+   <Item type="CClipSetMap">
+      <Name>INSIDE_CLIPSET_MAP_CAVEIRAO_FRONT_MOTORISTA</Name>
+      <Maps>
+        <Item>
+          <ClipSetId>veh@caveirao@fds@base</ClipSetId>
+          <VarClipSetId>InsideVarClipSet</VarClipSetId>
+          <ConditionFlags />
+          <InformationFlags />
+        </Item>
+      </Maps>
+    </Item>
+<!-----------------------------------------------------------  ATIRADOR - 1  --------------------------------------------------------->
+    <Item type="CClipSetMap">
+      <Name>INSIDE_CLIPSET_MAP_CAVEIRAO_ATIRADOR_1</Name>
+      <Maps>
+        <Item>
+          <ClipSetId>veh@caveirao@fps@base</ClipSetId>
+          <VarClipSetId>InsideVarClipSet</VarClipSetId>
+          <ConditionFlags />
+          <InformationFlags />
+        </Item>
+      </Maps>
+    </Item>
+<!-----------------------------------------------------------  ATIRADOR - 2  --------------------------------------------------------->
+    <Item type="CClipSetMap">
+      <Name>INSIDE_CLIPSET_MAP_CAVEIRAO_ATIRADOR_2</Name>
+      <Maps>
+        <Item>
+          <ClipSetId>veh@caveirao@rds@base</ClipSetId>
+          <VarClipSetId>InsideVarClipSet</VarClipSetId>
+          <ConditionFlags />
+          <InformationFlags />
+        </Item>
+      </Maps>
+    </Item>
+<!-----------------------------------------------------------  ATIRADOR - 3  --------------------------------------------------------->
+    <Item type="CClipSetMap">
+      <Name>INSIDE_CLIPSET_MAP_CAVEIRAO_ATIRADOR_3</Name>
+      <Maps>
+        <Item>
+          <ClipSetId>veh@caveirao@rps@base</ClipSetId>
+          <VarClipSetId>InsideVarClipSet</VarClipSetId>
+          <ConditionFlags />
+          <InformationFlags />
+        </Item>
+      </Maps>
+    </Item>
+<!----------------------------------------------------------  PASSAGEIRO - P1  ------------------------------------------------------>
+    <Item type="CClipSetMap">
+      <Name>INSIDE_CLIPSET_MAP_CAVEIRAO_PASSAGEIRO_1</Name>
+      <Maps>
+        <Item>
+          <ClipSetId>veh@caveirao@rds1@base</ClipSetId>
+          <VarClipSetId>InsideVarClipSet</VarClipSetId>
+          <ConditionFlags />
+          <InformationFlags />
+        </Item>
+      </Maps>
+    </Item>
+<!-------------------------------------------------------  PASSAGEIRO - BACK - P2  --------------------------------------------------->
+    <Item type="CClipSetMap">
+      <Name>INSIDE_CLIPSET_MAP_CAVEIRAO_BPASSAGEIRO_2</Name>
+      <Maps>
+        <Item>
+          <ClipSetId>veh@caveirao@rps1@base</ClipSetId>
+          <VarClipSetId>InsideVarClipSet</VarClipSetId>
+          <ConditionFlags />
+          <InformationFlags />
+        </Item>
+      </Maps>
+    </Item>
+<!-------------------------------------------------------  PASSAGEIRO - BACK - P3  --------------------------------------------------->
+    <Item type="CClipSetMap">
+      <Name>INSIDE_CLIPSET_MAP_CAVEIRAO_BPASSAGEIRO_3</Name>
+      <Maps>
+        <Item>
+          <ClipSetId>veh@caveirao@rds2@base</ClipSetId>
+          <VarClipSetId>InsideVarClipSet</VarClipSetId>
+          <ConditionFlags />
+          <InformationFlags />
+        </Item>
+      </Maps>
+    </Item>
+<!-------------------------------------------------------  PASSAGEIRO - BACK - P4  --------------------------------------------------->
+    <Item type="CClipSetMap">
+      <Name>INSIDE_CLIPSET_MAP_CAVEIRAO_BPASSAGEIRO_4</Name>
+      <Maps>
+        <Item>
+          <ClipSetId>veh@caveirao@rps2@base</ClipSetId>
+          <VarClipSetId>InsideVarClipSet</VarClipSetId>
+          <ConditionFlags />
+          <InformationFlags />
+        </Item>
+      </Maps>
+    </Item>
+<!-------------------------------------------------------  PASSAGEIRO - BACK - P5  --------------------------------------------------->
+    <Item type="CClipSetMap">
+      <Name>INSIDE_CLIPSET_MAP_CAVEIRAO_BPASSAGEIRO_5</Name>
+      <Maps>
+        <Item>
+          <ClipSetId>veh@caveirao@rds3@base</ClipSetId>
+          <VarClipSetId>InsideVarClipSet</VarClipSetId>
+          <ConditionFlags />
+          <InformationFlags />
+        </Item>
+      </Maps>
+    </Item>
+<!-------------------------------------------------------  PASSAGEIRO - BACK - P6  --------------------------------------------------->
+    <Item type="CClipSetMap">
+      <Name>INSIDE_CLIPSET_MAP_CAVEIRAO_BPASSAGEIRO_6</Name>
+      <Maps>
+        <Item>
+          <ClipSetId>veh@caveirao@rps3@base</ClipSetId>
+          <VarClipSetId>InsideVarClipSet</VarClipSetId>
+          <ConditionFlags />
+          <InformationFlags />
+        </Item>
+      </Maps>
+    </Item>
+<!-------------------------------------------------------  PASSAGEIRO - BACK - P7  --------------------------------------------------->
+    <Item type="CClipSetMap">
+      <Name>INSIDE_CLIPSET_MAP_CAVEIRAO_BPASSAGEIRO_7</Name>
+      <Maps>
+        <Item>
+          <ClipSetId>veh@caveirao@rds4@base</ClipSetId>
+          <VarClipSetId>InsideVarClipSet</VarClipSetId>
+          <ConditionFlags />
+          <InformationFlags />
+        </Item>
+      </Maps>
+    </Item>
+<!-------------------------------------------------------  PASSAGEIRO - BACK - P8  --------------------------------------------------->
+    <Item type="CClipSetMap">
+      <Name>INSIDE_CLIPSET_MAP_CAVEIRAO_BPASSAGEIRO_8</Name>
+      <Maps>
+        <Item>
+          <ClipSetId>veh@caveirao@rps4@base</ClipSetId>
+          <VarClipSetId>InsideVarClipSet</VarClipSetId>
+          <ConditionFlags />
+          <InformationFlags />
+        </Item>
+      </Maps>
+    </Item>
+   </ClipSetMaps>
+   
+   
+<!------------------------------------------------------------------------------------------  CLIP SETS  --------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+
+
+
+
+
+
+
+<!---------------------------------------------------------------------------------------  CAVEIRAO - BOPE  ----------------------------------------------------------------------------------------------------------------------------------------------------->
+<!-------------------------------------------------------------------------------------  CONFIG GERAL ASSENTOS  --------------------------------------------------------------------------------------------------------------------------------------------------->
+
+
+  <VehicleLayoutInfos>
+     <Item type="CVehicleLayoutInfo">
+      <Name>LAYOUT_CAVEIRAO</Name>
+      <Seats>
+        <Item>
+          <SeatInfo ref="SEAT_CAVEIRAO_FRONT_MOTORISTA" />
+          <SeatAnimInfo ref="SEAT_ANIM_CAVEIRAO_FRONT_MOTORISTA" />
+        </Item>
+        <Item>
+          <SeatInfo ref="SEAT_CAVEIRAO_ATIRADOR_1" />
+          <SeatAnimInfo ref="SEAT_ANIM_CAVEIRAO_ATIRADOR_1" />
+        </Item>
+        <Item>
+          <SeatInfo ref="SEAT_CAVEIRAO_ATIRADOR_2" />
+          <SeatAnimInfo ref="SEAT_ANIM_CAVEIRAO_ATIRADOR_2" />
+        </Item>
+        <Item>
+          <SeatInfo ref="SEAT_CAVEIRAO_ATIRADOR_3" />
+          <SeatAnimInfo ref="SEAT_ANIM_CAVEIRAO_ATIRADOR_3" />
+        </Item>
+        <Item>
+          <SeatInfo ref="SEAT_CAVEIRAO_PASSAGEIRO_1" />
+          <SeatAnimInfo ref="SEAT_ANIM_CAVEIRAO_PASSAGEIRO_1" />
+        </Item>
+        <Item>
+          <SeatInfo ref="SEAT_CAVEIRAO_BPASSAGEIRO_2" />
+          <SeatAnimInfo ref="SEAT_ANIM_CAVEIRAO_BPASSAGEIRO_2" />
+        </Item>
+        <Item>
+          <SeatInfo ref="SEAT_CAVEIRAO_BPASSAGEIRO_3" />
+          <SeatAnimInfo ref="SEAT_ANIM_CAVEIRAO_BPASSAGEIRO_3" />
+        </Item>
+        <Item>
+          <SeatInfo ref="SEAT_CAVEIRAO_BPASSAGEIRO_4" />
+          <SeatAnimInfo ref="SEAT_ANIM_CAVEIRAO_BPASSAGEIRO_4" />
+        </Item>
+        <Item>
+          <SeatInfo ref="SEAT_CAVEIRAO_BPASSAGEIRO_5" />
+          <SeatAnimInfo ref="SEAT_ANIM_CAVEIRAO_BPASSAGEIRO_5" />
+        </Item>
+        <Item>
+          <SeatInfo ref="SEAT_CAVEIRAO_BPASSAGEIRO_6" />
+          <SeatAnimInfo ref="SEAT_ANIM_CAVEIRAO_BPASSAGEIRO_6" />
+        </Item>
+        <Item>
+          <SeatInfo ref="SEAT_CAVEIRAO_BPASSAGEIRO_7" />
+          <SeatAnimInfo ref="SEAT_ANIM_CAVEIRAO_BPASSAGEIRO_7" />
+        </Item>
+        <Item>
+          <SeatInfo ref="SEAT_CAVEIRAO_BPASSAGEIRO_8" />
+          <SeatAnimInfo ref="SEAT_ANIM_CAVEIRAO_BPASSAGEIRO_8" />
+        </Item>
+      </Seats>
+      <EntryPoints>
+        <Item>
+          <EntryPointInfo ref="ENTRY_POINT_CAVEIRAO_FRONT_MOTORISTA" />
+          <EntryPointAnimInfo ref="ENTRY_POINT_ANIM_CAVEIRAO_FRONT_MOTORISTA" />
+        </Item>
+        <Item>
+          <EntryPointInfo ref="ENTRY_POINT_CAVEIRAO_ATIRADOR_1" />
+          <EntryPointAnimInfo ref="ENTRY_POINT_ANIM_CAVEIRAO_ATIRADOR_1" />
+        </Item>
+        <Item>
+          <EntryPointInfo ref="ENTRY_POINT_CAVEIRAO_ATIRADOR_2" />
+          <EntryPointAnimInfo ref="ENTRY_POINT_ANIM_CAVEIRAO_ATIRADOR_2" />
+        </Item>
+        <Item>
+          <EntryPointInfo ref="ENTRY_POINT_CAVEIRAO_ATIRADOR_3" />
+          <EntryPointAnimInfo ref="ENTRY_POINT_ANIM_CAVEIRAO_ATIRADOR_3" />
+        </Item>
+        <Item>
+          <EntryPointInfo ref="ENTRY_POINT_CAVEIRAO_PASSAGEIRO_1" />
+          <EntryPointAnimInfo ref="ENTRY_POINT_ANIM_CAVEIRAO_PASSAGEIRO_1" />
+        </Item>
+        <Item>
+          <EntryPointInfo ref="ENTRY_POINT_CAVEIRAO_BPASSAGEIRO_2" />
+          <EntryPointAnimInfo ref="ENTRY_POINT_ANIM_CAVEIRAO_BPASSAGEIRO_2" />
+        </Item>
+        <Item>
+          <EntryPointInfo ref="ENTRY_POINT_CAVEIRAO_BPASSAGEIRO_3" />
+          <EntryPointAnimInfo ref="ENTRY_POINT_ANIM_CAVEIRAO_BPASSAGEIRO_3" />
+        </Item>
+        <Item>
+          <EntryPointInfo ref="ENTRY_POINT_CAVEIRAO_BPASSAGEIRO_4" />
+          <EntryPointAnimInfo ref="ENTRY_POINT_ANIM_CAVEIRAO_BPASSAGEIRO_4" />
+        </Item>
+        <Item>
+          <EntryPointInfo ref="ENTRY_POINT_CAVEIRAO_BPASSAGEIRO_5" />
+          <EntryPointAnimInfo ref="ENTRY_POINT_ANIM_CAVEIRAO_BPASSAGEIRO_5" />
+        </Item>
+        <Item>
+          <EntryPointInfo ref="ENTRY_POINT_CAVEIRAO_BPASSAGEIRO_6" />
+          <EntryPointAnimInfo ref="ENTRY_POINT_ANIM_CAVEIRAO_BPASSAGEIRO_6" />
+        </Item>
+        <Item>
+          <EntryPointInfo ref="ENTRY_POINT_CAVEIRAO_BPASSAGEIRO_7" />
+          <EntryPointAnimInfo ref="ENTRY_POINT_ANIM_CAVEIRAO_BPASSAGEIRO_7" />
+        </Item>
+        <Item>
+          <EntryPointInfo ref="ENTRY_POINT_CAVEIRAO_BPASSAGEIRO_8" />
+          <EntryPointAnimInfo ref="ENTRY_POINT_ANIM_CAVEIRAO_BPASSAGEIRO_8" />
+        </Item>
+      </EntryPoints>
+      <LayoutFlags>StreamAnims UseLeanSteerAnims UseDoorOscillation</LayoutFlags>
+      <BicycleInfo ref="NULL" />
+      <HandsUpClipSetId>busted_vehicle_std</HandsUpClipSetId>
+      <SteeringWheelOffset x="0.000000" y="0.350000" z="0.320000" />
+	  <MaxXAcceleration value="4.00000" />
+	  <BodyLeanXApproachSpeed value="5.00000" />
+	  <BodyLeanXSmallDelta value="0.30000" />
+	  <FirstPersonAdditiveIdleClipSets>
+        <Item>clipset@veh@std@ds@idle_a</Item>
+		<Item>clipset@veh@std@ds@idle_b</Item>
+		<Item>clipset@veh@std@ds@idle_c</Item>
+		<Item>clipset@veh@std@ds@idle_d</Item>
+		<Item>clipset@veh@std@ds@idle_e</Item>
+	  </FirstPersonAdditiveIdleClipSets>
+	  <FirstPersonRoadRageClipSets>
+        <Item>clipset@veh@std@ds@hit_wheel@idle_a</Item>
+		<Item>clipset@veh@std@ds@hit_wheel@idle_b</Item>
+		<Item>clipset@veh@std@ds@hit_wheel@idle_c</Item>
+	  </FirstPersonRoadRageClipSets>
+    </Item>	
+  </VehicleLayoutInfos>
+
+
+<!-------------------------------------------------------------------------------------  CONFIG GERAL ASSENTOS  --------------------------------------------------------------------------------------------------------------------------------------------------->
+<!---------------------------------------------------------------------------------------  CAVEIRAO - BOPE  ----------------------------------------------------------------------------------------------------------------------------------------------------->
+
+
+
+
+
+
+
+
+<!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------  ANIMAÇOES IDLE  ------------------------------------------------------------------------------------------------------------------------------------------------------>
+
+
+  <VehicleSeatAnimInfos>
+<!-------------------------------------------------------  PASSAGEIRO - MOTORISTA  -------------------------------------------------->
+    <Item type="CVehicleSeatAnimInfo">
+      <Name>SEAT_ANIM_CAVEIRAO_FRONT_MOTORISTA</Name>
+      <DriveByInfo ref="NULL" />
+      <InsideClipSetMap ref="INSIDE_CLIPSET_MAP_CAVEIRAO_FRONT_MOTORISTA" />
+      <PanicClipSet />
+      <AgitatedClipSet />
+	  <DuckedClipSet />
+      <LowLODIdleAnim>VAN_FRONT_DS_IDLE</LowLODIdleAnim>
+      <SeatAmbientContext />
+      <InVehicleMoveNetwork>VEHICLE_DEFAULT</InVehicleMoveNetwork>
+      <SeatAnimFlags>CannotBeJacked UseStandardInVehicleAnims PreventShuffleJack DisableAbnormalExits</SeatAnimFlags>
+      <SteeringSmoothing value="0.020000" />
+      <ExitToAimInfoName />
+      <MaleGestureClipSetId />
+      <FemaleGestureClipSetId />
+    </Item>
+<!-----------------------------------------------------------  ATIRADOR - 1  --------------------------------------------------------->
+    <Item type="CVehicleSeatAnimInfo">
+      <Name>SEAT_ANIM_CAVEIRAO_ATIRADOR_1</Name>
+      <DriveByInfo ref="DRIVEBY_CAVEIRAO_ATIRADOR_1" />
+      <InsideClipSetMap ref="INSIDE_CLIPSET_MAP_CAVEIRAO_ATIRADOR_1" />
+      <PanicClipSet />
+      <AgitatedClipSet />
+	  <DuckedClipSet />
+      <LowLODIdleAnim>STD_CAR_FRONT_PS_IDLE</LowLODIdleAnim>
+      <SeatAmbientContext />
+      <InVehicleMoveNetwork>VEHICLE_DEFAULT</InVehicleMoveNetwork>
+      <SeatAnimFlags>CannotBeJacked UseStandardInVehicleAnims PreventShuffleJack DisableAbnormalExits WeaponRemainsVisible NoIK</SeatAnimFlags>
+      <SteeringSmoothing value="0.100000" />
+      <ExitToAimInfoName>STANDARD</ExitToAimInfoName>
+      <MaleGestureClipSetId />
+      <FemaleGestureClipSetId />
+    </Item>
+<!-----------------------------------------------------------  ATIRADOR - 2  --------------------------------------------------------->
+    <Item type="CVehicleSeatAnimInfo">
+      <Name>SEAT_ANIM_CAVEIRAO_ATIRADOR_2</Name>
+      <DriveByInfo ref="DRIVEBY_CAVEIRAO_ATIRADOR_2" />
+      <InsideClipSetMap ref="INSIDE_CLIPSET_MAP_CAVEIRAO_ATIRADOR_2" />
+      <PanicClipSet />
+      <AgitatedClipSet />
+	  <DuckedClipSet />
+      <LowLODIdleAnim>STD_CAR_FRONT_PS_IDLE</LowLODIdleAnim>
+      <SeatAmbientContext />
+      <InVehicleMoveNetwork>VEHICLE_DEFAULT</InVehicleMoveNetwork>
+      <SeatAnimFlags>CannotBeJacked UseStandardInVehicleAnims PreventShuffleJack DisableAbnormalExits WeaponRemainsVisible NoIK</SeatAnimFlags>
+      <SteeringSmoothing value="0.100000" />
+      <ExitToAimInfoName>STANDARD</ExitToAimInfoName>
+      <MaleGestureClipSetId />
+      <FemaleGestureClipSetId />
+    </Item>
+<!-----------------------------------------------------------  ATIRADOR - 3  --------------------------------------------------------->
+    <Item type="CVehicleSeatAnimInfo">
+      <Name>SEAT_ANIM_CAVEIRAO_ATIRADOR_3</Name>
+      <DriveByInfo ref="DRIVEBY_CAVEIRAO_ATIRADOR_3" />
+      <InsideClipSetMap ref="INSIDE_CLIPSET_MAP_CAVEIRAO_ATIRADOR_3" />
+      <PanicClipSet />
+      <AgitatedClipSet />
+	  <DuckedClipSet />
+      <LowLODIdleAnim>STD_CAR_FRONT_PS_IDLE</LowLODIdleAnim>
+      <SeatAmbientContext />
+      <InVehicleMoveNetwork>VEHICLE_DEFAULT</InVehicleMoveNetwork>
+      <SeatAnimFlags>CannotBeJacked UseStandardInVehicleAnims PreventShuffleJack DisableAbnormalExits WeaponRemainsVisible NoIK</SeatAnimFlags>
+      <SteeringSmoothing value="0.100000" />
+      <ExitToAimInfoName>STANDARD</ExitToAimInfoName>
+      <MaleGestureClipSetId />
+      <FemaleGestureClipSetId />
+    </Item>
+<!----------------------------------------------------------  PASSAGEIRO - P1  ------------------------------------------------------>
+    <Item type="CVehicleSeatAnimInfo">
+      <Name>SEAT_ANIM_CAVEIRAO_PASSAGEIRO_1</Name>
+      <DriveByInfo ref="DRIVEBY_CAVEIRAO_ARMA_VISIVEL" />
+      <InsideClipSetMap ref="INSIDE_CLIPSET_MAP_CAVEIRAO_PASSAGEIRO_1" />
+      <PanicClipSet />
+      <AgitatedClipSet />
+	  <DuckedClipSet />
+      <LowLODIdleAnim>STD_CAR_FRONT_PS_IDLE</LowLODIdleAnim>
+      <SeatAmbientContext />
+      <InVehicleMoveNetwork>VEHICLE_DEFAULT</InVehicleMoveNetwork>
+      <SeatAnimFlags>CannotBeJacked UseStandardInVehicleAnims PreventShuffleJack DisableAbnormalExits WeaponRemainsVisible WeaponAttachedToLeftHand NoIK</SeatAnimFlags>
+      <SteeringSmoothing value="0.100000" />
+      <ExitToAimInfoName>STANDARD</ExitToAimInfoName>
+      <MaleGestureClipSetId />
+      <FemaleGestureClipSetId />
+    </Item>
+<!-------------------------------------------------------  PASSAGEIRO - BACK - P2  --------------------------------------------------->
+    <Item type="CVehicleSeatAnimInfo">
+      <Name>SEAT_ANIM_CAVEIRAO_BPASSAGEIRO_2</Name>
+      <DriveByInfo ref="DRIVEBY_CAVEIRAO_ARMA_VISIVEL" />
+      <InsideClipSetMap ref="INSIDE_CLIPSET_MAP_CAVEIRAO_BPASSAGEIRO_2" />
+      <PanicClipSet />
+      <AgitatedClipSet />
+	  <DuckedClipSet />
+      <LowLODIdleAnim>BUS_PASSENGER</LowLODIdleAnim>
+      <SeatAmbientContext />
+      <InVehicleMoveNetwork>VEHICLE_DEFAULT</InVehicleMoveNetwork>
+      <SeatAnimFlags>CannotBeJacked UseStandardInVehicleAnims PreventShuffleJack DisableAbnormalExits WeaponRemainsVisible NoIK</SeatAnimFlags>
+      <SteeringSmoothing value="0.100000" />
+      <ExitToAimInfoName>STANDARD</ExitToAimInfoName>
+      <MaleGestureClipSetId />
+      <FemaleGestureClipSetId />
+    </Item>
+<!-------------------------------------------------------  PASSAGEIRO - BACK - P3  --------------------------------------------------->
+    <Item type="CVehicleSeatAnimInfo">
+      <Name>SEAT_ANIM_CAVEIRAO_BPASSAGEIRO_3</Name>
+      <DriveByInfo ref="DRIVEBY_CAVEIRAO_ARMA_VISIVEL" />
+      <InsideClipSetMap ref="INSIDE_CLIPSET_MAP_CAVEIRAO_BPASSAGEIRO_3" />
+      <PanicClipSet />
+      <AgitatedClipSet />
+	  <DuckedClipSet />
+      <LowLODIdleAnim>BUS_PASSENGER</LowLODIdleAnim>
+      <SeatAmbientContext />
+      <InVehicleMoveNetwork>VEHICLE_DEFAULT</InVehicleMoveNetwork>
+      <SeatAnimFlags>CannotBeJacked UseStandardInVehicleAnims PreventShuffleJack DisableAbnormalExits WeaponRemainsVisible NoIK</SeatAnimFlags>
+      <SteeringSmoothing value="0.100000" />
+      <ExitToAimInfoName>STANDARD</ExitToAimInfoName>
+      <MaleGestureClipSetId />
+      <FemaleGestureClipSetId />
+    </Item>
+<!-------------------------------------------------------  PASSAGEIRO - BACK - P4  --------------------------------------------------->
+    <Item type="CVehicleSeatAnimInfo">
+      <Name>SEAT_ANIM_CAVEIRAO_BPASSAGEIRO_4</Name>
+      <DriveByInfo ref="DRIVEBY_CAVEIRAO_ARMA_VISIVEL" />
+      <InsideClipSetMap ref="INSIDE_CLIPSET_MAP_CAVEIRAO_BPASSAGEIRO_4" />
+      <PanicClipSet />
+      <AgitatedClipSet />
+	  <DuckedClipSet />
+      <LowLODIdleAnim>BUS_PASSENGER</LowLODIdleAnim>
+      <SeatAmbientContext />
+      <InVehicleMoveNetwork>VEHICLE_DEFAULT</InVehicleMoveNetwork>
+      <SeatAnimFlags>CannotBeJacked UseStandardInVehicleAnims PreventShuffleJack DisableAbnormalExits WeaponRemainsVisible NoIK</SeatAnimFlags>
+      <SteeringSmoothing value="0.100000" />
+      <ExitToAimInfoName>STANDARD</ExitToAimInfoName>
+      <MaleGestureClipSetId />
+      <FemaleGestureClipSetId />
+    </Item>
+<!-------------------------------------------------------  PASSAGEIRO - BACK - P5  --------------------------------------------------->
+    <Item type="CVehicleSeatAnimInfo">
+      <Name>SEAT_ANIM_CAVEIRAO_BPASSAGEIRO_5</Name>
+      <DriveByInfo ref="DRIVEBY_CAVEIRAO_ARMA_VISIVEL" />
+      <InsideClipSetMap ref="INSIDE_CLIPSET_MAP_CAVEIRAO_BPASSAGEIRO_5" />
+      <PanicClipSet />
+      <AgitatedClipSet />
+	  <DuckedClipSet />
+      <LowLODIdleAnim>BUS_PASSENGER</LowLODIdleAnim>
+      <SeatAmbientContext />
+      <InVehicleMoveNetwork>VEHICLE_DEFAULT</InVehicleMoveNetwork>
+      <SeatAnimFlags>CannotBeJacked UseStandardInVehicleAnims PreventShuffleJack DisableAbnormalExits WeaponRemainsVisible NoIK</SeatAnimFlags>
+      <SteeringSmoothing value="0.100000" />
+      <ExitToAimInfoName>STANDARD</ExitToAimInfoName>
+      <MaleGestureClipSetId />
+      <FemaleGestureClipSetId />
+    </Item>
+<!-------------------------------------------------------  PASSAGEIRO - BACK - P6  --------------------------------------------------->
+    <Item type="CVehicleSeatAnimInfo">
+      <Name>SEAT_ANIM_CAVEIRAO_BPASSAGEIRO_6</Name>
+      <DriveByInfo ref="DRIVEBY_CAVEIRAO_ARMA_VISIVEL" />
+      <InsideClipSetMap ref="INSIDE_CLIPSET_MAP_CAVEIRAO_BPASSAGEIRO_6" />
+      <PanicClipSet />
+      <AgitatedClipSet />
+	  <DuckedClipSet />
+      <LowLODIdleAnim>BUS_PASSENGER</LowLODIdleAnim>
+      <SeatAmbientContext />
+      <InVehicleMoveNetwork>VEHICLE_DEFAULT</InVehicleMoveNetwork>
+      <SeatAnimFlags>CannotBeJacked UseStandardInVehicleAnims PreventShuffleJack DisableAbnormalExits WeaponRemainsVisible NoIK</SeatAnimFlags>
+      <SteeringSmoothing value="0.100000" />
+      <ExitToAimInfoName>STANDARD</ExitToAimInfoName>
+      <MaleGestureClipSetId />
+      <FemaleGestureClipSetId />
+    </Item>
+<!-------------------------------------------------------  PASSAGEIRO - BACK - P7  --------------------------------------------------->
+    <Item type="CVehicleSeatAnimInfo">
+      <Name>SEAT_ANIM_CAVEIRAO_BPASSAGEIRO_7</Name>
+      <DriveByInfo ref="DRIVEBY_CAVEIRAO_ARMA_VISIVEL" />
+      <InsideClipSetMap ref="INSIDE_CLIPSET_MAP_CAVEIRAO_BPASSAGEIRO_7" />
+      <PanicClipSet />
+      <AgitatedClipSet />
+	  <DuckedClipSet />
+      <LowLODIdleAnim>BUS_PASSENGER</LowLODIdleAnim>
+      <SeatAmbientContext />
+      <InVehicleMoveNetwork>VEHICLE_DEFAULT</InVehicleMoveNetwork>
+      <SeatAnimFlags>CannotBeJacked UseStandardInVehicleAnims PreventShuffleJack DisableAbnormalExits WeaponRemainsVisible NoIK</SeatAnimFlags>
+      <SteeringSmoothing value="0.100000" />
+      <ExitToAimInfoName>STANDARD</ExitToAimInfoName>
+      <MaleGestureClipSetId />
+      <FemaleGestureClipSetId />
+    </Item>
+<!-------------------------------------------------------  PASSAGEIRO - BACK - P8  --------------------------------------------------->
+    <Item type="CVehicleSeatAnimInfo">
+      <Name>SEAT_ANIM_CAVEIRAO_BPASSAGEIRO_8</Name>
+      <DriveByInfo ref="DRIVEBY_CAVEIRAO_ARMA_VISIVEL" />
+      <InsideClipSetMap ref="INSIDE_CLIPSET_MAP_CAVEIRAO_BPASSAGEIRO_8" />
+      <PanicClipSet />
+      <AgitatedClipSet />
+	  <DuckedClipSet />
+      <LowLODIdleAnim>BUS_PASSENGER</LowLODIdleAnim>
+      <SeatAmbientContext />
+      <InVehicleMoveNetwork>VEHICLE_DEFAULT</InVehicleMoveNetwork>
+      <SeatAnimFlags>CannotBeJacked UseStandardInVehicleAnims PreventShuffleJack DisableAbnormalExits WeaponRemainsVisible NoIK</SeatAnimFlags>
+      <SteeringSmoothing value="0.100000" />
+      <ExitToAimInfoName>STANDARD</ExitToAimInfoName>
+      <MaleGestureClipSetId />
+      <FemaleGestureClipSetId />
+    </Item>
+  </VehicleSeatAnimInfos> 
+
+
+<!----------------------------------------------------------------------------------------  ANIMAÇOES IDLE  ------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+
+
+
+
+
+
+
+<!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------  ANIMAÇOES DE ENTRADA/SAÍDA  ------------------------------------------------------------------------------------------------------------------------------------------>
+
+
+  <VehicleEntryPointAnimInfos>
+<!-------------------------------------------------------  PASSAGEIRO - MOTORISTA  -------------------------------------------------->
+    <Item type="CVehicleEntryPointAnimInfo">
+      <Name>ENTRY_POINT_ANIM_CAVEIRAO_FRONT_MOTORISTA</Name>
+      <CommonClipSetMap ref="COMMON_CLIPSET_MAP_TRUCK_LEFT" />
+      <EntryClipSetMap ref="ENTRY_CLIPSET_MAP_TRUCK_VETIR_FRONT_LEFT" />
+      <ExitClipSetMap ref="EXIT_CLIPSET_MAP_TRUCK_VETIR_FRONT_LEFT" />
+      <AlternateTryLockedDoorClipId />
+      <AlternateForcedEntryClipId />
+      <AlternateJackFromOutSideClipId />
+      <AlternateBeJackedFromOutSideClipId />
+      <AlternateEntryPointClipSetId />
+      <EnterVehicleMoveNetwork>ENTER_VEHICLE_STD</EnterVehicleMoveNetwork>
+      <EntryTranslation x="-1.20000" y="-0.280000" z="-0.764600" />
+      <OpenDoorTranslation x="0.000000" y="0.000000" />
+      <OpenDoorHeadingChange value="0.000000" />
+      <EntryHeadingChange value="-1.570000" />
+      <ExtraZForWaterEntry value="0.000000" />
+      <EntryPointFlags>JackIncludesGetIn ForcedEntryIncludesGetIn UsesNoDoorTransitionForEnter UsesNoDoorTransitionForExit UseGetUpAfterJack JackVariationsIncludeGetIn DeadJackIncludesGetIn</EntryPointFlags>
+      <EntryAnimVariations ref="NULL" />
+	  <NMJumpFromVehicleTuningSet />
+    </Item>
+<!-----------------------------------------------------------  ATIRADOR - 1  --------------------------------------------------------->
+    <Item type="CVehicleEntryPointAnimInfo">
+      <Name>ENTRY_POINT_ANIM_CAVEIRAO_ATIRADOR_1</Name>
+      <CommonClipSetMap ref="COMMON_CLIPSET_MAP_TRUCK_RIGHT" />
+      <EntryClipSetMap ref="ENTRY_CLIPSET_MAP_PRISON_BUS_FRONT" />
+      <ExitClipSetMap ref="EXIT_CLIPSET_MAP_PRISON_BUS_FRONT" />
+      <AlternateTryLockedDoorClipId />
+      <AlternateForcedEntryClipId />
+      <AlternateJackFromOutSideClipId />
+      <AlternateBeJackedFromOutSideClipId />
+      <AlternateEntryPointClipSetId />
+      <EnterVehicleMoveNetwork>ENTER_VEHICLE_STD</EnterVehicleMoveNetwork>
+      <EntryTranslation x="1.6000" y="-0.20000" z="-0.723000" />
+      <OpenDoorTranslation x="0.000000" y="0.000000" />
+      <OpenDoorHeadingChange value="0.000000" />
+      <EntryHeadingChange value="1.57000" />
+      <ExtraZForWaterEntry value="0.000000" />
+      <EntryPointFlags>JackIncludesGetIn ForcedEntryIncludesGetIn JackVariationsIncludeGetIn DeadJackIncludesGetIn PreventJackInterrupt</EntryPointFlags>
+      <EntryAnimVariations ref="NULL" />
+      <NMJumpFromVehicleTuningSet />
+    </Item>
+<!-----------------------------------------------------------  ATIRADOR - 2  --------------------------------------------------------->
+    <Item type="CVehicleEntryPointAnimInfo">
+      <Name>ENTRY_POINT_ANIM_CAVEIRAO_ATIRADOR_2</Name>
+      <CommonClipSetMap ref="COMMON_CLIPSET_MAP_TRUCK_RIGHT" />
+      <EntryClipSetMap ref="ENTRY_CLIPSET_MAP_PRISON_BUS_FRONT" />
+      <ExitClipSetMap ref="EXIT_CLIPSET_MAP_PRISON_BUS_FRONT" />
+      <AlternateTryLockedDoorClipId />
+      <AlternateForcedEntryClipId />
+      <AlternateJackFromOutSideClipId />
+      <AlternateBeJackedFromOutSideClipId />
+      <AlternateEntryPointClipSetId />
+      <EnterVehicleMoveNetwork>ENTER_VEHICLE_STD</EnterVehicleMoveNetwork>
+      <EntryTranslation x="4.0000" y="-0.240000" z="-0.260000" />
+      <OpenDoorTranslation x="0.000000" y="0.000000" />
+      <OpenDoorHeadingChange value="0.000000" />
+      <EntryHeadingChange value="1.57000" />
+      <ExtraZForWaterEntry value="0.000000" />
+      <EntryPointFlags>JackIncludesGetIn ForcedEntryIncludesGetIn JackVariationsIncludeGetIn DeadJackIncludesGetIn PreventJackInterrupt</EntryPointFlags>
+      <EntryAnimVariations ref="NULL" />
+      <NMJumpFromVehicleTuningSet />
+    </Item>
+<!-----------------------------------------------------------  ATIRADOR - 3  --------------------------------------------------------->
+    <Item type="CVehicleEntryPointAnimInfo">
+      <Name>ENTRY_POINT_ANIM_CAVEIRAO_ATIRADOR_3</Name>
+      <CommonClipSetMap ref="COMMON_CLIPSET_MAP_PLANE_FRONT_LEFT" />
+      <EntryClipSetMap ref="ENTRY_CLIPSET_MAP_PLANE_MOGUL_FRONT_LEFT" />
+      <ExitClipSetMap ref="EXIT_CLIPSET_MAP_PLANE_MOGUL_FRONT_LEFT" />
+      <AlternateTryLockedDoorClipId />
+      <AlternateForcedEntryClipId />
+      <AlternateJackFromOutSideClipId />
+      <AlternateBeJackedFromOutSideClipId />
+      <AlternateEntryPointClipSetId />
+      <EnterVehicleMoveNetwork>ENTER_VEHICLE_STD</EnterVehicleMoveNetwork>
+      <EntryTranslation x="-0.2000" y="-2.50000" z="0.0000" />
+      <OpenDoorTranslation x="0.000000" y="0.000000" />
+      <OpenDoorHeadingChange value="0.000000" />
+      <EntryHeadingChange value="0.000000" />
+      <ExtraZForWaterEntry value="0.000000" />
+      <EntryPointFlags>JackIncludesGetIn ForcedEntryIncludesGetIn JackVariationsIncludeGetIn DeadJackIncludesGetIn PreventJackInterrupt HasClimbDown HasOnVehicleEntry UseNewPlaneSystem</EntryPointFlags>
+      <EntryAnimVariations ref="NULL" />
+      <NMJumpFromVehicleTuningSet />
+    </Item>
+<!----------------------------------------------------------  PASSAGEIRO - P1  ------------------------------------------------------>
+    <Item type="CVehicleEntryPointAnimInfo">
+      <Name>ENTRY_POINT_ANIM_CAVEIRAO_PASSAGEIRO_1</Name>
+      <CommonClipSetMap ref="COMMON_CLIPSET_MAP_TRUCK_RIGHT" />
+      <EntryClipSetMap ref="ENTRY_CLIPSET_MAP_TRUCK_VETIR_FRONT_RIGHT" />
+      <ExitClipSetMap ref="EXIT_CLIPSET_MAP_TRUCK_VETIR_FRONT_RIGHT" />
+      <AlternateTryLockedDoorClipId />
+      <AlternateForcedEntryClipId />
+      <AlternateJackFromOutSideClipId />
+      <AlternateBeJackedFromOutSideClipId />
+      <AlternateEntryPointClipSetId />
+      <EnterVehicleMoveNetwork>ENTER_VEHICLE_STD</EnterVehicleMoveNetwork>
+      <EntryTranslation x="1.20000" y="-0.280000" z="-0.764600" />
+      <OpenDoorTranslation x="0.000000" y="0.000000" />
+      <OpenDoorHeadingChange value="0.000000" />
+      <EntryHeadingChange value="1.570800" />
+      <ExtraZForWaterEntry value="0.000000" />
+      <EntryPointFlags>JackIncludesGetIn ForcedEntryIncludesGetIn UsesNoDoorTransitionForEnter UsesNoDoorTransitionForExit UseGetUpAfterJack JackVariationsIncludeGetIn DeadJackIncludesGetIn</EntryPointFlags>
+      <EntryAnimVariations ref="NULL" />
+      <NMJumpFromVehicleTuningSet />
+    </Item>
+<!-------------------------------------------------------  PASSAGEIRO - BACK - P2  --------------------------------------------------->
+    <Item type="CVehicleEntryPointAnimInfo">
+      <Name>ENTRY_POINT_ANIM_CAVEIRAO_BPASSAGEIRO_2</Name>
+      <CommonClipSetMap ref="COMMON_CLIPSET_MAP_TRUCK_RIGHT" />
+      <EntryClipSetMap ref="ENTRY_CLIPSET_MAP_PRISON_BUS_FRONT" />
+      <ExitClipSetMap ref="EXIT_CLIPSET_MAP_PRISON_BUS_FRONT" />
+      <AlternateTryLockedDoorClipId />
+      <AlternateForcedEntryClipId />
+      <AlternateJackFromOutSideClipId />
+      <AlternateBeJackedFromOutSideClipId />
+      <AlternateEntryPointClipSetId />
+      <EnterVehicleMoveNetwork>ENTER_VEHICLE_STD</EnterVehicleMoveNetwork>
+      <EntryTranslation x="2.0000" y="-0.240000" z="-0.260000" />
+      <OpenDoorTranslation x="0.000000" y="0.000000" />
+      <OpenDoorHeadingChange value="0.000000" />
+      <EntryHeadingChange value="1.57000" />
+      <ExtraZForWaterEntry value="0.000000" />
+      <EntryPointFlags>JackIncludesGetIn ForcedEntryIncludesGetIn JackVariationsIncludeGetIn DeadJackIncludesGetIn PreventJackInterrupt</EntryPointFlags>
+      <EntryAnimVariations ref="NULL" />
+      <NMJumpFromVehicleTuningSet />
+    </Item>
+<!-------------------------------------------------------  PASSAGEIRO - BACK - P3  --------------------------------------------------->
+    <Item type="CVehicleEntryPointAnimInfo">
+      <Name>ENTRY_POINT_ANIM_CAVEIRAO_BPASSAGEIRO_3</Name>
+      <CommonClipSetMap ref="COMMON_CLIPSET_MAP_TRUCK_RIGHT" />
+      <EntryClipSetMap ref="ENTRY_CLIPSET_MAP_PRISON_BUS_FRONT" />
+      <ExitClipSetMap ref="EXIT_CLIPSET_MAP_PRISON_BUS_FRONT" />
+      <AlternateTryLockedDoorClipId />
+      <AlternateForcedEntryClipId />
+      <AlternateJackFromOutSideClipId />
+      <AlternateBeJackedFromOutSideClipId />
+      <AlternateEntryPointClipSetId />
+      <EnterVehicleMoveNetwork>ENTER_VEHICLE_STD</EnterVehicleMoveNetwork>
+      <EntryTranslation x="2.0000" y="-0.240000" z="-0.260000" />
+      <OpenDoorTranslation x="0.000000" y="0.000000" />
+      <OpenDoorHeadingChange value="0.000000" />
+      <EntryHeadingChange value="1.57000" />
+      <ExtraZForWaterEntry value="0.000000" />
+      <EntryPointFlags>JackIncludesGetIn ForcedEntryIncludesGetIn JackVariationsIncludeGetIn DeadJackIncludesGetIn PreventJackInterrupt</EntryPointFlags>
+      <EntryAnimVariations ref="NULL" />
+      <NMJumpFromVehicleTuningSet />
+    </Item>
+<!-------------------------------------------------------  PASSAGEIRO - BACK - P4  --------------------------------------------------->
+    <Item type="CVehicleEntryPointAnimInfo">
+      <Name>ENTRY_POINT_ANIM_CAVEIRAO_BPASSAGEIRO_4</Name>
+      <CommonClipSetMap ref="COMMON_CLIPSET_MAP_TRUCK_RIGHT" />
+      <EntryClipSetMap ref="ENTRY_CLIPSET_MAP_PRISON_BUS_FRONT" />
+      <ExitClipSetMap ref="EXIT_CLIPSET_MAP_TANK_SCARAB_REAR_RIGHT_SIDE" />
+      <AlternateTryLockedDoorClipId />
+      <AlternateForcedEntryClipId />
+      <AlternateJackFromOutSideClipId />
+      <AlternateBeJackedFromOutSideClipId />
+      <AlternateEntryPointClipSetId />
+      <EnterVehicleMoveNetwork>ENTER_VEHICLE_STD</EnterVehicleMoveNetwork>
+      <EntryTranslation x="-2.0000" y="-0.300" z="-0.260000" />
+      <OpenDoorTranslation x="0.000000" y="0.000000" />
+      <OpenDoorHeadingChange value="0.000000" />
+      <EntryHeadingChange value="-1.57000" />
+      <ExtraZForWaterEntry value="0.000000" />
+      <EntryPointFlags>JackIncludesGetIn ForcedEntryIncludesGetIn JackVariationsIncludeGetIn DeadJackIncludesGetIn PreventJackInterrupt</EntryPointFlags>
+      <EntryAnimVariations ref="NULL" />
+      <NMJumpFromVehicleTuningSet />
+    </Item>
+<!-------------------------------------------------------  PASSAGEIRO - BACK - P5  --------------------------------------------------->
+    <Item type="CVehicleEntryPointAnimInfo">
+      <Name>ENTRY_POINT_ANIM_CAVEIRAO_BPASSAGEIRO_5</Name>
+      <CommonClipSetMap ref="COMMON_CLIPSET_MAP_TRUCK_RIGHT" />
+      <EntryClipSetMap ref="ENTRY_CLIPSET_MAP_PRISON_BUS_FRONT" />
+      <ExitClipSetMap ref="EXIT_CLIPSET_MAP_PRISON_BUS_FRONT" />
+      <AlternateTryLockedDoorClipId />
+      <AlternateForcedEntryClipId />
+      <AlternateJackFromOutSideClipId />
+      <AlternateBeJackedFromOutSideClipId />
+      <AlternateEntryPointClipSetId />
+      <EnterVehicleMoveNetwork>ENTER_VEHICLE_STD</EnterVehicleMoveNetwork>
+      <EntryTranslation x="1.6000" y="-0.20000" z="-0.723000" />
+      <OpenDoorTranslation x="0.000000" y="0.000000" />
+      <OpenDoorHeadingChange value="0.000000" />
+      <EntryHeadingChange value="1.57000" />
+      <ExtraZForWaterEntry value="0.000000" />
+      <EntryPointFlags>JackIncludesGetIn ForcedEntryIncludesGetIn JackVariationsIncludeGetIn DeadJackIncludesGetIn PreventJackInterrupt</EntryPointFlags>
+      <EntryAnimVariations ref="NULL" />
+      <NMJumpFromVehicleTuningSet />
+    </Item>
+<!-------------------------------------------------------  PASSAGEIRO - BACK - P6  --------------------------------------------------->
+    <Item type="CVehicleEntryPointAnimInfo">
+      <Name>ENTRY_POINT_ANIM_CAVEIRAO_BPASSAGEIRO_6</Name>
+      <CommonClipSetMap ref="COMMON_CLIPSET_MAP_AUTOMOBILE_LEFT" />
+      <EntryClipSetMap ref="ENTRY_CLIPSET_MAP_COACH_REAR_LEFT_1" />
+      <ExitClipSetMap ref="EXIT_CLIPSET_MAP_COACH_REAR_LEFT_1" />
+      <AlternateTryLockedDoorClipId />
+      <AlternateForcedEntryClipId />
+      <AlternateJackFromOutSideClipId />
+      <AlternateBeJackedFromOutSideClipId />
+      <AlternateEntryPointClipSetId />
+      <EnterVehicleMoveNetwork>ENTER_VEHICLE_STD</EnterVehicleMoveNetwork>
+      <EntryTranslation x="2.020000" y="0.000000" z="0.0000" />
+      <OpenDoorTranslation x="0.000000" y="0.000000" />
+      <OpenDoorHeadingChange value="0.000000" />
+      <EntryHeadingChange value="1.57000" />
+      <ExtraZForWaterEntry value="0.000000" />
+      <EntryPointFlags>UseVehicleRelativeEntryPosition JackIncludesGetIn ForcedEntryIncludesGetIn JackVariationsIncludeGetIn DeadJackIncludesGetIn PreventJackInterrupt</EntryPointFlags>
+      <EntryAnimVariations ref="NULL" />
+      <NMJumpFromVehicleTuningSet />
+    </Item>
+<!-------------------------------------------------------  PASSAGEIRO - BACK - P7  --------------------------------------------------->
+    <Item type="CVehicleEntryPointAnimInfo">
+      <Name>ENTRY_POINT_ANIM_CAVEIRAO_BPASSAGEIRO_7</Name>
+      <CommonClipSetMap ref="COMMON_CLIPSET_MAP_TRUCK_RIGHT" />
+      <EntryClipSetMap ref="ENTRY_CLIPSET_MAP_PRISON_BUS_FRONT" />
+      <ExitClipSetMap ref="EXIT_CLIPSET_MAP_PRISON_BUS_FRONT" />
+      <AlternateTryLockedDoorClipId />
+      <AlternateForcedEntryClipId />
+      <AlternateJackFromOutSideClipId />
+      <AlternateBeJackedFromOutSideClipId />
+      <AlternateEntryPointClipSetId />
+      <EnterVehicleMoveNetwork>ENTER_VEHICLE_STD</EnterVehicleMoveNetwork>
+      <EntryTranslation x="4.0000" y="-0.240000" z="-0.260000" />
+      <OpenDoorTranslation x="0.000000" y="0.000000" />
+      <OpenDoorHeadingChange value="0.000000" />
+      <EntryHeadingChange value="1.57000" />
+      <ExtraZForWaterEntry value="0.000000" />
+      <EntryPointFlags>JackIncludesGetIn ForcedEntryIncludesGetIn JackVariationsIncludeGetIn DeadJackIncludesGetIn PreventJackInterrupt</EntryPointFlags>
+      <EntryAnimVariations ref="NULL" />
+      <NMJumpFromVehicleTuningSet />
+    </Item>
+<!-------------------------------------------------------  PASSAGEIRO - BACK - P8  --------------------------------------------------->
+    <Item type="CVehicleEntryPointAnimInfo">
+      <Name>ENTRY_POINT_ANIM_CAVEIRAO_BPASSAGEIRO_8</Name>
+      <CommonClipSetMap ref="COMMON_CLIPSET_MAP_AUTOMOBILE_LEFT" />
+      <EntryClipSetMap ref="ENTRY_CLIPSET_MAP_COACH_REAR_LEFT_1" />
+      <ExitClipSetMap ref="EXIT_CLIPSET_MAP_PRISON_BUS_REAR_LEFT_1" />
+      <AlternateTryLockedDoorClipId />
+      <AlternateForcedEntryClipId />
+      <AlternateJackFromOutSideClipId />
+      <AlternateBeJackedFromOutSideClipId />
+      <AlternateEntryPointClipSetId />
+      <EnterVehicleMoveNetwork>ENTER_VEHICLE_STD</EnterVehicleMoveNetwork>
+      <EntryTranslation x="2.020000" y="0.000000" z="0.0000" />
+      <OpenDoorTranslation x="0.000000" y="0.000000" />
+      <OpenDoorHeadingChange value="0.000000" />
+      <EntryHeadingChange value="1.57000" />
+      <ExtraZForWaterEntry value="0.000000" />
+      <EntryPointFlags>UseVehicleRelativeEntryPosition JackIncludesGetIn ForcedEntryIncludesGetIn JackVariationsIncludeGetIn DeadJackIncludesGetIn PreventJackInterrupt</EntryPointFlags>
+      <EntryAnimVariations ref="NULL" />
+      <NMJumpFromVehicleTuningSet />
+    </Item>
+  </VehicleEntryPointAnimInfos>
+
+
+<!----------------------------------------------------------------------------------------  ANIMAÇOES DE ENTRADA/SAÍDA  ------------------------------------------------------------------------------------------------------------------------------------------>
+<!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------  DRIVEBY INFO  -------------------------------------------------------------------------------------------------------------------------------------------------->
+
+
+   <VehicleDriveByInfos>
+<!------------------------------------------------------  PASSAGEIRO - ARMA VISIVEL -------------------------------------------------->
+    <Item type="CVehicleDriveByInfo">
+      <Name>DRIVEBY_CAVEIRAO_ARMA_VISIVEL</Name>
+      <MinAimSweepHeadingAngleDegs value="0.000000" />
+      <MaxAimSweepHeadingAngleDegs value="0.000000" />
+	  <FirstPersonMinAimSweepHeadingAngleDegs value="0.000000" />
+	  <FirstPersonMaxAimSweepHeadingAngleDegs value="0.000000" />
+	  <FirstPersonUnarmedMinAimSweepHeadingAngleDegs value="0.000000" />
+	  <FirstPersonUnarmedMaxAimSweepHeadingAngleDegs value="0.000000" />
+      <MinRestrictedAimSweepHeadingAngleDegs value="0.000000" />
+      <MaxRestrictedAimSweepHeadingAngleDegs value="0.000000" />
+      <MinSmashWindowAngleDegs value="0.000000" />
+      <MaxSmashWindowAngleDegs value="0.000000" />
+	  <MinSmashWindowAngleFirstPersonDegs value="0.000000" />
+      <MaxSmashWindowAngleFirstPersonDegs value="0.000000" />
+      <MaxSpeedParam value="0.500000" />
+      <MaxLongitudinalLeanBlendWeightDelta value="0.250000" />
+      <MaxLateralLeanBlendWeightDelta value="0.250000" />
+      <ApproachSpeedToWithinMaxBlendDelta value="1.000000" />
+      <SpineAdditiveBlendInDelay value="0.050000" />
+      <SpineAdditiveBlendInDurationStill value="0.150000" />
+      <SpineAdditiveBlendInDuration value="0.750000" />
+      <SpineAdditiveBlendOutDelay value="0.000000" />
+      <SpineAdditiveBlendOutDuration value="0.500000" />
+      <MinUnarmedDrivebyYawIfWindowRolledUp value="-3.140000" />
+      <MaxUnarmedDrivebyYawIfWindowRolledUp value="0.450000" />
+      <DriveByAnimInfos>
+        <Item ref="VAN_DB_ANIM_INFO_TWO_HANDED_RPS" />
+      </DriveByAnimInfos>
+      <DriveByCamera />
+      <DriveByFlags>UseMountedProjectileTask</DriveByFlags>
+    </Item>
+<!-----------------------------------------------------------  ATIRADOR - 1  --------------------------------------------------------->
+    <Item type="CVehicleDriveByInfo">
+      <Name>DRIVEBY_CAVEIRAO_ATIRADOR_1</Name>
+      <MinAimSweepHeadingAngleDegs value="-25.000000" />
+      <MaxAimSweepHeadingAngleDegs value="25.000000" />
+	  <FirstPersonMinAimSweepHeadingAngleDegs value="-25.000000" />
+	  <FirstPersonMaxAimSweepHeadingAngleDegs value="25.000000" />
+	  <FirstPersonUnarmedMinAimSweepHeadingAngleDegs value="-25.000000" />
+	  <FirstPersonUnarmedMaxAimSweepHeadingAngleDegs value="25.000000" />
+      <MinRestrictedAimSweepHeadingAngleDegs value="-25.000000" />
+      <MaxRestrictedAimSweepHeadingAngleDegs value="25.000000" />
+      <MinSmashWindowAngleDegs value="0.000000" />
+      <MaxSmashWindowAngleDegs value="0.000000" />
+	  <MinSmashWindowAngleFirstPersonDegs value="0.000000" />
+      <MaxSmashWindowAngleFirstPersonDegs value="0.000000" />
+      <MaxSpeedParam value="0.500000" />
+      <MaxLongitudinalLeanBlendWeightDelta value="0.250000" />
+      <MaxLateralLeanBlendWeightDelta value="0.250000" />
+      <ApproachSpeedToWithinMaxBlendDelta value="1.000000" />
+      <SpineAdditiveBlendInDelay value="0.050000" />
+      <SpineAdditiveBlendInDurationStill value="0.150000" />
+      <SpineAdditiveBlendInDuration value="0.750000" />
+      <SpineAdditiveBlendOutDelay value="0.000000" />
+      <SpineAdditiveBlendOutDuration value="0.500000" />
+      <MinUnarmedDrivebyYawIfWindowRolledUp value="-3.140000" />
+      <MaxUnarmedDrivebyYawIfWindowRolledUp value="0.450000" />
+      <DriveByAnimInfos>
+        <Item ref="CAVEIRAO_ATIRADOR_UM_TWO_HANDED_RPS" />
+      </DriveByAnimInfos>
+      <DriveByCamera />
+      <DriveByFlags>UseMountedProjectileTask UsePedAsCamEntity UseBlockingAnimsOutsideAimRange</DriveByFlags>
+    </Item>
+<!-----------------------------------------------------------  ATIRADOR - 2  --------------------------------------------------------->
+    <Item type="CVehicleDriveByInfo">
+      <Name>DRIVEBY_CAVEIRAO_ATIRADOR_2</Name>
+      <MinAimSweepHeadingAngleDegs value="-25.000000" />
+      <MaxAimSweepHeadingAngleDegs value="25.000000" />
+	  <FirstPersonMinAimSweepHeadingAngleDegs value="-25.000000" />
+	  <FirstPersonMaxAimSweepHeadingAngleDegs value="25.000000" />
+	  <FirstPersonUnarmedMinAimSweepHeadingAngleDegs value="-25.000000" />
+	  <FirstPersonUnarmedMaxAimSweepHeadingAngleDegs value="25.000000" />
+      <MinRestrictedAimSweepHeadingAngleDegs value="-25.000000" />
+      <MaxRestrictedAimSweepHeadingAngleDegs value="25.000000" />
+      <MinSmashWindowAngleDegs value="0.000000" />
+      <MaxSmashWindowAngleDegs value="0.000000" />
+	  <MinSmashWindowAngleFirstPersonDegs value="0.000000" />
+      <MaxSmashWindowAngleFirstPersonDegs value="0.000000" />
+      <MaxSpeedParam value="0.500000" />
+      <MaxLongitudinalLeanBlendWeightDelta value="0.250000" />
+      <MaxLateralLeanBlendWeightDelta value="0.250000" />
+      <ApproachSpeedToWithinMaxBlendDelta value="1.000000" />
+      <SpineAdditiveBlendInDelay value="0.050000" />
+      <SpineAdditiveBlendInDurationStill value="0.150000" />
+      <SpineAdditiveBlendInDuration value="0.750000" />
+      <SpineAdditiveBlendOutDelay value="0.000000" />
+      <SpineAdditiveBlendOutDuration value="0.500000" />
+      <MinUnarmedDrivebyYawIfWindowRolledUp value="-3.140000" />
+      <MaxUnarmedDrivebyYawIfWindowRolledUp value="0.450000" />
+      <DriveByAnimInfos>
+        <Item ref="CAVEIRAO_ATIRADOR_DOIS_TWO_HANDED_RPS" />
+      </DriveByAnimInfos>
+      <DriveByCamera />
+      <DriveByFlags>UseMountedProjectileTask UsePedAsCamEntity UseBlockingAnimsOutsideAimRange AllowDamageToVehicle</DriveByFlags>
+    </Item>
+<!-----------------------------------------------------------  ATIRADOR - 3  --------------------------------------------------------->
+    <Item type="CVehicleDriveByInfo">
+      <Name>DRIVEBY_CAVEIRAO_ATIRADOR_3</Name>
+      <MinAimSweepHeadingAngleDegs value="-25.000000" />
+      <MaxAimSweepHeadingAngleDegs value="25.000000" />
+	  <FirstPersonMinAimSweepHeadingAngleDegs value="-25.000000" />
+	  <FirstPersonMaxAimSweepHeadingAngleDegs value="25.000000" />
+	  <FirstPersonUnarmedMinAimSweepHeadingAngleDegs value="-25.000000" />
+	  <FirstPersonUnarmedMaxAimSweepHeadingAngleDegs value="25.000000" />
+      <MinRestrictedAimSweepHeadingAngleDegs value="-25.000000" />
+      <MaxRestrictedAimSweepHeadingAngleDegs value="25.000000" />
+      <MinSmashWindowAngleDegs value="0.000000" />
+      <MaxSmashWindowAngleDegs value="0.000000" />
+	  <MinSmashWindowAngleFirstPersonDegs value="0.000000" />
+      <MaxSmashWindowAngleFirstPersonDegs value="0.000000" />
+      <MaxSpeedParam value="0.500000" />
+      <MaxLongitudinalLeanBlendWeightDelta value="0.250000" />
+      <MaxLateralLeanBlendWeightDelta value="0.250000" />
+      <ApproachSpeedToWithinMaxBlendDelta value="1.000000" />
+      <SpineAdditiveBlendInDelay value="0.050000" />
+      <SpineAdditiveBlendInDurationStill value="0.150000" />
+      <SpineAdditiveBlendInDuration value="0.750000" />
+      <SpineAdditiveBlendOutDelay value="0.000000" />
+      <SpineAdditiveBlendOutDuration value="0.500000" />
+      <MinUnarmedDrivebyYawIfWindowRolledUp value="-3.140000" />
+      <MaxUnarmedDrivebyYawIfWindowRolledUp value="0.450000" />
+      <DriveByAnimInfos>
+        <Item ref="CAVEIRAO_ATIRADOR_TRES_TWO_HANDED_RPS" />
+      </DriveByAnimInfos>
+      <DriveByCamera />
+      <DriveByFlags>UseMountedProjectileTask UsePedAsCamEntity UseBlockingAnimsOutsideAimRange AllowDamageToVehicle</DriveByFlags>
+    </Item>
+   </VehicleDriveByInfos>
+
+
+<!----------------------------------------------------------------------------------------------  DRIVEBY INFO  -------------------------------------------------------------------------------------------------------------------------------------------------->
+<!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+
+
+
+<!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------  DRIVEBY ANIM  -------------------------------------------------------------------------------------------------------------------------------------------------->
+
+
+ <VehicleDriveByAnimInfos>
+<!-----------------------------------------------------------  ATIRADOR - 1  --------------------------------------------------------->
+    <Item type="CVehicleDriveByAnimInfo">
+      <Name>CAVEIRAO_ATIRADOR_UM_TWO_HANDED_RPS</Name>
+      <WeaponGroup ref="DRIVEBY_DEFAULT_TWO_HANDED" />
+      <DriveByClipSet>veh@drivebycaveirao_atirador_um_ps_2h</DriveByClipSet>
+      <FirstPersonDriveByClipSet>veh@drivebycaveirao_atirador_um_ps_2h</FirstPersonDriveByClipSet>
+      <AltFirstPersonDriveByClipSets />
+      <Network>STD_CAR_DRIVEBY</Network>
+    </Item>
+<!-----------------------------------------------------------  ATIRADOR - 2  --------------------------------------------------------->
+    <Item type="CVehicleDriveByAnimInfo">
+      <Name>CAVEIRAO_ATIRADOR_DOIS_TWO_HANDED_RPS</Name>
+      <WeaponGroup ref="DRIVEBY_DEFAULT_TWO_HANDED" />
+      <DriveByClipSet>veh@drivebycaveirao_atirador_dois_ps_2h</DriveByClipSet>
+      <FirstPersonDriveByClipSet>veh@drivebycaveirao_atirador_dois_ps_2h</FirstPersonDriveByClipSet>
+      <AltFirstPersonDriveByClipSets />
+      <Network>STD_CAR_DRIVEBY</Network>
+    </Item>
+<!-----------------------------------------------------------  ATIRADOR - 3  --------------------------------------------------------->
+    <Item type="CVehicleDriveByAnimInfo">
+      <Name>CAVEIRAO_ATIRADOR_TRES_TWO_HANDED_RPS</Name>
+      <WeaponGroup ref="DRIVEBY_DEFAULT_TWO_HANDED" />
+      <DriveByClipSet>veh@drivebycaveirao_atirador_tres_ps_2h</DriveByClipSet>
+      <FirstPersonDriveByClipSet>veh@drivebycaveirao_atirador_tres_ps_2h</FirstPersonDriveByClipSet>
+      <AltFirstPersonDriveByClipSets />
+      <Network>STD_CAR_DRIVEBY</Network>
+    </Item>
+ </VehicleDriveByAnimInfos>
+
+
+<!----------------------------------------------------------------------------------------------  DRIVEBY ANIM  -------------------------------------------------------------------------------------------------------------------------------------------------->
+<!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+
+
+
+<!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------  ANGULO DAS ANIMACAO EM PRIMEIRA PESSOA  ------------------------------------------------------------------------------------------------------------------------------------>
+
+
+  <FirstPersonDriveByLookAroundData>
+    <Item type="CFirstPersonDriveByLookAroundData">
+		<Name>VAN_CAVEIRAO_FRONT_LEFT</Name>
+		<HeadingLimits x="-90.000000" y="90.000000" />
+		<DataLeft>
+			<Offsets>
+				<Item>
+					<Offset value="0.000000" />
+					<AngleToBlendInOffset x="0.000000" y="0.000000" />
+				</Item>
+				<Item>
+					<Offset value="0.000000" />
+					<AngleToBlendInOffset x="0.000000" y="0.000000" />
+				</Item>
+				<Item>
+					<Offset value="0.000000" />
+					<AngleToBlendInOffset x="0.000000" y="0.000000" />
+				</Item>
+			</Offsets>
+			<ExtraRelativePitch x="-10.000000" y="8.000000" />
+			<AngleToBlendInExtraPitch x="0.000000" y="0.000000" />
+		</DataLeft>
+		<DataRight>
+            <Offsets>
+				<Item>
+					<Offset value="0.000000" />
+					<AngleToBlendInOffset x="0.000000" y="0.000000" />
+				</Item>
+				<Item>
+					<Offset value="0.000000" />
+					<AngleToBlendInOffset x="0.000000" y="0.000000" />
+				</Item>
+				<Item>
+					<Offset value="0.00000" />
+					<AngleToBlendInOffset x="0.000000" y="0.000000" />
+				</Item>
+			</Offsets>
+			<ExtraRelativePitch x="-10.000000" y="8.000000" />
+			<AngleToBlendInExtraPitch x="0.000000" y="0.000000" />
+		</DataRight>
+    </Item>
+    <Item type="CFirstPersonDriveByLookAroundData">
+		<Name>VAN_CAVEIRAO_FRONT_RIGHT</Name>
+		<HeadingLimits x="-90.000000" y="90.000000" />
+		<DataLeft>
+			<Offsets>
+				<Item>
+					<Offset value="0.000000" />
+					<AngleToBlendInOffset x="0.000000" y="0.000000" />
+				</Item>
+				<Item>
+					<Offset value="0.000000" />
+					<AngleToBlendInOffset x="0.000000" y="0.000000" />
+				</Item>
+				<Item>
+					<Offset value="0.000000" />
+					<AngleToBlendInOffset x="0.000000" y="0.000000" />
+				</Item>
+			</Offsets>
+			<ExtraRelativePitch x="-4.000000" y="25.000000" />
+			<AngleToBlendInExtraPitch x="0.000000" y="0.000000" />
+		</DataLeft>
+		<DataRight>
+            <Offsets>
+				<Item>
+					<Offset value="0.000000" />
+					<AngleToBlendInOffset x="0.000000" y="0.000000" />
+				</Item>
+				<Item>
+					<Offset value="0.000000" />
+					<AngleToBlendInOffset x="0.000000" y="0.000000" />
+				</Item>
+				<Item>
+					<Offset value="0.00000" />
+					<AngleToBlendInOffset x="0.000000" y="0.000000" />
+				</Item>
+			</Offsets>
+			<ExtraRelativePitch x="-4.000000" y="25.000000" />
+			<AngleToBlendInExtraPitch x="0.000000" y="0.000000" />
+		</DataRight>
+    </Item>
+    <Item type="CFirstPersonDriveByLookAroundData">
+		<Name>VAN_CAVEIRAO_REAR_LEFT</Name>
+		<HeadingLimits x="-90.000000" y="90.000000" />
+		<DataLeft>
+			<Offsets>
+				<Item>
+					<Offset value="0.000000" />
+					<AngleToBlendInOffset x="0.000000" y="0.000000" />
+				</Item>
+				<Item>
+					<Offset value="-0.500000" />
+					<AngleToBlendInOffset x="-0.500000" y="0.000000" />
+				</Item>
+				<Item>
+					<Offset value="-0.700000" />
+					<AngleToBlendInOffset x="-0.700000" y="0.000000" />
+				</Item>
+			</Offsets>
+			<ExtraRelativePitch x="-10.000000" y="15.000000" />
+			<AngleToBlendInExtraPitch x="0.000000" y="0.000000" />
+		</DataLeft>
+		<DataRight>
+            <Offsets>
+				<Item>
+					<Offset value="0.000000" />
+					<AngleToBlendInOffset x="0.000000" y="0.000000" />
+				</Item>
+				<Item>
+					<Offset value="-0.500000" />
+					<AngleToBlendInOffset x="-0.500000" y="0.000000" />
+				</Item>
+				<Item>
+					<Offset value="-0.70000" />
+					<AngleToBlendInOffset x="-0.700000" y="0.000000" />
+				</Item>
+			</Offsets>
+			<ExtraRelativePitch x="-10.000000" y="15.000000" />
+			<AngleToBlendInExtraPitch x="0.000000" y="0.000000" />
+		</DataRight>
+    </Item>
+    <Item type="CFirstPersonDriveByLookAroundData">
+		<Name>VAN_CAVEIRAO_REAR_RIGHT</Name>
+		<HeadingLimits x="-90.000000" y="90.000000" />
+		<DataLeft>
+			<Offsets>
+				<Item>
+					<Offset value="0.000000" />
+					<AngleToBlendInOffset x="0.000000" y="0.000000" />
+				</Item>
+				<Item>
+					<Offset value="-0.500000" />
+					<AngleToBlendInOffset x="-0.500000" y="0.000000" />
+				</Item>
+				<Item>
+					<Offset value="-0.700000" />
+					<AngleToBlendInOffset x="-0.700000" y="0.000000" />
+				</Item>
+			</Offsets>
+			<ExtraRelativePitch x="-10.000000" y="15.000000" />
+			<AngleToBlendInExtraPitch x="0.000000" y="0.000000" />
+		</DataLeft>
+		<DataRight>
+            <Offsets>
+				<Item>
+					<Offset value="0.000000" />
+					<AngleToBlendInOffset x="0.000000" y="0.000000" />
+				</Item>
+				<Item>
+					<Offset value="-0.500000" />
+					<AngleToBlendInOffset x="-0.500000" y="0.000000" />
+				</Item>
+				<Item>
+					<Offset value="-0.70000" />
+					<AngleToBlendInOffset x="-0.700000" y="0.000000" />
+				</Item>
+			</Offsets>
+			<ExtraRelativePitch x="-10.000000" y="15.000000" />
+			<AngleToBlendInExtraPitch x="0.000000" y="0.000000" />
+		</DataRight>
+    </Item>
+  </FirstPersonDriveByLookAroundData>
+  
+  
+<!----------------------------------------------------------------------------------  ANGULO DAS ANIMACAO EM PRIMEIRA PESSOA  ------------------------------------------------------------------------------------------------------------------------------------>
+<!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+</CVehicleMetadataMgr>

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<fwClipSetManager>
+  <clipSets>
+    <Item type="fwClipSet" key="veh@drivebycaveirao_atirador_um_ps_2h">
+      <fallbackId />
+	  <clipDictionaryName>veh@drivebycaveirao_atirador_um_ps_2h</clipDictionaryName>
+      <clipItems />
+      <moveNetworkFlags />
+    </Item>
+    <Item type="fwClipSet" key="veh@drivebycaveirao_atirador_dois_ps_2h">
+      <fallbackId />
+	  <clipDictionaryName>veh@drivebycaveirao_atirador_dois_ps_2h</clipDictionaryName>
+      <clipItems />
+      <moveNetworkFlags />
+    </Item>
+    <Item type="fwClipSet" key="veh@drivebycaveirao_atirador_tres_ps_2h">
+      <fallbackId />
+	  <clipDictionaryName>veh@drivebycaveirao_atirador_tres_ps_2h</clipDictionaryName>
+      <clipItems />
+      <moveNetworkFlags />
+    </Item>
+    <Item type="fwClipSet" key="veh@caveirao@fds@base">
+      <fallbackId />
+	  <clipDictionaryName>veh@caveirao@fds@base</clipDictionaryName>
+      <clipItems />
+      <moveNetworkFlags />
+    </Item>
+    <Item type="fwClipSet" key="veh@caveirao@fps@base">
+      <fallbackId />
+	  <clipDictionaryName>veh@caveirao@fps@base</clipDictionaryName>
+      <clipItems />
+      <moveNetworkFlags />
+    </Item>
+    <Item type="fwClipSet" key="veh@caveirao@rds@base">
+      <fallbackId />
+	  <clipDictionaryName>veh@caveirao@rds@base</clipDictionaryName>
+      <clipItems />
+      <moveNetworkFlags />
+    </Item>
+    <Item type="fwClipSet" key="veh@caveirao@rps@base">
+      <fallbackId />
+	  <clipDictionaryName>veh@caveirao@rps@base</clipDictionaryName>
+      <clipItems />
+      <moveNetworkFlags />
+    </Item>
+    <Item type="fwClipSet" key="veh@caveirao@rds1@base">
+      <fallbackId />
+	  <clipDictionaryName>veh@caveirao@rds1@base</clipDictionaryName>
+      <clipItems />
+      <moveNetworkFlags />
+    </Item>
+    <Item type="fwClipSet" key="veh@caveirao@rps1@base">
+      <fallbackId />
+	  <clipDictionaryName>veh@caveirao@rps1@base</clipDictionaryName>
+      <clipItems />
+      <moveNetworkFlags />
+    </Item>
+    <Item type="fwClipSet" key="veh@caveirao@rds2@base">
+      <fallbackId />
+	  <clipDictionaryName>veh@caveirao@rds2@base</clipDictionaryName>
+      <clipItems />
+      <moveNetworkFlags />
+    </Item>
+    <Item type="fwClipSet" key="veh@caveirao@rps2@base">
+      <fallbackId />
+	  <clipDictionaryName>veh@caveirao@rps2@base</clipDictionaryName>
+      <clipItems />
+      <moveNetworkFlags />
+    </Item>
+    <Item type="fwClipSet" key="veh@caveirao@rds3@base">
+      <fallbackId />
+	  <clipDictionaryName>veh@caveirao@rds3@base</clipDictionaryName>
+      <clipItems />
+      <moveNetworkFlags />
+    </Item>
+    <Item type="fwClipSet" key="veh@caveirao@rps3@base">
+      <fallbackId />
+	  <clipDictionaryName>veh@caveirao@rps3@base</clipDictionaryName>
+      <clipItems />
+      <moveNetworkFlags />
+    </Item>
+    <Item type="fwClipSet" key="veh@caveirao@rds4@base">
+      <fallbackId />
+	  <clipDictionaryName>veh@caveirao@rds4@base</clipDictionaryName>
+      <clipItems />
+      <moveNetworkFlags />
+    </Item>
+    <Item type="fwClipSet" key="veh@caveirao@rps4@base">
+      <fallbackId />
+	  <clipDictionaryName>veh@caveirao@rps4@base</clipDictionaryName>
+      <clipItems />
+      <moveNetworkFlags />
+    </Item>
+  </clipSets>
+  <clipDictionaryMetadatas>
+	<Item key="veh@caveirao@fds@base">
+      <streamingPolicy>SP_STREAMING</streamingPolicy>
+      <memoryGroup>MG_Vehicle</memoryGroup>
+      <streamingPriority>SP_Medium</streamingPriority>
+    </Item>
+	<Item key="veh@caveirao@fps@base">
+      <streamingPolicy>SP_STREAMING</streamingPolicy>
+      <memoryGroup>MG_Vehicle</memoryGroup>
+      <streamingPriority>SP_Medium</streamingPriority>
+    </Item>
+	<Item key="veh@caveirao@rds@base">
+      <streamingPolicy>SP_STREAMING</streamingPolicy>
+      <memoryGroup>MG_Vehicle</memoryGroup>
+      <streamingPriority>SP_Medium</streamingPriority>
+    </Item>
+	<Item key="veh@caveirao@rps@base">
+      <streamingPolicy>SP_STREAMING</streamingPolicy>
+      <memoryGroup>MG_Vehicle</memoryGroup>
+      <streamingPriority>SP_Medium</streamingPriority>
+    </Item>
+	<Item key="veh@caveirao@rds1@base">
+      <streamingPolicy>SP_STREAMING</streamingPolicy>
+      <memoryGroup>MG_Vehicle</memoryGroup>
+      <streamingPriority>SP_Medium</streamingPriority>
+    </Item>
+	<Item key="veh@caveirao@rps1@base">
+      <streamingPolicy>SP_STREAMING</streamingPolicy>
+      <memoryGroup>MG_Vehicle</memoryGroup>
+      <streamingPriority>SP_Medium</streamingPriority>
+    </Item>
+	<Item key="veh@caveirao@rds2@base">
+      <streamingPolicy>SP_STREAMING</streamingPolicy>
+      <memoryGroup>MG_Vehicle</memoryGroup>
+      <streamingPriority>SP_Medium</streamingPriority>
+    </Item>
+	<Item key="veh@caveirao@rps2@base">
+      <streamingPolicy>SP_STREAMING</streamingPolicy>
+      <memoryGroup>MG_Vehicle</memoryGroup>
+      <streamingPriority>SP_Medium</streamingPriority>
+    </Item>
+	<Item key="veh@caveirao@rds3@base">
+      <streamingPolicy>SP_STREAMING</streamingPolicy>
+      <memoryGroup>MG_Vehicle</memoryGroup>
+      <streamingPriority>SP_Medium</streamingPriority>
+    </Item>
+	<Item key="veh@caveirao@rps3@base">
+      <streamingPolicy>SP_STREAMING</streamingPolicy>
+      <memoryGroup>MG_Vehicle</memoryGroup>
+      <streamingPriority>SP_Medium</streamingPriority>
+    </Item>
+	<Item key="veh@caveirao@rds4@base">
+      <streamingPolicy>SP_STREAMING</streamingPolicy>
+      <memoryGroup>MG_Vehicle</memoryGroup>
+      <streamingPriority>SP_Medium</streamingPriority>
+    </Item>
+	<Item key="veh@caveirao@rps4@base">
+      <streamingPolicy>SP_STREAMING</streamingPolicy>
+      <memoryGroup>MG_Vehicle</memoryGroup>
+      <streamingPriority>SP_Medium</streamingPriority>
+    </Item>
+	</clipDictionaryMetadatas>
+</fwClipSetManager>
+
+
+
+
+
+
+
+
