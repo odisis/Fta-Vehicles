@@ -1,0 +1,1384 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    
+<CVehicleModelInfoVarGlobal> 
+  <Kits>	
+    <Item>
+      <kitName>hueynathan_modkit</kitName>
+      <id value="33326" />	  
+      <kitType>MKT_STANDARD</kitType>
+   	  <visibleMods>
+			<!-------------------- LIVERY ------------------------------>
+   		<Item>
+   			<modelName>hueynathan_livery1</modelName>
+   			<modShopLabel>HUEYNATHAN_LIVERY1</modShopLabel>
+		    <linkedModels>
+		      <Item>hueynathan_decoracao1</Item>
+		      <Item>hueynathan_logo_p_militar</Item>
+		      <Item>hueynathan_logo_d_militar</Item>
+		      <Item>hueynathan_tail_num2</Item>
+		    </linkedModels>
+   			<turnOffBones />
+   			<type>VMT_LIVERY_MOD</type>
+   			<bone>chassis</bone>
+   			<collisionBone>chassis</collisionBone>
+   			<cameraPos>VMCP_DEFAULT</cameraPos>
+   			<audioApply value="1.00000000"/>
+   			<weight value="0"/>
+   			<turnOffExtra value="false"/>
+   			<disableBonnetCamera value="false"/>
+   			<allowBonnetSlide value="true"/>
+   		</Item>
+   		<Item>
+   			<modelName>hueynathan_livery2</modelName>
+   			<modShopLabel>HUEYNATHAN_LIVERY2</modShopLabel>
+		    <linkedModels>
+		      <Item>hueynathan_misc_j</Item>
+		      <Item>hueynathan_misc_k</Item>
+		      <Item>hueynathan_decoracao1</Item>
+		      <Item>hueynathan_tail_num1</Item>
+		    </linkedModels>
+            <turnOffBones>
+              <Item>misc_h</Item>
+              <Item>misc_i</Item>
+            </turnOffBones>
+   			<type>VMT_LIVERY_MOD</type>
+   			<bone>chassis</bone>
+   			<collisionBone>chassis</collisionBone>
+   			<cameraPos>VMCP_DEFAULT</cameraPos>
+   			<audioApply value="1.00000000"/>
+   			<weight value="0"/>
+   			<turnOffExtra value="false"/>
+   			<disableBonnetCamera value="false"/>
+   			<allowBonnetSlide value="true"/>
+   		</Item>
+			<!-------------------- LIVERY ------------------------------>
+			<!-------------------- DECORACAO ------------------------------>
+		<Item>
+          <modelName>hueynathan_decoracao2</modelName>
+          <modShopLabel>HUEYNATHAN_DECORACAO2</modShopLabel>
+          <linkedModels />
+          <turnOffBones />
+          <type>VMT_INTERIOR1</type>
+          <bone>chassis</bone>
+          <collisionBone>chassis</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.000000" />
+          <weight value="20" />
+          <turnOffExtra value="false" />
+          <disableBonnetCamera value="false" />
+          <allowBonnetSlide value="true" />
+        </Item>
+			<!-------------------- DECORACAO ------------------------------>
+			<!--------------------     CALLSIGN         ------------------->
+		<Item>
+          <modelName>hueynathan_callsign_cpx</modelName>
+          <modShopLabel>HUEYNATHAN_CALLSIGN_CPX</modShopLabel>
+          <linkedModels />
+          <turnOffBones />
+          <type>VMT_INTERIOR3</type>
+          <bone>chassis</bone>
+          <collisionBone>chassis</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.000000" />
+          <weight value="20" />
+          <turnOffExtra value="false" />
+          <disableBonnetCamera value="false" />
+          <allowBonnetSlide value="true" />
+        </Item>
+		<Item>
+          <modelName>hueynathan_callsign_juk</modelName>
+          <modShopLabel>HUEYNATHAN_CALLSIGN_JUK</modShopLabel>
+          <linkedModels />
+          <turnOffBones />
+          <type>VMT_INTERIOR3</type>
+          <bone>chassis</bone>
+          <collisionBone>chassis</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.000000" />
+          <weight value="20" />
+          <turnOffExtra value="false" />
+          <disableBonnetCamera value="false" />
+          <allowBonnetSlide value="true" />
+        </Item>
+		<Item>
+          <modelName>hueynathan_callsign_gdy</modelName>
+          <modShopLabel>HUEYNATHAN_CALLSIGN_GDY</modShopLabel>
+          <linkedModels />
+          <turnOffBones />
+          <type>VMT_INTERIOR3</type>
+          <bone>chassis</bone>
+          <collisionBone>chassis</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.000000" />
+          <weight value="20" />
+          <turnOffExtra value="false" />
+          <disableBonnetCamera value="false" />
+          <allowBonnetSlide value="true" />
+        </Item>
+		<Item>
+          <modelName>hueynathan_callsign_nic</modelName>
+          <modShopLabel>HUEYNATHAN_CALLSIGN_NIC</modShopLabel>
+          <linkedModels />
+          <turnOffBones />
+          <type>VMT_INTERIOR3</type>
+          <bone>chassis</bone>
+          <collisionBone>chassis</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.000000" />
+          <weight value="20" />
+          <turnOffExtra value="false" />
+          <disableBonnetCamera value="false" />
+          <allowBonnetSlide value="true" />
+        </Item>
+		<Item>
+          <modelName>hueynathan_callsign_luk</modelName>
+          <modShopLabel>HUEYNATHAN_CALLSIGN_LUK</modShopLabel>
+          <linkedModels />
+          <turnOffBones />
+          <type>VMT_INTERIOR3</type>
+          <bone>chassis</bone>
+          <collisionBone>chassis</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.000000" />
+          <weight value="20" />
+          <turnOffExtra value="false" />
+          <disableBonnetCamera value="false" />
+          <allowBonnetSlide value="true" />
+        </Item>
+		<Item>
+          <modelName>hueynathan_callsign_sth</modelName>
+          <modShopLabel>HUEYNATHAN_CALLSIGN_STH</modShopLabel>
+          <linkedModels />
+          <turnOffBones />
+          <type>VMT_INTERIOR3</type>
+          <bone>chassis</bone>
+          <collisionBone>chassis</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.000000" />
+          <weight value="20" />
+          <turnOffExtra value="false" />
+          <disableBonnetCamera value="false" />
+          <allowBonnetSlide value="true" />
+        </Item>
+		<Item>
+          <modelName>hueynathan_callsign_sdc</modelName>
+          <modShopLabel>HUEYNATHAN_CALLSIGN_SDC</modShopLabel>
+          <linkedModels />
+          <turnOffBones />
+          <type>VMT_INTERIOR3</type>
+          <bone>chassis</bone>
+          <collisionBone>chassis</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.000000" />
+          <weight value="20" />
+          <turnOffExtra value="false" />
+          <disableBonnetCamera value="false" />
+          <allowBonnetSlide value="true" />
+        </Item>
+		<Item>
+          <modelName>hueynathan_callsign_mar</modelName>
+          <modShopLabel>HUEYNATHAN_CALLSIGN_MAR</modShopLabel>
+          <linkedModels />
+          <turnOffBones />
+          <type>VMT_INTERIOR3</type>
+          <bone>chassis</bone>
+          <collisionBone>chassis</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.000000" />
+          <weight value="20" />
+          <turnOffExtra value="false" />
+          <disableBonnetCamera value="false" />
+          <allowBonnetSlide value="true" />
+        </Item>
+		<Item>
+          <modelName>hueynathan_callsign_nth</modelName>
+          <modShopLabel>HUEYNATHAN_CALLSIGN_NTH</modShopLabel>
+          <linkedModels />
+          <turnOffBones />
+          <type>VMT_INTERIOR3</type>
+          <bone>chassis</bone>
+          <collisionBone>chassis</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.000000" />
+          <weight value="20" />
+          <turnOffExtra value="false" />
+          <disableBonnetCamera value="false" />
+          <allowBonnetSlide value="true" />
+        </Item>
+		<Item>
+          <modelName>hueynathan_callsign_nth</modelName>
+          <modShopLabel>HUEYNATHAN_CALLSIGN_NTH</modShopLabel>
+		  <linkedModels>
+		  	<Item>hueynathan_decal_nariz</Item>
+		  </linkedModels>
+          <turnOffBones />
+          <type>VMT_INTERIOR3</type>
+          <bone>chassis</bone>
+          <collisionBone>chassis</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.000000" />
+          <weight value="20" />
+          <turnOffExtra value="false" />
+          <disableBonnetCamera value="false" />
+          <allowBonnetSlide value="true" />
+        </Item>
+		<Item>
+          <modelName>hueynathan_callsign_vvo</modelName>
+          <modShopLabel>HUEYNATHAN_CALLSIGN_VVO</modShopLabel>
+          <linkedModels />
+          <turnOffBones />
+          <type>VMT_INTERIOR3</type>
+          <bone>chassis</bone>
+          <collisionBone>chassis</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.000000" />
+          <weight value="20" />
+          <turnOffExtra value="false" />
+          <disableBonnetCamera value="false" />
+          <allowBonnetSlide value="true" />
+        </Item>
+		<Item>
+          <modelName>hueynathan_callsign_vvo</modelName>
+          <modShopLabel>HUEYNATHAN_CALLSIGN_VVO</modShopLabel>
+		  <linkedModels>
+		  	<Item>hueynathan_decal_nariz2</Item>
+		  </linkedModels>
+          <turnOffBones />
+          <type>VMT_INTERIOR3</type>
+          <bone>chassis</bone>
+          <collisionBone>chassis</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.000000" />
+          <weight value="20" />
+          <turnOffExtra value="false" />
+          <disableBonnetCamera value="false" />
+          <allowBonnetSlide value="true" />
+        </Item>
+		<Item>
+          <modelName>hueynathan_callsign_ppa</modelName>
+          <modShopLabel>HUEYNATHAN_CALLSIGN_PPA</modShopLabel>
+          <linkedModels />
+          <turnOffBones />
+          <type>VMT_INTERIOR3</type>
+          <bone>chassis</bone>
+          <collisionBone>chassis</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.000000" />
+          <weight value="20" />
+          <turnOffExtra value="false" />
+          <disableBonnetCamera value="false" />
+          <allowBonnetSlide value="true" />
+        </Item>
+			<!--------------------     CALLSIGN         ------------------->
+			<!-------------------- DIGITOS DAS CENTENAS ------------------->
+		<Item>
+          <modelName>hueynathan_numfix</modelName>
+          <modShopLabel>HUEYNATHAN_NUMFIX</modShopLabel>
+          <linkedModels />
+          <turnOffBones />
+          <type>VMT_BONNET</type>
+          <bone>chassis</bone>
+          <collisionBone>chassis</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.000000" />
+          <weight value="20" />
+          <turnOffExtra value="false" />
+          <disableBonnetCamera value="false" />
+          <allowBonnetSlide value="true" />
+        </Item>
+		<Item>
+          <modelName>hueynathan_numfix1</modelName>
+          <modShopLabel>HUEYNATHAN_NUMFIX1</modShopLabel>
+          <linkedModels />
+          <turnOffBones />
+          <type>VMT_BONNET</type>
+          <bone>chassis</bone>
+          <collisionBone>chassis</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.000000" />
+          <weight value="20" />
+          <turnOffExtra value="false" />
+          <disableBonnetCamera value="false" />
+          <allowBonnetSlide value="true" />
+        </Item>
+		<Item>
+          <modelName>hueynathan_numfix2</modelName>
+          <modShopLabel>HUEYNATHAN_NUMFIX2</modShopLabel>
+          <linkedModels />
+          <turnOffBones />
+          <type>VMT_BONNET</type>
+          <bone>chassis</bone>
+          <collisionBone>chassis</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.000000" />
+          <weight value="20" />
+          <turnOffExtra value="false" />
+          <disableBonnetCamera value="false" />
+          <allowBonnetSlide value="true" />
+        </Item>
+		<Item>
+          <modelName>hueynathan_numfix3</modelName>
+          <modShopLabel>HUEYNATHAN_NUMFIX3</modShopLabel>
+          <linkedModels />
+          <turnOffBones />
+          <type>VMT_BONNET</type>
+          <bone>chassis</bone>
+          <collisionBone>chassis</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.000000" />
+          <weight value="20" />
+          <turnOffExtra value="false" />
+          <disableBonnetCamera value="false" />
+          <allowBonnetSlide value="true" />
+        </Item>
+		<Item>
+          <modelName>hueynathan_numfix4</modelName>
+          <modShopLabel>HUEYNATHAN_NUMFIX4</modShopLabel>
+          <linkedModels />
+          <turnOffBones />
+          <type>VMT_BONNET</type>
+          <bone>chassis</bone>
+          <collisionBone>chassis</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.000000" />
+          <weight value="20" />
+          <turnOffExtra value="false" />
+          <disableBonnetCamera value="false" />
+          <allowBonnetSlide value="true" />
+        </Item>
+		<Item>
+          <modelName>hueynathan_numfix5</modelName>
+          <modShopLabel>HUEYNATHAN_NUMFIX5</modShopLabel>
+          <linkedModels />
+          <turnOffBones />
+          <type>VMT_BONNET</type>
+          <bone>chassis</bone>
+          <collisionBone>chassis</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.000000" />
+          <weight value="20" />
+          <turnOffExtra value="false" />
+          <disableBonnetCamera value="false" />
+          <allowBonnetSlide value="true" />
+        </Item>
+		<Item>
+          <modelName>hueynathan_numfix6</modelName>
+          <modShopLabel>HUEYNATHAN_NUMFIX6</modShopLabel>
+          <linkedModels />
+          <turnOffBones />
+          <type>VMT_BONNET</type>
+          <bone>chassis</bone>
+          <collisionBone>chassis</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.000000" />
+          <weight value="20" />
+          <turnOffExtra value="false" />
+          <disableBonnetCamera value="false" />
+          <allowBonnetSlide value="true" />
+        </Item>
+		<Item>
+          <modelName>hueynathan_numfix7</modelName>
+          <modShopLabel>HUEYNATHAN_NUMFIX7</modShopLabel>
+          <linkedModels />
+          <turnOffBones />
+          <type>VMT_BONNET</type>
+          <bone>chassis</bone>
+          <collisionBone>chassis</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.000000" />
+          <weight value="20" />
+          <turnOffExtra value="false" />
+          <disableBonnetCamera value="false" />
+          <allowBonnetSlide value="true" />
+        </Item>
+		<Item>
+          <modelName>hueynathan_numfix8</modelName>
+          <modShopLabel>HUEYNATHAN_NUMFIX8</modShopLabel>
+          <linkedModels />
+          <turnOffBones />
+          <type>VMT_BONNET</type>
+          <bone>chassis</bone>
+          <collisionBone>chassis</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.000000" />
+          <weight value="20" />
+          <turnOffExtra value="false" />
+          <disableBonnetCamera value="false" />
+          <allowBonnetSlide value="true" />
+        </Item>
+		<Item>
+          <modelName>hueynathan_numfix9</modelName>
+          <modShopLabel>HUEYNATHAN_NUMFIX9</modShopLabel>
+          <linkedModels />
+          <turnOffBones />
+          <type>VMT_BONNET</type>
+          <bone>chassis</bone>
+          <collisionBone>chassis</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.000000" />
+          <weight value="20" />
+          <turnOffExtra value="false" />
+          <disableBonnetCamera value="false" />
+          <allowBonnetSlide value="true" />
+        </Item>
+			<!-------------------- DIGITOS DAS CENTENAS ------------------->
+			<!-------------------- DIGITOS DAS DEZENAS -------------------->
+		<Item>
+          <modelName>hueynathan_num00</modelName>
+          <modShopLabel>HUEYNATHAN_NUM00</modShopLabel>
+          <linkedModels />
+          <turnOffBones />
+          <type>VMT_BUMPER_F</type>
+          <bone>chassis</bone>
+          <collisionBone>chassis</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.000000" />
+          <weight value="20" />
+          <turnOffExtra value="false" />
+          <disableBonnetCamera value="false" />
+          <allowBonnetSlide value="true" />
+        </Item>
+		<Item>
+          <modelName>hueynathan_num01</modelName>
+          <modShopLabel>HUEYNATHAN_NUM01</modShopLabel>
+          <linkedModels />
+          <turnOffBones />
+          <type>VMT_BUMPER_F</type>
+          <bone>chassis</bone>
+          <collisionBone>chassis</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.000000" />
+          <weight value="20" />
+          <turnOffExtra value="false" />
+          <disableBonnetCamera value="false" />
+          <allowBonnetSlide value="true" />
+        </Item>
+		<Item>
+          <modelName>hueynathan_num02</modelName>
+          <modShopLabel>HUEYNATHAN_NUM02</modShopLabel>
+          <linkedModels />
+          <turnOffBones />
+          <type>VMT_BUMPER_F</type>
+          <bone>chassis</bone>
+          <collisionBone>chassis</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.000000" />
+          <weight value="20" />
+          <turnOffExtra value="false" />
+          <disableBonnetCamera value="false" />
+          <allowBonnetSlide value="true" />
+        </Item>
+		<Item>
+          <modelName>hueynathan_num03</modelName>
+          <modShopLabel>HUEYNATHAN_NUM03</modShopLabel>
+          <linkedModels />
+          <turnOffBones />
+          <type>VMT_BUMPER_F</type>
+          <bone>chassis</bone>
+          <collisionBone>chassis</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.000000" />
+          <weight value="20" />
+          <turnOffExtra value="false" />
+          <disableBonnetCamera value="false" />
+          <allowBonnetSlide value="true" />
+        </Item>
+		<Item>
+          <modelName>hueynathan_num04</modelName>
+          <modShopLabel>HUEYNATHAN_NUM04</modShopLabel>
+          <linkedModels />
+          <turnOffBones />
+          <type>VMT_BUMPER_F</type>
+          <bone>chassis</bone>
+          <collisionBone>chassis</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.000000" />
+          <weight value="20" />
+          <turnOffExtra value="false" />
+          <disableBonnetCamera value="false" />
+          <allowBonnetSlide value="true" />
+        </Item>
+		<Item>
+          <modelName>hueynathan_num05</modelName>
+          <modShopLabel>HUEYNATHAN_NUM05</modShopLabel>
+          <linkedModels />
+          <turnOffBones />
+          <type>VMT_BUMPER_F</type>
+          <bone>chassis</bone>
+          <collisionBone>chassis</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.000000" />
+          <weight value="20" />
+          <turnOffExtra value="false" />
+          <disableBonnetCamera value="false" />
+          <allowBonnetSlide value="true" />
+        </Item>
+		<Item>
+          <modelName>hueynathan_num06</modelName>
+          <modShopLabel>HUEYNATHAN_NUM06</modShopLabel>
+          <linkedModels />
+          <turnOffBones />
+          <type>VMT_BUMPER_F</type>
+          <bone>chassis</bone>
+          <collisionBone>chassis</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.000000" />
+          <weight value="20" />
+          <turnOffExtra value="false" />
+          <disableBonnetCamera value="false" />
+          <allowBonnetSlide value="true" />
+        </Item>
+		<Item>
+          <modelName>hueynathan_num07</modelName>
+          <modShopLabel>HUEYNATHAN_NUM07</modShopLabel>
+          <linkedModels />
+          <turnOffBones />
+          <type>VMT_BUMPER_F</type>
+          <bone>chassis</bone>
+          <collisionBone>chassis</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.000000" />
+          <weight value="20" />
+          <turnOffExtra value="false" />
+          <disableBonnetCamera value="false" />
+          <allowBonnetSlide value="true" />
+        </Item>
+		<Item>
+          <modelName>hueynathan_num08</modelName>
+          <modShopLabel>HUEYNATHAN_NUM08</modShopLabel>
+          <linkedModels />
+          <turnOffBones />
+          <type>VMT_BUMPER_F</type>
+          <bone>chassis</bone>
+          <collisionBone>chassis</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.000000" />
+          <weight value="20" />
+          <turnOffExtra value="false" />
+          <disableBonnetCamera value="false" />
+          <allowBonnetSlide value="true" />
+        </Item>
+		<Item>
+          <modelName>hueynathan_num09</modelName>
+          <modShopLabel>HUEYNATHAN_NUM09</modShopLabel>
+          <linkedModels />
+          <turnOffBones />
+          <type>VMT_BUMPER_F</type>
+          <bone>chassis</bone>
+          <collisionBone>chassis</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.000000" />
+          <weight value="20" />
+          <turnOffExtra value="false" />
+          <disableBonnetCamera value="false" />
+          <allowBonnetSlide value="true" />
+        </Item>
+			<!-------------------- DIGITOS DAS DEZENAS ------------------->
+			<!-------------------- DIGITOS DAS UNIDADES ------------------>
+		<Item>
+          <modelName>hueynathan_num0</modelName>
+          <modShopLabel>HUEYNATHAN_NUM0</modShopLabel>
+          <linkedModels />
+          <turnOffBones />
+          <type>VMT_BUMPER_R</type>
+          <bone>chassis</bone>
+          <collisionBone>chassis</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.000000" />
+          <weight value="20" />
+          <turnOffExtra value="false" />
+          <disableBonnetCamera value="false" />
+          <allowBonnetSlide value="true" />
+        </Item>
+		<Item>
+          <modelName>hueynathan_num10</modelName>
+          <modShopLabel>HUEYNATHAN_NUM010</modShopLabel>
+          <linkedModels />
+          <turnOffBones />
+          <type>VMT_BUMPER_R</type>
+          <bone>chassis</bone>
+          <collisionBone>chassis</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.000000" />
+          <weight value="20" />
+          <turnOffExtra value="false" />
+          <disableBonnetCamera value="false" />
+          <allowBonnetSlide value="true" />
+        </Item>
+		<Item>
+          <modelName>hueynathan_num20</modelName>
+          <modShopLabel>HUEYNATHAN_NUM20</modShopLabel>
+          <linkedModels />
+          <turnOffBones />
+          <type>VMT_BUMPER_R</type>
+          <bone>chassis</bone>
+          <collisionBone>chassis</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.000000" />
+          <weight value="20" />
+          <turnOffExtra value="false" />
+          <disableBonnetCamera value="false" />
+          <allowBonnetSlide value="true" />
+        </Item>
+		<Item>
+          <modelName>hueynathan_num30</modelName>
+          <modShopLabel>HUEYNATHAN_NUM30</modShopLabel>
+          <linkedModels />
+          <turnOffBones />
+          <type>VMT_BUMPER_R</type>
+          <bone>chassis</bone>
+          <collisionBone>chassis</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.000000" />
+          <weight value="20" />
+          <turnOffExtra value="false" />
+          <disableBonnetCamera value="false" />
+          <allowBonnetSlide value="true" />
+        </Item>
+		<Item>
+          <modelName>hueynathan_num40</modelName>
+          <modShopLabel>HUEYNATHAN_NUM40</modShopLabel>
+          <linkedModels />
+          <turnOffBones />
+          <type>VMT_BUMPER_R</type>
+          <bone>chassis</bone>
+          <collisionBone>chassis</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.000000" />
+          <weight value="20" />
+          <turnOffExtra value="false" />
+          <disableBonnetCamera value="false" />
+          <allowBonnetSlide value="true" />
+        </Item>
+		<Item>
+          <modelName>hueynathan_num50</modelName>
+          <modShopLabel>HUEYNATHAN_NUM50</modShopLabel>
+          <linkedModels />
+          <turnOffBones />
+          <type>VMT_BUMPER_R</type>
+          <bone>chassis</bone>
+          <collisionBone>chassis</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.000000" />
+          <weight value="20" />
+          <turnOffExtra value="false" />
+          <disableBonnetCamera value="false" />
+          <allowBonnetSlide value="true" />
+        </Item>
+		<Item>
+          <modelName>hueynathan_num60</modelName>
+          <modShopLabel>HUEYNATHAN_NUM60</modShopLabel>
+          <linkedModels />
+          <turnOffBones />
+          <type>VMT_BUMPER_R</type>
+          <bone>chassis</bone>
+          <collisionBone>chassis</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.000000" />
+          <weight value="20" />
+          <turnOffExtra value="false" />
+          <disableBonnetCamera value="false" />
+          <allowBonnetSlide value="true" />
+        </Item>
+		<Item>
+          <modelName>hueynathan_num70</modelName>
+          <modShopLabel>HUEYNATHAN_NUM70</modShopLabel>
+          <linkedModels />
+          <turnOffBones />
+          <type>VMT_BUMPER_R</type>
+          <bone>chassis</bone>
+          <collisionBone>chassis</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.000000" />
+          <weight value="20" />
+          <turnOffExtra value="false" />
+          <disableBonnetCamera value="false" />
+          <allowBonnetSlide value="true" />
+        </Item>
+		<Item>
+          <modelName>hueynathan_num80</modelName>
+          <modShopLabel>HUEYNATHAN_NUM80</modShopLabel>
+          <linkedModels />
+          <turnOffBones />
+          <type>VMT_BUMPER_R</type>
+          <bone>chassis</bone>
+          <collisionBone>chassis</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.000000" />
+          <weight value="20" />
+          <turnOffExtra value="false" />
+          <disableBonnetCamera value="false" />
+          <allowBonnetSlide value="true" />
+        </Item>
+		<Item>
+          <modelName>hueynathan_num90</modelName>
+          <modShopLabel>HUEYNATHAN_NUM90</modShopLabel>
+          <linkedModels />
+          <turnOffBones />
+          <type>VMT_BUMPER_R</type>
+          <bone>chassis</bone>
+          <collisionBone>chassis</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.000000" />
+          <weight value="20" />
+          <turnOffExtra value="false" />
+          <disableBonnetCamera value="false" />
+          <allowBonnetSlide value="true" />
+        </Item>
+			<!-------------------- DIGITOS DAS UNIDADES -------------------->
+   	  </visibleMods>
+	  <linkMods>
+		<Item>
+			<modelName>hueynathan_logo_p_militar</modelName>
+			<bone>chassis</bone>
+			<turnOffExtra value="false" />
+		</Item>
+		<Item>
+			<modelName>hueynathan_logo_d_militar</modelName>
+			<bone>chassis</bone>
+			<turnOffExtra value="false" />
+		</Item>
+		<Item>
+			<modelName>hueynathan_logo_p_civil</modelName>
+			<bone>chassis</bone>
+			<turnOffExtra value="false" />
+		</Item>
+		<Item>
+			<modelName>hueynathan_logo_d_civil</modelName>
+			<bone>chassis</bone>
+			<turnOffExtra value="false" />
+		</Item>
+		<Item>
+			<modelName>hueynathan_misc_j</modelName>
+			<bone>misc_i</bone>
+			<turnOffExtra value="false" />
+		</Item>
+		<Item>
+			<modelName>hueynathan_misc_k</modelName>
+			<bone>misc_h</bone>
+			<turnOffExtra value="false" />
+		</Item>
+		<Item>
+			<modelName>hueynathan_decal_nariz</modelName>
+			<bone>chassis</bone>
+			<turnOffExtra value="false" />
+		</Item>
+		<Item>
+			<modelName>hueynathan_decal_nariz2</modelName>
+			<bone>chassis</bone>
+			<turnOffExtra value="false" />
+		</Item>
+		<Item>
+			<modelName>hueynathan_decoracao1</modelName>
+			<bone>chassis</bone>
+			<turnOffExtra value="false" />
+		</Item>
+		<Item>
+			<modelName>hueynathan_tail_num1</modelName>
+			<bone>chassis</bone>
+			<turnOffExtra value="false" />
+		</Item>
+		<Item>
+			<modelName>hueynathan_tail_num2</modelName>
+			<bone>chassis</bone>
+			<turnOffExtra value="false" />
+		</Item>
+	  </linkMods>
+      <statMods>
+		<Item>
+			<identifier />
+			<modifier value="20" />
+			<audioApply value="1.000000" />
+			<weight value="0" />
+			<type>VMT_ARMOUR</type>
+		</Item>
+		<Item>
+			<identifier />
+			<modifier value="40" />
+			<audioApply value="1.000000" />
+			<weight value="0" />
+			<type>VMT_ARMOUR</type>
+		</Item>
+		<Item>
+			<identifier />
+			<modifier value="60" />
+			<audioApply value="1.000000" />
+			<weight value="0" />
+			<type>VMT_ARMOUR</type>
+		</Item>
+		<Item>
+			<identifier />
+			<modifier value="80" />
+			<audioApply value="1.000000" />
+			<weight value="0" />
+			<type>VMT_ARMOUR</type>
+		</Item>
+		<Item>
+			<identifier />
+			<modifier value="100" />
+			<audioApply value="1.000000" />
+			<weight value="0" />
+			<type>VMT_ARMOUR</type>
+		</Item>
+      </statMods>
+	  <slotNames />
+	  <liveryNames>
+        <Item>Policia Militar</Item>
+        <Item>Policia Civil</Item>
+	  </liveryNames>
+    </Item>
+  </Kits>	
+  <Sirens>
+    <Item>
+      <id value="33325" />
+      <name>hueynathan</name>
+      <timeMultiplier value="1.000000" />
+      <lightFalloffMax value="2.000000" />
+      <lightFalloffExponent value="0.500000" />
+      <lightInnerConeAngle value="2.290610" />
+      <lightOuterConeAngle value="70.000000" />
+      <lightOffset value="0.000000" />
+      <textureName>VehicleLight_sirenlight</textureName>
+      <sequencerBpm value="360" />
+      <leftHeadLight>
+        <sequencer value="3233857728" />
+      </leftHeadLight>
+      <rightHeadLight>
+        <sequencer value="202116108" />
+      </rightHeadLight>
+      <leftTailLight>
+        <sequencer value="0" />
+      </leftTailLight>
+      <rightTailLight>
+        <sequencer value="0" />
+      </rightTailLight>
+      <leftHeadLightMultiples value="2" />
+      <rightHeadLightMultiples value="2" />
+      <leftTailLightMultiples value="0" />
+      <rightTailLightMultiples value="0" />
+      <useRealLights value="true" />
+      <sirens>
+		<!--Siren 1 -->
+        <Item>
+          <rotation>
+            <delta value="0.000000" />
+            <start value="0.000000" />
+            <speed value="1.000000" />
+            <sequencer value="0" />
+            <multiples value="1" />
+            <direction value="false" />
+            <syncToBpm value="true" />
+          </rotation>
+          <flashiness>
+            <delta value="0.0000000" />
+            <start value="0.000000" />
+            <speed value="1.000000" />
+            <sequencer value="3233857728" />
+            <multiples value="1" />
+            <direction value="false" />
+            <syncToBpm value="true" />
+          </flashiness>
+          <corona>
+            <intensity value="1.000000" />
+            <size value="1.100000" />
+            <pull value="0.200000" />
+            <faceCamera value="true" />
+          </corona>
+          <color value="0xFFFFAA00" />
+          <intensity value="1.000000" />
+          <lightGroup value="0" />
+          <rotate value="false" />
+          <scale value="true" />
+          <scaleFactor value="1" />
+          <flash value="true" />
+          <light value="true" />
+          <spotLight value="true" />
+          <castShadows value="false" />
+        </Item>
+		
+		<!--Siren 2 -->
+        <Item>
+          <rotation>
+            <delta value="0.000000" />
+            <start value="0.000000" />
+            <speed value="1.000000" />
+            <sequencer value="0" />
+            <multiples value="1" />
+            <direction value="false" />
+            <syncToBpm value="true" />
+          </rotation>
+          <flashiness>
+            <delta value="0.0000000" />
+            <start value="0.000000" />
+            <speed value="1.000000" />
+            <sequencer value="202116108" />
+            <multiples value="1" />
+            <direction value="false" />
+            <syncToBpm value="true" />
+          </flashiness>
+          <corona>
+            <intensity value="1.000000" />
+            <size value="1.100000" />
+            <pull value="0.200000" />
+            <faceCamera value="true" />
+          </corona>
+          <color value="0xFFFFAA00" />
+          <intensity value="1.000000" />
+          <lightGroup value="0" />
+          <rotate value="false" />
+          <scale value="true" />
+          <scaleFactor value="1" />
+          <flash value="true" />
+          <light value="true" />
+          <spotLight value="true" />
+          <castShadows value="false" />
+        </Item>
+		<!--Siren 3 -->
+        <Item>
+          <rotation>
+            <delta value="0.000000" />
+            <start value="0.000000" />
+            <speed value="1.000000" />
+            <sequencer value="0" />
+            <multiples value="1" />
+            <direction value="false" />
+            <syncToBpm value="true" />
+          </rotation>
+          <flashiness>
+            <delta value="0.0000000" />
+            <start value="0.000000" />
+            <speed value="1.000000" />
+            <sequencer value="3233857728" />
+            <multiples value="1" />
+            <direction value="false" />
+            <syncToBpm value="true" />
+          </flashiness>
+          <corona>
+            <intensity value="1.000000" />
+            <size value="1.100000" />
+            <pull value="0.200000" />
+            <faceCamera value="true" />
+          </corona>
+          <color value="0xFFFFAA00" />
+          <intensity value="1.000000" />
+          <lightGroup value="0" />
+          <rotate value="false" />
+          <scale value="true" />
+          <scaleFactor value="1" />
+          <flash value="true" />
+          <light value="true" />
+          <spotLight value="true" />
+          <castShadows value="false" />
+        </Item>
+		<!--Siren 4 -->
+        <Item>
+          <rotation>
+            <delta value="0.000000" />
+            <start value="0.000000" />
+            <speed value="1.000000" />
+            <sequencer value="0" />
+            <multiples value="1" />
+            <direction value="false" />
+            <syncToBpm value="true" />
+          </rotation>
+          <flashiness>
+            <delta value="0.0000000" />
+            <start value="0.000000" />
+            <speed value="1.000000" />
+            <sequencer value="202116108" />
+            <multiples value="1" />
+            <direction value="false" />
+            <syncToBpm value="true" />
+          </flashiness>
+          <corona>
+            <intensity value="1.000000" />
+            <size value="1.100000" />
+            <pull value="0.200000" />
+            <faceCamera value="true" />
+          </corona>
+          <color value="0xFFFFAA00" />
+          <intensity value="1.000000" />
+          <lightGroup value="0" />
+          <rotate value="false" />
+          <scale value="true" />
+          <scaleFactor value="1" />
+          <flash value="true" />
+          <light value="true" />
+          <spotLight value="true" />
+          <castShadows value="false" />
+        </Item>
+		
+<!-------------------------------------------------------------->		
+		<!--Siren 5 -->
+        <Item>
+          <rotation>
+            <delta value="0.000000" />
+            <start value="0.000000" />
+            <speed value="1.000000" />
+            <sequencer value="0" />
+            <multiples value="1" />
+            <direction value="false" />
+            <syncToBpm value="true" />
+          </rotation>
+          <flashiness>
+            <delta value="0.0000000" />
+            <start value="0.000000" />
+            <speed value="1.000000" />
+            <sequencer value="3233857728" />
+            <multiples value="1" />
+            <direction value="false" />
+            <syncToBpm value="true" />
+          </flashiness>
+          <corona>
+            <intensity value="4.000000" />
+            <size value="0.450000" />
+            <pull value="0.200000" />
+            <faceCamera value="true" />
+          </corona>
+          <color value="0xFFFF0000" />
+          <intensity value="1.000000" />
+          <lightGroup value="0" />
+          <rotate value="false" />
+          <scale value="true" />
+          <scaleFactor value="5" />
+          <flash value="true" />
+          <light value="true" />
+          <spotLight value="true" />
+          <castShadows value="false" />
+        </Item>
+		<!--Siren 6 -->
+        <Item>
+          <rotation>
+            <delta value="0.000000" />
+            <start value="0.000000" />
+            <speed value="1.000000" />
+            <sequencer value="0" />
+            <multiples value="1" />
+            <direction value="false" />
+            <syncToBpm value="true" />
+          </rotation>
+          <flashiness>
+            <delta value="0.0000000" />
+            <start value="0.000000" />
+            <speed value="1.000000" />
+            <sequencer value="202116108" />
+            <multiples value="1" />
+            <direction value="false" />
+            <syncToBpm value="true" />
+          </flashiness>
+          <corona>
+            <intensity value="4.000000" />
+            <size value="0.450000" />
+            <pull value="0.200000" />
+            <faceCamera value="true" />
+          </corona>
+          <color value="0xFF00FF00" />
+          <intensity value="1.000000" />
+          <lightGroup value="0" />
+          <rotate value="false" />
+          <scale value="true" />
+          <scaleFactor value="5" />
+          <flash value="true" />
+          <light value="true" />
+          <spotLight value="true" />
+          <castShadows value="false" />
+        </Item>
+		<!--Siren 7 -->
+        <Item>
+          <rotation>
+            <delta value="0.000000" />
+            <start value="0.000000" />
+            <speed value="1.000000" />
+            <sequencer value="0" />
+            <multiples value="1" />
+            <direction value="false" />
+            <syncToBpm value="true" />
+          </rotation>
+          <flashiness>
+            <delta value="0.0000000" />
+            <start value="0.000000" />
+            <speed value="1.000000" />
+            <sequencer value="3233857728" />
+            <multiples value="1" />
+            <direction value="false" />
+            <syncToBpm value="true" />
+          </flashiness>
+          <corona>
+            <intensity value="3.000000" />
+            <size value="0.450000" />
+            <pull value="0.200000" />
+            <faceCamera value="true" />
+          </corona>
+          <color value="0xFFFFFFFF" />
+          <intensity value="0.000000" />
+          <lightGroup value="0" />
+          <rotate value="false" />
+          <scale value="true" />
+          <scaleFactor value="5" />
+          <flash value="true" />
+          <light value="true" />
+          <spotLight value="true" />
+          <castShadows value="false" />
+        </Item>
+		<!--Siren 8 -->
+        <Item>
+          <rotation>
+            <delta value="0.000000" />
+            <start value="0.000000" />
+            <speed value="1.000000" />
+            <sequencer value="0" />
+            <multiples value="1" />
+            <direction value="false" />
+            <syncToBpm value="true" />
+          </rotation>
+          <flashiness>
+            <delta value="0.0000000" />
+            <start value="0.000000" />
+            <speed value="1.000000" />
+            <sequencer value="202116108" />
+            <multiples value="1" />
+            <direction value="false" />
+            <syncToBpm value="true" />
+          </flashiness>
+          <corona>
+            <intensity value="3.000000" />
+            <size value="0.450000" />
+            <pull value="0.200000" />
+            <faceCamera value="true" />
+          </corona>
+          <color value="0xFFFFFFFF" />
+          <intensity value="0.000000" />
+          <lightGroup value="0" />
+          <rotate value="false" />
+          <scale value="true" />
+          <scaleFactor value="5" />
+          <flash value="true" />
+          <light value="true" />
+          <spotLight value="true" />
+          <castShadows value="false" />
+        </Item>
+		<!--Siren 9 -->
+        <Item>
+          <rotation>
+            <delta value="0.000000" />
+            <start value="0.000000" />
+            <speed value="1.000000" />
+            <sequencer value="0" />
+            <multiples value="1" />
+            <direction value="false" />
+            <syncToBpm value="true" />
+          </rotation>
+          <flashiness>
+            <delta value="0.0000000" />
+            <start value="0.000000" />
+            <speed value="1.000000" />
+            <sequencer value="3435973836" />
+            <multiples value="1" />
+            <direction value="false" />
+            <syncToBpm value="true" />
+          </flashiness>
+          <corona>
+            <intensity value="3.000000" />
+            <size value="0.450000" />
+            <pull value="0.200000" />
+            <faceCamera value="true" />
+          </corona>
+          <color value="0xFFFF0000" />
+          <intensity value="0.000000" />
+          <lightGroup value="0" />
+          <rotate value="false" />
+          <scale value="true" />
+          <scaleFactor value="5" />
+          <flash value="true" />
+          <light value="true" />
+          <spotLight value="true" />
+          <castShadows value="false" />
+        </Item>
+		<!--Siren 10 -->
+        <Item>
+          <rotation>
+            <delta value="0.000000" />
+            <start value="0.000000" />
+            <speed value="1.000000" />
+            <sequencer value="0" />
+            <multiples value="1" />
+            <direction value="false" />
+            <syncToBpm value="true" />
+          </rotation>
+          <flashiness>
+            <delta value="0.0000000" />
+            <start value="0.000000" />
+            <speed value="1.000000" />
+            <sequencer value="3435973836" />
+            <multiples value="1" />
+            <direction value="false" />
+            <syncToBpm value="true" />
+          </flashiness>
+          <corona>
+            <intensity value="4.000000" />
+            <size value="0.700000" />
+            <pull value="0.200000" />
+            <faceCamera value="true" />
+          </corona>
+          <color value="0xFFFF0000" />
+          <intensity value="0.000000" />
+          <lightGroup value="0" />
+          <rotate value="false" />
+          <scale value="true" />
+          <scaleFactor value="5" />
+          <flash value="true" />
+          <light value="true" />
+          <spotLight value="true" />
+          <castShadows value="false" />
+        </Item>
+		<!--Siren 11 -->
+        <Item>
+          <rotation>
+            <delta value="0.000000" />
+            <start value="0.000000" />
+            <speed value="1.000000" />
+            <sequencer value="0" />
+            <multiples value="1" />
+            <direction value="false" />
+            <syncToBpm value="true" />
+          </rotation>
+          <flashiness>
+            <delta value="0.0000000" />
+            <start value="0.000000" />
+            <speed value="1.000000" />
+            <sequencer value="3233857728" />
+            <multiples value="1" />
+            <direction value="false" />
+            <syncToBpm value="true" />
+          </flashiness>
+          <corona>
+            <intensity value="3.000000" />
+            <size value="0.450000" />
+            <pull value="0.200000" />
+            <faceCamera value="true" />
+          </corona>
+          <color value="0xFFFF0000" />
+          <intensity value="0.000000" />
+          <lightGroup value="0" />
+          <rotate value="false" />
+          <scale value="true" />
+          <scaleFactor value="5" />
+          <flash value="true" />
+          <light value="true" />
+          <spotLight value="true" />
+          <castShadows value="false" />
+        </Item>
+		<!--Siren 12 -->
+        <Item>
+          <rotation>
+            <delta value="0.000000" />
+            <start value="0.000000" />
+            <speed value="1.000000" />
+            <sequencer value="0" />
+            <multiples value="1" />
+            <direction value="false" />
+            <syncToBpm value="true" />
+          </rotation>
+          <flashiness>
+            <delta value="0.0000000" />
+            <start value="0.000000" />
+            <speed value="1.000000" />
+            <sequencer value="202116108" />
+            <multiples value="1" />
+            <direction value="false" />
+            <syncToBpm value="true" />
+          </flashiness>
+          <corona>
+            <intensity value="3.000000" />
+            <size value="0.450000" />
+            <pull value="0.200000" />
+            <faceCamera value="true" />
+          </corona>
+          <color value="0xFFFF0000" />
+          <intensity value="0.000000" />
+          <lightGroup value="0" />
+          <rotate value="false" />
+          <scale value="true" />
+          <scaleFactor value="5" />
+          <flash value="true" />
+          <light value="true" />
+          <spotLight value="true" />
+          <castShadows value="false" />
+        </Item>
+        <Item>
+          <rotation>
+            <delta value="0.000000" />
+            <start value="0.000000" />
+            <speed value="1.000000" />
+            <sequencer value="0" />
+            <multiples value="1" />
+            <direction value="false" />
+            <syncToBpm value="true" />
+          </rotation>
+          <flashiness>
+            <delta value="0.0000000" />
+            <start value="0.000000" />
+            <speed value="1.000000" />
+            <sequencer value="3233857728" />
+            <multiples value="1" />
+            <direction value="false" />
+            <syncToBpm value="true" />
+          </flashiness>
+          <corona>
+            <intensity value="4.000000" />
+            <size value="0.450000" />
+            <pull value="0.200000" />
+            <faceCamera value="true" />
+          </corona>
+          <color value="0xFFFF0000" />
+          <intensity value="1.000000" />
+          <lightGroup value="0" />
+          <rotate value="false" />
+          <scale value="true" />
+          <scaleFactor value="5" />
+          <flash value="true" />
+          <light value="true" />
+          <spotLight value="true" />
+          <castShadows value="false" />
+        </Item>
+		<!--Siren 14 -->
+        <Item>
+          <rotation>
+            <delta value="0.000000" />
+            <start value="0.000000" />
+            <speed value="1.000000" />
+            <sequencer value="0" />
+            <multiples value="1" />
+            <direction value="false" />
+            <syncToBpm value="true" />
+          </rotation>
+          <flashiness>
+            <delta value="0.0000000" />
+            <start value="0.000000" />
+            <speed value="1.000000" />
+            <sequencer value="202116108" />
+            <multiples value="1" />
+            <direction value="false" />
+            <syncToBpm value="true" />
+          </flashiness>
+          <corona>
+            <intensity value="4.000000" />
+            <size value="0.450000" />
+            <pull value="0.200000" />
+            <faceCamera value="true" />
+          </corona>
+          <color value="0xFF00FF00" />
+          <intensity value="1.000000" />
+          <lightGroup value="0" />
+          <rotate value="false" />
+          <scale value="true" />
+          <scaleFactor value="5" />
+          <flash value="true" />
+          <light value="true" />
+          <spotLight value="true" />
+          <castShadows value="false" />
+        </Item>
+      </sirens>
+    </Item>
+  </Sirens>
+</CVehicleModelInfoVarGlobal>

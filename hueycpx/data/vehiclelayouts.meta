@@ -1,0 +1,690 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CVehicleMetadataMgr>
+
+  <ClipSetMaps>
+<!------------------------------------------------------------------------------- Animacao Assento Traseiro Direito ------------------------------------------------------------------------------------------------------------------------------------------------->
+    <Item type="CClipSetMap">
+      <Name>INSIDE_CLIPSET_MAP_HELI_HUEY_REAR_RIGHT</Name>
+      <Maps>
+        <Item>
+          <ClipSetId>anim@veh@helicopter@hueynathan@rear@ps@enter_exit</ClipSetId>
+          <VarClipSetId>InsideVarClipSet</VarClipSetId>
+          <ConditionFlags />
+          <InformationFlags />
+        </Item>
+      </Maps>
+    </Item>
+<!------------------------------------------------------------------------------- Animacao Assento Frontal Direito ------------------------------------------------------------------------------------------------------------------------------------------------->
+    <Item type="CClipSetMap">
+      <Name>INSIDE_CLIPSET_MAP_HELI_HUEY_FRONT_RIGHT</Name>
+      <Maps>
+        <Item>
+          <ClipSetId>anim@veh@helicopter@hueynathan@front@ps@enter_exit</ClipSetId>
+          <VarClipSetId>InsideVarClipSet</VarClipSetId>
+          <ConditionFlags />
+          <InformationFlags />
+        </Item>
+      </Maps>
+    </Item>
+<!------------------------------------------------------------------------------- Animacao Assento Frontal Esquerdo ------------------------------------------------------------------------------------------------------------------------------------------------->
+    <Item type="CClipSetMap">
+      <Name>INSIDE_CLIPSET_MAP_HELI_HUEY_FRONT_LEFT</Name>
+      <Maps>
+        <Item>
+          <ClipSetId>anim@veh@helicopter@hueynathan@front@ds@enter_exit</ClipSetId>
+          <VarClipSetId>InsideVarClipSet</VarClipSetId>
+          <ConditionFlags />
+          <InformationFlags />
+        </Item>
+      </Maps>
+    </Item>
+<!------------------------------------------------------------------------------- Animacao Assento Traseiro Esquerdo ------------------------------------------------------------------------------------------------------------------------------------------------->
+    <Item type="CClipSetMap">
+      <Name>INSIDE_CLIPSET_MAP_HELI_HUEY_REAR_LEFT</Name>
+      <Maps>
+        <Item>
+          <ClipSetId>anim@veh@helicopter@hueynathan@rear@ds@enter_exit</ClipSetId>
+          <VarClipSetId>InsideVarClipSet</VarClipSetId>
+          <ConditionFlags />
+          <InformationFlags />
+        </Item>
+      </Maps>
+    </Item>
+   </ClipSetMaps>
+
+ 
+<!---------------------------------------------------------------------------------------------Funcao para Puxar as animacoes para dentro do Layout--------------------------------------------------------------------------------------------------------------->
+<!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+
+
+
+
+<!---------------------------------------------------------------------------------------  Huey - NATHAN  --------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------- Configuração Geral dos Assentos ------------------------------------------------------------------------------------------------------------------------------------------------->
+
+
+  <VehicleLayoutInfos>
+  
+	<Item type="CVehicleLayoutInfo">
+		<Name>LAYOUT_HUEYNATHAN</Name>
+		<Seats>
+		  <!-- PILOTO -->
+		  <Item>
+		  	<SeatInfo ref="SEAT_STANDARD_FRONT_LEFT" />
+		  	<SeatAnimInfo ref="SEAT_ANIM_HELI_FRONT_LEFT" />
+		  </Item>
+		  <!-- COPILOTO -->
+		  <Item>
+		  	<SeatInfo ref="SEAT_STANDARD_FRONT_RIGHT" />
+		  	<SeatAnimInfo ref="SEAT_ANIM_HELI_FRONT_RIGHT" />
+		  </Item>
+		  <!-- seat_pside_r1 -->
+		  <!-- ATIRADOR FRONTAL DIREITO -->
+		  <Item>
+		  	<SeatInfo ref="SEAT_EXTRA_NO_SHUFFLE_RIGHT_1" />
+		  	<SeatAnimInfo ref="SEAT_ANIM_HUEY_SIDE_RIGHT2" />
+		  </Item>
+		  <!-- seat_pside_r -->
+		  <!-- ATIRADOR TRASEIRO DIREITO -->
+		  <Item>
+		  	<SeatInfo ref="SEAT_STANDARD_REAR_RIGHT" />
+		  	<SeatAnimInfo ref="SEAT_ANIM_HUEY_SIDE_RIGHT" />
+		  </Item>
+		  <!-- seat_dside_r1 -->
+		  <!-- ATIRADOR FRONTAL ESQUERDOR -->
+		  <Item>
+		  	<SeatInfo ref="SEAT_EXTRA_NO_SHUFFLE_LEFT_1" />
+		  	<SeatAnimInfo ref="SEAT_ANIM_HUEY_SIDE_LEFT2" />
+		  </Item>
+		  <!-- seat_dside_r -->
+		  <!-- ATIRADOR TRASEIRO ESQUERDOR -->
+		  <Item>
+		  	<SeatInfo ref="SEAT_STANDARD_REAR_LEFT" />
+		  	<SeatAnimInfo ref="SEAT_ANIM_HUEY_SIDE_LEFT" />
+		  </Item>
+		  <!-- seat_dside_r2 -->
+		  <!-- PASSAGEIRO ESQUERDO -->
+		  <Item>
+		  	<SeatInfo ref="SEAT_EXTRA_NO_SHUFFLE_LEFT_2" />
+		  	<SeatAnimInfo ref="SEAT_ANIM_HUEY_SIDE_LEFT3" />
+		  </Item>
+		  <!-- seat_pside_r2 -->
+		  <!-- PASSAGEIRO DIREITO -->
+		  <Item>
+		  	<SeatInfo ref="SEAT_EXTRA_NO_SHUFFLE_RIGHT_2" />
+		  	<SeatAnimInfo ref="SEAT_ANIM_HUEY_SIDE_RIGHT3" />
+		  </Item>
+		</Seats>
+		<EntryPoints>
+		  <!-- PILOTO -->
+		  <Item>
+		  	<EntryPointInfo ref="ENTRY_POINT_STANDARD_FRONT_LEFT" />
+		  	<EntryPointAnimInfo ref="ENTRY_POINT_ANIM_HELI_ANNIHILATOR_FRONT_LEFT" />
+		  </Item>
+		  <!-- COPILOTO -->
+		  <Item>
+		  	<EntryPointInfo ref="ENTRY_POINT_STANDARD_FRONT_RIGHT" />
+		  	<EntryPointAnimInfo ref="ENTRY_POINT_ANIM_HELI_ANNIHILATOR_FRONT_RIGHT" />
+		  </Item>
+		  <!-- ATIRADOR FRONTAL DIREITO -->
+		  <Item>
+		  	<EntryPointInfo ref="ENTRY_POINT_HUEY_RIGHT2" />
+		  	<EntryPointAnimInfo ref="ENTRY_POINT_ANIM_HELI_HUEY_REAR_RIGHT2" />
+		  </Item>
+		  <!-- ATIRADOR TRASEIRO DIREITO -->
+		  <Item>
+		  	<EntryPointInfo ref="ENTRY_POINT_HUEY_RIGHT" />
+		  	<EntryPointAnimInfo ref="ENTRY_POINT_ANIM_HELI_HUEY_REAR_RIGHT" />
+		  </Item>
+		  <!-- ATIRADOR FRONTAL ESQUERDOR -->
+		  <Item>
+		  	<EntryPointInfo ref="ENTRY_POINT_HUEY_LEFT2" />
+		  	<EntryPointAnimInfo ref="ENTRY_POINT_ANIM_HELI_HUEY_REAR_LEFT2" />
+		  </Item>
+		  <!-- ATIRADOR TRASEIRO ESQUERDOR -->
+		  <Item>
+		  	<EntryPointInfo ref="ENTRY_POINT_HUEY_LEFT" />
+		  	<EntryPointAnimInfo ref="ENTRY_POINT_ANIM_HELI_HUEY_REAR_LEFT" />
+		  </Item>
+		  <!-- PASSAGEIRO ESQUERDOR -->
+		  <Item>
+		  	<EntryPointInfo ref="ENTRY_POINT_HUEY_LEFT3" />
+		  	<EntryPointAnimInfo ref="ENTRY_POINT_ANIM_HELI_HUEY_REAR_LEFT3" />
+		  </Item>
+		  <!-- PASSAGEIRO DIREITO -->
+		  <Item>
+		  	<EntryPointInfo ref="ENTRY_POINT_HUEY_RIGHT3" />
+		  	<EntryPointAnimInfo ref="ENTRY_POINT_ANIM_HELI_HUEY_REAR_RIGHT3" />
+		  </Item>
+		</EntryPoints>
+        <LayoutFlags>StreamAnims UseFinerAlignTolerance Use2DBodyBlend</LayoutFlags>
+        <BicycleInfo ref="NULL" />
+        <HandsUpClipSetId>busted_vehicle_std</HandsUpClipSetId>
+        <SteeringWheelOffset x="0.000000" y="0.350000" z="0.320000" />
+	</Item>
+	
+  </VehicleLayoutInfos>	
+  
+  
+<!------------------------------------------------------------------------------- Configuração Geral dos Assentos ------------------------------------------------------------------------------------------------------------------------------------------------>
+<!---------------------------------------------------------------------------------------  Huey - NATHAN  -------------------------------------------------------------------------------------------------------------------------------------------------------->
+  
+  
+  
+  
+  
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!--------------------------------------------------------------------------------- Configuração das Coordenadas de entradas -------------------------------------------------------------------------------------------------------------------------------------->
+  
+
+  <VehicleEntryPointInfos>
+  
+  	<!-- ENTRADA PLACA TRASEIRA ESQUERDA-->
+    <Item type="CVehicleEntryPointInfo">
+	  <Name>ENTRY_POINT_HUEY_LEFT</Name>
+      <DoorBoneName />
+      <SecondDoorBoneName />
+      <DoorHandleBoneName />
+      <WindowId>INVALID</WindowId>
+      <VehicleSide>SIDE_LEFT</VehicleSide>
+      <AccessableSeats>
+         <Item ref="SEAT_STANDARD_REAR_LEFT" />
+      </AccessableSeats>
+      <VehicleExtraPointsInfo ref="NULL" />
+      <Flags>BlockJackReactionUntilJackerIsReady</Flags>
+      <BlockJackReactionSides />
+    </Item>	
+  	<!-- ENTRADA PLACA TRASEIRA DIREITA-->
+    <Item type="CVehicleEntryPointInfo">
+	  <Name>ENTRY_POINT_HUEY_RIGHT</Name>
+      <DoorBoneName />
+      <SecondDoorBoneName />
+      <DoorHandleBoneName />
+      <WindowId>INVALID</WindowId>
+      <VehicleSide>SIDE_RIGHT</VehicleSide>
+      <AccessableSeats>
+         <Item ref="SEAT_STANDARD_REAR_RIGHT" />
+      </AccessableSeats>
+      <VehicleExtraPointsInfo ref="NULL" />
+      <Flags>BlockJackReactionUntilJackerIsReady</Flags>
+      <BlockJackReactionSides />
+    </Item>
+  	<!-------------------------------------------->
+  	<!-- ENTRADA PLACA FRONTAL ESQUERDA-->
+    <Item type="CVehicleEntryPointInfo">
+	  <Name>ENTRY_POINT_HUEY_LEFT2</Name>
+      <DoorBoneName>f_wing_l</DoorBoneName>
+      <SecondDoorBoneName />
+      <DoorHandleBoneName>handle_dside_r</DoorHandleBoneName>
+      <WindowId>INVALID</WindowId>
+      <VehicleSide>SIDE_LEFT</VehicleSide>
+      <AccessableSeats>
+         <Item ref="SEAT_EXTRA_NO_SHUFFLE_LEFT_1" />
+      </AccessableSeats>
+      <VehicleExtraPointsInfo ref="NULL" />
+      <Flags>BlockJackReactionUntilJackerIsReady AutoCloseThisDoor</Flags>
+      <BlockJackReactionSides />
+    </Item>	
+  	<!-- ENTRADA PLACA FRONTAL DIREITA-->
+    <Item type="CVehicleEntryPointInfo">
+	  <Name>ENTRY_POINT_HUEY_RIGHT2</Name>
+      <DoorBoneName>f_wing_r</DoorBoneName>
+      <SecondDoorBoneName />
+      <DoorHandleBoneName>handle_pside_r</DoorHandleBoneName>
+      <WindowId>INVALID</WindowId>
+      <VehicleSide>SIDE_RIGHT</VehicleSide>
+      <AccessableSeats>
+         <Item ref="SEAT_EXTRA_NO_SHUFFLE_RIGHT_1" />
+      </AccessableSeats>
+      <VehicleExtraPointsInfo ref="NULL" />
+      <Flags>BlockJackReactionUntilJackerIsReady AutoCloseThisDoor</Flags>
+      <BlockJackReactionSides />
+    </Item>
+  	<!-- ENTRADA PASSAGEIRO ESQUERDA-->
+    <Item type="CVehicleEntryPointInfo">
+	  <Name>ENTRY_POINT_HUEY_LEFT3</Name>
+      <DoorBoneName>f_wing_l</DoorBoneName>
+      <SecondDoorBoneName />
+      <DoorHandleBoneName>handle_dside_r</DoorHandleBoneName>
+      <WindowId>INVALID</WindowId>
+      <VehicleSide>SIDE_LEFT</VehicleSide>
+      <AccessableSeats>
+         <Item ref="SEAT_EXTRA_NO_SHUFFLE_LEFT_2" />
+      </AccessableSeats>
+      <VehicleExtraPointsInfo ref="NULL" />
+      <Flags>BlockJackReactionUntilJackerIsReady AutoCloseThisDoor</Flags>
+      <BlockJackReactionSides />
+    </Item>	
+  	<!-- ENTRADA PASSAGEIRO DIREITA-->
+    <Item type="CVehicleEntryPointInfo">
+	  <Name>ENTRY_POINT_HUEY_RIGHT3</Name>
+      <DoorBoneName>f_wing_r</DoorBoneName>
+      <SecondDoorBoneName />
+      <DoorHandleBoneName>handle_pside_r</DoorHandleBoneName>
+      <WindowId>INVALID</WindowId>
+      <VehicleSide>SIDE_RIGHT</VehicleSide>
+      <AccessableSeats>
+         <Item ref="SEAT_EXTRA_NO_SHUFFLE_RIGHT_2" />
+      </AccessableSeats>
+      <VehicleExtraPointsInfo ref="NULL" />
+      <Flags>BlockJackReactionUntilJackerIsReady AutoCloseThisDoor</Flags>
+      <BlockJackReactionSides />
+    </Item>
+	
+  </VehicleEntryPointInfos>
+  
+  
+<!--------------------------------------------------------------------------------- Configuração das Coordenadas de entradas -------------------------------------------------------------------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->  
+  
+  
+  
+  
+  
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!--------------------------------------------------------------------------------- Configuração das Animações de entrada/saída ----------------------------------------------------------------------------------------------------------------------------------->
+
+  
+  <VehicleEntryPointAnimInfos>
+		  <!-- ATIRADOR TRASEIRO ESQUERDO -->
+    <Item type="CVehicleEntryPointAnimInfo">
+      <Name>ENTRY_POINT_ANIM_HELI_HUEY_REAR_LEFT</Name>
+      <CommonClipSetMap ref="COMMON_CLIPSET_MAP_TRUCK_RIGHT" />
+      <EntryClipSetMap ref="ENTRY_CLIPSET_MAP_HELI_REAR_RIGHT" />
+      <ExitClipSetMap ref="EXIT_CLIPSET_MAP_HELI_REAR_RIGHT" />
+      <AlternateTryLockedDoorClipId />
+      <AlternateForcedEntryClipId />
+      <AlternateJackFromOutSideClipId />
+      <AlternateBeJackedFromOutSideClipId />
+      <AlternateEntryPointClipSetId />
+      <EnterVehicleMoveNetwork>ENTER_VEHICLE_STD</EnterVehicleMoveNetwork>
+      <EntryTranslation x="1.061200" y="-0.232100" z="0.043100" />
+      <OpenDoorTranslation x="0.000000" y="0.000000" />
+      <OpenDoorHeadingChange value="-1.570000" />
+      <EntryHeadingChange value="1.570000" />
+      <ExtraZForWaterEntry value="-5.000000" />
+      <EntryPointFlags>JackIncludesGetIn UseGetUpAfterJack JackVariationsIncludeGetIn DeadJackIncludesGetIn DontCloseDoorInside DontCloseDoorOutside</EntryPointFlags>
+      <EntryAnimVariations ref="NULL" />
+    </Item>
+		  <!-- ATIRADOR TRASEIRO DIREITO -->
+    <Item type="CVehicleEntryPointAnimInfo">
+      <Name>ENTRY_POINT_ANIM_HELI_HUEY_REAR_RIGHT</Name>
+      <CommonClipSetMap ref="COMMON_CLIPSET_MAP_TRUCK_LEFT" />
+      <EntryClipSetMap ref="ENTRY_CLIPSET_MAP_HELI_REAR_LEFT" />
+      <ExitClipSetMap ref="EXIT_CLIPSET_MAP_HELI_REAR_LEFT" />
+      <AlternateTryLockedDoorClipId />
+      <AlternateForcedEntryClipId />
+      <AlternateJackFromOutSideClipId />
+      <AlternateBeJackedFromOutSideClipId />
+      <AlternateEntryPointClipSetId />
+      <EnterVehicleMoveNetwork>ENTER_VEHICLE_STD</EnterVehicleMoveNetwork>
+      <EntryTranslation x="-1.169200" y="-0.376600" z="0.053800" />
+      <OpenDoorTranslation x="0.000000" y="0.000000" />
+      <OpenDoorHeadingChange value="1.570000" />
+      <EntryHeadingChange value="-1.570000" />
+      <ExtraZForWaterEntry value="0.000000" />
+      <EntryPointFlags>JackIncludesGetIn UseGetUpAfterJack JackVariationsIncludeGetIn DeadJackIncludesGetIn DontCloseDoorInside DontCloseDoorOutside</EntryPointFlags>
+      <EntryAnimVariations ref="NULL" />
+    </Item>
+		  <!-- ATIRADOR FRONTAL ESQUERDO -->
+    <Item type="CVehicleEntryPointAnimInfo">
+      <Name>ENTRY_POINT_ANIM_HELI_HUEY_REAR_LEFT2</Name>
+      <CommonClipSetMap ref="COMMON_CLIPSET_MAP_TRUCK_RIGHT" />
+      <EntryClipSetMap ref="ENTRY_CLIPSET_MAP_TANK_SCARAB_REAR_LEFT_SIDE" />
+      <ExitClipSetMap ref="EXIT_CLIPSET_MAP_TANK_SCARAB_REAR_LEFT_SIDE" />
+      <AlternateTryLockedDoorClipId />
+      <AlternateForcedEntryClipId />
+      <AlternateJackFromOutSideClipId />
+      <AlternateBeJackedFromOutSideClipId />
+      <AlternateEntryPointClipSetId />
+      <EnterVehicleMoveNetwork>ENTER_VEHICLE_STD</EnterVehicleMoveNetwork>
+      <EntryTranslation x="1.061200" y="-0.232100" z="0.043100" />
+      <OpenDoorTranslation x="0.000000" y="0.000000" />
+      <OpenDoorHeadingChange value="-1.570000" />
+      <EntryHeadingChange value="1.570000" />
+      <ExtraZForWaterEntry value="-5.000000" />
+      <EntryPointFlags>JackIncludesGetIn UseGetUpAfterJack JackVariationsIncludeGetIn DeadJackIncludesGetIn HasGetInFromWater DontCloseDoorOutside</EntryPointFlags>
+      <EntryAnimVariations ref="NULL" />
+    </Item>
+		  <!-- ATIRADOR FRONTAL DIREITO -->
+    <Item type="CVehicleEntryPointAnimInfo">
+      <Name>ENTRY_POINT_ANIM_HELI_HUEY_REAR_RIGHT2</Name>
+      <CommonClipSetMap ref="COMMON_CLIPSET_MAP_TRUCK_LEFT" />
+      <EntryClipSetMap ref="ENTRY_CLIPSET_MAP_TANK_SCARAB_REAR_RIGHT_SIDE" />
+      <ExitClipSetMap ref="EXIT_CLIPSET_MAP_TANK_SCARAB_REAR_RIGHT_SIDE" />
+      <AlternateTryLockedDoorClipId />
+      <AlternateForcedEntryClipId />
+      <AlternateJackFromOutSideClipId />
+      <AlternateBeJackedFromOutSideClipId />
+      <AlternateEntryPointClipSetId />
+      <EnterVehicleMoveNetwork>ENTER_VEHICLE_STD</EnterVehicleMoveNetwork>
+      <EntryTranslation x="-1.169200" y="-0.376600" z="0.053800" />
+      <OpenDoorTranslation x="0.000000" y="0.000000" />
+      <OpenDoorHeadingChange value="1.570000" />
+      <EntryHeadingChange value="-1.570000" />
+      <ExtraZForWaterEntry value="0.000000" />
+      <EntryPointFlags>JackIncludesGetIn UseGetUpAfterJack JackVariationsIncludeGetIn DeadJackIncludesGetIn HasGetInFromWater DontCloseDoorOutside</EntryPointFlags>
+      <EntryAnimVariations ref="NULL" />
+    </Item>
+		  <!-- PASSAGEIRO ESQUERDO -->
+    <Item type="CVehicleEntryPointAnimInfo">
+      <Name>ENTRY_POINT_ANIM_HELI_HUEY_REAR_LEFT3</Name>
+      <CommonClipSetMap ref="COMMON_CLIPSET_MAP_TRUCK_RIGHT" />
+      <EntryClipSetMap ref="ENTRY_CLIPSET_MAP_TANK_SCARAB_REAR_LEFT_SIDE" />
+      <ExitClipSetMap ref="EXIT_CLIPSET_MAP_TANK_SCARAB_REAR_LEFT_SIDE" />
+      <AlternateTryLockedDoorClipId />
+      <AlternateForcedEntryClipId />
+      <AlternateJackFromOutSideClipId />
+      <AlternateBeJackedFromOutSideClipId />
+      <AlternateEntryPointClipSetId />
+      <EnterVehicleMoveNetwork>ENTER_VEHICLE_STD</EnterVehicleMoveNetwork>
+      <EntryTranslation x="1.161200" y="-0.232100" z="0.043100" />
+      <OpenDoorTranslation x="0.000000" y="0.000000" />
+      <OpenDoorHeadingChange value="-1.570000" />
+      <EntryHeadingChange value="1.570000" />
+      <ExtraZForWaterEntry value="-5.000000" />
+      <EntryPointFlags>JackIncludesGetIn UseGetUpAfterJack JackVariationsIncludeGetIn DeadJackIncludesGetIn HasGetInFromWater </EntryPointFlags>
+      <EntryAnimVariations ref="NULL" />
+    </Item>
+		  <!-- PASSAGEIRO DIREITO -->
+    <Item type="CVehicleEntryPointAnimInfo">
+      <Name>ENTRY_POINT_ANIM_HELI_HUEY_REAR_RIGHT3</Name>
+      <CommonClipSetMap ref="COMMON_CLIPSET_MAP_TRUCK_LEFT" />
+      <EntryClipSetMap ref="ENTRY_CLIPSET_MAP_TANK_SCARAB_REAR_RIGHT_SIDE" />
+      <ExitClipSetMap ref="EXIT_CLIPSET_MAP_TANK_SCARAB_REAR_RIGHT_SIDE" />
+      <AlternateTryLockedDoorClipId />
+      <AlternateForcedEntryClipId />
+      <AlternateJackFromOutSideClipId />
+      <AlternateBeJackedFromOutSideClipId />
+      <AlternateEntryPointClipSetId />
+      <EnterVehicleMoveNetwork>ENTER_VEHICLE_STD</EnterVehicleMoveNetwork>
+      <EntryTranslation x="-1.21200" y="-0.376600" z="0.053800" />
+      <OpenDoorTranslation x="0.000000" y="0.000000" />
+      <OpenDoorHeadingChange value="1.570000" />
+      <EntryHeadingChange value="-1.570000" />
+      <ExtraZForWaterEntry value="0.000000" />
+      <EntryPointFlags>JackIncludesGetIn UseGetUpAfterJack JackVariationsIncludeGetIn DeadJackIncludesGetIn HasGetInFromWater </EntryPointFlags>
+      <EntryAnimVariations ref="NULL" />
+    </Item>
+  </VehicleEntryPointAnimInfos>
+
+
+<!--------------------------------------------------------------------------------- Configuração das Animações de entrada/saída ----------------------------------------------------------------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+
+
+
+ 
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!--------------------------------------------------------------------------------- Configuração das Animação de DriveBy/AnimaçaoDoAssento/ComportamentoDosAssento ------------------------------------------------------------------------------------------------>
+  
+  
+  <VehicleSeatAnimInfos>
+  
+  
+   <!-- ATIRADOR TRASEIRO ESQUERDO -->
+    <Item type="CVehicleSeatAnimInfo">
+      <Name>SEAT_ANIM_HUEY_SIDE_LEFT</Name>
+      <DriveByInfo ref="DRIVEBY_HELI_HUEY_REAR_LEFT" />
+      <InsideClipSetMap ref="INSIDE_CLIPSET_MAP_HELI_HUEY_REAR_LEFT" />
+      <PanicClipSet />
+      <AgitatedClipSet />
+	  <DuckedClipSet>clipset@veh@nathanhueycover@ds@idle_duck</DuckedClipSet>
+      <LowLODIdleAnim>HELI_REAR_PS_IDLE</LowLODIdleAnim>
+      <SeatAmbientContext />
+      <InVehicleMoveNetwork>VEHICLE_DEFAULT</InVehicleMoveNetwork>
+      <SeatAnimFlags>UseStandardInVehicleAnims PreventShuffleJack WeaponRemainsVisible</SeatAnimFlags>
+      <SteeringSmoothing value="0.100000" />
+      <ExitToAimInfoName />
+      <MaleGestureClipSetId />
+      <FemaleGestureClipSetId />
+    </Item>
+   <!-- ATIRADOR TRASEIRO DIREITO -->
+    <Item type="CVehicleSeatAnimInfo">
+      <Name>SEAT_ANIM_HUEY_SIDE_RIGHT</Name>
+      <DriveByInfo ref="DRIVEBY_HELI_HUEY_REAR_RIGHT" />
+      <InsideClipSetMap ref="INSIDE_CLIPSET_MAP_HELI_HUEY_REAR_RIGHT" />
+      <PanicClipSet />
+      <AgitatedClipSet />
+	  <DuckedClipSet>clipset@veh@nathanhueycover@ps@idle_duck</DuckedClipSet>
+      <LowLODIdleAnim>HELI_REAR_DS_IDLE</LowLODIdleAnim>
+      <SeatAmbientContext />
+      <InVehicleMoveNetwork>VEHICLE_DEFAULT</InVehicleMoveNetwork>
+      <SeatAnimFlags>UseStandardInVehicleAnims PreventShuffleJack FallsOutWhenDead WeaponRemainsVisible</SeatAnimFlags>
+      <SteeringSmoothing value="0.100000" />
+      <ExitToAimInfoName />
+      <MaleGestureClipSetId />
+      <FemaleGestureClipSetId />
+    </Item>
+   <!-- ATIRADOR FRONTAL ESQUERDO -->
+    <Item type="CVehicleSeatAnimInfo">
+      <Name>SEAT_ANIM_HUEY_SIDE_LEFT2</Name>
+      <DriveByInfo ref="DRIVEBY_HELI_HUEY_REAR_LEFT2" />
+      <InsideClipSetMap ref="INSIDE_CLIPSET_MAP_HELI_HUEY_FRONT_LEFT" />
+      <PanicClipSet />
+      <AgitatedClipSet />
+	  <DuckedClipSet>clipset@veh@nathanhueycover@ds@idle_duck</DuckedClipSet>
+      <LowLODIdleAnim>HELI_REAR_PS_IDLE</LowLODIdleAnim>
+      <SeatAmbientContext />
+      <InVehicleMoveNetwork>VEHICLE_DEFAULT</InVehicleMoveNetwork>
+      <SeatAnimFlags>UseStandardInVehicleAnims PreventShuffleJack WeaponRemainsVisible</SeatAnimFlags>
+      <SteeringSmoothing value="0.100000" />
+      <ExitToAimInfoName />
+      <MaleGestureClipSetId />
+      <FemaleGestureClipSetId />
+    </Item>
+   <!-- ATIRADOR FRONTAL DIREITO -->
+    <Item type="CVehicleSeatAnimInfo">
+      <Name>SEAT_ANIM_HUEY_SIDE_RIGHT2</Name>
+      <DriveByInfo ref="DRIVEBY_HELI_HUEY_REAR_RIGHT2" />
+      <InsideClipSetMap ref="INSIDE_CLIPSET_MAP_HELI_HUEY_FRONT_RIGHT" />
+      <PanicClipSet />
+      <AgitatedClipSet />
+	  <DuckedClipSet>clipset@veh@nathanhueycover@ps@idle_duck</DuckedClipSet>
+      <LowLODIdleAnim>HELI_REAR_DS_IDLE</LowLODIdleAnim>
+      <SeatAmbientContext />
+      <InVehicleMoveNetwork>VEHICLE_DEFAULT</InVehicleMoveNetwork>
+      <SeatAnimFlags>UseStandardInVehicleAnims PreventShuffleJack FallsOutWhenDead WeaponRemainsVisible</SeatAnimFlags>
+      <SteeringSmoothing value="0.100000" />
+      <ExitToAimInfoName />
+      <MaleGestureClipSetId />
+      <FemaleGestureClipSetId />
+    </Item>
+   <!-- PASSAGEIRO FRONTAL ESQUERDO -->
+    <Item type="CVehicleSeatAnimInfo">
+      <Name>SEAT_ANIM_HUEY_SIDE_LEFT3</Name>
+      <DriveByInfo ref="NULL" />
+      <InsideClipSetMap ref="INSIDE_CLIPSET_MAP_HELI_SVOL_REAR_RIGHT" />
+      <PanicClipSet />
+      <AgitatedClipSet />
+	  <DuckedClipSet />
+      <LowLODIdleAnim>HELI_REAR_DS_IDLE</LowLODIdleAnim>
+      <SeatAmbientContext />
+      <InVehicleMoveNetwork>VEHICLE_DEFAULT</InVehicleMoveNetwork>
+      <SeatAnimFlags>UseStandardInVehicleAnims PreventShuffleJack </SeatAnimFlags>
+      <SteeringSmoothing value="0.100000" />
+      <ExitToAimInfoName />
+      <MaleGestureClipSetId />
+      <FemaleGestureClipSetId />
+    </Item>
+   <!-- PASSAGEIRO FRONTAL DIREITO -->
+    <Item type="CVehicleSeatAnimInfo">
+      <Name>SEAT_ANIM_HUEY_SIDE_RIGHT3</Name>
+      <DriveByInfo ref="NULL" />
+      <InsideClipSetMap ref="INSIDE_CLIPSET_MAP_HELI_SVOL_REAR_LEFT" />
+      <PanicClipSet />
+      <AgitatedClipSet />
+	  <DuckedClipSet />
+      <LowLODIdleAnim>HELI_REAR_PS_IDLE</LowLODIdleAnim>
+      <SeatAmbientContext />
+      <InVehicleMoveNetwork>VEHICLE_DEFAULT</InVehicleMoveNetwork>
+      <SeatAnimFlags>UseStandardInVehicleAnims PreventShuffleJack </SeatAnimFlags>
+      <SteeringSmoothing value="0.100000" />
+      <ExitToAimInfoName />
+      <MaleGestureClipSetId />
+      <FemaleGestureClipSetId />
+    </Item>
+	
+  </VehicleSeatAnimInfos>
+  
+  
+<!--------------------------------------------------------------------------------- Configuração das Animação de DriveBy/AnimaçaoDoAssento/ComportamentoDosAssento ------------------------------------------------------------------------------------------------>
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+  
+  
+  
+  
+  
+  
+   <VehicleDriveByInfos>
+   
+   <!-- ATIRADOR TRASEIRO ESQUERDO | VANTAGEM EM DISPAROS FRONTAIS-->
+    <Item type="CVehicleDriveByInfo">
+      <Name>DRIVEBY_HELI_HUEY_REAR_LEFT</Name>
+      <MinAimSweepHeadingAngleDegs value="30.000000" />
+      <MaxAimSweepHeadingAngleDegs value="185.000000" />
+	  <FirstPersonMinAimSweepHeadingAngleDegs value="-180.000000" />
+	  <FirstPersonMaxAimSweepHeadingAngleDegs value="180.000000" />
+	  <FirstPersonUnarmedMinAimSweepHeadingAngleDegs value="-180.000000" />
+	  <FirstPersonUnarmedMaxAimSweepHeadingAngleDegs value="180.000000" />
+      <MinRestrictedAimSweepHeadingAngleDegs value="30.000000" />
+      <MaxRestrictedAimSweepHeadingAngleDegs value="185.000000" />
+      <MinSmashWindowAngleDegs value="0.000000" />
+      <MaxSmashWindowAngleDegs value="0.000000" />
+	  <MinSmashWindowAngleFirstPersonDegs value="0.000000" />
+      <MaxSmashWindowAngleFirstPersonDegs value="0.000000" />
+      <MaxSpeedParam value="0.500000" />
+      <MaxLongitudinalLeanBlendWeightDelta value="0.250000" />
+      <MaxLateralLeanBlendWeightDelta value="0.250000" />
+      <ApproachSpeedToWithinMaxBlendDelta value="1.000000" />
+      <SpineAdditiveBlendInDelay value="0.050000" />
+      <SpineAdditiveBlendInDurationStill value="0.150000" />
+      <SpineAdditiveBlendInDuration value="0.750000" />
+      <SpineAdditiveBlendOutDelay value="0.000000" />
+      <SpineAdditiveBlendOutDuration value="0.500000" />
+      <DriveByAnimInfos>
+        <Item ref="HELI_DB_ANIM_INFO_ONE_HANDED_RPS" />
+        <Item ref="HELISAPAO_DB_ANIM_INFO_TWO_HANDED_RPS" />
+      </DriveByAnimInfos>
+      <DriveByCamera>FROGGER_REAR_RIGHT_PASSENGER_AIM_CAMERA</DriveByCamera>
+      <DriveByFlags>DampenRecoil UseThreeAnimIntroOutro LeftHandedFirstPersonAnims UsePedAsCamEntity AllowSingleSideOvershoot UseBlockingAnimsOutsideAimRange</DriveByFlags>
+    </Item>
+   <!-- ATIRADOR TRASEIRO DIREITO | VANTAGEM EM DISPAROS FRONTAIS-->
+    <Item type="CVehicleDriveByInfo">
+      <Name>DRIVEBY_HELI_HUEY_REAR_RIGHT</Name>
+      <MinAimSweepHeadingAngleDegs value="-178.000000" />
+      <MaxAimSweepHeadingAngleDegs value="-7.000000" />
+	  <FirstPersonMinAimSweepHeadingAngleDegs value="-180.000000" />
+	  <FirstPersonMaxAimSweepHeadingAngleDegs value="180.000000" />
+	  <FirstPersonUnarmedMinAimSweepHeadingAngleDegs value="-180.000000" />
+	  <FirstPersonUnarmedMaxAimSweepHeadingAngleDegs value="180.000000" />
+      <MinRestrictedAimSweepHeadingAngleDegs value="-178.000000" />
+      <MaxRestrictedAimSweepHeadingAngleDegs value="-7.000000" />
+      <MinSmashWindowAngleDegs value="0.000000" />
+      <MaxSmashWindowAngleDegs value="0.000000" />
+	  <MinSmashWindowAngleFirstPersonDegs value="0.000000" />
+      <MaxSmashWindowAngleFirstPersonDegs value="0.000000" />
+      <MaxSpeedParam value="0.500000" />
+      <MaxLongitudinalLeanBlendWeightDelta value="0.250000" />
+      <MaxLateralLeanBlendWeightDelta value="0.250000" />
+      <ApproachSpeedToWithinMaxBlendDelta value="1.000000" />
+      <SpineAdditiveBlendInDelay value="0.050000" />
+      <SpineAdditiveBlendInDurationStill value="0.150000" />
+      <SpineAdditiveBlendInDuration value="0.750000" />
+      <SpineAdditiveBlendOutDelay value="0.000000" />
+      <SpineAdditiveBlendOutDuration value="0.500000" />
+      <DriveByAnimInfos>
+        <Item ref="HELI_DB_ANIM_INFO_ONE_HANDED_RDS" />
+        <Item ref="HELISAPAO_DB_ANIM_INFO_TWO_HANDED_RDS" />
+      </DriveByAnimInfos>
+      <DriveByCamera>FROGGER_REAR_RIGHT_PASSENGER_AIM_CAMERA</DriveByCamera>
+      <DriveByFlags>DampenRecoil UseThreeAnimIntroOutro UsePedAsCamEntity AllowSingleSideOvershoot UseBlockingAnimsOutsideAimRange</DriveByFlags>
+    </Item>
+   <!-- ATIRADOR FRONTAL ESQUERDO | VANTAGEM EM DISPAROS TRASEIROS -->
+    <Item type="CVehicleDriveByInfo">
+      <Name>DRIVEBY_HELI_HUEY_REAR_LEFT2</Name>
+      <MinAimSweepHeadingAngleDegs value="18.000000" />
+      <MaxAimSweepHeadingAngleDegs value="155.000000" />
+	  <FirstPersonMinAimSweepHeadingAngleDegs value="-180.000000" />
+	  <FirstPersonMaxAimSweepHeadingAngleDegs value="180.000000" />
+	  <FirstPersonUnarmedMinAimSweepHeadingAngleDegs value="-180.000000" />
+	  <FirstPersonUnarmedMaxAimSweepHeadingAngleDegs value="180.000000" />
+      <MinRestrictedAimSweepHeadingAngleDegs value="18.000000" />
+      <MaxRestrictedAimSweepHeadingAngleDegs value="155.000000" />
+      <MinSmashWindowAngleDegs value="0.000000" />
+      <MaxSmashWindowAngleDegs value="0.000000" />
+	  <MinSmashWindowAngleFirstPersonDegs value="0.000000" />
+      <MaxSmashWindowAngleFirstPersonDegs value="0.000000" />
+      <MaxSpeedParam value="0.500000" />
+      <MaxLongitudinalLeanBlendWeightDelta value="0.250000" />
+      <MaxLateralLeanBlendWeightDelta value="0.250000" />
+      <ApproachSpeedToWithinMaxBlendDelta value="1.000000" />
+      <SpineAdditiveBlendInDelay value="0.050000" />
+      <SpineAdditiveBlendInDurationStill value="0.150000" />
+      <SpineAdditiveBlendInDuration value="0.750000" />
+      <SpineAdditiveBlendOutDelay value="0.000000" />
+      <SpineAdditiveBlendOutDuration value="0.500000" />
+      <DriveByAnimInfos>
+        <Item ref="HELI_DB_ANIM_INFO_ONE_HANDED_RPS" />
+        <Item ref="HELISAPAO_DB_ANIM_INFO_TWO_HANDED_RPS" />
+      </DriveByAnimInfos>
+      <DriveByCamera>FROGGER_REAR_RIGHT_PASSENGER_AIM_CAMERA</DriveByCamera>
+      <DriveByFlags>DampenRecoil UseThreeAnimIntroOutro LeftHandedFirstPersonAnims UsePedAsCamEntity AllowSingleSideOvershoot UseBlockingAnimsOutsideAimRange</DriveByFlags>
+    </Item>
+   <!-- ATIRADOR FRONTAL DIREITO | VANTAGEM EM DISPAROS TRASEIROS-->
+    <Item type="CVehicleDriveByInfo">
+      <Name>DRIVEBY_HELI_HUEY_REAR_RIGHT2</Name>
+      <MinAimSweepHeadingAngleDegs value="-170.000000" />
+      <MaxAimSweepHeadingAngleDegs value="-2.000000" />
+	  <FirstPersonMinAimSweepHeadingAngleDegs value="-180.000000" />
+	  <FirstPersonMaxAimSweepHeadingAngleDegs value="180.000000" />
+	  <FirstPersonUnarmedMinAimSweepHeadingAngleDegs value="-180.000000" />
+	  <FirstPersonUnarmedMaxAimSweepHeadingAngleDegs value="180.000000" />
+      <MinRestrictedAimSweepHeadingAngleDegs value="-170.000000" />
+      <MaxRestrictedAimSweepHeadingAngleDegs value="-2.000000" />
+      <MinSmashWindowAngleDegs value="0.000000" />
+      <MaxSmashWindowAngleDegs value="0.000000" />
+	  <MinSmashWindowAngleFirstPersonDegs value="0.000000" />
+      <MaxSmashWindowAngleFirstPersonDegs value="0.000000" />
+      <MaxSpeedParam value="0.500000" />
+      <MaxLongitudinalLeanBlendWeightDelta value="0.250000" />
+      <MaxLateralLeanBlendWeightDelta value="0.250000" />
+      <ApproachSpeedToWithinMaxBlendDelta value="1.000000" />
+      <SpineAdditiveBlendInDelay value="0.050000" />
+      <SpineAdditiveBlendInDurationStill value="0.150000" />
+      <SpineAdditiveBlendInDuration value="0.750000" />
+      <SpineAdditiveBlendOutDelay value="0.000000" />
+      <SpineAdditiveBlendOutDuration value="0.500000" />
+      <DriveByAnimInfos>
+        <Item ref="HELI_DB_ANIM_INFO_ONE_HANDED_RDS" />
+        <Item ref="HELISAPAO_DB_ANIM_INFO_TWO_HANDED_RDS" />
+      </DriveByAnimInfos>
+      <DriveByCamera>FROGGER_REAR_RIGHT_PASSENGER_AIM_CAMERA</DriveByCamera>
+      <DriveByFlags>DampenRecoil UseThreeAnimIntroOutro UsePedAsCamEntity AllowSingleSideOvershoot UseBlockingAnimsOutsideAimRange</DriveByFlags>
+    </Item>
+	
+   </VehicleDriveByInfos>
+ <VehicleDriveByAnimInfos>
+<!--------------------------------->
+    <Item type="CVehicleDriveByAnimInfo">
+      <Name>HELISAPAO_DB_ANIM_INFO_TWO_HANDED_RDS</Name>
+      <WeaponGroup ref="DRIVEBY_DEFAULT_TWO_HANDED" />
+      <DriveByClipSet>veh@drivebyhelisapao@rear_ds_2h</DriveByClipSet>
+      <FirstPersonDriveByClipSet />
+      <AltFirstPersonDriveByClipSets />
+      <Network>REAR_HELI_DRIVEBY</Network>
+    </Item>
+    <Item type="CVehicleDriveByAnimInfo">
+      <Name>HELISAPAO_DB_ANIM_INFO_TWO_HANDED_RPS</Name>
+      <WeaponGroup ref="DRIVEBY_DEFAULT_TWO_HANDED" />
+      <DriveByClipSet>veh@drivebyhelisapao@rear_ps_2h</DriveByClipSet>
+      <FirstPersonDriveByClipSet />
+      <AltFirstPersonDriveByClipSets />
+      <Network>REAR_HELI_DRIVEBY</Network>
+    </Item>
+<!--------------------------------->
+ </VehicleDriveByAnimInfos>
+
+</CVehicleMetadataMgr>

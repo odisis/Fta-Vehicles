@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<fwClipSetManager>
+  <clipSets>
+    <Item type="fwClipSet" key="anim@veh@helicopter@hueynathan@rear@ps@enter_exit">
+      <fallbackId />
+      <clipDictionaryName>anim@veh@helicopter@hueynathan@rear@ps@enter_exit</clipDictionaryName>
+      <clipItems />
+      <moveNetworkFlags />
+    </Item>
+    <Item type="fwClipSet" key="anim@veh@helicopter@hueynathan@front@ps@enter_exit">
+      <fallbackId />
+      <clipDictionaryName>anim@veh@helicopter@hueynathan@front@ps@enter_exit</clipDictionaryName>
+      <clipItems />
+      <moveNetworkFlags />
+    </Item>
+    <Item type="fwClipSet" key="anim@veh@helicopter@hueynathan@front@ds@enter_exit">
+      <fallbackId />
+      <clipDictionaryName>anim@veh@helicopter@hueynathan@front@ds@enter_exit</clipDictionaryName>
+      <clipItems />
+      <moveNetworkFlags />
+    </Item>
+    <Item type="fwClipSet" key="anim@veh@helicopter@hueynathan@rear@ds@enter_exit">
+      <fallbackId />
+      <clipDictionaryName>anim@veh@helicopter@hueynathan@rear@ds@enter_exit</clipDictionaryName>
+      <clipItems />
+      <moveNetworkFlags />
+    </Item>
+    <Item type="fwClipSet" key="clipset@veh@nathanhueycover@ds@idle_duck">
+      <fallbackId />
+      <clipDictionaryName>anim@veh@nathanhueycover@ds@idle_duck</clipDictionaryName>
+      <clipItems />
+      <moveNetworkFlags />
+    </Item>
+    <Item type="fwClipSet" key="clipset@veh@nathanhueycover@ps@idle_duck">
+      <fallbackId />
+      <clipDictionaryName>anim@veh@nathanhueycover@ps@idle_duck</clipDictionaryName>
+      <clipItems />
+      <moveNetworkFlags />
+    </Item>
+    <Item type="fwClipSet" key="veh@drivebyhelisapao@rear_ds_2h">
+      <fallbackId />
+      <clipDictionaryName>veh@drivebyhelisapao@rear_ds_2h</clipDictionaryName>
+      <clipItems />
+      <moveNetworkFlags />
+    </Item>
+    <Item type="fwClipSet" key="veh@drivebyhelisapao@rear_ps_2h">
+      <fallbackId />
+      <clipDictionaryName>veh@drivebyhelisapao@rear_ps_2h</clipDictionaryName>
+      <clipItems />
+      <moveNetworkFlags />
+    </Item>
+  </clipSets>
+  <clipDictionaryMetadatas>
+	<Item key="anim@veh@nathanhueycover@ds@idle_duck">
+      <streamingPolicy>SP_STREAMING</streamingPolicy>
+      <memoryGroup>MG_Vehicle</memoryGroup>
+      <streamingPriority>SP_Medium</streamingPriority>
+    </Item>
+	<Item key="anim@veh@nathanhueycover@ps@idle_duck">
+      <streamingPolicy>SP_STREAMING</streamingPolicy>
+      <memoryGroup>MG_Vehicle</memoryGroup>
+      <streamingPriority>SP_Medium</streamingPriority>
+    </Item>
+	<Item key="veh@drivebyhelisapao@rear_ds_2h">
+      <streamingPolicy>SP_STREAMING</streamingPolicy>
+      <memoryGroup>MG_Vehicle</memoryGroup>
+      <streamingPriority>SP_Medium</streamingPriority>
+    </Item>
+	<Item key="veh@drivebyhelisapao@rear_ps_2h">
+      <streamingPolicy>SP_STREAMING</streamingPolicy>
+      <memoryGroup>MG_Vehicle</memoryGroup>
+      <streamingPriority>SP_Medium</streamingPriority>
+    </Item>
+	</clipDictionaryMetadatas>
+</fwClipSetManager>
+
+
+
+
+
+
+
+
