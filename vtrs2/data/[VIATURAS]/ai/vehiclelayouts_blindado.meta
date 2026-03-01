@@ -1,0 +1,2564 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CVehicleMetadataMgr>
+  <AnimRateSets />
+  <ClipSetMaps>
+    <Item type="CClipSetMap">
+      <Name>COMMON_CLIPSET_MAP_BLINDADO_FRONT</Name>
+      <Maps>
+        <Item>
+          <ClipSetId>clipset@veh@common@high_seat@ds</ClipSetId>
+          <VarClipSetId>CommonVarClipSet</VarClipSetId>
+          <ConditionFlags />
+          <InformationFlags />
+        </Item>
+      </Maps>
+    </Item>
+    <Item type="CClipSetMap">
+      <Name>INSIDE_CLIPSET_MAP_BLINDADO_DRIVER</Name>
+      <Maps>
+        <Item>
+          <ClipSetId>clipset@veh@bus@driver@base</ClipSetId>
+          <VarClipSetId>InsideVarClipSet</VarClipSetId>
+          <ConditionFlags />
+          <InformationFlags />
+        </Item>
+      </Maps>
+    </Item>
+    <Item type="CClipSetMap">
+      <Name>INSIDE_CLIPSET_MAP_BLINDADO_FRONT_RIGHT</Name>
+      <Maps>
+        <Item>
+          <ClipSetId>clipset@veh@truck@ps@base</ClipSetId>
+          <VarClipSetId>InsideVarClipSet</VarClipSetId>
+          <ConditionFlags />
+          <InformationFlags />
+        </Item>
+      </Maps>
+    </Item>
+    <Item type="CClipSetMap">
+      <Name>INSIDE_CLIPSET_MAP_BLINDADOTURQ_REAR</Name>
+      <Maps>
+        <Item>
+          <ClipSetId>clipset@veh@van@ps@base</ClipSetId>
+          <VarClipSetId>InsideVarClipSet</VarClipSetId>
+          <ConditionFlags />
+          <InformationFlags />
+        </Item>
+      </Maps>
+    </Item>
+    <Item type="CClipSetMap">
+      <Name>INSIDE_CLIPSET_MAP_DEITADO_REAR</Name>
+      <Maps>
+        <Item>
+          <ClipSetId>veh@whmods@deitado@base</ClipSetId>
+          <VarClipSetId>InsideVarClipSet</VarClipSetId>
+          <ConditionFlags />
+          <InformationFlags />
+        </Item>
+      </Maps>
+    </Item>
+    <Item type="CClipSetMap">
+      <Name>INSIDE_CLIPSET_MAP_BLINDADOMIKE_TORRE</Name>
+      <Maps>
+        <Item>
+          <ClipSetId>clipset@veh@boat@predator@ds@base</ClipSetId>
+          <VarClipSetId>InsideVarClipSet</VarClipSetId>
+          <ConditionFlags />
+          <InformationFlags />
+        </Item>
+      </Maps>
+    </Item>
+    <Item type="CClipSetMap">
+      <Name>ENTRY_CLIPSET_MAP_BLINDADO_FRONT</Name>
+      <Maps>
+        <Item>
+          <ClipSetId>clipset@veh@truck@ds@enter_exit</ClipSetId>
+          <VarClipSetId>EntryVarClipSet</VarClipSetId>
+          <ConditionFlags />
+          <InformationFlags />
+        </Item>
+      </Maps>
+    </Item>
+    <Item type="CClipSetMap">
+      <Name>ENTRY_CLIPSET_MAP_BLINDADOMIKE_FRONT</Name>
+      <Maps>
+        <Item>
+          <ClipSetId>clipset@veh@plane@shamal@front@ds@enter_exit</ClipSetId>
+          <VarClipSetId>EntryVarClipSet</VarClipSetId>
+          <ConditionFlags />
+          <InformationFlags />
+        </Item>
+      </Maps>
+    </Item>
+    <Item type="CClipSetMap">
+      <Name>EXIT_CLIPSET_MAP_BLINDADO_FRONT</Name>
+      <Maps>
+        <Item>
+          <ClipSetId>clipset@veh@truck@ds@enter_exit</ClipSetId>
+          <VarClipSetId>ExitVarClipSet</VarClipSetId>
+          <ConditionFlags />
+          <InformationFlags />
+        </Item>
+      </Maps>
+    </Item>
+    <Item type="CClipSetMap">
+      <Name>EXIT_CLIPSET_MAP_BLINDADOMIKE_FRONT</Name>
+      <Maps>
+        <Item>
+          <ClipSetId>clipset@veh@plane@shamal@front@ds@enter_exit</ClipSetId>
+          <VarClipSetId>ExitVarClipSet</VarClipSetId>
+          <ConditionFlags />
+          <InformationFlags />
+        </Item>
+      </Maps>
+    </Item>
+    <Item type="CClipSetMap">
+      <Name>EXIT_CLIPSET_MAP_BLINDADOMIKE_REAR_LEFT</Name>
+      <Maps>
+        <Item>
+          <ClipSetId>anim@veh@plane@luxor2@rear@rds@enter_exit</ClipSetId>
+          <VarClipSetId>ExitVarClipSet</VarClipSetId>
+          <ConditionFlags />
+          <InformationFlags />
+        </Item>
+      </Maps>
+    </Item>
+    <Item type="CClipSetMap">
+      <Name>EXIT_CLIPSET_MAP_BLINDADOMIKE_REAR_RIGHT</Name>
+      <Maps>
+        <Item>
+          <ClipSetId>anim@veh@plane@luxor2@rear@rps@enter_exit</ClipSetId>
+          <VarClipSetId>ExitVarClipSet</VarClipSetId>
+          <ConditionFlags />
+          <InformationFlags />
+        </Item>
+      </Maps>
+    </Item>
+    <Item type="CClipSetMap">
+      <Name>EXIT_CLIPSET_MAP_BLINDADOTURQ_DIREITO</Name>
+      <Maps>
+        <Item>
+          <ClipSetId>anim@veh@plane@luxor2@rear@rds2@enter_exit</ClipSetId>
+          <VarClipSetId>ExitVarClipSet</VarClipSetId>
+          <ConditionFlags />
+          <InformationFlags />
+        </Item>
+      </Maps>
+    </Item>
+    <Item type="CClipSetMap">
+      <Name>COMMON_CLIPSET_MAP_BLINDADO_FRONT_RIGHT</Name>
+      <Maps>
+        <Item>
+          <ClipSetId>clipset@veh@common@high_seat@ps</ClipSetId>
+          <VarClipSetId>CommonVarClipSet</VarClipSetId>
+          <ConditionFlags />
+          <InformationFlags />
+        </Item>
+      </Maps>
+    </Item>
+    <Item type="CClipSetMap">
+      <Name>ENTRY_CLIPSET_MAP_BLINDADO_FRONT_SIDE</Name>
+      <Maps>
+        <Item>
+          <ClipSetId>anim@veh@van@zhaba@lhs@ps@enter_exit</ClipSetId>
+          <VarClipSetId>EntryVarClipSet</VarClipSetId>
+          <ConditionFlags />
+          <InformationFlags />
+        </Item>
+      </Maps>
+    </Item>
+    <Item type="CClipSetMap">
+      <Name>ENTRY_CLIPSET_MAP_BLINDADO_REAR_ESQUERDA</Name>
+      <Maps>
+        <Item>
+          <ClipSetId>clipset@veh@van@ds@enter_exit</ClipSetId>
+          <VarClipSetId>EntryVarClipSet</VarClipSetId>
+          <ConditionFlags />
+          <InformationFlags />
+        </Item>
+      </Maps>
+    </Item>
+    <Item type="CClipSetMap">
+      <Name>ENTRY_CLIPSET_MAP_BLINDADO_REAR_DIREITA</Name>
+      <Maps>
+        <Item>
+          <ClipSetId>clipset@veh@van@ps@enter_exit</ClipSetId>
+          <VarClipSetId>EntryVarClipSet</VarClipSetId>
+          <ConditionFlags />
+          <InformationFlags />
+        </Item>
+      </Maps>
+    </Item>
+    <Item type="CClipSetMap">
+      <Name>ENTRY_CLIPSET_MAP_BLINDADO_FRONT_RIGHT</Name>
+      <Maps>
+        <Item>
+          <ClipSetId>clipset@veh@truck@ps@enter_exit</ClipSetId>
+          <VarClipSetId>EntryVarClipSet</VarClipSetId>
+          <ConditionFlags />
+          <InformationFlags />
+        </Item>
+      </Maps>
+    </Item>
+    <Item type="CClipSetMap">
+      <Name>ENTRY_CLIPSET_MAP_BLINDADOMIKE_FRONT_RIGHT</Name>
+      <Maps>
+        <Item>
+          <ClipSetId>anim@veh@plane@luxor2@rear@rds@enter_exit</ClipSetId>
+          <VarClipSetId>EntryVarClipSet</VarClipSetId>
+          <ConditionFlags />
+          <InformationFlags />
+        </Item>
+      </Maps>
+    </Item>
+    <Item type="CClipSetMap">
+      <Name>EXIT_CLIPSET_MAP_BLINDADO_FRONT_RIGHT</Name>
+      <Maps>
+        <Item>
+          <ClipSetId>clipset@veh@truck@ps@enter_exit</ClipSetId>
+          <VarClipSetId>ExitVarClipSet</VarClipSetId>
+          <ConditionFlags />
+          <InformationFlags />
+        </Item>
+      </Maps>
+    </Item>
+    <Item type="CClipSetMap">
+      <Name>EXIT_CLIPSET_MAP_BLINDADOMIKE_FRONT_RIGHT</Name>
+      <Maps>
+        <Item>
+          <ClipSetId>anim@veh@plane@luxor2@rear@rds@enter_exit</ClipSetId>
+          <VarClipSetId>ExitVarClipSet</VarClipSetId>
+          <ConditionFlags />
+          <InformationFlags />
+        </Item>
+      </Maps>
+    </Item>
+    <Item type="CClipSetMap">
+      <Name>EXIT_CLIPSET_MAP_BLINDADO_REAR_RIGHT</Name>
+      <Maps>
+        <Item>
+          <ClipSetId>clipset@veh@bus@driver@enter_exit</ClipSetId>
+          <VarClipSetId>ExitVarClipSet</VarClipSetId>
+          <ConditionFlags />
+          <InformationFlags />
+        </Item>
+      </Maps>
+    </Item>
+    <Item type="CClipSetMap">
+      <Name>ENTRY_CLIPSET_MAP_BLINDADO_REAR</Name>
+      <Maps>
+        <Item>
+          <ClipSetId>clipset@anim@veh@truck@bruiser@rds_rear@enter_exit</ClipSetId>
+          <VarClipSetId>EntryVarClipSet</VarClipSetId>
+          <ConditionFlags />
+          <InformationFlags />
+        </Item>
+      </Maps>
+    </Item>
+    <Item type="CClipSetMap">
+      <Name>EXIT_CLIPSET_MAP_BLINDADO_REAR</Name>
+      <Maps>
+        <Item>
+          <ClipSetId>anim@veh@plane@bombushka@front@ds@enter_exit</ClipSetId>
+          <VarClipSetId>ExitVarClipSet</VarClipSetId>
+          <ConditionFlags />
+          <InformationFlags />
+        </Item>
+      </Maps>
+    </Item>
+    <Item type="CClipSetMap">
+      <Name>EXIT_CLIPSET_MAP_BLINDADO_REAR_2</Name>
+      <Maps>
+        <Item>
+          <ClipSetId>clipset@veh@van@rps_rear@enter_exit</ClipSetId>
+          <VarClipSetId>ExitVarClipSet</VarClipSetId>
+          <ConditionFlags />
+          <InformationFlags />
+        </Item>
+      </Maps>
+    </Item>
+    <Item type="CClipSetMap">
+      <Name>EXIT_CLIPSET_MAP_BLINDADO_REAR_3</Name>
+      <Maps>
+        <Item>
+          <ClipSetId>clipset@anim@veh@truck@squaddie@rps@enter_exit</ClipSetId>
+          <VarClipSetId>ExitVarClipSet</VarClipSetId>
+          <ConditionFlags />
+          <InformationFlags />
+        </Item>
+      </Maps>
+    </Item>
+  </ClipSetMaps>
+  <VehicleCoverBoundOffsetInfos />
+  <BicycleInfos />
+  <POVTuningInfos />
+  <EntryAnimVariations>
+    <Item type="CEntryAnimVariations">
+      <Name>ENTRY_ANIM_VARIATIONS_BLINDADOMIKE_FRONT_LEFT</Name>
+      <Flags />
+      <Conditions />
+      <EntryAnims />
+      <JackingAnims />
+      <ExitAnims>
+        <Item type="CConditionalClipSet">
+          <ClipSet>anim@veh@van@zhaba@lhs@ds@enter_exit_skydive</ClipSet>
+          <AssociatedSpeech />
+          <Conditions />
+          <ActionFlags>IsSkyDive</ActionFlags>
+        </Item>
+      </ExitAnims>
+    </Item>
+  </EntryAnimVariations>
+  <VehicleExtraPointsInfos>
+    <Item type="CVehicleExtraPointsInfo">
+      <Name>EXTRA_VEHICLE_POINTS_BLINDADOMIKE</Name>
+      <ExtraVehiclePoints>
+        <Item>
+          <LocationType>DRIVER_SEAT_RELATIVE</LocationType>
+          <PointType>GET_IN</PointType>
+          <Position x="0.097500" y="-0.682400" z="0.447100" />
+          <Heading value="-0.428000" />
+          <BoneName />
+        </Item>
+        <Item>
+          <LocationType>DRIVER_SEAT_RELATIVE</LocationType>
+          <PointType>GET_OUT</PointType>
+          <Position x="0.523000" y="-0.407000" z="0.447600" />
+          <Heading value="1.947100" />
+          <BoneName />
+        </Item>
+      </ExtraVehiclePoints>
+    </Item>
+    <Item type="CVehicleExtraPointsInfo">
+      <Name>EXTRA_VEHICLE_POINTS_BLINDADOMIKE_RIGHT</Name>
+      <ExtraVehiclePoints>
+        <Item>
+          <LocationType>DRIVER_SEAT_RELATIVE</LocationType>
+          <PointType>GET_IN</PointType>
+          <Position x="0.097500" y="-0.582400" z="0.447100" />
+          <Heading value="-0.428000" />
+          <BoneName />
+        </Item>
+        <Item>
+          <LocationType>DRIVER_SEAT_RELATIVE</LocationType>
+          <PointType>GET_OUT</PointType>
+          <Position x="0.340000" y="-0.775000" z="0.448000" />
+          <Heading value="-1.538000" />
+          <BoneName />
+        </Item>
+      </ExtraVehiclePoints>
+    </Item>
+    <Item type="CVehicleExtraPointsInfo">
+      <Name>EXTRA_VEHICLE_POINTS_BLINDADOTURQ_CARONA</Name>
+      <ExtraVehiclePoints>
+        <Item>
+          <LocationType>DRIVER_SEAT_RELATIVE</LocationType>
+          <PointType>GET_IN</PointType>
+          <Position x="0.097500" y="-0.782400" z="0.247100" />
+          <Heading value="-0.428000" />
+          <BoneName />
+        </Item>
+        <Item>
+          <LocationType>DRIVER_SEAT_RELATIVE</LocationType>
+          <PointType>GET_OUT</PointType>
+          <Position x="0.340000" y="-1.075000" z="0.248000" />
+          <Heading value="-1.538000" />
+          <BoneName />
+        </Item>
+      </ExtraVehiclePoints>
+    </Item>
+    <Item type="CVehicleExtraPointsInfo">
+      <Name>EXTRA_VEHICLE_POINTS_BLINDADOMIKE_REAR_RIGHT</Name>
+      <ExtraVehiclePoints>
+        <Item>
+          <LocationType>DRIVER_SEAT_RELATIVE</LocationType>
+          <PointType>GET_IN</PointType>
+          <Position x="0.097500" y="-0.782400" z="0.447100" />
+          <Heading value="2.428000" />
+          <BoneName />
+        </Item>
+        <Item>
+          <LocationType>DRIVER_SEAT_RELATIVE</LocationType>
+          <PointType>GET_OUT</PointType>
+          <Position x="0.340000" y="-0.775000" z="0.448000" />
+          <Heading value="-1.578000" />
+          <BoneName />
+        </Item>
+      </ExtraVehiclePoints>
+    </Item>
+    <Item type="CVehicleExtraPointsInfo">
+      <Name>EXTRA_VEHICLE_POINTS_BLINDADOTURQ_REAR_FIEL</Name>
+      <ExtraVehiclePoints>
+        <Item>
+          <LocationType>DRIVER_SEAT_RELATIVE</LocationType>
+          <PointType>GET_IN</PointType>
+          <Position x="1.097500" y="-2.582400" z="0.447100" />
+          <Heading value="2.428000" />
+          <BoneName />
+        </Item>
+        <Item>
+          <LocationType>DRIVER_SEAT_RELATIVE</LocationType>
+          <PointType>GET_OUT</PointType>
+          <Position x="1.340000" y="-3.775000" z="0.448000" />
+          <Heading value="3.140000" />
+          <BoneName />
+        </Item>
+      </ExtraVehiclePoints>
+    </Item>
+    <Item type="CVehicleExtraPointsInfo">
+      <Name>EXTRA_VEHICLE_POINTS_BLINDADOMIKE_REAR_RIGHT2</Name>
+      <ExtraVehiclePoints>
+        <Item>
+          <LocationType>DRIVER_SEAT_RELATIVE</LocationType>
+          <PointType>GET_IN</PointType>
+          <Position x="0.097500" y="-0.782400" z="0.447100" />
+          <Heading value="2.428000" />
+          <BoneName />
+        </Item>
+        <Item>
+          <LocationType>DRIVER_SEAT_RELATIVE</LocationType>
+          <PointType>GET_OUT</PointType>
+          <Position x="0.340000" y="-0.775000" z="0.448000" />
+          <Heading value="-1.578000" />
+          <BoneName />
+        </Item>
+      </ExtraVehiclePoints>
+    </Item>
+    <Item type="CVehicleExtraPointsInfo">
+      <Name>EXTRA_VEHICLE_POINTS_BLINDADOTURQ_LEFT_FIEL</Name>
+      <ExtraVehiclePoints>
+        <Item>
+          <LocationType>DRIVER_SEAT_RELATIVE</LocationType>
+          <PointType>GET_IN</PointType>
+          <Position x="0.097500" y="-0.782400" z="0.047100" />
+          <Heading value="2.428000" />
+          <BoneName />
+        </Item>
+        <Item>
+          <LocationType>DRIVER_SEAT_RELATIVE</LocationType>
+          <PointType>GET_OUT</PointType>
+          <Position x="0.340000" y="-1.075000" z="0.048000" />
+          <Heading value="1.600000" />
+          <BoneName />
+        </Item>
+      </ExtraVehiclePoints>
+    </Item>
+    <Item type="CVehicleExtraPointsInfo">
+      <Name>EXTRA_VEHICLE_POINTS_BLINDADOMIKE_RIGHT_REAR</Name>
+      <ExtraVehiclePoints>
+        <Item>
+          <LocationType>DRIVER_SEAT_RELATIVE</LocationType>
+          <PointType>GET_IN</PointType>
+          <Position x="0.097500" y="-0.582400" z="0.447100" />
+          <Heading value="-2.428000" />
+          <BoneName />
+        </Item>
+        <Item>
+          <LocationType>DRIVER_SEAT_RELATIVE</LocationType>
+          <PointType>GET_OUT</PointType>
+          <Position x="0.340000" y="-0.775000" z="0.448000" />
+          <Heading value="1.578000" />
+          <BoneName />
+        </Item>
+      </ExtraVehiclePoints>
+    </Item>
+    <Item type="CVehicleExtraPointsInfo">
+      <Name>EXTRA_VEHICLE_POINTS_BLINDADOTURQ_DIREITO</Name>
+      <ExtraVehiclePoints>
+        <Item>
+          <LocationType>DRIVER_SEAT_RELATIVE</LocationType>
+          <PointType>GET_IN</PointType>
+          <Position x="0.497500" y="-1.082400" z="0.447100" />
+          <Heading value="-2.428000" />
+          <BoneName />
+        </Item>
+        <Item>
+          <LocationType>DRIVER_SEAT_RELATIVE</LocationType>
+          <PointType>GET_OUT</PointType>
+          <Position x="0.540000" y="-0.975000" z="0.448000" />
+          <Heading value="-1.578000" />
+          <BoneName />
+        </Item>
+      </ExtraVehiclePoints>
+    </Item>
+    <Item type="CVehicleExtraPointsInfo">
+      <Name>EXTRA_VEHICLE_POINTS_BLINDADOMIKE_RIGHT_REAR2</Name>
+      <ExtraVehiclePoints>
+        <Item>
+          <LocationType>DRIVER_SEAT_RELATIVE</LocationType>
+          <PointType>GET_IN</PointType>
+          <Position x="0.097500" y="-0.582400" z="0.447100" />
+          <Heading value="-2.428000" />
+          <BoneName />
+        </Item>
+        <Item>
+          <LocationType>DRIVER_SEAT_RELATIVE</LocationType>
+          <PointType>GET_OUT</PointType>
+          <Position x="0.340000" y="-0.775000" z="0.448000" />
+          <Heading value="1.578000" />
+          <BoneName />
+        </Item>
+      </ExtraVehiclePoints>
+    </Item>
+    <Item type="CVehicleExtraPointsInfo">
+      <Name>EXTRA_VEHICLE_POINTS_BLINDADOTURQ_DIREITO_2</Name>
+      <ExtraVehiclePoints>
+        <Item>
+          <LocationType>DRIVER_SEAT_RELATIVE</LocationType>
+          <PointType>GET_IN</PointType>
+          <Position x="0.097500" y="-0.882400" z="0.447100" />
+          <Heading value="-2.428000" />
+          <BoneName />
+        </Item>
+        <Item>
+          <LocationType>DRIVER_SEAT_RELATIVE</LocationType>
+          <PointType>GET_OUT</PointType>
+          <Position x="0.340000" y="-0.975000" z="0.448000" />
+          <Heading value="1.578000" />
+          <BoneName />
+        </Item>
+      </ExtraVehiclePoints>
+    </Item>
+    <Item type="CVehicleExtraPointsInfo">
+      <Name>EXTRA_VEHICLE_POINTS_BLINDADOMIKE_LEFT_REAR</Name>
+      <ExtraVehiclePoints>
+        <Item>
+          <LocationType>DRIVER_SEAT_RELATIVE</LocationType>
+          <PointType>GET_IN</PointType>
+          <Position x="0.097500" y="-3.582400" z="0.447100" />
+          <Heading value="0.428000" />
+          <BoneName />
+        </Item>
+        <Item>
+          <LocationType>DRIVER_SEAT_RELATIVE</LocationType>
+          <PointType>GET_OUT</PointType>
+          <Position x="0.140000" y="-2.775000" z="0.448000" />
+          <Heading value="3.148000" />
+          <BoneName />
+        </Item>
+      </ExtraVehiclePoints>
+    </Item>
+    <Item type="CVehicleExtraPointsInfo">
+      <Name>EXTRA_VEHICLE_POINTS_BLINDADOTURQ_DIREITO_3</Name>
+      <ExtraVehiclePoints>
+        <Item>
+          <LocationType>DRIVER_SEAT_RELATIVE</LocationType>
+          <PointType>GET_IN</PointType>
+          <Position x="1.197500" y="-3.582400" z="0.347100" />
+          <Heading value="0.428000" />
+          <BoneName />
+        </Item>
+        <Item>
+          <LocationType>DRIVER_SEAT_RELATIVE</LocationType>
+          <PointType>GET_OUT</PointType>
+          <Position x="1.140000" y="-3.375000" z="0.348000" />
+          <Heading value="3.148000" />
+          <BoneName />
+        </Item>
+      </ExtraVehiclePoints>
+    </Item>
+    <Item type="CVehicleExtraPointsInfo">
+      <Name>EXTRA_VEHICLE_POINTS_BLINDADOMIKE_LEFT_REAR2</Name>
+      <ExtraVehiclePoints>
+        <Item>
+          <LocationType>DRIVER_SEAT_RELATIVE</LocationType>
+          <PointType>GET_IN</PointType>
+          <Position x="0.097500" y="-3.582400" z="0.447100" />
+          <Heading value="3.148000" />
+          <BoneName />
+        </Item>
+        <Item>
+          <LocationType>DRIVER_SEAT_RELATIVE</LocationType>
+          <PointType>GET_OUT</PointType>
+          <Position x="-0.240000" y="-2.775000" z="0.448000" />
+          <Heading value="3.548000" />
+          <BoneName />
+        </Item>
+      </ExtraVehiclePoints>
+    </Item>
+    <Item type="CVehicleExtraPointsInfo">
+      <Name>EXTRA_VEHICLE_POINTS_BLINDADOMIKE_LEFT_REAR3</Name>
+      <ExtraVehiclePoints>
+        <Item>
+          <LocationType>DRIVER_SEAT_RELATIVE</LocationType>
+          <PointType>GET_IN</PointType>
+          <Position x="0.097500" y="-0.582400" z="0.447100" />
+          <Heading value="-0.428000" />
+          <BoneName />
+        </Item>
+        <Item>
+          <LocationType>DRIVER_SEAT_RELATIVE</LocationType>
+          <PointType>GET_OUT</PointType>
+          <Position x="0.340000" y="-0.775000" z="0.448000" />
+          <Heading value="-1.538000" />
+          <BoneName />
+        </Item>
+      </ExtraVehiclePoints>
+    </Item>
+    <Item type="CVehicleExtraPointsInfo">
+      <Name>EXTRA_VEHICLE_POINTS_BLINDADOMIKE_LEFT_REAR4</Name>
+      <ExtraVehiclePoints>
+        <Item>
+          <LocationType>DRIVER_SEAT_RELATIVE</LocationType>
+          <PointType>GET_IN</PointType>
+          <Position x="0.097500" y="-0.582400" z="0.447100" />
+          <Heading value="-0.428000" />
+          <BoneName />
+        </Item>
+        <Item>
+          <LocationType>DRIVER_SEAT_RELATIVE</LocationType>
+          <PointType>GET_OUT</PointType>
+          <Position x="0.340000" y="-0.775000" z="0.448000" />
+          <Heading value="-1.538000" />
+          <BoneName />
+        </Item>
+      </ExtraVehiclePoints>
+    </Item>
+    <Item type="CVehicleExtraPointsInfo">
+      <Name>EXTRA_VEHICLE_POINTS_BLINDADOMIKE_LEFT_REAR5</Name>
+      <ExtraVehiclePoints>
+        <Item>
+          <LocationType>DRIVER_SEAT_RELATIVE</LocationType>
+          <PointType>GET_IN</PointType>
+          <Position x="0.097500" y="-0.582400" z="0.447100" />
+          <Heading value="-0.428000" />
+          <BoneName />
+        </Item>
+        <Item>
+          <LocationType>DRIVER_SEAT_RELATIVE</LocationType>
+          <PointType>GET_OUT</PointType>
+          <Position x="0.340000" y="-0.775000" z="0.448000" />
+          <Heading value="-1.538000" />
+          <BoneName />
+        </Item>
+      </ExtraVehiclePoints>
+    </Item>
+    <Item type="CVehicleExtraPointsInfo">
+      <Name>EXTRA_VEHICLE_POINTS_BLINDADOMIKE_LEFT_REAR6</Name>
+      <ExtraVehiclePoints>
+        <Item>
+          <LocationType>DRIVER_SEAT_RELATIVE</LocationType>
+          <PointType>GET_IN</PointType>
+          <Position x="0.097500" y="-0.582400" z="0.447100" />
+          <Heading value="-0.428000" />
+          <BoneName />
+        </Item>
+        <Item>
+          <LocationType>DRIVER_SEAT_RELATIVE</LocationType>
+          <PointType>GET_OUT</PointType>
+          <Position x="0.340000" y="-0.775000" z="0.448000" />
+          <Heading value="-1.538000" />
+          <BoneName />
+        </Item>
+      </ExtraVehiclePoints>
+    </Item>
+    <Item type="CVehicleExtraPointsInfo">
+      <Name>EXTRA_VEHICLE_POINTS_BLINDADOMIKE_RIGHT_REAR3</Name>
+      <ExtraVehiclePoints>
+        <Item>
+          <LocationType>DRIVER_SEAT_RELATIVE</LocationType>
+          <PointType>GET_IN</PointType>
+          <Position x="0.797500" y="-3.582400" z="0.447100" />
+          <Heading value="0.428000" />
+          <BoneName />
+        </Item>
+        <Item>
+          <LocationType>DRIVER_SEAT_RELATIVE</LocationType>
+          <PointType>GET_OUT</PointType>
+          <Position x="0.940000" y="-2.775000" z="0.448000" />
+          <Heading value="3.148000" />
+          <BoneName />
+        </Item>
+      </ExtraVehiclePoints>
+    </Item>
+    <Item type="CVehicleExtraPointsInfo">
+      <Name>EXTRA_VEHICLE_POINTS_BLINDADOMIKE_RIGHT_REAR4</Name>
+      <ExtraVehiclePoints>
+        <Item>
+          <LocationType>DRIVER_SEAT_RELATIVE</LocationType>
+          <PointType>GET_IN</PointType>
+          <Position x="0.797500" y="-3.582400" z="0.447100" />
+          <Heading value="0.428000" />
+          <BoneName />
+        </Item>
+        <Item>
+          <LocationType>DRIVER_SEAT_RELATIVE</LocationType>
+          <PointType>GET_OUT</PointType>
+          <Position x="0.940000" y="-2.775000" z="0.448000" />
+          <Heading value="3.048000" />
+          <BoneName />
+        </Item>
+      </ExtraVehiclePoints>
+    </Item>
+  </VehicleExtraPointsInfos>
+  <VehicleDriveByAnimInfos>
+    <Item type="CVehicleDriveByAnimInfo">
+      <Name>BLINDADO_DB_ANIM_INFO_TWO_HANDED_DS</Name>
+      <WeaponGroup ref="DRIVEBY_DEFAULT_TWO_HANDED" />
+      <DriveByClipSet>anim@veh@driveby@plane@luxor2@rear_ps@1h</DriveByClipSet>
+      <FirstPersonDriveByClipSet />
+      <AltFirstPersonDriveByClipSets />
+      <Network>STD_CAR_DRIVEBY</Network>
+    </Item>
+    <Item type="CVehicleDriveByAnimInfo">
+      <Name>BLINDADOTORRE_DB_ANIM_INFO_TWO_HANDED_DS</Name>
+      <WeaponGroup ref="DRIVEBY_DEFAULT_TWO_HANDED" />
+      <DriveByClipSet>drive_by@boat_predator_ps</DriveByClipSet>
+      <FirstPersonDriveByClipSet />
+      <AltFirstPersonDriveByClipSets />
+      <Network>STD_CAR_DRIVEBY</Network>
+    </Item>
+  </VehicleDriveByAnimInfos>
+  <VehicleDriveByInfos>
+    <Item type="CVehicleDriveByInfo">
+      <Name>DRIVEBY_BLINDADO_REAR</Name>
+      <MinAimSweepHeadingAngleDegs value="-50.000000" />
+      <MaxAimSweepHeadingAngleDegs value="50.000000" />
+	  <FirstPersonMinAimSweepHeadingAngleDegs value="-50.000000" />
+	  <FirstPersonMaxAimSweepHeadingAngleDegs value="50.000000" />
+	  <FirstPersonUnarmedMinAimSweepHeadingAngleDegs value="-50.000000" />
+	  <FirstPersonUnarmedMaxAimSweepHeadingAngleDegs value="50.000000" />
+      <MinRestrictedAimSweepHeadingAngleDegs value="-50.000000" />
+      <MaxRestrictedAimSweepHeadingAngleDegs value="50.000000" />
+      <MinSmashWindowAngleDegs value="-180.000000" />
+      <MaxSmashWindowAngleDegs value="0.000000" />
+	  <MinSmashWindowAngleFirstPersonDegs value="-180.000000" />
+      <MaxSmashWindowAngleFirstPersonDegs value="0.000000" />
+      <MaxSpeedParam value="0.500000" />
+      <MaxLongitudinalLeanBlendWeightDelta value="0.250000" />
+      <MaxLateralLeanBlendWeightDelta value="0.250000" />
+      <ApproachSpeedToWithinMaxBlendDelta value="1.000000" />
+      <SpineAdditiveBlendInDelay value="0.050000" />
+      <SpineAdditiveBlendInDurationStill value="0.150000" />
+      <SpineAdditiveBlendInDuration value="0.750000" />
+      <SpineAdditiveBlendOutDelay value="0.000000" />
+      <SpineAdditiveBlendOutDuration value="0.500000" />
+      <DriveByAnimInfos>
+        <Item ref="BLINDADO_DB_ANIM_INFO_TWO_HANDED_DS" />
+      </DriveByAnimInfos>
+      <DriveByCamera />
+      <DriveByFlags>UsePedAsCamEntity</DriveByFlags>
+    </Item>
+    <Item type="CVehicleDriveByInfo">
+      <Name>DRIVEBY_BLINDADO_TORRE</Name>
+      <MinAimSweepHeadingAngleDegs value="-50.000000" />
+      <MaxAimSweepHeadingAngleDegs value="50.000000" />
+	  <FirstPersonMinAimSweepHeadingAngleDegs value="-50.000000" />
+	  <FirstPersonMaxAimSweepHeadingAngleDegs value="50.000000" />
+	  <FirstPersonUnarmedMinAimSweepHeadingAngleDegs value="-50.000000" />
+	  <FirstPersonUnarmedMaxAimSweepHeadingAngleDegs value="50.000000" />
+      <MinRestrictedAimSweepHeadingAngleDegs value="-50.000000" />
+      <MaxRestrictedAimSweepHeadingAngleDegs value="50.000000" />
+      <MinSmashWindowAngleDegs value="-180.000000" />
+      <MaxSmashWindowAngleDegs value="0.000000" />
+	  <MinSmashWindowAngleFirstPersonDegs value="-180.000000" />
+      <MaxSmashWindowAngleFirstPersonDegs value="0.000000" />
+      <MaxSpeedParam value="0.500000" />
+      <MaxLongitudinalLeanBlendWeightDelta value="0.250000" />
+      <MaxLateralLeanBlendWeightDelta value="0.250000" />
+      <ApproachSpeedToWithinMaxBlendDelta value="1.000000" />
+      <SpineAdditiveBlendInDelay value="0.050000" />
+      <SpineAdditiveBlendInDurationStill value="0.150000" />
+      <SpineAdditiveBlendInDuration value="0.750000" />
+      <SpineAdditiveBlendOutDelay value="0.000000" />
+      <SpineAdditiveBlendOutDuration value="0.500000" />
+      <DriveByAnimInfos>
+        <Item ref="BLINDADOTORRE_DB_ANIM_INFO_TWO_HANDED_DS" />
+      </DriveByAnimInfos>
+      <DriveByCamera />
+      <DriveByFlags>UsePedAsCamEntity</DriveByFlags>
+    </Item>
+  </VehicleDriveByInfos>
+  <VehicleSeatInfos>
+    <Item type="CVehicleSeatInfo">
+      <Name>SEAT_STANDARD_BLINDADO_FRONT_LEFT</Name>
+      <SeatBoneName>seat_dside_f</SeatBoneName>
+      <ShuffleLink />
+      <RearSeatLink />
+      <DefaultCarTask>TASK_DRIVE_WANDER</DefaultCarTask>
+      <SeatFlags>IsFrontSeat</SeatFlags>
+      <HairScale value="0.000000" />
+    </Item>
+    <Item type="CVehicleSeatInfo">
+      <Name>SEAT_STANDARD_BLINDADO_FRONT_RIGHT</Name>
+      <SeatBoneName>seat_pside_f</SeatBoneName>
+      <ShuffleLink />
+      <RearSeatLink />
+      <DefaultCarTask>TASK_DRIVE_WANDER</DefaultCarTask>
+      <SeatFlags>IsFrontSeat</SeatFlags>
+      <HairScale value="0.000000" />
+    </Item>
+    <Item type="CVehicleSeatInfo">
+      <Name>SEAT_STANDARD_BLINDADO_REAR_LEFT</Name>
+      <SeatBoneName>seat_dside_r</SeatBoneName>
+      <ShuffleLink />
+      <RearSeatLink />
+      <DefaultCarTask>TASK_DRIVE_WANDER</DefaultCarTask>
+      <SeatFlags />
+      <HairScale value="0.000000" />
+    </Item>
+    <Item type="CVehicleSeatInfo">
+      <Name>SEAT_STANDARD_BLINDADO_REAR_LEFT_1</Name>
+      <SeatBoneName>seat_dside_r1</SeatBoneName>
+      <ShuffleLink />
+      <RearSeatLink />
+      <DefaultCarTask>TASK_DRIVE_WANDER</DefaultCarTask>
+      <SeatFlags />
+      <HairScale value="0.000000" />
+    </Item>
+    <Item type="CVehicleSeatInfo">
+      <Name>SEAT_STANDARD_BLINDADO_REAR_LEFT_2</Name>
+      <SeatBoneName>seat_dside_r2</SeatBoneName>
+      <ShuffleLink />
+      <RearSeatLink />
+      <DefaultCarTask>TASK_DRIVE_WANDER</DefaultCarTask>
+      <SeatFlags />
+      <HairScale value="0.000000" />
+    </Item>
+    <Item type="CVehicleSeatInfo">
+      <Name>SEAT_STANDARD_BLINDADO_REAR_LEFT_3</Name>
+      <SeatBoneName>seat_dside_r3</SeatBoneName>
+      <ShuffleLink />
+      <RearSeatLink />
+      <DefaultCarTask>TASK_DRIVE_WANDER</DefaultCarTask>
+      <SeatFlags />
+      <HairScale value="0.000000" />
+    </Item>
+    <Item type="CVehicleSeatInfo">
+      <Name>SEAT_STANDARD_BLINDADO_REAR_RIGHT</Name>
+      <SeatBoneName>seat_pside_r</SeatBoneName>
+      <ShuffleLink>SEAT_STANDARD_BLINDADO_REAR_RIGHT_4</ShuffleLink>
+      <RearSeatLink />
+      <DefaultCarTask>TASK_DRIVE_WANDER</DefaultCarTask>
+      <SeatFlags />
+      <HairScale value="0.000000" />
+	  <ShuffleLink2>SEAT_STANDARD_BLINDADO_REAR_LEFT</ShuffleLink2>
+    </Item>
+    <Item type="CVehicleSeatInfo">
+      <Name>SEAT_STANDARD_BLINDADO_REAR_RIGHT_1</Name>
+      <SeatBoneName>seat_pside_r1</SeatBoneName>
+      <ShuffleLink />
+      <RearSeatLink />
+      <DefaultCarTask>TASK_DRIVE_WANDER</DefaultCarTask>
+      <SeatFlags />
+      <HairScale value="0.000000" />
+    </Item>
+    <Item type="CVehicleSeatInfo">
+      <Name>SEAT_STANDARD_BLINDADO_REAR_RIGHT_2</Name>
+      <SeatBoneName>seat_pside_r2</SeatBoneName>
+      <ShuffleLink />
+      <RearSeatLink />
+      <DefaultCarTask>TASK_DRIVE_WANDER</DefaultCarTask>
+      <SeatFlags />
+      <HairScale value="0.000000" />
+    </Item>
+    <Item type="CVehicleSeatInfo">
+      <Name>SEAT_STANDARD_BLINDADO_REAR_RIGHT_3</Name>
+      <SeatBoneName>seat_pside_r3</SeatBoneName>
+      <ShuffleLink />
+      <RearSeatLink />
+      <DefaultCarTask>TASK_DRIVE_WANDER</DefaultCarTask>
+      <SeatFlags />
+      <HairScale value="0.000000" />
+    </Item>
+    <Item type="CVehicleSeatInfo">
+      <Name>SEAT_STANDARD_BLINDADO_REAR_RIGHT_4</Name>
+      <SeatBoneName>seat_pside_r4</SeatBoneName>
+      <ShuffleLink />
+      <RearSeatLink />
+      <DefaultCarTask>TASK_DRIVE_WANDER</DefaultCarTask>
+      <SeatFlags />
+      <HairScale value="0.000000" />
+    </Item>
+    <Item type="CVehicleSeatInfo">
+      <Name>SEAT_STANDARD_BLINDADO_TORRE_RIGHT_4</Name>
+      <SeatBoneName>seat_pside_r4</SeatBoneName>
+      <ShuffleLink />
+      <RearSeatLink />
+      <DefaultCarTask>TASK_DRIVE_WANDER</DefaultCarTask>
+      <SeatFlags />
+      <HairScale value="0.000000" />
+    </Item>
+    <Item type="CVehicleSeatInfo">
+      <Name>SEAT_STANDARD_BLINDADO_REAR_LEFT_4</Name>
+      <SeatBoneName>seat_dside_r4</SeatBoneName>
+      <ShuffleLink />
+      <RearSeatLink />
+      <DefaultCarTask>TASK_DRIVE_WANDER</DefaultCarTask>
+      <SeatFlags />
+      <HairScale value="0.000000" />
+    </Item>
+    <Item type="CVehicleSeatInfo">
+      <Name>SEAT_STANDARD_BLINDADO_TORRE_LEFT_4</Name>
+      <SeatBoneName>seat_dside_r4</SeatBoneName>
+      <ShuffleLink />
+      <RearSeatLink />
+      <DefaultCarTask>TASK_DRIVE_WANDER</DefaultCarTask>
+      <SeatFlags />
+      <HairScale value="0.000000" />
+    </Item>
+    <Item type="CVehicleSeatInfo">
+      <Name>SEAT_STANDARD_BLINDADO_TORRE_RIGHT_5</Name>
+      <SeatBoneName>seat_pside_r5</SeatBoneName>
+      <ShuffleLink />
+      <RearSeatLink />
+      <DefaultCarTask>TASK_DRIVE_WANDER</DefaultCarTask>
+      <SeatFlags />
+      <HairScale value="0.000000" />
+    </Item>
+    <Item type="CVehicleSeatInfo">
+      <Name>SEAT_STANDARD_BLINDADO_TORRE_LEFT_5</Name>
+      <SeatBoneName>seat_dside_r5</SeatBoneName>
+      <ShuffleLink />
+      <RearSeatLink />
+      <DefaultCarTask>TASK_DRIVE_WANDER</DefaultCarTask>
+      <SeatFlags />
+      <HairScale value="0.000000" />
+    </Item>
+  </VehicleSeatInfos>
+  <VehicleSeatAnimInfos>
+    <Item type="CVehicleSeatAnimInfo">
+      <Name>SEAT_ANIM_BLINDADO_FRONT_LEFT</Name>
+      <DriveByInfo ref="NULL" />
+      <InsideClipSetMap ref="INSIDE_CLIPSET_MAP_BLINDADO_DRIVER" />
+      <PanicClipSet>clipset@veh@bus@bus@driver@idle_panic</PanicClipSet>
+      <AgitatedClipSet />
+	  <DuckedClipSet>clipset@veh@bus@bus@driver@idle_duck</DuckedClipSet>
+      <LowLODIdleAnim>BUS_DRIVER</LowLODIdleAnim>
+      <SeatAmbientContext>IN_TOURBUS</SeatAmbientContext>
+      <InVehicleMoveNetwork>VEHICLE_DEFAULT</InVehicleMoveNetwork>
+      <SeatAnimFlags>CannotBeJacked UseStandardInVehicleAnims PreventShuffleJack DisableAbnormalExits</SeatAnimFlags>
+      <SteeringSmoothing value="0.050000" />
+      <ExitToAimInfoName />
+      <MaleGestureClipSetId />
+      <FemaleGestureClipSetId />
+    </Item>
+    <Item type="CVehicleSeatAnimInfo">
+      <Name>SEAT_ANIM_BLINDADO_FRONT_RIGHT</Name>
+      <DriveByInfo ref="DRIVEBY_BLINDADO_REAR" />
+      <InsideClipSetMap ref="INSIDE_CLIPSET_MAP_BLINDADO_FRONT_RIGHT" />
+      <PanicClipSet>clipset@veh@truck@ps@idle_panic</PanicClipSet>
+      <AgitatedClipSet />
+	  <DuckedClipSet>clipset@veh@truck@ps@idle_duck</DuckedClipSet>
+      <LowLODIdleAnim>TRUCK_FRONT_PS_IDLE</LowLODIdleAnim>
+      <SeatAmbientContext>IN_TRUCK</SeatAmbientContext>
+      <InVehicleMoveNetwork>VEHICLE_DEFAULT</InVehicleMoveNetwork>
+      <SeatAnimFlags>CannotBeJacked UseStandardInVehicleAnims PreventShuffleJack DisableAbnormalExits</SeatAnimFlags>
+      <SteeringSmoothing value="0.100000" />
+      <ExitToAimInfoName />
+      <MaleGestureClipSetId />
+      <FemaleGestureClipSetId />
+    </Item>
+    <Item type="CVehicleSeatAnimInfo">
+      <Name>SEAT_ANIM_BLINDADO_REAR_LEFT_1</Name>
+      <DriveByInfo ref="DRIVEBY_BLINDADO_REAR" />
+      <InsideClipSetMap ref="INSIDE_CLIPSET_MAP_BLINDADO_FRONT_RIGHT" />
+      <PanicClipSet>clipset@veh@truck@ps@idle_panic</PanicClipSet>
+      <AgitatedClipSet />
+	  <DuckedClipSet>clipset@veh@truck@ps@idle_duck</DuckedClipSet>
+      <LowLODIdleAnim>TRUCK_FRONT_PS_IDLE</LowLODIdleAnim>
+      <SeatAmbientContext>IN_TRUCK</SeatAmbientContext>
+      <InVehicleMoveNetwork>VEHICLE_DEFAULT</InVehicleMoveNetwork>
+      <SeatAnimFlags>CannotBeJacked UseStandardInVehicleAnims PreventShuffleJack DisableAbnormalExits</SeatAnimFlags>
+      <SteeringSmoothing value="0.100000" />
+      <ExitToAimInfoName />
+      <MaleGestureClipSetId />
+      <FemaleGestureClipSetId />
+    </Item>
+    <Item type="CVehicleSeatAnimInfo">
+      <Name>SEAT_ANIM_BLINDADOTURQ_REAR_LEFT_1</Name>
+      <DriveByInfo ref="NULL" />
+      <InsideClipSetMap ref="INSIDE_CLIPSET_MAP_VAN_REAR_RIGHT" />
+      <PanicClipSet>clipset@veh@truck@ps@idle_panic</PanicClipSet>
+      <AgitatedClipSet />
+	  <DuckedClipSet>clipset@veh@truck@ps@idle_duck</DuckedClipSet>
+      <LowLODIdleAnim>TRUCK_FRONT_PS_IDLE</LowLODIdleAnim>
+      <SeatAmbientContext>IN_TRUCK</SeatAmbientContext>
+      <InVehicleMoveNetwork>VEHICLE_DEFAULT</InVehicleMoveNetwork>
+      <SeatAnimFlags>CannotBeJacked UseStandardInVehicleAnims PreventShuffleJack DisableAbnormalExits</SeatAnimFlags>
+      <SteeringSmoothing value="0.100000" />
+      <ExitToAimInfoName />
+      <MaleGestureClipSetId />
+      <FemaleGestureClipSetId />
+    </Item>
+    <Item type="CVehicleSeatAnimInfo">
+      <Name>SEAT_ANIM_BLINDADOTURQ_FIEL_RIGHT</Name>
+      <DriveByInfo ref="NULL" />
+      <InsideClipSetMap ref="INSIDE_CLIPSET_MAP_PLANE_SEAPLANE_SIDE_RIGHT" />
+      <PanicClipSet>clipset@veh@truck@ps@idle_panic</PanicClipSet>
+      <AgitatedClipSet />
+	  <DuckedClipSet>clipset@veh@truck@ps@idle_duck</DuckedClipSet>
+      <LowLODIdleAnim>TRUCK_FRONT_PS_IDLE</LowLODIdleAnim>
+      <SeatAmbientContext>IN_TRUCK</SeatAmbientContext>
+      <InVehicleMoveNetwork>VEHICLE_DEFAULT</InVehicleMoveNetwork>
+      <SeatAnimFlags>CannotBeJacked UseStandardInVehicleAnims PreventShuffleJack DisableAbnormalExits</SeatAnimFlags>
+      <SteeringSmoothing value="0.100000" />
+      <ExitToAimInfoName />
+      <MaleGestureClipSetId />
+      <FemaleGestureClipSetId />
+    </Item>
+    <Item type="CVehicleSeatAnimInfo">
+      <Name>SEAT_ANIM_BLINDADOTURQ_FIEL_LEFT</Name>
+      <DriveByInfo ref="NULL" />
+      <InsideClipSetMap ref="INSIDE_CLIPSET_MAP_PLANE_SEAPLANE_SIDE_LEFT" />
+      <PanicClipSet>clipset@veh@truck@ps@idle_panic</PanicClipSet>
+      <AgitatedClipSet />
+	  <DuckedClipSet>clipset@veh@truck@ps@idle_duck</DuckedClipSet>
+      <LowLODIdleAnim>TRUCK_FRONT_PS_IDLE</LowLODIdleAnim>
+      <SeatAmbientContext>IN_TRUCK</SeatAmbientContext>
+      <InVehicleMoveNetwork>VEHICLE_DEFAULT</InVehicleMoveNetwork>
+      <SeatAnimFlags>CannotBeJacked UseStandardInVehicleAnims PreventShuffleJack DisableAbnormalExits</SeatAnimFlags>
+      <SteeringSmoothing value="0.100000" />
+      <ExitToAimInfoName />
+      <MaleGestureClipSetId />
+      <FemaleGestureClipSetId />
+    </Item>
+    <Item type="CVehicleSeatAnimInfo">
+      <Name>SEAT_ANIM_DEITADO_REAR_RIGHT</Name>
+      <DriveByInfo ref="NULL" />
+      <InsideClipSetMap ref="INSIDE_CLIPSET_MAP_DEITADO_REAR" />
+      <PanicClipSet />
+      <AgitatedClipSet />
+	  <DuckedClipSet />
+      <LowLODIdleAnim>VAN_REAR_DS_IDLE</LowLODIdleAnim>
+      <SeatAmbientContext />
+      <InVehicleMoveNetwork>VEHICLE_DEFAULT</InVehicleMoveNetwork>
+      <SeatAnimFlags>UseStandardInVehicleAnims PreventShuffleJack UseCloseDoorBlendAnims</SeatAnimFlags>
+      <SteeringSmoothing value="0.100000" />
+      <ExitToAimInfoName />
+      <MaleGestureClipSetId />
+      <FemaleGestureClipSetId />
+    </Item>
+    <Item type="CVehicleEntryPointInfo">
+      <Name>ENTRY_POINT_BLINDADOTURQ_REAR_LEFT</Name>
+      <DoorBoneName>door_pside_f</DoorBoneName>
+      <SecondDoorBoneName />
+      <DoorHandleBoneName>handle_pside_f</DoorHandleBoneName>
+      <WindowId>INVALID</WindowId>
+      <VehicleSide>SIDE_RIGHT</VehicleSide>
+      <AccessableSeats>
+        <Item ref="SEAT_STANDARD_BLINDADO_REAR_LEFT" />
+      </AccessableSeats>
+      <VehicleExtraPointsInfo ref="EXTRA_VEHICLE_POINTS_BLINDADOMIKE_RIGHT" />
+      <Flags>IgnoreSmashWindowCheck</Flags>
+      <BlockJackReactionSides />
+    </Item>
+    <Item type="CVehicleSeatAnimInfo">
+      <Name>SEAT_ANIM_BLINDADO_REAR_RIGHT</Name>
+      <DriveByInfo ref="DRIVEBY_BLINDADO_REAR" />
+      <InsideClipSetMap ref="INSIDE_CLIPSET_MAP_BLINDADO_FRONT_RIGHT" />
+      <PanicClipSet>clipset@veh@truck@ps@idle_panic</PanicClipSet>
+      <AgitatedClipSet />
+	  <DuckedClipSet>clipset@veh@truck@ps@idle_duck</DuckedClipSet>
+      <LowLODIdleAnim>TRUCK_FRONT_PS_IDLE</LowLODIdleAnim>
+      <SeatAmbientContext>IN_TRUCK</SeatAmbientContext>
+      <InVehicleMoveNetwork>VEHICLE_DEFAULT</InVehicleMoveNetwork>
+      <SeatAnimFlags>CannotBeJacked UseStandardInVehicleAnims DisableAbnormalExits</SeatAnimFlags>
+      <SteeringSmoothing value="0.100000" />
+      <ExitToAimInfoName />
+      <MaleGestureClipSetId />
+      <FemaleGestureClipSetId />
+    </Item>
+    <Item type="CVehicleSeatAnimInfo">
+      <Name>SEAT_ANIM_BLINDADOMIKE_TORRE_FRONT</Name>
+      <DriveByInfo ref="DRIVEBY_BLINDADO_TORRE" />
+      <InsideClipSetMap ref="INSIDE_CLIPSET_MAP_BLINDADOMIKE_TORRE" />
+      <PanicClipSet />
+      <AgitatedClipSet />
+      <DuckedClipSet>clipset@veh@boat@predator@ds@idle_duck</DuckedClipSet>
+      <FemaleClipSet />
+      <LowriderLeanClipSet />
+      <AltLowriderLeanClipSet />
+      <LowLODIdleAnim>BOAT_STANDING</LowLODIdleAnim>
+      <SeatAmbientContext />
+      <InVehicleMoveNetwork>VEHICLE_DEFAULT</InVehicleMoveNetwork>
+      <SeatAnimFlags>CannotBeJacked UseBoatInVehicleAnims DisableAbnormalExits</SeatAnimFlags>
+      <SteeringSmoothing value="0.100000" />
+      <ExitToAimInfoName />
+      <MaleGestureClipSetId />
+      <FemaleGestureClipSetId />
+    </Item>
+  </VehicleSeatAnimInfos>
+  <VehicleEntryPointInfos>
+    <Item type="CVehicleEntryPointInfo">
+      <Name>ENTRY_POINT_BLINDADO_FRONT_LEFT</Name>
+      <DoorBoneName>door_dside_f</DoorBoneName>
+      <SecondDoorBoneName />
+      <DoorHandleBoneName>handle_dside_f</DoorHandleBoneName>
+      <WindowId>INVALID</WindowId>
+      <VehicleSide>SIDE_LEFT</VehicleSide>
+      <AccessableSeats>
+        <Item ref="SEAT_STANDARD_BLINDADO_FRONT_LEFT" />
+      </AccessableSeats>
+      <VehicleExtraPointsInfo ref="NULL" />
+      <Flags>IgnoreSmashWindowCheck</Flags>
+      <BlockJackReactionSides />
+    </Item>
+    <Item type="CVehicleEntryPointInfo">
+      <Name>ENTRY_POINT_BLINDADOMIKE_FRONT_LEFT</Name>
+      <DoorBoneName>door_dside_f</DoorBoneName>
+      <SecondDoorBoneName />
+      <DoorHandleBoneName>handle_dside_f</DoorHandleBoneName>
+      <WindowId>INVALID</WindowId>
+      <VehicleSide>SIDE_LEFT</VehicleSide>
+      <AccessableSeats>
+        <Item ref="SEAT_STANDARD_BLINDADO_FRONT_LEFT" />
+      </AccessableSeats>
+      <VehicleExtraPointsInfo ref="EXTRA_VEHICLE_POINTS_BLINDADOMIKE" />
+      <Flags>IgnoreSmashWindowCheck</Flags>
+      <BlockJackReactionSides />
+    </Item>
+    <Item type="CVehicleEntryPointInfo">
+      <Name>ENTRY_POINT_BLINDADO_FRONT_RIGHT</Name>
+      <DoorBoneName>door_pside_f</DoorBoneName>
+      <SecondDoorBoneName />
+      <DoorHandleBoneName>handle_pside_f</DoorHandleBoneName>
+      <WindowId>INVALID</WindowId>
+      <VehicleSide>SIDE_RIGHT</VehicleSide>
+      <AccessableSeats>
+        <Item ref="SEAT_STANDARD_BLINDADO_FRONT_RIGHT" />
+      </AccessableSeats>
+      <VehicleExtraPointsInfo ref="NULL" />
+      <Flags>SPEntryAllowedAlso IgnoreSmashWindowCheck</Flags>
+      <BlockJackReactionSides />
+    </Item>
+    <Item type="CVehicleEntryPointInfo">
+      <Name>ENTRY_POINT_BLINDADOMIKE_FRONT_RIGHT</Name>
+      <DoorBoneName>door_pside_f</DoorBoneName>
+      <SecondDoorBoneName />
+      <DoorHandleBoneName>handle_pside_f</DoorHandleBoneName>
+      <WindowId>INVALID</WindowId>
+      <VehicleSide>SIDE_RIGHT</VehicleSide>
+      <AccessableSeats>
+        <Item ref="SEAT_STANDARD_BLINDADO_FRONT_RIGHT" />
+      </AccessableSeats>
+      <VehicleExtraPointsInfo ref="EXTRA_VEHICLE_POINTS_BLINDADOMIKE_RIGHT" />
+      <Flags>SPEntryAllowedAlso IgnoreSmashWindowCheck</Flags>
+      <BlockJackReactionSides />
+    </Item>
+    <Item type="CVehicleEntryPointInfo">
+      <Name>ENTRY_POINT_BLINDADOTURQ_FRONT_RIGHT</Name>
+      <DoorBoneName>door_pside_f</DoorBoneName>
+      <SecondDoorBoneName />
+      <DoorHandleBoneName>handle_pside_f</DoorHandleBoneName>
+      <WindowId>INVALID</WindowId>
+      <VehicleSide>SIDE_RIGHT</VehicleSide>
+      <AccessableSeats>
+        <Item ref="SEAT_STANDARD_BLINDADO_FRONT_RIGHT" />
+      </AccessableSeats>
+      <VehicleExtraPointsInfo ref="EXTRA_VEHICLE_POINTS_BLINDADOTURQ_CARONA" />
+      <Flags>SPEntryAllowedAlso IgnoreSmashWindowCheck</Flags>
+      <BlockJackReactionSides />
+    </Item>
+    <Item type="CVehicleEntryPointInfo">
+      <Name>ENTRY_POINT_BLINDADO_REAR_LEFT</Name>
+      <DoorBoneName>door_pside_r</DoorBoneName>
+      <SecondDoorBoneName>door_dside_r</SecondDoorBoneName>
+      <DoorHandleBoneName>handle_pside_r</DoorHandleBoneName>
+      <WindowId>INVALID</WindowId>
+      <VehicleSide>SIDE_RIGHT</VehicleSide>
+      <AccessableSeats>
+        <Item ref="SEAT_STANDARD_BLINDADO_REAR_LEFT" />
+      </AccessableSeats>
+      <VehicleExtraPointsInfo ref="NULL" />
+      <Flags>SPEntryAllowedAlso IgnoreSmashWindowCheck</Flags>
+      <BlockJackReactionSides />
+    </Item>
+    <Item type="CVehicleEntryPointInfo">
+      <Name>ENTRY_POINT_BLINDADOMIKE_REAR_LEFT</Name>
+      <DoorBoneName>door_dside_f</DoorBoneName>
+      <SecondDoorBoneName />
+      <DoorHandleBoneName>handle_dside_f</DoorHandleBoneName>
+      <WindowId>INVALID</WindowId>
+      <VehicleSide>SIDE_LEFT</VehicleSide>
+      <AccessableSeats>
+        <Item ref="SEAT_STANDARD_BLINDADO_REAR_LEFT" />
+      </AccessableSeats>
+      <VehicleExtraPointsInfo ref="EXTRA_VEHICLE_POINTS_BLINDADOMIKE_RIGHT_REAR" />
+      <Flags>IgnoreSmashWindowCheck</Flags>
+      <BlockJackReactionSides />
+    </Item>
+    <Item type="CVehicleEntryPointInfo">
+      <Name>ENTRY_POINT_BLINDADOTURQ_DIREITO</Name>
+      <DoorBoneName>door_pside_f</DoorBoneName>
+      <SecondDoorBoneName />
+      <DoorHandleBoneName>handle_pside_f</DoorHandleBoneName>
+      <WindowId>INVALID</WindowId>
+      <VehicleSide>SIDE_RIGHT</VehicleSide>
+      <AccessableSeats>
+        <Item ref="SEAT_STANDARD_BLINDADO_REAR_LEFT" />
+      </AccessableSeats>
+      <VehicleExtraPointsInfo ref="EXTRA_VEHICLE_POINTS_BLINDADOTURQ_DIREITO" />
+      <Flags>IgnoreSmashWindowCheck</Flags>
+      <BlockJackReactionSides />
+    </Item>
+    <Item type="CVehicleEntryPointInfo">
+      <Name>ENTRY_POINT_BLINDADOMIKE_REAR_LEFT_1</Name>
+      <DoorBoneName>door_dside_f</DoorBoneName>
+      <SecondDoorBoneName />
+      <DoorHandleBoneName>handle_dside_f</DoorHandleBoneName>
+      <WindowId>INVALID</WindowId>
+      <VehicleSide>SIDE_LEFT</VehicleSide>
+      <AccessableSeats>
+        <Item ref="SEAT_STANDARD_BLINDADO_REAR_LEFT_1" />
+      </AccessableSeats>
+      <VehicleExtraPointsInfo ref="EXTRA_VEHICLE_POINTS_BLINDADOMIKE_RIGHT_REAR2" />
+      <Flags>IgnoreSmashWindowCheck</Flags>
+      <BlockJackReactionSides />
+    </Item>
+    <Item type="CVehicleEntryPointInfo">
+      <Name>ENTRY_POINT_BLINDADOTURQ_REAR_LEFT_1</Name>
+      <DoorBoneName>door_dside_f</DoorBoneName>
+      <SecondDoorBoneName />
+      <DoorHandleBoneName>handle_dside_f</DoorHandleBoneName>
+      <WindowId>INVALID</WindowId>
+      <VehicleSide>SIDE_RIGHT</VehicleSide>
+      <AccessableSeats>
+        <Item ref="SEAT_STANDARD_BLINDADO_REAR_LEFT_1" />
+      </AccessableSeats>
+      <VehicleExtraPointsInfo ref="EXTRA_VEHICLE_POINTS_BLINDADOTURQ_DIREITO_2" />
+      <Flags>IgnoreSmashWindowCheck</Flags>
+      <BlockJackReactionSides />
+    </Item>
+    <Item type="CVehicleEntryPointInfo">
+      <Name>ENTRY_POINT_BLINDADO_REAR_LEFT_1</Name>
+      <DoorBoneName>door_pside_r</DoorBoneName>
+      <SecondDoorBoneName>door_dside_r</SecondDoorBoneName>
+      <DoorHandleBoneName>handle_pside_r</DoorHandleBoneName>
+      <WindowId>INVALID</WindowId>
+      <VehicleSide>SIDE_RIGHT</VehicleSide>
+      <AccessableSeats>
+        <Item ref="SEAT_STANDARD_BLINDADO_REAR_LEFT_1" />
+      </AccessableSeats>
+      <VehicleExtraPointsInfo ref="NULL" />
+      <Flags>SPEntryAllowedAlso IgnoreSmashWindowCheck</Flags>
+      <BlockJackReactionSides />
+    </Item>
+    <Item type="CVehicleEntryPointInfo">
+      <Name>ENTRY_POINT_BLINDADO_REAR_LEFT_2</Name>
+      <DoorBoneName>boot</DoorBoneName>
+      <SecondDoorBoneName />
+      <DoorHandleBoneName />
+      <WindowId>INVALID</WindowId>
+      <VehicleSide>SIDE_LEFT</VehicleSide>
+      <AccessableSeats>
+        <Item ref="SEAT_STANDARD_BLINDADO_REAR_LEFT_2" />
+      </AccessableSeats>
+      <VehicleExtraPointsInfo ref="NULL" />
+      <Flags>SPEntryAllowedAlso IgnoreSmashWindowCheck</Flags>
+      <BlockJackReactionSides />
+    </Item>
+    <Item type="CVehicleEntryPointInfo">
+      <Name>ENTRY_POINT_BLINDADOMIKE_REAR_LEFT_2</Name>
+      <DoorBoneName>door_dside_r</DoorBoneName>
+      <SecondDoorBoneName />
+      <DoorHandleBoneName>handle_dside_r</DoorHandleBoneName>
+      <WindowId>INVALID</WindowId>
+      <VehicleSide>SIDE_LEFT</VehicleSide>
+      <AccessableSeats>
+        <Item ref="SEAT_STANDARD_BLINDADO_REAR_LEFT_2" />
+      </AccessableSeats>
+      <VehicleExtraPointsInfo ref="EXTRA_VEHICLE_POINTS_BLINDADOMIKE_LEFT_REAR" />
+      <Flags>SPEntryAllowedAlso IgnoreSmashWindowCheck</Flags>
+      <BlockJackReactionSides />
+    </Item>
+    <Item type="CVehicleEntryPointInfo">
+      <Name>ENTRY_POINT_BLINDADOTURQ_REAR_LEFT_2</Name>
+      <DoorBoneName>door_pside_r</DoorBoneName>
+      <SecondDoorBoneName />
+      <DoorHandleBoneName>handle_pside_r</DoorHandleBoneName>
+      <WindowId>INVALID</WindowId>
+      <VehicleSide>SIDE_RIGHT</VehicleSide>
+      <AccessableSeats>
+        <Item ref="SEAT_STANDARD_BLINDADO_REAR_LEFT_2" />
+      </AccessableSeats>
+      <VehicleExtraPointsInfo ref="EXTRA_VEHICLE_POINTS_BLINDADOTURQ_DIREITO_3" />
+      <Flags>SPEntryAllowedAlso IgnoreSmashWindowCheck</Flags>
+      <BlockJackReactionSides />
+    </Item>
+    <Item type="CVehicleEntryPointInfo">
+      <Name>ENTRY_POINT_BLINDADOMIKE_REAR_LEFT_3</Name>
+      <DoorBoneName>door_dside_r</DoorBoneName>
+      <SecondDoorBoneName />
+      <DoorHandleBoneName>handle_dside_r</DoorHandleBoneName>
+      <WindowId>INVALID</WindowId>
+      <VehicleSide>SIDE_LEFT</VehicleSide>
+      <AccessableSeats>
+        <Item ref="SEAT_STANDARD_BLINDADO_REAR_LEFT_3" />
+      </AccessableSeats>
+      <VehicleExtraPointsInfo ref="EXTRA_VEHICLE_POINTS_BLINDADOMIKE_LEFT_REAR2" />
+      <Flags>SPEntryAllowedAlso IgnoreSmashWindowCheck</Flags>
+      <BlockJackReactionSides />
+    </Item>
+    <Item type="CVehicleEntryPointInfo">
+      <Name>ENTRY_POINT_BLINDADOMIKE_REAR_LEFT_4</Name>
+      <DoorBoneName>door_pside_f</DoorBoneName>
+      <SecondDoorBoneName />
+      <DoorHandleBoneName>handle_dside_f</DoorHandleBoneName>
+      <WindowId>INVALID</WindowId>
+      <VehicleSide>SIDE_RIGHT</VehicleSide>
+      <AccessableSeats>
+        <Item ref="SEAT_STANDARD_BLINDADO_TORRE_LEFT_4" />
+      </AccessableSeats>
+      <VehicleExtraPointsInfo ref="EXTRA_VEHICLE_POINTS_BLINDADOMIKE_LEFT_REAR3" />
+      <Flags>SPEntryAllowedAlso IgnoreSmashWindowCheck</Flags>
+      <BlockJackReactionSides />
+    </Item>
+    <Item type="CVehicleEntryPointInfo">
+      <Name>ENTRY_POINT_BLINDADOMIKE_REAR_LEFT_5</Name>
+      <DoorBoneName>door_pside_f</DoorBoneName>
+      <SecondDoorBoneName />
+      <DoorHandleBoneName>handle_dside_f</DoorHandleBoneName>
+      <WindowId>INVALID</WindowId>
+      <VehicleSide>SIDE_RIGHT</VehicleSide>
+      <AccessableSeats>
+        <Item ref="SEAT_STANDARD_BLINDADO_TORRE_LEFT_5" />
+      </AccessableSeats>
+      <VehicleExtraPointsInfo ref="EXTRA_VEHICLE_POINTS_BLINDADOMIKE_LEFT_REAR4" />
+      <Flags>SPEntryAllowedAlso IgnoreSmashWindowCheck</Flags>
+      <BlockJackReactionSides />
+    </Item>
+    <Item type="CVehicleEntryPointInfo">
+      <Name>ENTRY_POINT_BLINDADOMIKE_REAR_RIGHT_4</Name>
+      <DoorBoneName>door_pside_f</DoorBoneName>
+      <SecondDoorBoneName />
+      <DoorHandleBoneName>handle_dside_f</DoorHandleBoneName>
+      <WindowId>INVALID</WindowId>
+      <VehicleSide>SIDE_RIGHT</VehicleSide>
+      <AccessableSeats>
+        <Item ref="SEAT_STANDARD_BLINDADO_TORRE_RIGHT_4" />
+      </AccessableSeats>
+      <VehicleExtraPointsInfo ref="EXTRA_VEHICLE_POINTS_BLINDADOMIKE_LEFT_REAR5" />
+      <Flags>SPEntryAllowedAlso IgnoreSmashWindowCheck</Flags>
+      <BlockJackReactionSides />
+    </Item>
+    <Item type="CVehicleEntryPointInfo">
+      <Name>ENTRY_POINT_BLINDADOMIKE_REAR_RIGHT_5</Name>
+      <DoorBoneName>door_pside_f</DoorBoneName>
+      <SecondDoorBoneName />
+      <DoorHandleBoneName>handle_dside_f</DoorHandleBoneName>
+      <WindowId>INVALID</WindowId>
+      <VehicleSide>SIDE_RIGHT</VehicleSide>
+      <AccessableSeats>
+        <Item ref="SEAT_STANDARD_BLINDADO_TORRE_RIGHT_5" />
+      </AccessableSeats>
+      <VehicleExtraPointsInfo ref="EXTRA_VEHICLE_POINTS_BLINDADOMIKE_LEFT_REAR6" />
+      <Flags>SPEntryAllowedAlso IgnoreSmashWindowCheck</Flags>
+      <BlockJackReactionSides />
+    </Item>
+    <Item type="CVehicleEntryPointInfo">
+      <Name>ENTRY_POINT_BLINDADO_REAR_LEFT_3</Name>
+      <DoorBoneName>boot</DoorBoneName>
+      <SecondDoorBoneName />
+      <DoorHandleBoneName />
+      <WindowId>INVALID</WindowId>
+      <VehicleSide>SIDE_LEFT</VehicleSide>
+      <AccessableSeats>
+        <Item ref="SEAT_STANDARD_BLINDADO_REAR_LEFT_3" />
+      </AccessableSeats>
+      <VehicleExtraPointsInfo ref="NULL" />
+      <Flags>SPEntryAllowedAlso IgnoreSmashWindowCheck</Flags>
+      <BlockJackReactionSides />
+    </Item>
+    <Item type="CVehicleEntryPointInfo">
+      <Name>ENTRY_POINT_BLINDADO_REAR_RIGHT</Name>
+      <DoorBoneName>cargodoor</DoorBoneName>
+      <SecondDoorBoneName />
+      <DoorHandleBoneName>handle_pside_r</DoorHandleBoneName>
+      <WindowId>INVALID</WindowId>
+      <VehicleSide>SIDE_RIGHT</VehicleSide>
+      <AccessableSeats>
+        <Item ref="SEAT_STANDARD_BLINDADO_REAR_RIGHT" />
+      </AccessableSeats>
+      <VehicleExtraPointsInfo ref="NULL" />
+      <Flags>SPEntryAllowedAlso IgnoreSmashWindowCheck</Flags>
+      <BlockJackReactionSides />
+    </Item>
+    <Item type="CVehicleEntryPointInfo">
+      <Name>ENTRY_POINT_BLINDADOMIKE_REAR_RIGHT</Name>
+      <DoorBoneName>door_pside_f</DoorBoneName>
+      <SecondDoorBoneName />
+      <DoorHandleBoneName>handle_pside_f</DoorHandleBoneName>
+      <WindowId>INVALID</WindowId>
+      <VehicleSide>SIDE_RIGHT</VehicleSide>
+      <AccessableSeats>
+        <Item ref="SEAT_STANDARD_BLINDADO_REAR_RIGHT" />
+      </AccessableSeats>
+      <VehicleExtraPointsInfo ref="EXTRA_VEHICLE_POINTS_BLINDADOMIKE_REAR_RIGHT" />
+      <Flags>SPEntryAllowedAlso IgnoreSmashWindowCheck</Flags>
+      <BlockJackReactionSides />
+    </Item>
+    <Item type="CVehicleEntryPointInfo">
+      <Name>ENTRY_POINT_BLINDADOTURQ_REAR_FIEL</Name>
+      <DoorBoneName>door_pside_r</DoorBoneName>
+      <SecondDoorBoneName />
+      <DoorHandleBoneName>handle_pside_r</DoorHandleBoneName>
+      <WindowId>INVALID</WindowId>
+      <VehicleSide>SIDE_RIGHT</VehicleSide>
+      <AccessableSeats>
+        <Item ref="SEAT_STANDARD_BLINDADO_REAR_RIGHT" />
+      </AccessableSeats>
+      <VehicleExtraPointsInfo ref="EXTRA_VEHICLE_POINTS_BLINDADOTURQ_REAR_FIEL" />
+      <Flags>SPEntryAllowedAlso IgnoreSmashWindowCheck</Flags>
+      <BlockJackReactionSides />
+    </Item>
+    <Item type="CVehicleEntryPointInfo">
+      <Name>ENTRY_POINT_BLINDADOMIKE_REAR_RIGHT_1</Name>
+      <DoorBoneName>door_pside_f</DoorBoneName>
+      <SecondDoorBoneName />
+      <DoorHandleBoneName>handle_pside_f</DoorHandleBoneName>
+      <WindowId>INVALID</WindowId>
+      <VehicleSide>SIDE_RIGHT</VehicleSide>
+      <AccessableSeats>
+        <Item ref="SEAT_STANDARD_BLINDADO_REAR_RIGHT_1" />
+      </AccessableSeats>
+      <VehicleExtraPointsInfo ref="EXTRA_VEHICLE_POINTS_BLINDADOMIKE_REAR_RIGHT2" />
+      <Flags>SPEntryAllowedAlso IgnoreSmashWindowCheck</Flags>
+      <BlockJackReactionSides />
+    </Item>
+    <Item type="CVehicleEntryPointInfo">
+      <Name>ENTRY_POINT_BLINDADOTURQ_REAR_RIGHT_1</Name>
+      <DoorBoneName>door_dside_f</DoorBoneName>
+      <SecondDoorBoneName />
+      <DoorHandleBoneName>handle_dside_f</DoorHandleBoneName>
+      <WindowId>INVALID</WindowId>
+      <VehicleSide>SIDE_LEFT</VehicleSide>
+      <AccessableSeats>
+        <Item ref="SEAT_STANDARD_BLINDADO_REAR_RIGHT_1" />
+      </AccessableSeats>
+      <VehicleExtraPointsInfo ref="EXTRA_VEHICLE_POINTS_BLINDADOTURQ_LEFT_FIEL" />
+      <Flags>SPEntryAllowedAlso IgnoreSmashWindowCheck</Flags>
+      <BlockJackReactionSides />
+    </Item>
+    <Item type="CVehicleEntryPointInfo">
+      <Name>ENTRY_POINT_BLINDADO_REAR_RIGHT_1</Name>
+      <DoorBoneName>cargodoor</DoorBoneName>
+      <SecondDoorBoneName />
+      <DoorHandleBoneName>handle_pside_r</DoorHandleBoneName>
+      <WindowId>INVALID</WindowId>
+      <VehicleSide>SIDE_RIGHT</VehicleSide>
+      <AccessableSeats>
+        <Item ref="SEAT_STANDARD_BLINDADO_REAR_RIGHT_1" />
+      </AccessableSeats>
+      <VehicleExtraPointsInfo ref="NULL" />
+      <Flags>SPEntryAllowedAlso IgnoreSmashWindowCheck</Flags>
+      <BlockJackReactionSides />
+    </Item>
+    <Item type="CVehicleEntryPointInfo">
+      <Name>ENTRY_POINT_BLINDADO_REAR_RIGHT_2</Name>
+      <DoorBoneName>cargodoor</DoorBoneName>
+      <SecondDoorBoneName />
+      <DoorHandleBoneName>handle_pside_r</DoorHandleBoneName>
+      <WindowId>INVALID</WindowId>
+      <VehicleSide>SIDE_RIGHT</VehicleSide>
+      <AccessableSeats>
+        <Item ref="SEAT_STANDARD_BLINDADO_REAR_RIGHT_2" />
+      </AccessableSeats>
+      <VehicleExtraPointsInfo ref="NULL" />
+      <Flags>SPEntryAllowedAlso IgnoreSmashWindowCheck</Flags>
+      <BlockJackReactionSides />
+    </Item>
+    <Item type="CVehicleEntryPointInfo">
+      <Name>ENTRY_POINT_BLINDADOMIKE_REAR_RIGHT_2</Name>
+      <DoorBoneName>door_pside_r</DoorBoneName>
+      <SecondDoorBoneName />
+      <DoorHandleBoneName>handle_pside_r</DoorHandleBoneName>
+      <WindowId>INVALID</WindowId>
+      <VehicleSide>SIDE_RIGHT</VehicleSide>
+      <AccessableSeats>
+        <Item ref="SEAT_STANDARD_BLINDADO_REAR_RIGHT_2" />
+      </AccessableSeats>
+      <VehicleExtraPointsInfo ref="EXTRA_VEHICLE_POINTS_BLINDADOMIKE_RIGHT_REAR3" />
+      <Flags>SPEntryAllowedAlso IgnoreSmashWindowCheck</Flags>
+      <BlockJackReactionSides />
+    </Item>
+    <Item type="CVehicleEntryPointInfo">
+      <Name>ENTRY_POINT_BLINDADOTURQ_REAR_RIGHT_2</Name>
+      <DoorBoneName>door_pside_f</DoorBoneName>
+      <SecondDoorBoneName />
+      <DoorHandleBoneName>handle_pside_f</DoorHandleBoneName>
+      <WindowId>INVALID</WindowId>
+      <VehicleSide>SIDE_RIGHT</VehicleSide>
+      <AccessableSeats>
+        <Item ref="SEAT_STANDARD_BLINDADO_REAR_RIGHT_2" />
+      </AccessableSeats>
+      <VehicleExtraPointsInfo ref="EXTRA_VEHICLE_POINTS_BLINDADOTURQ_DIREITO" />
+      <Flags>SPEntryAllowedAlso IgnoreSmashWindowCheck</Flags>
+      <BlockJackReactionSides />
+    </Item>
+    <Item type="CVehicleEntryPointInfo">
+      <Name>ENTRY_POINT_BLINDADOMIKE_REAR_RIGHT_3</Name>
+      <DoorBoneName>door_pside_r</DoorBoneName>
+      <SecondDoorBoneName />
+      <DoorHandleBoneName>handle_pside_r</DoorHandleBoneName>
+      <WindowId>INVALID</WindowId>
+      <VehicleSide>SIDE_RIGHT</VehicleSide>
+      <AccessableSeats>
+        <Item ref="SEAT_STANDARD_BLINDADO_REAR_RIGHT_3" />
+      </AccessableSeats>
+      <VehicleExtraPointsInfo ref="EXTRA_VEHICLE_POINTS_BLINDADOMIKE_RIGHT_REAR4" />
+      <Flags>SPEntryAllowedAlso IgnoreSmashWindowCheck</Flags>
+      <BlockJackReactionSides />
+    </Item>
+    <Item type="CVehicleEntryPointInfo">
+      <Name>ENTRY_POINT_BLINDADO_REAR_RIGHT_3</Name>
+      <DoorBoneName>cargodoor</DoorBoneName>
+      <SecondDoorBoneName />
+      <DoorHandleBoneName>handle_pside_r</DoorHandleBoneName>
+      <WindowId>INVALID</WindowId>
+      <VehicleSide>SIDE_RIGHT</VehicleSide>
+      <AccessableSeats>
+        <Item ref="SEAT_STANDARD_BLINDADO_REAR_RIGHT_3" />
+      </AccessableSeats>
+      <VehicleExtraPointsInfo ref="NULL" />
+      <Flags>SPEntryAllowedAlso IgnoreSmashWindowCheck</Flags>
+      <BlockJackReactionSides />
+    </Item>
+  </VehicleEntryPointInfos>
+  <VehicleEntryPointAnimInfos>
+    <Item type="CVehicleEntryPointAnimInfo">
+      <Name>ENTRY_POINT_ANIM_BLINDADO_FRONT_LEFT</Name>
+      <CommonClipSetMap ref="COMMON_CLIPSET_MAP_BLINDADO_FRONT" />
+      <EntryClipSetMap ref="ENTRY_CLIPSET_MAP_BLINDADO_FRONT" />
+      <ExitClipSetMap ref="EXIT_CLIPSET_MAP_BLINDADO_FRONT" />
+      <AlternateTryLockedDoorClipId />
+      <AlternateForcedEntryClipId />
+      <AlternateJackFromOutSideClipId />
+      <AlternateBeJackedFromOutSideClipId />
+      <AlternateEntryPointClipSetId />
+      <EnterVehicleMoveNetwork>ENTER_VEHICLE_STD</EnterVehicleMoveNetwork>
+      <EntryTranslation x="-1.369300" y="-0.698300" z="-0.964600" />
+      <OpenDoorTranslation x="0.000000" y="0.000000" />
+      <OpenDoorHeadingChange value="0.000000" />
+      <EntryHeadingChange value="-1.570000" />
+      <ExtraZForWaterEntry value="0.000000" />
+      <EntryPointFlags>JackIncludesGetIn DontCloseDoorOutside JackVariationsIncludeGetIn DeadJackIncludesGetIn ForcedEntryIncludesGetIn PreventJackInterrupt</EntryPointFlags>
+      <EntryAnimVariations ref="NULL" />
+	  <NMJumpFromVehicleTuningSet>SLOWTRUCK</NMJumpFromVehicleTuningSet>
+    </Item>
+    <Item type="CVehicleEntryPointAnimInfo">
+      <Name>ENTRY_POINT_ANIM_BLINDADO_FRONT_RIGHT</Name>
+      <CommonClipSetMap ref="COMMON_CLIPSET_MAP_BLINDADO_FRONT_RIGHT" />
+      <EntryClipSetMap ref="ENTRY_CLIPSET_MAP_BLINDADO_FRONT_RIGHT" />
+      <ExitClipSetMap ref="EXIT_CLIPSET_MAP_BLINDADO_FRONT_RIGHT" />
+      <AlternateTryLockedDoorClipId />
+      <AlternateForcedEntryClipId />
+      <AlternateJackFromOutSideClipId />
+      <AlternateBeJackedFromOutSideClipId />
+      <AlternateEntryPointClipSetId />
+      <EnterVehicleMoveNetwork>ENTER_VEHICLE_STD</EnterVehicleMoveNetwork>
+      <EntryTranslation x="1.569300" y="-1.298300" z="-0.964600" />
+      <OpenDoorTranslation x="0.000000" y="0.000000" />
+      <OpenDoorHeadingChange value="0.000000" />
+      <EntryHeadingChange value="1.570000" />
+      <ExtraZForWaterEntry value="0.000000" />
+      <EntryPointFlags>JackIncludesGetIn DontCloseDoorOutside JackVariationsIncludeGetIn DeadJackIncludesGetIn ForcedEntryIncludesGetIn PreventJackInterrupt</EntryPointFlags>
+      <EntryAnimVariations ref="NULL" />
+	  <NMJumpFromVehicleTuningSet>SLOWTRUCK</NMJumpFromVehicleTuningSet>
+    </Item>
+    <Item type="CVehicleEntryPointAnimInfo">
+      <Name>ENTRY_POINT_ANIM_BLINDADO_REAR_LEFT</Name>
+      <CommonClipSetMap ref="COMMON_CLIPSET_MAP_BLINDADO_FRONT" />
+      <EntryClipSetMap ref="ENTRY_CLIPSET_MAP_BLINDADO_FRONT_SIDE" />
+      <ExitClipSetMap ref="EXIT_CLIPSET_MAP_BLINDADO_REAR" />
+      <AlternateTryLockedDoorClipId />
+      <AlternateForcedEntryClipId />
+      <AlternateJackFromOutSideClipId />
+      <AlternateBeJackedFromOutSideClipId />
+      <AlternateEntryPointClipSetId />
+      <EnterVehicleMoveNetwork>ENTER_VEHICLE_STD</EnterVehicleMoveNetwork>
+      <EntryTranslation x="0.700000" y="-2.598300" z="-0.964600" />
+      <OpenDoorTranslation x="0.000000" y="0.000000" />
+      <OpenDoorHeadingChange value="-.000000" />
+      <EntryHeadingChange value="0.000000" />
+      <ExtraZForWaterEntry value="0.000000" />
+      <EntryPointFlags>JackIncludesGetIn DontCloseDoorOutside JackVariationsIncludeGetIn DeadJackIncludesGetIn ForcedEntryIncludesGetIn PreventJackInterrupt NavigateToWarpEntryPoint</EntryPointFlags>
+      <EntryAnimVariations ref="NULL" />
+	  <NMJumpFromVehicleTuningSet>SLOWTRUCK</NMJumpFromVehicleTuningSet>
+    </Item>
+    <Item type="CVehicleEntryPointAnimInfo">
+      <Name>ENTRY_POINT_ANIM_BLINDADO_REAR_LEFT_1</Name>
+      <CommonClipSetMap ref="COMMON_CLIPSET_MAP_BLINDADO_FRONT" />
+      <EntryClipSetMap ref="ENTRY_CLIPSET_MAP_BLINDADO_FRONT_SIDE" />
+      <ExitClipSetMap ref="EXIT_CLIPSET_MAP_BLINDADO_REAR" />
+      <AlternateTryLockedDoorClipId />
+      <AlternateForcedEntryClipId />
+      <AlternateJackFromOutSideClipId />
+      <AlternateBeJackedFromOutSideClipId />
+      <AlternateEntryPointClipSetId />
+      <EnterVehicleMoveNetwork>ENTER_VEHICLE_STD</EnterVehicleMoveNetwork>
+      <EntryTranslation x="0.700000" y="-2.598300" z="-0.964600" />
+      <OpenDoorTranslation x="0.000000" y="0.000000" />
+      <OpenDoorHeadingChange value="-.000000" />
+      <EntryHeadingChange value="0.000000" />
+      <ExtraZForWaterEntry value="0.000000" />
+      <EntryPointFlags>JackIncludesGetIn DontCloseDoorOutside JackVariationsIncludeGetIn DeadJackIncludesGetIn ForcedEntryIncludesGetIn PreventJackInterrupt NavigateToWarpEntryPoint</EntryPointFlags>
+      <EntryAnimVariations ref="NULL" />
+	  <NMJumpFromVehicleTuningSet>SLOWTRUCK</NMJumpFromVehicleTuningSet>
+    </Item>
+    <Item type="CVehicleEntryPointAnimInfo">
+      <Name>ENTRY_POINT_ANIM_BLINDADO_REAR_LEFT_2</Name>
+      <CommonClipSetMap ref="COMMON_CLIPSET_MAP_BLINDADO_FRONT" />
+      <EntryClipSetMap ref="ENTRY_CLIPSET_MAP_BLINDADO_REAR_ESQUERDA" />
+      <ExitClipSetMap ref="EXIT_CLIPSET_MAP_BLINDADO_REAR_2" />
+      <AlternateTryLockedDoorClipId />
+      <AlternateForcedEntryClipId />
+      <AlternateJackFromOutSideClipId />
+      <AlternateBeJackedFromOutSideClipId />
+      <AlternateEntryPointClipSetId />
+      <EnterVehicleMoveNetwork>ENTER_VEHICLE_STD</EnterVehicleMoveNetwork>
+      <EntryTranslation x="-2.600000" y="-0.598300" z="-0.964600" />
+      <OpenDoorTranslation x="0.000000" y="0.000000" />
+      <OpenDoorHeadingChange value="-.000000" />
+      <EntryHeadingChange value="-1.570000" />
+      <ExtraZForWaterEntry value="0.000000" />
+      <EntryPointFlags>JackIncludesGetIn DontCloseDoorOutside JackVariationsIncludeGetIn DeadJackIncludesGetIn ForcedEntryIncludesGetIn PreventJackInterrupt NavigateToWarpEntryPoint</EntryPointFlags>
+      <EntryAnimVariations ref="NULL" />
+	  <NMJumpFromVehicleTuningSet>SLOWTRUCK</NMJumpFromVehicleTuningSet>
+    </Item>
+    <Item type="CVehicleEntryPointAnimInfo">
+      <Name>ENTRY_POINT_ANIM_BLINDADO_REAR_LEFT_3</Name>
+      <CommonClipSetMap ref="COMMON_CLIPSET_MAP_BLINDADO_FRONT" />
+      <EntryClipSetMap ref="ENTRY_CLIPSET_MAP_BLINDADO_REAR_ESQUERDA" />
+      <ExitClipSetMap ref="EXIT_CLIPSET_MAP_BLINDADO_REAR_3" />
+      <AlternateTryLockedDoorClipId />
+      <AlternateForcedEntryClipId />
+      <AlternateJackFromOutSideClipId />
+      <AlternateBeJackedFromOutSideClipId />
+      <AlternateEntryPointClipSetId />
+      <EnterVehicleMoveNetwork>ENTER_VEHICLE_STD</EnterVehicleMoveNetwork>
+      <EntryTranslation x="-1.950000" y="-0.598300" z="-0.964600" />
+      <OpenDoorTranslation x="0.000000" y="0.000000" />
+      <OpenDoorHeadingChange value="-.000000" />
+      <EntryHeadingChange value="-1.570000" />
+      <ExtraZForWaterEntry value="0.000000" />
+      <EntryPointFlags>JackIncludesGetIn DontCloseDoorOutside JackVariationsIncludeGetIn DeadJackIncludesGetIn ForcedEntryIncludesGetIn PreventJackInterrupt NavigateToWarpEntryPoint</EntryPointFlags>
+      <EntryAnimVariations ref="NULL" />
+	  <NMJumpFromVehicleTuningSet>SLOWTRUCK</NMJumpFromVehicleTuningSet>
+    </Item>
+    <Item type="CVehicleEntryPointAnimInfo">
+      <Name>ENTRY_POINT_ANIM_BLINDADO_REAR_RIGHT</Name>
+      <CommonClipSetMap ref="COMMON_CLIPSET_MAP_BLINDADO_FRONT_RIGHT" />
+      <EntryClipSetMap ref="ENTRY_CLIPSET_MAP_BLINDADO_REAR_DIREITA" />
+      <ExitClipSetMap ref="EXIT_CLIPSET_MAP_BLINDADO_REAR_RIGHT" />
+      <AlternateTryLockedDoorClipId />
+      <AlternateForcedEntryClipId />
+      <AlternateJackFromOutSideClipId />
+      <AlternateBeJackedFromOutSideClipId />
+      <AlternateEntryPointClipSetId />
+      <EnterVehicleMoveNetwork>ENTER_VEHICLE_STD</EnterVehicleMoveNetwork>
+      <EntryTranslation x="3.700000" y="-0.598300" z="-0.964600" />
+      <OpenDoorTranslation x="0.000000" y="0.000000" />
+      <OpenDoorHeadingChange value="-.000000" />
+      <EntryHeadingChange value="1.570000" />
+      <ExtraZForWaterEntry value="0.000000" />
+      <EntryPointFlags>JackIncludesGetIn DontCloseDoorOutside JackVariationsIncludeGetIn DeadJackIncludesGetIn ForcedEntryIncludesGetIn PreventJackInterrupt NavigateToWarpEntryPoint</EntryPointFlags>
+      <EntryAnimVariations ref="NULL" />
+	  <NMJumpFromVehicleTuningSet>SLOWTRUCK</NMJumpFromVehicleTuningSet>
+    </Item>
+    <Item type="CVehicleEntryPointAnimInfo">
+      <Name>ENTRY_POINT_ANIM_BLINDADO_REAR_RIGHT_1</Name>
+      <CommonClipSetMap ref="COMMON_CLIPSET_MAP_BLINDADO_FRONT_RIGHT" />
+      <EntryClipSetMap ref="ENTRY_CLIPSET_MAP_BLINDADO_REAR_DIREITA" />
+      <ExitClipSetMap ref="EXIT_CLIPSET_MAP_BLINDADO_REAR_RIGHT" />
+      <AlternateTryLockedDoorClipId />
+      <AlternateForcedEntryClipId />
+      <AlternateJackFromOutSideClipId />
+      <AlternateBeJackedFromOutSideClipId />
+      <AlternateEntryPointClipSetId />
+      <EnterVehicleMoveNetwork>ENTER_VEHICLE_STD</EnterVehicleMoveNetwork>
+      <EntryTranslation x="3.150000" y="-0.598300" z="-0.964600" />
+      <OpenDoorTranslation x="0.000000" y="0.000000" />
+      <OpenDoorHeadingChange value="-.000000" />
+      <EntryHeadingChange value="1.570000" />
+      <ExtraZForWaterEntry value="0.000000" />
+      <EntryPointFlags>JackIncludesGetIn DontCloseDoorOutside JackVariationsIncludeGetIn DeadJackIncludesGetIn ForcedEntryIncludesGetIn PreventJackInterrupt NavigateToWarpEntryPoint</EntryPointFlags>
+      <EntryAnimVariations ref="NULL" />
+	  <NMJumpFromVehicleTuningSet>SLOWTRUCK</NMJumpFromVehicleTuningSet>
+    </Item>
+    <Item type="CVehicleEntryPointAnimInfo">
+      <Name>ENTRY_POINT_ANIM_BLINDADO_REAR_RIGHT_2</Name>
+      <CommonClipSetMap ref="COMMON_CLIPSET_MAP_BLINDADO_FRONT_RIGHT" />
+      <EntryClipSetMap ref="ENTRY_CLIPSET_MAP_BLINDADO_REAR_DIREITA" />
+      <ExitClipSetMap ref="EXIT_CLIPSET_MAP_BLINDADO_REAR_RIGHT" />
+      <AlternateTryLockedDoorClipId />
+      <AlternateForcedEntryClipId />
+      <AlternateJackFromOutSideClipId />
+      <AlternateBeJackedFromOutSideClipId />
+      <AlternateEntryPointClipSetId />
+      <EnterVehicleMoveNetwork>ENTER_VEHICLE_STD</EnterVehicleMoveNetwork>
+      <EntryTranslation x="2.600000" y="-0.598300" z="-0.964600" />
+      <OpenDoorTranslation x="0.000000" y="0.000000" />
+      <OpenDoorHeadingChange value="-.000000" />
+      <EntryHeadingChange value="1.570000" />
+      <ExtraZForWaterEntry value="0.000000" />
+      <EntryPointFlags>JackIncludesGetIn DontCloseDoorOutside JackVariationsIncludeGetIn DeadJackIncludesGetIn ForcedEntryIncludesGetIn PreventJackInterrupt NavigateToWarpEntryPoint</EntryPointFlags>
+      <EntryAnimVariations ref="NULL" />
+	  <NMJumpFromVehicleTuningSet>SLOWTRUCK</NMJumpFromVehicleTuningSet>
+    </Item>
+    <Item type="CVehicleEntryPointAnimInfo">
+      <Name>ENTRY_POINT_ANIM_BLINDADO_REAR_RIGHT_3</Name>
+      <CommonClipSetMap ref="COMMON_CLIPSET_MAP_BLINDADO_FRONT_RIGHT" />
+      <EntryClipSetMap ref="ENTRY_CLIPSET_MAP_BLINDADO_REAR_DIREITA" />
+      <ExitClipSetMap ref="EXIT_CLIPSET_MAP_BLINDADO_REAR_RIGHT" />
+      <AlternateTryLockedDoorClipId />
+      <AlternateForcedEntryClipId />
+      <AlternateJackFromOutSideClipId />
+      <AlternateBeJackedFromOutSideClipId />
+      <AlternateEntryPointClipSetId />
+      <EnterVehicleMoveNetwork>ENTER_VEHICLE_STD</EnterVehicleMoveNetwork>
+      <EntryTranslation x="1.950000" y="-0.598300" z="-0.964600" />
+      <OpenDoorTranslation x="0.000000" y="0.000000" />
+      <OpenDoorHeadingChange value="-.000000" />
+      <EntryHeadingChange value="1.570000" />
+      <ExtraZForWaterEntry value="0.000000" />
+      <EntryPointFlags>JackIncludesGetIn DontCloseDoorOutside JackVariationsIncludeGetIn DeadJackIncludesGetIn ForcedEntryIncludesGetIn PreventJackInterrupt NavigateToWarpEntryPoint</EntryPointFlags>
+      <EntryAnimVariations ref="NULL" />
+	  <NMJumpFromVehicleTuningSet>SLOWTRUCK</NMJumpFromVehicleTuningSet>
+    </Item>
+    <Item type="CVehicleEntryPointAnimInfo">
+      <Name>ENTRY_POINT_ANIM_BLINDADOMIKE_FRONT_LEFT</Name>
+      <CommonClipSetMap ref="COMMON_CLIPSET_MAP_BLINDADO_FRONT" />
+      <EntryClipSetMap ref="ENTRY_CLIPSET_MAP_BLINDADOMIKE_FRONT" />
+      <ExitClipSetMap ref="EXIT_CLIPSET_MAP_BLINDADOMIKE_FRONT" />
+      <AlternateTryLockedDoorClipId />
+      <AlternateForcedEntryClipId />
+      <AlternateJackFromOutSideClipId />
+      <AlternateBeJackedFromOutSideClipId />
+      <AlternateEntryPointClipSetId />
+      <EnterVehicleMoveNetwork>ENTER_VEHICLE_STD</EnterVehicleMoveNetwork>
+      <EntryTranslation x="-1.743100" y="-1.050000" z="-0.363700" />
+      <OpenDoorTranslation x="0.000000" y="0.000000" />
+      <OpenDoorHeadingChange value="0.000000" />
+      <EntryHeadingChange value="-1.570000" />
+      <ExtraZForWaterEntry value="0.000000" />
+      <EntryPointFlags>JackIncludesGetIn UseNewPlaneSystem DontCloseDoorOutside DontCloseDoorInside JackVariationsIncludeGetIn DeadJackIncludesGetIn ForcedEntryIncludesGetIn PreventJackInterrupt</EntryPointFlags>
+      <EntryAnimVariations ref="NULL" />
+	  <NMJumpFromVehicleTuningSet>SLOWTRUCK</NMJumpFromVehicleTuningSet>
+    </Item>
+    <Item type="CVehicleEntryPointAnimInfo">
+      <Name>ENTRY_POINT_ANIM_BLINDADOTURQ_FRONT_LEFT</Name>
+      <CommonClipSetMap ref="COMMON_CLIPSET_MAP_BLINDADO_FRONT" />
+      <EntryClipSetMap ref="ENTRY_CLIPSET_MAP_BLINDADOMIKE_FRONT" />
+      <ExitClipSetMap ref="EXIT_CLIPSET_MAP_BLINDADOMIKE_FRONT" />
+      <AlternateTryLockedDoorClipId />
+      <AlternateForcedEntryClipId />
+      <AlternateJackFromOutSideClipId />
+      <AlternateBeJackedFromOutSideClipId />
+      <AlternateEntryPointClipSetId />
+      <EnterVehicleMoveNetwork>ENTER_VEHICLE_STD</EnterVehicleMoveNetwork>
+      <EntryTranslation x="-2.043100" y="-1.550000" z="-0.363700" />
+      <OpenDoorTranslation x="0.000000" y="0.000000" />
+      <OpenDoorHeadingChange value="0.000000" />
+      <EntryHeadingChange value="-1.570000" />
+      <ExtraZForWaterEntry value="0.000000" />
+      <EntryPointFlags>JackIncludesGetIn UseNewPlaneSystem DontCloseDoorOutside DontCloseDoorInside JackVariationsIncludeGetIn DeadJackIncludesGetIn ForcedEntryIncludesGetIn PreventJackInterrupt</EntryPointFlags>
+      <EntryAnimVariations ref="NULL" />
+	  <NMJumpFromVehicleTuningSet>SLOWTRUCK</NMJumpFromVehicleTuningSet>
+    </Item>
+    <Item type="CVehicleEntryPointAnimInfo">
+      <Name>ENTRY_POINT_ANIM_BLINDADOMIKE_FRONT_RIGHT</Name>
+      <CommonClipSetMap ref="COMMON_CLIPSET_MAP_BLINDADO_FRONT_RIGHT" />
+      <EntryClipSetMap ref="ENTRY_CLIPSET_MAP_BLINDADOMIKE_FRONT_RIGHT" />
+      <ExitClipSetMap ref="EXIT_CLIPSET_MAP_BLINDADOMIKE_FRONT_RIGHT" />
+      <AlternateTryLockedDoorClipId />
+      <AlternateForcedEntryClipId />
+      <AlternateJackFromOutSideClipId />
+      <AlternateBeJackedFromOutSideClipId />
+      <AlternateEntryPointClipSetId />
+      <EnterVehicleMoveNetwork>ENTER_VEHICLE_STD</EnterVehicleMoveNetwork>
+      <EntryTranslation x="1.743100" y="-1.050000" z="-0.363700" />
+      <OpenDoorTranslation x="0.000000" y="0.000000" />
+      <OpenDoorHeadingChange value="0.000000" />
+      <EntryHeadingChange value="1.570000" />
+      <ExtraZForWaterEntry value="0.000000" />
+      <EntryPointFlags>JackIncludesGetIn UseNewPlaneSystem DontCloseDoorOutside DontCloseDoorInside JackVariationsIncludeGetIn DeadJackIncludesGetIn ForcedEntryIncludesGetIn PreventJackInterrupt NavigateToWarpEntryPoint</EntryPointFlags>
+      <EntryAnimVariations ref="NULL" />
+	  <NMJumpFromVehicleTuningSet>SLOWTRUCK</NMJumpFromVehicleTuningSet>
+    </Item>
+    <Item type="CVehicleEntryPointAnimInfo">
+      <Name>ENTRY_POINT_ANIM_BLINDADOTURQ_FRONT_RIGHT</Name>
+      <CommonClipSetMap ref="COMMON_CLIPSET_MAP_BLINDADO_FRONT_RIGHT" />
+      <EntryClipSetMap ref="ENTRY_CLIPSET_MAP_BLINDADOMIKE_FRONT_RIGHT" />
+      <ExitClipSetMap ref="EXIT_CLIPSET_MAP_BLINDADOMIKE_FRONT_RIGHT" />
+      <AlternateTryLockedDoorClipId />
+      <AlternateForcedEntryClipId />
+      <AlternateJackFromOutSideClipId />
+      <AlternateBeJackedFromOutSideClipId />
+      <AlternateEntryPointClipSetId />
+      <EnterVehicleMoveNetwork>ENTER_VEHICLE_STD</EnterVehicleMoveNetwork>
+      <EntryTranslation x="1.743100" y="-1.350000" z="-0.363700" />
+      <OpenDoorTranslation x="0.000000" y="0.000000" />
+      <OpenDoorHeadingChange value="0.000000" />
+      <EntryHeadingChange value="1.570000" />
+      <ExtraZForWaterEntry value="0.000000" />
+      <EntryPointFlags>JackIncludesGetIn UseNewPlaneSystem DontCloseDoorOutside DontCloseDoorInside JackVariationsIncludeGetIn DeadJackIncludesGetIn ForcedEntryIncludesGetIn PreventJackInterrupt NavigateToWarpEntryPoint</EntryPointFlags>
+      <EntryAnimVariations ref="NULL" />
+	  <NMJumpFromVehicleTuningSet>SLOWTRUCK</NMJumpFromVehicleTuningSet>
+    </Item>
+    <Item type="CVehicleEntryPointAnimInfo">
+      <Name>ENTRY_POINT_ANIM_BLINDADOMIKE_REAR_LEFT</Name>
+      <CommonClipSetMap ref="COMMON_CLIPSET_MAP_BLINDADO_FRONT" />
+      <EntryClipSetMap ref="ENTRY_CLIPSET_MAP_BLINDADOMIKE_FRONT" />
+      <ExitClipSetMap ref="EXIT_CLIPSET_MAP_BLINDADOMIKE_REAR_LEFT" />
+      <AlternateTryLockedDoorClipId />
+      <AlternateForcedEntryClipId />
+      <AlternateJackFromOutSideClipId />
+      <AlternateBeJackedFromOutSideClipId />
+      <AlternateEntryPointClipSetId />
+      <EnterVehicleMoveNetwork>ENTER_VEHICLE_STD</EnterVehicleMoveNetwork>
+      <EntryTranslation x="0.543100" y="1.850000" z="-0.363700" />
+      <OpenDoorTranslation x="0.000000" y="0.000000" />
+      <OpenDoorHeadingChange value="0.000000" />
+      <EntryHeadingChange value="3.140000" />
+      <ExtraZForWaterEntry value="0.000000" />
+      <EntryPointFlags>JackIncludesGetIn UseNewPlaneSystem DontCloseDoorOutside DontCloseDoorInside JackVariationsIncludeGetIn DeadJackIncludesGetIn ForcedEntryIncludesGetIn PreventJackInterrupt NavigateToWarpEntryPoint</EntryPointFlags>
+      <EntryAnimVariations ref="NULL" />
+	  <NMJumpFromVehicleTuningSet>SLOWTRUCK</NMJumpFromVehicleTuningSet>
+    </Item>
+    <Item type="CVehicleEntryPointAnimInfo">
+      <Name>ENTRY_POINT_ANIM_BLINDADOTURQ_DIREITO</Name>
+      <CommonClipSetMap ref="COMMON_CLIPSET_MAP_BLINDADO_FRONT" />
+      <EntryClipSetMap ref="ENTRY_CLIPSET_MAP_BLINDADOMIKE_FRONT" />
+      <ExitClipSetMap ref="EXIT_CLIPSET_MAP_BLINDADOMIKE_REAR_RIGHT" />
+      <AlternateTryLockedDoorClipId />
+      <AlternateForcedEntryClipId />
+      <AlternateJackFromOutSideClipId />
+      <AlternateBeJackedFromOutSideClipId />
+      <AlternateEntryPointClipSetId />
+      <EnterVehicleMoveNetwork>ENTER_VEHICLE_STD</EnterVehicleMoveNetwork>
+      <EntryTranslation x="0.743100" y="-1.350000" z="-0.363700" />
+      <OpenDoorTranslation x="0.000000" y="0.000000" />
+      <OpenDoorHeadingChange value="0.000000" />
+      <EntryHeadingChange value="0.000000" />
+      <ExtraZForWaterEntry value="0.000000" />
+      <EntryPointFlags>JackIncludesGetIn UseNewPlaneSystem DontCloseDoorOutside DontCloseDoorInside JackVariationsIncludeGetIn DeadJackIncludesGetIn ForcedEntryIncludesGetIn PreventJackInterrupt NavigateToWarpEntryPoint</EntryPointFlags>
+      <EntryAnimVariations ref="NULL" />
+	  <NMJumpFromVehicleTuningSet>SLOWTRUCK</NMJumpFromVehicleTuningSet>
+    </Item>
+    <Item type="CVehicleEntryPointAnimInfo">
+      <Name>ENTRY_POINT_ANIM_BLINDADOMIKE_REAR_LEFT_1</Name>
+      <CommonClipSetMap ref="COMMON_CLIPSET_MAP_BLINDADO_FRONT" />
+      <EntryClipSetMap ref="ENTRY_CLIPSET_MAP_BLINDADOMIKE_FRONT" />
+      <ExitClipSetMap ref="EXIT_CLIPSET_MAP_BLINDADOMIKE_REAR_LEFT" />
+      <AlternateTryLockedDoorClipId />
+      <AlternateForcedEntryClipId />
+      <AlternateJackFromOutSideClipId />
+      <AlternateBeJackedFromOutSideClipId />
+      <AlternateEntryPointClipSetId />
+      <EnterVehicleMoveNetwork>ENTER_VEHICLE_STD</EnterVehicleMoveNetwork>
+      <EntryTranslation x="1.043100" y="1.850000" z="-0.363700" />
+      <OpenDoorTranslation x="0.000000" y="0.000000" />
+      <OpenDoorHeadingChange value="0.000000" />
+      <EntryHeadingChange value="3.140000" />
+      <ExtraZForWaterEntry value="0.000000" />
+      <EntryPointFlags>JackIncludesGetIn UseNewPlaneSystem DontCloseDoorOutside DontCloseDoorInside JackVariationsIncludeGetIn DeadJackIncludesGetIn ForcedEntryIncludesGetIn PreventJackInterrupt NavigateToWarpEntryPoint</EntryPointFlags>
+      <EntryAnimVariations ref="NULL" />
+	  <NMJumpFromVehicleTuningSet>SLOWTRUCK</NMJumpFromVehicleTuningSet>
+    </Item>
+    <Item type="CVehicleEntryPointAnimInfo">
+      <Name>ENTRY_POINT_ANIM_BLINDADOTURQ_REAR_LEFT_1</Name>
+      <CommonClipSetMap ref="COMMON_CLIPSET_MAP_BLINDADO_FRONT" />
+      <EntryClipSetMap ref="ENTRY_CLIPSET_MAP_BLINDADOMIKE_FRONT_RIGHT" />
+      <ExitClipSetMap ref="EXIT_CLIPSET_MAP_BLINDADOTURQ_DIREITO" />
+      <AlternateTryLockedDoorClipId />
+      <AlternateForcedEntryClipId />
+      <AlternateJackFromOutSideClipId />
+      <AlternateBeJackedFromOutSideClipId />
+      <AlternateEntryPointClipSetId />
+      <EnterVehicleMoveNetwork>ENTER_VEHICLE_STD</EnterVehicleMoveNetwork>
+      <EntryTranslation x="0.743100" y="3.350000" z="-0.363700" />
+      <OpenDoorTranslation x="0.000000" y="0.000000" />
+      <OpenDoorHeadingChange value="0.000000" />
+      <EntryHeadingChange value="3.140000" />
+      <ExtraZForWaterEntry value="0.000000" />
+      <EntryPointFlags>JackIncludesGetIn UseNewPlaneSystem DontCloseDoorOutside DontCloseDoorInside JackVariationsIncludeGetIn DeadJackIncludesGetIn ForcedEntryIncludesGetIn PreventJackInterrupt NavigateToWarpEntryPoint</EntryPointFlags>
+      <EntryAnimVariations ref="NULL" />
+	  <NMJumpFromVehicleTuningSet>SLOWTRUCK</NMJumpFromVehicleTuningSet>
+    </Item>
+    <Item type="CVehicleEntryPointAnimInfo">
+      <Name>ENTRY_POINT_ANIM_BLINDADOMIKE_REAR_RIGHT</Name>
+      <CommonClipSetMap ref="COMMON_CLIPSET_MAP_BLINDADO_FRONT_RIGHT" />
+      <EntryClipSetMap ref="ENTRY_CLIPSET_MAP_BLINDADOMIKE_FRONT" />
+      <ExitClipSetMap ref="EXIT_CLIPSET_MAP_BLINDADOMIKE_FRONT" />
+      <AlternateTryLockedDoorClipId />
+      <AlternateForcedEntryClipId />
+      <AlternateJackFromOutSideClipId />
+      <AlternateBeJackedFromOutSideClipId />
+      <AlternateEntryPointClipSetId />
+      <EnterVehicleMoveNetwork>ENTER_VEHICLE_STD</EnterVehicleMoveNetwork>
+      <EntryTranslation x="-0.743100" y="1.950000" z="-0.363700" />
+      <OpenDoorTranslation x="0.000000" y="0.000000" />
+      <OpenDoorHeadingChange value="0.000000" />
+      <EntryHeadingChange value="3.140000" />
+      <ExtraZForWaterEntry value="0.000000" />
+      <EntryPointFlags>JackIncludesGetIn DontCloseDoorOutside DontCloseDoorInside JackVariationsIncludeGetIn DeadJackIncludesGetIn ForcedEntryIncludesGetIn PreventJackInterrupt NavigateToWarpEntryPoint</EntryPointFlags>
+      <EntryAnimVariations ref="NULL" />
+	  <NMJumpFromVehicleTuningSet>SLOWTRUCK</NMJumpFromVehicleTuningSet>
+    </Item>
+    <Item type="CVehicleEntryPointAnimInfo">
+      <Name>ENTRY_POINT_ANIM_BLINDADOTURQ_REAR_RIGHT</Name>
+      <CommonClipSetMap ref="COMMON_CLIPSET_MAP_BLINDADO_FRONT_RIGHT" />
+      <EntryClipSetMap ref="ENTRY_CLIPSET_MAP_BLINDADOMIKE_FRONT" />
+      <ExitClipSetMap ref="EXIT_CLIPSET_MAP_BLINDADOMIKE_FRONT" />
+      <AlternateTryLockedDoorClipId />
+      <AlternateForcedEntryClipId />
+      <AlternateJackFromOutSideClipId />
+      <AlternateBeJackedFromOutSideClipId />
+      <AlternateEntryPointClipSetId />
+      <EnterVehicleMoveNetwork>ENTER_VEHICLE_STD</EnterVehicleMoveNetwork>
+      <EntryTranslation x="0.443100" y="1.950000" z="-0.363700" />
+      <OpenDoorTranslation x="0.000000" y="0.000000" />
+      <OpenDoorHeadingChange value="0.000000" />
+      <EntryHeadingChange value="3.140000" />
+      <ExtraZForWaterEntry value="0.000000" />
+      <EntryPointFlags>JackIncludesGetIn DontCloseDoorOutside DontCloseDoorInside JackVariationsIncludeGetIn DeadJackIncludesGetIn ForcedEntryIncludesGetIn PreventJackInterrupt NavigateToWarpEntryPoint</EntryPointFlags>
+      <EntryAnimVariations ref="NULL" />
+	  <NMJumpFromVehicleTuningSet>SLOWTRUCK</NMJumpFromVehicleTuningSet>
+    </Item>
+    <Item type="CVehicleEntryPointAnimInfo">
+      <Name>ENTRY_POINT_ANIM_BLINDADOTURQ_REAR_LEFT</Name>
+      <CommonClipSetMap ref="COMMON_CLIPSET_MAP_BLINDADO_FRONT_RIGHT" />
+      <EntryClipSetMap ref="ENTRY_CLIPSET_MAP_BLINDADOMIKE_FRONT" />
+      <ExitClipSetMap ref="EXIT_CLIPSET_MAP_BLINDADOMIKE_FRONT" />
+      <AlternateTryLockedDoorClipId />
+      <AlternateForcedEntryClipId />
+      <AlternateJackFromOutSideClipId />
+      <AlternateBeJackedFromOutSideClipId />
+      <AlternateEntryPointClipSetId />
+      <EnterVehicleMoveNetwork>ENTER_VEHICLE_STD</EnterVehicleMoveNetwork>
+      <EntryTranslation x="0.743100" y="-1.350000" z="-0.363700" />
+      <OpenDoorTranslation x="0.000000" y="0.000000" />
+      <OpenDoorHeadingChange value="0.000000" />
+      <EntryHeadingChange value="0.000000" />
+      <ExtraZForWaterEntry value="0.000000" />
+      <EntryPointFlags>JackIncludesGetIn DontCloseDoorOutside DontCloseDoorInside JackVariationsIncludeGetIn DeadJackIncludesGetIn ForcedEntryIncludesGetIn PreventJackInterrupt NavigateToWarpEntryPoint</EntryPointFlags>
+      <EntryAnimVariations ref="NULL" />
+	  <NMJumpFromVehicleTuningSet>SLOWTRUCK</NMJumpFromVehicleTuningSet>
+    </Item>
+    <Item type="CVehicleEntryPointAnimInfo">
+      <Name>ENTRY_POINT_ANIM_BLINDADOMIKE_REAR_RIGHT_1</Name>
+      <CommonClipSetMap ref="COMMON_CLIPSET_MAP_BLINDADO_FRONT_RIGHT" />
+      <EntryClipSetMap ref="ENTRY_CLIPSET_MAP_BLINDADOMIKE_FRONT" />
+      <ExitClipSetMap ref="EXIT_CLIPSET_MAP_BLINDADOMIKE_FRONT" />
+      <AlternateTryLockedDoorClipId />
+      <AlternateForcedEntryClipId />
+      <AlternateJackFromOutSideClipId />
+      <AlternateBeJackedFromOutSideClipId />
+      <AlternateEntryPointClipSetId />
+      <EnterVehicleMoveNetwork>ENTER_VEHICLE_STD</EnterVehicleMoveNetwork>
+      <EntryTranslation x="-1.343100" y="1.950000" z="-0.363700" />
+      <OpenDoorTranslation x="0.000000" y="0.000000" />
+      <OpenDoorHeadingChange value="0.000000" />
+      <EntryHeadingChange value="3.140000" />
+      <ExtraZForWaterEntry value="0.000000" />
+      <EntryPointFlags>JackIncludesGetIn DontCloseDoorOutside DontCloseDoorInside JackVariationsIncludeGetIn DeadJackIncludesGetIn ForcedEntryIncludesGetIn PreventJackInterrupt NavigateToWarpEntryPoint</EntryPointFlags>
+      <EntryAnimVariations ref="NULL" />
+	  <NMJumpFromVehicleTuningSet>SLOWTRUCK</NMJumpFromVehicleTuningSet>
+    </Item>
+    <Item type="CVehicleEntryPointAnimInfo">
+      <Name>ENTRY_POINT_ANIM_BLINDADOTURQ_REAR_RIGHT_1</Name>
+      <CommonClipSetMap ref="COMMON_CLIPSET_MAP_BLINDADO_FRONT_RIGHT" />
+      <EntryClipSetMap ref="ENTRY_CLIPSET_MAP_BLINDADOMIKE_FRONT" />
+      <ExitClipSetMap ref="EXIT_CLIPSET_MAP_BLINDADOMIKE_FRONT" />
+      <AlternateTryLockedDoorClipId />
+      <AlternateForcedEntryClipId />
+      <AlternateJackFromOutSideClipId />
+      <AlternateBeJackedFromOutSideClipId />
+      <AlternateEntryPointClipSetId />
+      <EnterVehicleMoveNetwork>ENTER_VEHICLE_STD</EnterVehicleMoveNetwork>
+      <EntryTranslation x="-0.943100" y="1.750000" z="-0.363700" />
+      <OpenDoorTranslation x="0.000000" y="0.000000" />
+      <OpenDoorHeadingChange value="0.000000" />
+      <EntryHeadingChange value="3.140000" />
+      <ExtraZForWaterEntry value="0.000000" />
+      <EntryPointFlags>JackIncludesGetIn DontCloseDoorOutside DontCloseDoorInside JackVariationsIncludeGetIn DeadJackIncludesGetIn ForcedEntryIncludesGetIn PreventJackInterrupt NavigateToWarpEntryPoint</EntryPointFlags>
+      <EntryAnimVariations ref="NULL" />
+	  <NMJumpFromVehicleTuningSet>SLOWTRUCK</NMJumpFromVehicleTuningSet>
+    </Item>
+    <Item type="CVehicleEntryPointAnimInfo">
+      <Name>ENTRY_POINT_ANIM_BLINDADOMIKE_REAR_LEFT_2</Name>
+      <CommonClipSetMap ref="COMMON_CLIPSET_MAP_BLINDADO_FRONT" />
+      <EntryClipSetMap ref="ENTRY_CLIPSET_MAP_BLINDADOMIKE_FRONT" />
+      <ExitClipSetMap ref="EXIT_CLIPSET_MAP_BLINDADOMIKE_FRONT_RIGHT" />
+      <AlternateTryLockedDoorClipId />
+      <AlternateForcedEntryClipId />
+      <AlternateJackFromOutSideClipId />
+      <AlternateBeJackedFromOutSideClipId />
+      <AlternateEntryPointClipSetId />
+      <EnterVehicleMoveNetwork>ENTER_VEHICLE_STD</EnterVehicleMoveNetwork>
+      <EntryTranslation x="-2.043100" y="-0.250000" z="-0.363700" />
+      <OpenDoorTranslation x="0.000000" y="0.000000" />
+      <OpenDoorHeadingChange value="0.000000" />
+      <EntryHeadingChange value="-1.570000" />
+      <ExtraZForWaterEntry value="0.000000" />
+      <EntryPointFlags>JackIncludesGetIn DontCloseDoorOutside DontCloseDoorInside JackVariationsIncludeGetIn DeadJackIncludesGetIn ForcedEntryIncludesGetIn PreventJackInterrupt NavigateToWarpEntryPoint</EntryPointFlags>
+      <EntryAnimVariations ref="NULL" />
+	  <NMJumpFromVehicleTuningSet>SLOWTRUCK</NMJumpFromVehicleTuningSet>
+    </Item>
+    <Item type="CVehicleEntryPointAnimInfo">
+      <Name>ENTRY_POINT_ANIM_BLINDADOTURQ_REAR_LEFT_2</Name>
+      <CommonClipSetMap ref="COMMON_CLIPSET_MAP_BLINDADO_FRONT" />
+      <EntryClipSetMap ref="ENTRY_CLIPSET_MAP_BLINDADOMIKE_FRONT" />
+      <ExitClipSetMap ref="EXIT_CLIPSET_MAP_BLINDADOTURQ_DIREITO" />
+      <AlternateTryLockedDoorClipId />
+      <AlternateForcedEntryClipId />
+      <AlternateJackFromOutSideClipId />
+      <AlternateBeJackedFromOutSideClipId />
+      <AlternateEntryPointClipSetId />
+      <EnterVehicleMoveNetwork>ENTER_VEHICLE_STD</EnterVehicleMoveNetwork>
+      <EntryTranslation x="-2.243100" y="0.450000" z="-0.363700" />
+      <OpenDoorTranslation x="0.000000" y="0.000000" />
+      <OpenDoorHeadingChange value="0.000000" />
+      <EntryHeadingChange value="-1.570000" />
+      <ExtraZForWaterEntry value="0.000000" />
+      <EntryPointFlags>JackIncludesGetIn DontCloseDoorOutside DontCloseDoorInside JackVariationsIncludeGetIn DeadJackIncludesGetIn ForcedEntryIncludesGetIn PreventJackInterrupt NavigateToWarpEntryPoint</EntryPointFlags>
+      <EntryAnimVariations ref="NULL" />
+	  <NMJumpFromVehicleTuningSet>SLOWTRUCK</NMJumpFromVehicleTuningSet>
+    </Item>
+    <Item type="CVehicleEntryPointAnimInfo">
+      <Name>ENTRY_POINT_ANIM_BLINDADOMIKE_REAR_LEFT_3</Name>
+      <CommonClipSetMap ref="COMMON_CLIPSET_MAP_BLINDADO_FRONT" />
+      <EntryClipSetMap ref="ENTRY_CLIPSET_MAP_BLINDADOMIKE_FRONT" />
+      <ExitClipSetMap ref="EXIT_CLIPSET_MAP_BLINDADOMIKE_FRONT" />
+      <AlternateTryLockedDoorClipId />
+      <AlternateForcedEntryClipId />
+      <AlternateJackFromOutSideClipId />
+      <AlternateBeJackedFromOutSideClipId />
+      <AlternateEntryPointClipSetId />
+      <EnterVehicleMoveNetwork>ENTER_VEHICLE_STD</EnterVehicleMoveNetwork>
+      <EntryTranslation x="-1.543100" y="-0.250000" z="-0.363700" />
+      <OpenDoorTranslation x="0.000000" y="0.000000" />
+      <OpenDoorHeadingChange value="0.000000" />
+      <EntryHeadingChange value="-1.570000" />
+      <ExtraZForWaterEntry value="0.000000" />
+      <EntryPointFlags>JackIncludesGetIn DontCloseDoorOutside DontCloseDoorInside JackVariationsIncludeGetIn DeadJackIncludesGetIn ForcedEntryIncludesGetIn PreventJackInterrupt NavigateToWarpEntryPoint</EntryPointFlags>
+      <EntryAnimVariations ref="NULL" />
+	  <NMJumpFromVehicleTuningSet>SLOWTRUCK</NMJumpFromVehicleTuningSet>
+    </Item>
+    <Item type="CVehicleEntryPointAnimInfo">
+      <Name>ENTRY_POINT_ANIM_BLINDADOTURQ_DEITADO</Name>
+      <CommonClipSetMap ref="COMMON_CLIPSET_MAP_BLINDADO_FRONT" />
+      <EntryClipSetMap ref="ENTRY_CLIPSET_MAP_BLINDADOMIKE_FRONT" />
+      <ExitClipSetMap ref="EXIT_CLIPSET_MAP_BLINDADOMIKE_FRONT" />
+      <AlternateTryLockedDoorClipId />
+      <AlternateForcedEntryClipId />
+      <AlternateJackFromOutSideClipId />
+      <AlternateBeJackedFromOutSideClipId />
+      <AlternateEntryPointClipSetId />
+      <EnterVehicleMoveNetwork>ENTER_VEHICLE_STD</EnterVehicleMoveNetwork>
+      <EntryTranslation x="-0.343100" y="2.850000" z="-0.363700" />
+      <OpenDoorTranslation x="0.000000" y="0.000000" />
+      <OpenDoorHeadingChange value="0.000000" />
+      <EntryHeadingChange value="3.140000" />
+      <ExtraZForWaterEntry value="0.000000" />
+      <EntryPointFlags>JackIncludesGetIn DontCloseDoorOutside DontCloseDoorInside JackVariationsIncludeGetIn DeadJackIncludesGetIn ForcedEntryIncludesGetIn PreventJackInterrupt NavigateToWarpEntryPoint</EntryPointFlags>
+      <EntryAnimVariations ref="NULL" />
+	  <NMJumpFromVehicleTuningSet>SLOWTRUCK</NMJumpFromVehicleTuningSet>
+    </Item>
+    <Item type="CVehicleEntryPointAnimInfo">
+      <Name>ENTRY_POINT_ANIM_BLINDADOMIKE_REAR_LEFT_4</Name>
+      <CommonClipSetMap ref="COMMON_CLIPSET_MAP_BLINDADO_FRONT" />
+      <EntryClipSetMap ref="ENTRY_CLIPSET_MAP_BLINDADOMIKE_FRONT" />
+      <ExitClipSetMap ref="EXIT_CLIPSET_MAP_BLINDADOMIKE_FRONT" />
+      <AlternateTryLockedDoorClipId />
+      <AlternateForcedEntryClipId />
+      <AlternateJackFromOutSideClipId />
+      <AlternateBeJackedFromOutSideClipId />
+      <AlternateEntryPointClipSetId />
+      <EnterVehicleMoveNetwork>ENTER_VEHICLE_STD</EnterVehicleMoveNetwork>
+      <EntryTranslation x="2.343100" y="-0.250000" z="-0.363700" />
+      <OpenDoorTranslation x="0.000000" y="0.000000" />
+      <OpenDoorHeadingChange value="0.000000" />
+      <EntryHeadingChange value="1.570000" />
+      <ExtraZForWaterEntry value="0.000000" />
+      <EntryPointFlags>JackIncludesGetIn DontCloseDoorOutside DontCloseDoorInside JackVariationsIncludeGetIn DeadJackIncludesGetIn ForcedEntryIncludesGetIn PreventJackInterrupt NavigateToWarpEntryPoint</EntryPointFlags>
+      <EntryAnimVariations ref="NULL" />
+	  <NMJumpFromVehicleTuningSet>SLOWTRUCK</NMJumpFromVehicleTuningSet>
+    </Item>
+    <Item type="CVehicleEntryPointAnimInfo">
+      <Name>ENTRY_POINT_ANIM_BLINDADOMIKE_REAR_RIGHT_4</Name>
+      <CommonClipSetMap ref="COMMON_CLIPSET_MAP_BLINDADO_FRONT" />
+      <EntryClipSetMap ref="NULL" />
+      <ExitClipSetMap ref="EXIT_CLIPSET_MAP_BLINDADOMIKE_FRONT" />
+      <AlternateTryLockedDoorClipId />
+      <AlternateForcedEntryClipId />
+      <AlternateJackFromOutSideClipId />
+      <AlternateBeJackedFromOutSideClipId />
+      <AlternateEntryPointClipSetId />
+      <EnterVehicleMoveNetwork>ENTER_VEHICLE_STD</EnterVehicleMoveNetwork>
+      <EntryTranslation x="2.343100" y="-0.250000" z="-0.363700" />
+      <OpenDoorTranslation x="0.000000" y="0.000000" />
+      <OpenDoorHeadingChange value="0.000000" />
+      <EntryHeadingChange value="1.570000" />
+      <ExtraZForWaterEntry value="0.000000" />
+      <EntryPointFlags>JackIncludesGetIn DontCloseDoorOutside DontCloseDoorInside JackVariationsIncludeGetIn DeadJackIncludesGetIn ForcedEntryIncludesGetIn PreventJackInterrupt NavigateToWarpEntryPoint</EntryPointFlags>
+      <EntryAnimVariations ref="NULL" />
+	  <NMJumpFromVehicleTuningSet>SLOWTRUCK</NMJumpFromVehicleTuningSet>
+    </Item>
+    <Item type="CVehicleEntryPointAnimInfo">
+      <Name>ENTRY_POINT_ANIM_BLINDADOMIKE_REAR_RIGHT_5</Name>
+      <CommonClipSetMap ref="COMMON_CLIPSET_MAP_BLINDADO_FRONT" />
+      <EntryClipSetMap ref="NULL" />
+      <ExitClipSetMap ref="EXIT_CLIPSET_MAP_BLINDADOMIKE_FRONT" />
+      <AlternateTryLockedDoorClipId />
+      <AlternateForcedEntryClipId />
+      <AlternateJackFromOutSideClipId />
+      <AlternateBeJackedFromOutSideClipId />
+      <AlternateEntryPointClipSetId />
+      <EnterVehicleMoveNetwork>ENTER_VEHICLE_STD</EnterVehicleMoveNetwork>
+      <EntryTranslation x="2.343100" y="-0.250000" z="-0.363700" />
+      <OpenDoorTranslation x="0.000000" y="0.000000" />
+      <OpenDoorHeadingChange value="0.000000" />
+      <EntryHeadingChange value="1.570000" />
+      <ExtraZForWaterEntry value="0.000000" />
+      <EntryPointFlags>JackIncludesGetIn DontCloseDoorOutside DontCloseDoorInside JackVariationsIncludeGetIn DeadJackIncludesGetIn ForcedEntryIncludesGetIn PreventJackInterrupt NavigateToWarpEntryPoint</EntryPointFlags>
+      <EntryAnimVariations ref="NULL" />
+	  <NMJumpFromVehicleTuningSet>SLOWTRUCK</NMJumpFromVehicleTuningSet>
+    </Item>
+    <Item type="CVehicleEntryPointAnimInfo">
+      <Name>ENTRY_POINT_ANIM_BLINDADOMIKE_REAR_LEFT_5</Name>
+      <CommonClipSetMap ref="COMMON_CLIPSET_MAP_BLINDADO_FRONT" />
+      <EntryClipSetMap ref="NULL" />
+      <ExitClipSetMap ref="EXIT_CLIPSET_MAP_BLINDADOMIKE_FRONT" />
+      <AlternateTryLockedDoorClipId />
+      <AlternateForcedEntryClipId />
+      <AlternateJackFromOutSideClipId />
+      <AlternateBeJackedFromOutSideClipId />
+      <AlternateEntryPointClipSetId />
+      <EnterVehicleMoveNetwork>ENTER_VEHICLE_STD</EnterVehicleMoveNetwork>
+      <EntryTranslation x="2.343100" y="-0.250000" z="-0.363700" />
+      <OpenDoorTranslation x="0.000000" y="0.000000" />
+      <OpenDoorHeadingChange value="0.000000" />
+      <EntryHeadingChange value="1.570000" />
+      <ExtraZForWaterEntry value="0.000000" />
+      <EntryPointFlags>JackIncludesGetIn DontCloseDoorOutside DontCloseDoorInside JackVariationsIncludeGetIn DeadJackIncludesGetIn ForcedEntryIncludesGetIn PreventJackInterrupt NavigateToWarpEntryPoint</EntryPointFlags>
+      <EntryAnimVariations ref="NULL" />
+	  <NMJumpFromVehicleTuningSet>SLOWTRUCK</NMJumpFromVehicleTuningSet>
+    </Item>
+    <Item type="CVehicleEntryPointAnimInfo">
+      <Name>ENTRY_POINT_ANIM_BLINDADOMIKE_REAR_RIGHT_2</Name>
+      <CommonClipSetMap ref="COMMON_CLIPSET_MAP_BLINDADO_FRONT_RIGHT" />
+      <EntryClipSetMap ref="ENTRY_CLIPSET_MAP_BLINDADOMIKE_FRONT" />
+      <ExitClipSetMap ref="EXIT_CLIPSET_MAP_BLINDADOMIKE_FRONT" />
+      <AlternateTryLockedDoorClipId />
+      <AlternateForcedEntryClipId />
+      <AlternateJackFromOutSideClipId />
+      <AlternateBeJackedFromOutSideClipId />
+      <AlternateEntryPointClipSetId />
+      <EnterVehicleMoveNetwork>ENTER_VEHICLE_STD</EnterVehicleMoveNetwork>
+      <EntryTranslation x="2.043100" y="-0.250000" z="-0.363700" />
+      <OpenDoorTranslation x="0.000000" y="0.000000" />
+      <OpenDoorHeadingChange value="0.000000" />
+      <EntryHeadingChange value="1.570000" />
+      <ExtraZForWaterEntry value="0.000000" />
+      <EntryPointFlags>JackIncludesGetIn DontCloseDoorOutside DontCloseDoorInside JackVariationsIncludeGetIn DeadJackIncludesGetIn ForcedEntryIncludesGetIn PreventJackInterrupt NavigateToWarpEntryPoint</EntryPointFlags>
+      <EntryAnimVariations ref="NULL" />
+	  <NMJumpFromVehicleTuningSet>SLOWTRUCK</NMJumpFromVehicleTuningSet>
+    </Item>
+    <Item type="CVehicleEntryPointAnimInfo">
+      <Name>ENTRY_POINT_ANIM_BLINDADOTURQ_REAR_RIGHT_2</Name>
+      <CommonClipSetMap ref="COMMON_CLIPSET_MAP_BLINDADO_FRONT_RIGHT" />
+      <EntryClipSetMap ref="ENTRY_CLIPSET_MAP_BLINDADOMIKE_FRONT" />
+      <ExitClipSetMap ref="EXIT_CLIPSET_MAP_BLINDADOMIKE_REAR_RIGHT" />
+      <AlternateTryLockedDoorClipId />
+      <AlternateForcedEntryClipId />
+      <AlternateJackFromOutSideClipId />
+      <AlternateBeJackedFromOutSideClipId />
+      <AlternateEntryPointClipSetId />
+      <EnterVehicleMoveNetwork>ENTER_VEHICLE_STD</EnterVehicleMoveNetwork>
+      <EntryTranslation x="0.443100" y="1.750000" z="-0.363700" />
+      <OpenDoorTranslation x="0.000000" y="0.000000" />
+      <OpenDoorHeadingChange value="0.000000" />
+      <EntryHeadingChange value="3.140000" />
+      <ExtraZForWaterEntry value="0.000000" />
+      <EntryPointFlags>JackIncludesGetIn DontCloseDoorOutside DontCloseDoorInside JackVariationsIncludeGetIn DeadJackIncludesGetIn ForcedEntryIncludesGetIn PreventJackInterrupt NavigateToWarpEntryPoint</EntryPointFlags>
+      <EntryAnimVariations ref="NULL" />
+	  <NMJumpFromVehicleTuningSet>SLOWTRUCK</NMJumpFromVehicleTuningSet>
+    </Item>
+    <Item type="CVehicleEntryPointAnimInfo">
+      <Name>ENTRY_POINT_ANIM_TURQ_REAR_LEFT</Name>
+      <CommonClipSetMap ref="COMMON_CLIPSET_MAP_TRUCK_LEFT" />
+      <EntryClipSetMap ref="ENTRY_CLIPSET_MAP_VAN_REAR_LEFT" />
+      <ExitClipSetMap ref="EXIT_CLIPSET_MAP_VAN_REAR_LEFT" />
+      <AlternateTryLockedDoorClipId />
+      <AlternateForcedEntryClipId />
+      <AlternateJackFromOutSideClipId />
+      <AlternateBeJackedFromOutSideClipId />
+      <AlternateEntryPointClipSetId />
+      <EnterVehicleMoveNetwork>ENTER_VEHICLE_STD</EnterVehicleMoveNetwork>
+      <EntryTranslation x="1.077000" y="-1.300000" z="0.200000" />
+      <OpenDoorTranslation x="0.000000" y="0.000000" />
+      <OpenDoorHeadingChange value="0.000000" />
+      <EntryHeadingChange value="0.000800" />
+      <ExtraZForWaterEntry value="0.000000" />
+      <EntryPointFlags>JackIncludesGetIn UseOpenDoorBlendAnims UseGetUpAfterJack JackVariationsIncludeGetIn DeadJackIncludesGetIn</EntryPointFlags>
+      <EntryAnimVariations ref="ENTRY_ANIM_VARIATIONS_VAN_REAR_LEFT" />
+    </Item>
+    <Item type="CVehicleEntryPointAnimInfo">
+      <Name>ENTRY_POINT_ANIM_BLINDADOMIKE_REAR_RIGHT_3</Name>
+      <CommonClipSetMap ref="COMMON_CLIPSET_MAP_BLINDADO_FRONT_RIGHT" />
+      <EntryClipSetMap ref="ENTRY_CLIPSET_MAP_BLINDADOMIKE_FRONT" />
+      <ExitClipSetMap ref="EXIT_CLIPSET_MAP_BLINDADOMIKE_FRONT_RIGHT" />
+      <AlternateTryLockedDoorClipId />
+      <AlternateForcedEntryClipId />
+      <AlternateJackFromOutSideClipId />
+      <AlternateBeJackedFromOutSideClipId />
+      <AlternateEntryPointClipSetId />
+      <EnterVehicleMoveNetwork>ENTER_VEHICLE_STD</EnterVehicleMoveNetwork>
+      <EntryTranslation x="1.543100" y="-0.250000" z="-0.363700" />
+      <OpenDoorTranslation x="0.000000" y="0.000000" />
+      <OpenDoorHeadingChange value="-0.000000" />
+      <EntryHeadingChange value="1.570000" />
+      <ExtraZForWaterEntry value="0.000000" />
+      <EntryPointFlags>JackIncludesGetIn DontCloseDoorOutside DontCloseDoorInside JackVariationsIncludeGetIn DeadJackIncludesGetIn ForcedEntryIncludesGetIn PreventJackInterrupt NavigateToWarpEntryPoint</EntryPointFlags>
+      <EntryAnimVariations ref="NULL" />
+	  <NMJumpFromVehicleTuningSet>SLOWTRUCK</NMJumpFromVehicleTuningSet>
+    </Item>
+  </VehicleEntryPointAnimInfos>
+  <VehicleExplosionInfos />
+  <VehicleLayoutInfos>
+	<Item type="CVehicleLayoutInfo">
+      <Name>LAYOUT_BLINDADO</Name>
+      <Seats>
+        <Item>
+          <SeatInfo ref="SEAT_STANDARD_BLINDADO_FRONT_LEFT" />
+          <SeatAnimInfo ref="SEAT_ANIM_BLINDADO_FRONT_LEFT" />
+        </Item>
+        <Item>
+          <SeatInfo ref="SEAT_STANDARD_BLINDADO_FRONT_RIGHT" />
+          <SeatAnimInfo ref="SEAT_ANIM_BLINDADO_FRONT_RIGHT" />
+        </Item>
+        <Item>
+          <SeatInfo ref="SEAT_STANDARD_BLINDADO_REAR_LEFT" />
+          <SeatAnimInfo ref="SEAT_ANIM_BLINDADO_REAR_LEFT_1" />
+        </Item>
+        <Item>
+          <SeatInfo ref="SEAT_STANDARD_BLINDADO_REAR_RIGHT" />
+          <SeatAnimInfo ref="SEAT_ANIM_BLINDADO_REAR_RIGHT" />
+        </Item>
+        <Item>
+          <SeatInfo ref="SEAT_STANDARD_BLINDADO_REAR_LEFT_1" />
+          <SeatAnimInfo ref="SEAT_ANIM_BLINDADO_REAR_LEFT_1" />
+        </Item>
+        <Item>
+          <SeatInfo ref="SEAT_STANDARD_BLINDADO_REAR_RIGHT_1" />
+          <SeatAnimInfo ref="SEAT_ANIM_BLINDADO_REAR_RIGHT" />
+        </Item>
+        <Item>
+          <SeatInfo ref="SEAT_STANDARD_BLINDADO_REAR_LEFT_2" />
+          <SeatAnimInfo ref="SEAT_ANIM_BLINDADO_REAR_LEFT_1" />
+        </Item>
+        <Item>
+          <SeatInfo ref="SEAT_STANDARD_BLINDADO_REAR_RIGHT_2" />
+          <SeatAnimInfo ref="SEAT_ANIM_BLINDADO_REAR_RIGHT" />
+        </Item>
+        <Item>
+          <SeatInfo ref="SEAT_STANDARD_BLINDADO_REAR_LEFT_3" />
+          <SeatAnimInfo ref="SEAT_ANIM_BLINDADO_REAR_LEFT_1" />
+        </Item>
+        <Item>
+          <SeatInfo ref="SEAT_STANDARD_BLINDADO_REAR_RIGHT_3" />
+          <SeatAnimInfo ref="SEAT_ANIM_BLINDADO_REAR_RIGHT" />
+        </Item>
+        <Item>
+          <SeatInfo ref="SEAT_STANDARD_BLINDADO_REAR_LEFT_4" />
+          <SeatAnimInfo ref="SEAT_ANIM_BLINDADO_REAR_RIGHT" />
+        </Item>
+        <Item>
+          <SeatInfo ref="SEAT_STANDARD_BLINDADO_REAR_RIGHT_4" />
+          <SeatAnimInfo ref="SEAT_ANIM_BLINDADO_REAR_RIGHT" />
+        </Item>
+      </Seats>
+      <EntryPoints>
+        <Item>
+          <EntryPointInfo ref="ENTRY_POINT_BLINDADO_FRONT_LEFT" />
+          <EntryPointAnimInfo ref="ENTRY_POINT_ANIM_BLINDADO_FRONT_LEFT" />
+        </Item>
+        <Item>
+          <EntryPointInfo ref="ENTRY_POINT_BLINDADO_FRONT_RIGHT" />
+          <EntryPointAnimInfo ref="ENTRY_POINT_ANIM_BLINDADO_FRONT_RIGHT" />
+        </Item>
+        <Item>
+          <EntryPointInfo ref="ENTRY_POINT_BLINDADO_REAR_LEFT" />
+          <EntryPointAnimInfo ref="ENTRY_POINT_ANIM_BLINDADO_REAR_LEFT" />
+        </Item>
+        <Item>
+          <EntryPointInfo ref="ENTRY_POINT_BLINDADO_REAR_RIGHT" />
+          <EntryPointAnimInfo ref="ENTRY_POINT_ANIM_BLINDADO_REAR_RIGHT" />
+        </Item>
+        <Item>
+          <EntryPointInfo ref="ENTRY_POINT_BLINDADO_REAR_LEFT_1" />
+          <EntryPointAnimInfo ref="ENTRY_POINT_ANIM_BLINDADO_REAR_LEFT_1" />
+        </Item>
+        <Item>
+          <EntryPointInfo ref="ENTRY_POINT_BLINDADO_REAR_RIGHT_1" />
+          <EntryPointAnimInfo ref="ENTRY_POINT_ANIM_BLINDADO_REAR_RIGHT_1" />
+        </Item>
+        <Item>
+          <EntryPointInfo ref="ENTRY_POINT_BLINDADO_REAR_LEFT_2" />
+          <EntryPointAnimInfo ref="ENTRY_POINT_ANIM_BLINDADO_REAR_LEFT_2" />
+        </Item>
+        <Item>
+          <EntryPointInfo ref="ENTRY_POINT_BLINDADO_REAR_RIGHT_2" />
+          <EntryPointAnimInfo ref="ENTRY_POINT_ANIM_BLINDADO_REAR_RIGHT_2" />
+        </Item>
+        <Item>
+          <EntryPointInfo ref="ENTRY_POINT_BLINDADO_REAR_LEFT_3" />
+          <EntryPointAnimInfo ref="ENTRY_POINT_ANIM_BLINDADO_REAR_LEFT_3" />
+        </Item>
+        <Item>
+          <EntryPointInfo ref="ENTRY_POINT_BLINDADO_REAR_RIGHT_3" />
+          <EntryPointAnimInfo ref="ENTRY_POINT_ANIM_BLINDADO_REAR_RIGHT_3" />
+        </Item>
+      </EntryPoints>
+      <LayoutFlags>StreamAnims UseLeanSteerAnims UseDoorOscillation UseLowerDoorBlockTest UseFinerAlignTolerance WaitForRerservationInGroup</LayoutFlags>
+      <BicycleInfo ref="NULL" />
+      <HandsUpClipSetId>busted_vehicle_std</HandsUpClipSetId>
+      <SteeringWheelOffset x="0.000000" y="0.350000" z="0.320000" />
+      <MaxXAcceleration value="4.00000" />
+      <BodyLeanXApproachSpeed value="5.00000" />
+      <BodyLeanXSmallDelta value="0.30000" />
+      <FirstPersonAdditiveIdleClipSets>
+        <Item>clipset@veh@van@ds@idle_a</Item>
+        <Item>clipset@veh@van@ds@idle_b</Item>
+        <Item>clipset@veh@van@ds@idle_c</Item>
+        <Item>clipset@veh@van@ds@idle_d</Item>
+        <Item>clipset@veh@van@ds@idle_e</Item>
+      </FirstPersonAdditiveIdleClipSets>
+      <FirstPersonRoadRageClipSets>
+        <Item>clipset@veh@van@ds@hit_wheel@idle_a</Item>
+        <Item>clipset@veh@van@ds@hit_wheel@idle_b</Item>
+        <Item>clipset@veh@van@ds@hit_wheel@idle_c</Item>
+      </FirstPersonRoadRageClipSets>
+    </Item>
+	<Item type="CVehicleLayoutInfo">
+      <Name>LAYOUT_BLINDADOMIKE</Name>
+      <Seats>
+        <Item>
+          <SeatInfo ref="SEAT_STANDARD_BLINDADO_FRONT_LEFT" />
+          <SeatAnimInfo ref="SEAT_ANIM_BLINDADO_FRONT_LEFT" />
+        </Item>
+        <Item>
+          <SeatInfo ref="SEAT_STANDARD_BLINDADO_FRONT_RIGHT" />
+          <SeatAnimInfo ref="SEAT_ANIM_BLINDADO_FRONT_RIGHT" />
+        </Item>
+        <Item>
+          <SeatInfo ref="SEAT_STANDARD_BLINDADO_REAR_LEFT" />
+          <SeatAnimInfo ref="SEAT_ANIM_BLINDADO_REAR_LEFT_1" />
+        </Item>
+        <Item>
+          <SeatInfo ref="SEAT_STANDARD_BLINDADO_REAR_RIGHT" />
+          <SeatAnimInfo ref="SEAT_ANIM_BLINDADO_REAR_RIGHT" />
+        </Item>
+        <Item>
+          <SeatInfo ref="SEAT_STANDARD_BLINDADO_REAR_LEFT_1" />
+          <SeatAnimInfo ref="SEAT_ANIM_BLINDADO_REAR_LEFT_1" />
+        </Item>
+        <Item>
+          <SeatInfo ref="SEAT_STANDARD_BLINDADO_REAR_RIGHT_1" />
+          <SeatAnimInfo ref="SEAT_ANIM_BLINDADO_REAR_RIGHT" />
+        </Item>
+        <Item>
+          <SeatInfo ref="SEAT_STANDARD_BLINDADO_REAR_LEFT_2" />
+          <SeatAnimInfo ref="SEAT_ANIM_BLINDADO_REAR_LEFT_1" />
+        </Item>
+        <Item>
+          <SeatInfo ref="SEAT_STANDARD_BLINDADO_REAR_RIGHT_2" />
+          <SeatAnimInfo ref="SEAT_ANIM_BLINDADO_REAR_RIGHT" />
+        </Item>
+        <Item>
+          <SeatInfo ref="SEAT_STANDARD_BLINDADO_REAR_LEFT_3" />
+          <SeatAnimInfo ref="SEAT_ANIM_BLINDADO_REAR_LEFT_1" />
+        </Item>
+        <Item>
+          <SeatInfo ref="SEAT_STANDARD_BLINDADO_REAR_RIGHT_3" />
+          <SeatAnimInfo ref="SEAT_ANIM_BLINDADO_REAR_RIGHT" />
+        </Item>
+        <Item>
+          <SeatInfo ref="SEAT_STANDARD_BLINDADO_TORRE_LEFT_4" />
+          <SeatAnimInfo ref="SEAT_ANIM_BLINDADOMIKE_TORRE_FRONT" />
+        </Item>
+        <Item>
+          <SeatInfo ref="SEAT_STANDARD_BLINDADO_TORRE_RIGHT_4" />
+          <SeatAnimInfo ref="SEAT_ANIM_BLINDADOMIKE_TORRE_FRONT" />
+        </Item>
+        <Item>
+          <SeatInfo ref="SEAT_STANDARD_BLINDADO_TORRE_LEFT_5" />
+          <SeatAnimInfo ref="SEAT_ANIM_BLINDADOMIKE_TORRE_FRONT" />
+        </Item>
+        <Item>
+          <SeatInfo ref="SEAT_STANDARD_BLINDADO_TORRE_RIGHT_5" />
+          <SeatAnimInfo ref="SEAT_ANIM_BLINDADOMIKE_TORRE_FRONT" />
+        </Item>
+      </Seats>
+      <EntryPoints>
+        <Item>
+          <EntryPointInfo ref="ENTRY_POINT_BLINDADOMIKE_FRONT_LEFT" />
+          <EntryPointAnimInfo ref="ENTRY_POINT_ANIM_BLINDADOMIKE_FRONT_LEFT" />
+        </Item>
+        <Item>
+          <EntryPointInfo ref="ENTRY_POINT_BLINDADOMIKE_FRONT_RIGHT" />
+          <EntryPointAnimInfo ref="ENTRY_POINT_ANIM_BLINDADOMIKE_FRONT_RIGHT" />
+        </Item>
+        <Item>
+          <EntryPointInfo ref="ENTRY_POINT_BLINDADOMIKE_REAR_LEFT" />
+          <EntryPointAnimInfo ref="ENTRY_POINT_ANIM_BLINDADOMIKE_REAR_LEFT" />
+        </Item>
+        <Item>
+          <EntryPointInfo ref="ENTRY_POINT_BLINDADOMIKE_REAR_RIGHT" />
+          <EntryPointAnimInfo ref="ENTRY_POINT_ANIM_BLINDADOMIKE_REAR_RIGHT" />
+        </Item>
+        <Item>
+          <EntryPointInfo ref="ENTRY_POINT_BLINDADOMIKE_REAR_LEFT_1" />
+          <EntryPointAnimInfo ref="ENTRY_POINT_ANIM_BLINDADOMIKE_REAR_LEFT_1" />
+        </Item>
+        <Item>
+          <EntryPointInfo ref="ENTRY_POINT_BLINDADOMIKE_REAR_RIGHT_1" />
+          <EntryPointAnimInfo ref="ENTRY_POINT_ANIM_BLINDADOMIKE_REAR_RIGHT_1" />
+        </Item>
+        <Item>
+          <EntryPointInfo ref="ENTRY_POINT_BLINDADOMIKE_REAR_LEFT_2" />
+          <EntryPointAnimInfo ref="ENTRY_POINT_ANIM_BLINDADOMIKE_REAR_LEFT_2" />
+        </Item>
+        <Item>
+          <EntryPointInfo ref="ENTRY_POINT_BLINDADOMIKE_REAR_RIGHT_2" />
+          <EntryPointAnimInfo ref="ENTRY_POINT_ANIM_BLINDADOMIKE_REAR_RIGHT_2" />
+        </Item>
+        <Item>
+          <EntryPointInfo ref="ENTRY_POINT_BLINDADOMIKE_REAR_LEFT_3" />
+          <EntryPointAnimInfo ref="ENTRY_POINT_ANIM_BLINDADOMIKE_REAR_LEFT_3" />
+        </Item>
+        <Item>
+          <EntryPointInfo ref="ENTRY_POINT_BLINDADOMIKE_REAR_RIGHT_3" />
+          <EntryPointAnimInfo ref="ENTRY_POINT_ANIM_BLINDADOMIKE_REAR_RIGHT_3" />
+        </Item>
+        <Item>
+          <EntryPointInfo ref="ENTRY_POINT_BLINDADOMIKE_REAR_LEFT_4" />
+          <EntryPointAnimInfo ref="ENTRY_POINT_ANIM_BLINDADOMIKE_REAR_LEFT_4" />
+        </Item>
+      </EntryPoints>
+      <LayoutFlags>StreamAnims UseLeanSteerAnims ClimbUpAfterOpenDoor UseDoorOscillation UseFinerAlignTolerance WaitForRerservationInGroup</LayoutFlags>
+      <BicycleInfo ref="NULL" />
+      <HandsUpClipSetId>busted_vehicle_std</HandsUpClipSetId>
+      <SteeringWheelOffset x="0.000000" y="0.350000" z="0.320000" />
+      <MaxXAcceleration value="4.00000" />
+      <BodyLeanXApproachSpeed value="5.00000" />
+      <BodyLeanXSmallDelta value="0.30000" />
+      <FirstPersonAdditiveIdleClipSets>
+        <Item>clipset@veh@van@ds@idle_a</Item>
+        <Item>clipset@veh@van@ds@idle_b</Item>
+        <Item>clipset@veh@van@ds@idle_c</Item>
+        <Item>clipset@veh@van@ds@idle_d</Item>
+        <Item>clipset@veh@van@ds@idle_e</Item>
+      </FirstPersonAdditiveIdleClipSets>
+      <FirstPersonRoadRageClipSets>
+        <Item>clipset@veh@van@ds@hit_wheel@idle_a</Item>
+        <Item>clipset@veh@van@ds@hit_wheel@idle_b</Item>
+        <Item>clipset@veh@van@ds@hit_wheel@idle_c</Item>
+      </FirstPersonRoadRageClipSets>
+    </Item>
+	<Item type="CVehicleLayoutInfo">
+      <Name>LAYOUT_BLINDADOTURQ</Name>
+      <Seats>
+        <Item>
+          <SeatInfo ref="SEAT_STANDARD_BLINDADO_FRONT_LEFT" />
+          <SeatAnimInfo ref="SEAT_ANIM_BLINDADO_FRONT_LEFT" />
+        </Item>
+        <Item>
+          <SeatInfo ref="SEAT_STANDARD_BLINDADO_FRONT_RIGHT" />
+          <SeatAnimInfo ref="SEAT_ANIM_BLINDADO_FRONT_RIGHT" />
+        </Item>
+        <Item>
+          <SeatInfo ref="SEAT_STANDARD_BLINDADO_REAR_LEFT" />
+          <SeatAnimInfo ref="SEAT_ANIM_BLINDADOTURQ_REAR_LEFT_1" />
+        </Item>
+        <Item>
+          <SeatInfo ref="SEAT_STANDARD_BLINDADO_REAR_RIGHT" />
+          <SeatAnimInfo ref="SEAT_ANIM_BLINDADOTURQ_FIEL_LEFT" />
+        </Item>
+        <Item>
+          <SeatInfo ref="SEAT_STANDARD_BLINDADO_REAR_LEFT_1" />
+          <SeatAnimInfo ref="SEAT_ANIM_BLINDADOTURQ_REAR_LEFT_1" />
+        </Item>
+        <Item>
+          <SeatInfo ref="SEAT_STANDARD_BLINDADO_REAR_RIGHT_1" />
+          <SeatAnimInfo ref="SEAT_ANIM_BLINDADOTURQ_FIEL_LEFT" />
+        </Item>
+        <Item>
+          <SeatInfo ref="SEAT_STANDARD_BLINDADO_REAR_LEFT_2" />
+          <SeatAnimInfo ref="SEAT_ANIM_BLINDADOTURQ_REAR_LEFT_1" />
+        </Item>
+        <Item>
+          <SeatInfo ref="SEAT_STANDARD_BLINDADO_REAR_RIGHT_2" />
+          <SeatAnimInfo ref="SEAT_ANIM_BLINDADOTURQ_FIEL_RIGHT" />
+        </Item>
+        <Item>
+          <SeatInfo ref="SEAT_STANDARD_BLINDADO_REAR_LEFT_3" />
+          <SeatAnimInfo ref="SEAT_ANIM_DEITADO_REAR_RIGHT" />
+        </Item>
+      </Seats>
+      <EntryPoints>
+        <Item>
+          <EntryPointInfo ref="ENTRY_POINT_BLINDADOMIKE_FRONT_LEFT" />
+          <EntryPointAnimInfo ref="ENTRY_POINT_ANIM_BLINDADOTURQ_FRONT_LEFT" />
+        </Item>
+        <Item>
+          <EntryPointInfo ref="ENTRY_POINT_BLINDADOTURQ_FRONT_RIGHT" />
+          <EntryPointAnimInfo ref="ENTRY_POINT_ANIM_BLINDADOTURQ_FRONT_RIGHT" />
+        </Item>
+        <Item>
+          <EntryPointInfo ref="ENTRY_POINT_BLINDADOTURQ_DIREITO" />
+          <EntryPointAnimInfo ref="ENTRY_POINT_ANIM_BLINDADOTURQ_DIREITO" />
+        </Item>
+        <Item>
+          <EntryPointInfo ref="ENTRY_POINT_BLINDADOTURQ_REAR_FIEL" />
+          <EntryPointAnimInfo ref="ENTRY_POINT_ANIM_BLINDADOTURQ_REAR_RIGHT" />
+        </Item>
+        <Item>
+          <EntryPointInfo ref="ENTRY_POINT_BLINDADOTURQ_REAR_LEFT_1" />
+          <EntryPointAnimInfo ref="ENTRY_POINT_ANIM_BLINDADOTURQ_REAR_LEFT_1" />
+        </Item>
+        <Item>
+          <EntryPointInfo ref="ENTRY_POINT_BLINDADOTURQ_REAR_RIGHT_1" />
+          <EntryPointAnimInfo ref="ENTRY_POINT_ANIM_BLINDADOTURQ_REAR_RIGHT_1" />
+        </Item>
+        <Item>
+          <EntryPointInfo ref="ENTRY_POINT_BLINDADOTURQ_REAR_LEFT_2" />
+          <EntryPointAnimInfo ref="ENTRY_POINT_ANIM_BLINDADOTURQ_REAR_LEFT_2" />
+        </Item>
+        <Item>
+          <EntryPointInfo ref="ENTRY_POINT_BLINDADOTURQ_REAR_RIGHT_2" />
+          <EntryPointAnimInfo ref="ENTRY_POINT_ANIM_BLINDADOTURQ_REAR_RIGHT_2" />
+        </Item>
+        <Item>
+          <EntryPointInfo ref="ENTRY_POINT_BLINDADOMIKE_REAR_LEFT_3" />
+          <EntryPointAnimInfo ref="ENTRY_POINT_ANIM_BLINDADOTURQ_DEITADO" />
+        </Item>
+      </EntryPoints>
+      <LayoutFlags>StreamAnims UseLeanSteerAnims ClimbUpAfterOpenDoor UseDoorOscillation UseFinerAlignTolerance WaitForRerservationInGroup</LayoutFlags>
+      <BicycleInfo ref="NULL" />
+      <HandsUpClipSetId>busted_vehicle_std</HandsUpClipSetId>
+      <SteeringWheelOffset x="0.000000" y="0.350000" z="0.320000" />
+      <MaxXAcceleration value="4.00000" />
+      <BodyLeanXApproachSpeed value="5.00000" />
+      <BodyLeanXSmallDelta value="0.30000" />
+      <FirstPersonAdditiveIdleClipSets>
+        <Item>clipset@veh@van@ds@idle_a</Item>
+        <Item>clipset@veh@van@ds@idle_b</Item>
+        <Item>clipset@veh@van@ds@idle_c</Item>
+        <Item>clipset@veh@van@ds@idle_d</Item>
+        <Item>clipset@veh@van@ds@idle_e</Item>
+      </FirstPersonAdditiveIdleClipSets>
+      <FirstPersonRoadRageClipSets>
+        <Item>clipset@veh@van@ds@hit_wheel@idle_a</Item>
+        <Item>clipset@veh@van@ds@hit_wheel@idle_b</Item>
+        <Item>clipset@veh@van@ds@hit_wheel@idle_c</Item>
+      </FirstPersonRoadRageClipSets>
+    </Item>
+  </VehicleLayoutInfos>
+  <VehicleScenarioLayoutInfos />
+  <SeatOverrideAnimInfos />
+  <InVehicleOverrideInfos />
+  <FirstPersonDriveByLookAroundData />
+</CVehicleMetadataMgr>
