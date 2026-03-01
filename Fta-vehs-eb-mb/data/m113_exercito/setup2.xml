@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SSetupData>
+  <deviceName>dlc_m113</deviceName>
+  <datFile>content.xml</datFile>
+  <timeStamp>03/03/2018 12:00:00</timeStamp>
+  <nameHash>m113</nameHash>
+  <contentChangeSetGroups>
+    <Item>
+      <NameHash>GROUP_STARTUP</NameHash>
+      <ContentChangeSets>
+        <Item>m113_AUTOGEN</Item>
+        <Item>m113_UNLOCKS_AUTOGEN</Item>	
+      </ContentChangeSets>
+    </Item>
+  </contentChangeSetGroups>
+  <type>EXTRACONTENT_COMPAT_PACK</type>
+  <order value="13" />  
+</SSetupData>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CWeaponModelInfo__InitDataList>
+	<InitDatas>
+		<Item>
+			<modelName>piranha2</modelName>
+			<txdName>piranha2</txdName>
+			<ptfxAssetName>null</ptfxAssetName>
+			<lodDist value="100"/>
+		</Item>
+		<Item>
+			<modelName>a29b_paveway</modelName>
+			<txdName>a29b_paveway</txdName>
+			<ptfxAssetName>null</ptfxAssetName>
+			<lodDist value="100"/>
+		</Item>
+	</InitDatas>
+</CWeaponModelInfo__InitDataList>
