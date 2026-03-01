@@ -1,0 +1,943 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CVehicleMetadataMgr>
+
+
+<!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------  SEATINFO  ---------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+
+  <VehicleSeatInfos> 
+<!-------------------------------------------------------  PASSAGEIRO - MOTORISTA  -------------------------------------------------->
+    <Item type="CVehicleSeatInfo">
+      <Name>SEAT_BAGRE_FRONT_MOTORISTA</Name>
+      <SeatBoneName>seat_dside_f</SeatBoneName>
+      <ShuffleLink />
+      <RearSeatLink />
+      <DefaultCarTask>TASK_DRIVE_WANDER</DefaultCarTask>
+      <SeatFlags>IsFrontSeat</SeatFlags>
+      <HairScale value="0.000000" />
+    </Item>
+<!-----------------------------------------------------------  ATIRADOR - 1  --------------------------------------------------------->
+    <Item type="CVehicleSeatInfo">
+      <Name>SEAT_BAGRE_ATIRADOR_1</Name>
+      <SeatBoneName>seat_pside_f</SeatBoneName>
+      <ShuffleLink />
+      <RearSeatLink />
+      <DefaultCarTask>TASK_DRIVE_WANDER</DefaultCarTask>
+      <SeatFlags>IsFrontSeat</SeatFlags>
+      <HairScale value="0.000000" />
+    </Item>
+<!----------------------------------------------------------  PASSAGEIRO - D  ------------------------------------------------------>
+    <Item type="CVehicleSeatInfo">
+      <Name>SEAT_BAGRE_PASSAGEIRO_D</Name>
+      <SeatBoneName>seat_dside_r</SeatBoneName>
+      <ShuffleLink />
+      <RearSeatLink />
+      <DefaultCarTask>TASK_DRIVE_WANDER</DefaultCarTask>
+      <SeatFlags>IsIdleSeat</SeatFlags>
+      <HairScale value="0.000000" />
+    </Item>
+<!----------------------------------------------------------  PASSAGEIRO - P  ------------------------------------------------------>
+    <Item type="CVehicleSeatInfo">
+      <Name>SEAT_BAGRE_PASSAGEIRO_P</Name>
+      <SeatBoneName>seat_pside_r</SeatBoneName>
+      <ShuffleLink />
+      <RearSeatLink />
+      <DefaultCarTask>TASK_DRIVE_WANDER</DefaultCarTask>
+      <SeatFlags>IsIdleSeat</SeatFlags>
+      <HairScale value="0.000000" />
+    </Item>
+<!----------------------------------------------------------  PASSAGEIRO - D1  ------------------------------------------------------>
+    <Item type="CVehicleSeatInfo">
+      <Name>SEAT_BAGRE_PASSAGEIRO_D1</Name>
+      <SeatBoneName>seat_dside_r1</SeatBoneName>
+      <ShuffleLink />
+      <RearSeatLink />
+      <DefaultCarTask>TASK_DRIVE_WANDER</DefaultCarTask>
+      <SeatFlags>IsIdleSeat</SeatFlags>
+      <HairScale value="0.000000" />
+    </Item>
+<!----------------------------------------------------------  PASSAGEIRO - P1  ------------------------------------------------------>
+    <Item type="CVehicleSeatInfo">
+      <Name>SEAT_BAGRE_PASSAGEIRO_P1</Name>
+      <SeatBoneName>seat_pside_r1</SeatBoneName>
+      <ShuffleLink />
+      <RearSeatLink />
+      <DefaultCarTask>TASK_DRIVE_WANDER</DefaultCarTask>
+      <SeatFlags>IsIdleSeat</SeatFlags>
+      <HairScale value="0.000000" />
+    </Item>
+<!----------------------------------------------------------  PASSAGEIRO - D2  ------------------------------------------------------>
+    <Item type="CVehicleSeatInfo">
+      <Name>SEAT_BAGRE_PASSAGEIRO_D2</Name>
+      <SeatBoneName>seat_dside_r2</SeatBoneName>
+      <ShuffleLink />
+      <RearSeatLink />
+      <DefaultCarTask>TASK_DRIVE_WANDER</DefaultCarTask>
+      <SeatFlags>IsIdleSeat</SeatFlags>
+      <HairScale value="0.000000" />
+    </Item>
+<!----------------------------------------------------------  PASSAGEIRO - P2  ------------------------------------------------------>
+    <Item type="CVehicleSeatInfo">
+      <Name>SEAT_BAGRE_PASSAGEIRO_P2</Name>
+      <SeatBoneName>seat_pside_r2</SeatBoneName>
+      <ShuffleLink />
+      <RearSeatLink />
+      <DefaultCarTask>TASK_DRIVE_WANDER</DefaultCarTask>
+      <SeatFlags>IsIdleSeat</SeatFlags>
+      <HairScale value="0.000000" />
+    </Item>
+<!----------------------------------------------------------  PASSAGEIRO - D3  ------------------------------------------------------>
+    <Item type="CVehicleSeatInfo">
+      <Name>SEAT_BAGRE_PASSAGEIRO_D3</Name>
+      <SeatBoneName>seat_dside_r3</SeatBoneName>
+      <ShuffleLink />
+      <RearSeatLink />
+      <DefaultCarTask>TASK_DRIVE_WANDER</DefaultCarTask>
+      <SeatFlags>IsIdleSeat</SeatFlags>
+      <HairScale value="0.000000" />
+    </Item>
+<!----------------------------------------------------------  PASSAGEIRO - P3  ------------------------------------------------------>
+    <Item type="CVehicleSeatInfo">
+      <Name>SEAT_BAGRE_PASSAGEIRO_P3</Name>
+      <SeatBoneName>seat_pside_r3</SeatBoneName>
+      <ShuffleLink />
+      <RearSeatLink />
+      <DefaultCarTask>TASK_DRIVE_WANDER</DefaultCarTask>
+      <SeatFlags>IsIdleSeat</SeatFlags>
+      <HairScale value="0.000000" />
+    </Item>
+  </VehicleSeatInfos>
+
+
+<!------------------------------------------------------------------------------------------  SEATINFO  ---------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+
+
+
+<!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------  ENTRYPOINT  -------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+
+  <VehicleEntryPointInfos>
+<!-------------------------------------------------------  PASSAGEIRO - MOTORISTA  -------------------------------------------------->
+    <Item type="CVehicleEntryPointInfo">
+      <Name>ENTRY_POINT_BAGRE_FRONT_MOTORISTA</Name>
+      <DoorBoneName>door_dside_f</DoorBoneName>
+      <SecondDoorBoneName />
+      <DoorHandleBoneName>handle_dside_f</DoorHandleBoneName>
+      <WindowId>INVALID</WindowId>
+      <VehicleSide>SIDE_LEFT</VehicleSide>
+      <AccessableSeats>
+        <Item ref="SEAT_BAGRE_FRONT_MOTORISTA" />
+      </AccessableSeats>
+      <VehicleExtraPointsInfo ref="NULL" />
+      <Flags>IgnoreSmashWindowCheck</Flags>
+      <BlockJackReactionSides />
+    </Item>
+<!-----------------------------------------------------------  ATIRADOR - 1  --------------------------------------------------------->
+    <Item type="CVehicleEntryPointInfo">
+      <Name>ENTRY_POINT_BAGRE_ATIRADOR_1</Name>
+      <DoorBoneName>door_dside_f</DoorBoneName>
+      <SecondDoorBoneName />
+      <DoorHandleBoneName>handle_dside_f</DoorHandleBoneName>
+      <WindowId>INVALID</WindowId>
+      <VehicleSide>SIDE_LEFT</VehicleSide>
+      <AccessableSeats>
+        <Item ref="SEAT_BAGRE_ATIRADOR_1" />
+      </AccessableSeats>
+      <VehicleExtraPointsInfo ref="NULL" />
+      <Flags>IgnoreSmashWindowCheck</Flags>
+      <BlockJackReactionSides />
+    </Item>
+<!----------------------------------------------------------  PASSAGEIRO - D  ------------------------------------------------------>
+    <Item type="CVehicleEntryPointInfo">
+      <Name>ENTRY_POINT_BAGRE_PASSAGEIRO_D</Name>
+      <DoorBoneName>boot</DoorBoneName>
+      <SecondDoorBoneName />
+      <DoorHandleBoneName />
+      <WindowId>INVALID</WindowId>
+      <VehicleSide>SIDE_REAR</VehicleSide>
+      <AccessableSeats>
+        <Item ref="SEAT_BAGRE_PASSAGEIRO_D" />
+      </AccessableSeats>
+      <VehicleExtraPointsInfo ref="NULL" />
+      <Flags>IgnoreSmashWindowCheck</Flags>
+      <BlockJackReactionSides />
+    </Item>
+<!----------------------------------------------------------  PASSAGEIRO - P  ------------------------------------------------------>
+    <Item type="CVehicleEntryPointInfo">
+      <Name>ENTRY_POINT_BAGRE_PASSAGEIRO_P</Name>
+      <DoorBoneName>boot</DoorBoneName>
+      <SecondDoorBoneName />
+      <DoorHandleBoneName />
+      <WindowId>INVALID</WindowId>
+      <VehicleSide>SIDE_REAR</VehicleSide>
+      <AccessableSeats>
+        <Item ref="SEAT_BAGRE_PASSAGEIRO_P" />
+      </AccessableSeats>
+      <VehicleExtraPointsInfo ref="NULL" />
+      <Flags>IgnoreSmashWindowCheck</Flags>
+      <BlockJackReactionSides />
+    </Item>
+<!----------------------------------------------------------  PASSAGEIRO - D1  ------------------------------------------------------>
+    <Item type="CVehicleEntryPointInfo">
+      <Name>ENTRY_POINT_BAGRE_PASSAGEIRO_D1</Name>
+      <DoorBoneName>boot</DoorBoneName>
+      <SecondDoorBoneName />
+      <DoorHandleBoneName />
+      <WindowId>INVALID</WindowId>
+      <VehicleSide>SIDE_REAR</VehicleSide>
+      <AccessableSeats>
+        <Item ref="SEAT_BAGRE_PASSAGEIRO_D1" />
+      </AccessableSeats>
+      <VehicleExtraPointsInfo ref="NULL" />
+      <Flags>IgnoreSmashWindowCheck</Flags>
+      <BlockJackReactionSides />
+    </Item>
+<!----------------------------------------------------------  PASSAGEIRO - P1  ------------------------------------------------------>
+    <Item type="CVehicleEntryPointInfo">
+      <Name>ENTRY_POINT_BAGRE_PASSAGEIRO_P1</Name>
+      <DoorBoneName>boot</DoorBoneName>
+      <SecondDoorBoneName />
+      <DoorHandleBoneName />
+      <WindowId>INVALID</WindowId>
+      <VehicleSide>SIDE_REAR</VehicleSide>
+      <AccessableSeats>
+        <Item ref="SEAT_BAGRE_PASSAGEIRO_P1" />
+      </AccessableSeats>
+      <VehicleExtraPointsInfo ref="NULL" />
+      <Flags>IgnoreSmashWindowCheck</Flags>
+      <BlockJackReactionSides />
+    </Item>
+<!----------------------------------------------------------  PASSAGEIRO - D2  ------------------------------------------------------>
+    <Item type="CVehicleEntryPointInfo">
+      <Name>ENTRY_POINT_BAGRE_PASSAGEIRO_D2</Name>
+      <DoorBoneName>boot</DoorBoneName>
+      <SecondDoorBoneName />
+      <DoorHandleBoneName />
+      <WindowId>INVALID</WindowId>
+      <VehicleSide>SIDE_REAR</VehicleSide>
+      <AccessableSeats>
+        <Item ref="SEAT_BAGRE_PASSAGEIRO_D2" />
+      </AccessableSeats>
+      <VehicleExtraPointsInfo ref="NULL" />
+      <Flags>IgnoreSmashWindowCheck</Flags>
+      <BlockJackReactionSides />
+    </Item>
+<!----------------------------------------------------------  PASSAGEIRO - P2  ------------------------------------------------------>
+    <Item type="CVehicleEntryPointInfo">
+      <Name>ENTRY_POINT_BAGRE_PASSAGEIRO_P2</Name>
+      <DoorBoneName>boot</DoorBoneName>
+      <SecondDoorBoneName />
+      <DoorHandleBoneName />
+      <WindowId>INVALID</WindowId>
+      <VehicleSide>SIDE_REAR</VehicleSide>
+      <AccessableSeats>
+        <Item ref="SEAT_BAGRE_PASSAGEIRO_P2" />
+      </AccessableSeats>
+      <VehicleExtraPointsInfo ref="NULL" />
+      <Flags>IgnoreSmashWindowCheck</Flags>
+      <BlockJackReactionSides />
+    </Item>
+<!----------------------------------------------------------  PASSAGEIRO - D3  ------------------------------------------------------>
+    <Item type="CVehicleEntryPointInfo">
+      <Name>ENTRY_POINT_BAGRE_PASSAGEIRO_D3</Name>
+      <DoorBoneName>boot</DoorBoneName>
+      <SecondDoorBoneName />
+      <DoorHandleBoneName />
+      <WindowId>INVALID</WindowId>
+      <VehicleSide>SIDE_REAR</VehicleSide>
+      <AccessableSeats>
+        <Item ref="SEAT_BAGRE_PASSAGEIRO_D3" />
+      </AccessableSeats>
+      <VehicleExtraPointsInfo ref="NULL" />
+      <Flags>IgnoreSmashWindowCheck</Flags>
+      <BlockJackReactionSides />
+    </Item>
+<!----------------------------------------------------------  PASSAGEIRO - P3  ------------------------------------------------------>
+    <Item type="CVehicleEntryPointInfo">
+      <Name>ENTRY_POINT_BAGRE_PASSAGEIRO_P3</Name>
+      <DoorBoneName>boot</DoorBoneName>
+      <SecondDoorBoneName />
+      <DoorHandleBoneName />
+      <WindowId>INVALID</WindowId>
+      <VehicleSide>SIDE_REAR</VehicleSide>
+      <AccessableSeats>
+        <Item ref="SEAT_BAGRE_PASSAGEIRO_P3" />
+      </AccessableSeats>
+      <VehicleExtraPointsInfo ref="NULL" />
+      <Flags>IgnoreSmashWindowCheck</Flags>
+      <BlockJackReactionSides />
+    </Item>
+  </VehicleEntryPointInfos> 
+
+
+<!------------------------------------------------------------------------------------------  ENTRYPOINT  -------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+
+
+
+<!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------  CLIP SETS  --------------------------------------------------------------------------------------------------------------------------------------------------------->
+  
+   <ClipSetMaps>
+<!-------------------------------------------------------------  ATIRADOR  --------------------------------------------------------->
+    <Item type="CClipSetMap">
+      <Name>INSIDE_CLIPSET_MAP_BAGRE_ATIRADOR</Name>
+      <Maps>
+        <Item>
+          <ClipSetId>veh@bagre@fps@base</ClipSetId>
+          <VarClipSetId>InsideVarClipSet</VarClipSetId>
+          <ConditionFlags />
+          <InformationFlags />
+        </Item>
+      </Maps>
+    </Item>
+<!----------------------------------------------------------  PASSAGEIRO - D  ------------------------------------------------------>
+    <Item type="CClipSetMap">
+      <Name>INSIDE_CLIPSET_MAP_BAGRE_PASSAGEIRO_D</Name>
+      <Maps>
+        <Item>
+          <ClipSetId>veh@bagre@rds@base</ClipSetId>
+          <VarClipSetId>InsideVarClipSet</VarClipSetId>
+          <ConditionFlags />
+          <InformationFlags />
+        </Item>
+      </Maps>
+    </Item>
+<!----------------------------------------------------------  PASSAGEIRO - P  ------------------------------------------------------>
+    <Item type="CClipSetMap">
+      <Name>INSIDE_CLIPSET_MAP_BAGRE_PASSAGEIRO_P</Name>
+      <Maps>
+        <Item>
+          <ClipSetId>veh@bagre@rps@base</ClipSetId>
+          <VarClipSetId>InsideVarClipSet</VarClipSetId>
+          <ConditionFlags />
+          <InformationFlags />
+        </Item>
+      </Maps>
+    </Item>
+<!----------------------------------------------------------  PASSAGEIRO - D1  ------------------------------------------------------>
+    <Item type="CClipSetMap">
+      <Name>INSIDE_CLIPSET_MAP_BAGRE_PASSAGEIRO_D1</Name>
+      <Maps>
+        <Item>
+          <ClipSetId>veh@bagre@rds1@base</ClipSetId>
+          <VarClipSetId>InsideVarClipSet</VarClipSetId>
+          <ConditionFlags />
+          <InformationFlags />
+        </Item>
+      </Maps>
+    </Item>
+<!----------------------------------------------------------  PASSAGEIRO - P1  ------------------------------------------------------>
+    <Item type="CClipSetMap">
+      <Name>INSIDE_CLIPSET_MAP_BAGRE_PASSAGEIRO_P1</Name>
+      <Maps>
+        <Item>
+          <ClipSetId>veh@bagre@rps1@base</ClipSetId>
+          <VarClipSetId>InsideVarClipSet</VarClipSetId>
+          <ConditionFlags />
+          <InformationFlags />
+        </Item>
+      </Maps>
+    </Item>
+<!----------------------------------------------------------  PASSAGEIRO - P3  ------------------------------------------------------>
+    <Item type="CClipSetMap">
+      <Name>INSIDE_CLIPSET_MAP_BAGRE_PASSAGEIRO_P3</Name>
+      <Maps>
+        <Item>
+          <ClipSetId>veh@bagre@rps3@base</ClipSetId>
+          <VarClipSetId>InsideVarClipSet</VarClipSetId>
+          <ConditionFlags />
+          <InformationFlags />
+        </Item>
+      </Maps>
+    </Item>
+   </ClipSetMaps>
+   
+   
+<!------------------------------------------------------------------------------------------  CLIP SETS  --------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+
+
+
+
+
+
+
+<!---------------------------------------------------------------------------------------  BAGRE - BOPE  ----------------------------------------------------------------------------------------------------------------------------------------------------->
+<!-------------------------------------------------------------------------------------  CONFIG GERAL ASSENTOS  --------------------------------------------------------------------------------------------------------------------------------------------------->
+
+
+  <VehicleLayoutInfos>
+     <Item type="CVehicleLayoutInfo">
+      <Name>LAYOUT_BAGRE</Name>
+      <Seats>
+        <Item>
+          <SeatInfo ref="SEAT_BAGRE_FRONT_MOTORISTA" />
+          <SeatAnimInfo ref="SEAT_ANIM_BAGRE_FRONT_MOTORISTA" />
+        </Item>
+        <Item>
+          <SeatInfo ref="SEAT_BAGRE_ATIRADOR_1" />
+          <SeatAnimInfo ref="SEAT_ANIM_BAGRE_ATIRADOR_1" />
+        </Item>	
+        <Item>
+          <SeatInfo ref="SEAT_BAGRE_PASSAGEIRO_D" />
+          <SeatAnimInfo ref="SEAT_ANIM_BAGRE_PASSAGEIRO_D" />
+        </Item>		
+        <Item>
+          <SeatInfo ref="SEAT_BAGRE_PASSAGEIRO_P" />
+          <SeatAnimInfo ref="SEAT_ANIM_BAGRE_PASSAGEIRO_P" />
+        </Item>
+        <Item>
+          <SeatInfo ref="SEAT_BAGRE_PASSAGEIRO_D1" />
+          <SeatAnimInfo ref="SEAT_ANIM_BAGRE_PASSAGEIRO_D1" />
+        </Item>		
+        <Item>
+          <SeatInfo ref="SEAT_BAGRE_PASSAGEIRO_P1" />
+          <SeatAnimInfo ref="SEAT_ANIM_BAGRE_PASSAGEIRO_P1" />
+        </Item>	
+        <Item>
+          <SeatInfo ref="SEAT_BAGRE_PASSAGEIRO_D2" />
+          <SeatAnimInfo ref="SEAT_ANIM_BAGRE_PASSAGEIRO_D2" />
+        </Item>		
+        <Item>
+          <SeatInfo ref="SEAT_BAGRE_PASSAGEIRO_P2" />
+          <SeatAnimInfo ref="SEAT_ANIM_BAGRE_PASSAGEIRO_P2" />
+        </Item>	
+        <Item>
+          <SeatInfo ref="SEAT_BAGRE_PASSAGEIRO_D3" />
+          <SeatAnimInfo ref="SEAT_ANIM_BAGRE_PASSAGEIRO_D3" />
+        </Item>		
+        <Item>
+          <SeatInfo ref="SEAT_BAGRE_PASSAGEIRO_P3" />
+          <SeatAnimInfo ref="SEAT_ANIM_BAGRE_PASSAGEIRO_P3" />
+        </Item>	
+      </Seats>
+      <EntryPoints>
+        <Item>
+          <EntryPointInfo ref="ENTRY_POINT_BAGRE_FRONT_MOTORISTA" />
+          <EntryPointAnimInfo ref="ENTRY_POINT_ANIM_BAGRE_FRONT_MOTORISTA" />
+        </Item>
+        <Item>
+          <EntryPointInfo ref="ENTRY_POINT_BAGRE_ATIRADOR_1" />
+          <EntryPointAnimInfo ref="ENTRY_POINT_ANIM_BAGRE_ATIRADOR_1" />
+        </Item>
+        <Item>
+          <EntryPointInfo ref="ENTRY_POINT_BAGRE_PASSAGEIRO_D" />
+          <EntryPointAnimInfo ref="ENTRY_POINT_ANIM_BAGRE_PASSAGEIRO_D" />
+        </Item>
+        <Item>
+          <EntryPointInfo ref="ENTRY_POINT_BAGRE_PASSAGEIRO_P" />
+          <EntryPointAnimInfo ref="ENTRY_POINT_ANIM_BAGRE_PASSAGEIRO_P" />
+        </Item>		
+        <Item>
+          <EntryPointInfo ref="ENTRY_POINT_BAGRE_PASSAGEIRO_D1" />
+          <EntryPointAnimInfo ref="ENTRY_POINT_ANIM_BAGRE_PASSAGEIRO_D1" />
+        </Item>
+        <Item>
+          <EntryPointInfo ref="ENTRY_POINT_BAGRE_PASSAGEIRO_P1" />
+          <EntryPointAnimInfo ref="ENTRY_POINT_ANIM_BAGRE_PASSAGEIRO_P1" />
+        </Item>	
+        <Item>
+          <EntryPointInfo ref="ENTRY_POINT_BAGRE_PASSAGEIRO_D2" />
+          <EntryPointAnimInfo ref="ENTRY_POINT_ANIM_BAGRE_PASSAGEIRO_D2" />
+        </Item>
+        <Item>
+          <EntryPointInfo ref="ENTRY_POINT_BAGRE_PASSAGEIRO_P2" />
+          <EntryPointAnimInfo ref="ENTRY_POINT_ANIM_BAGRE_PASSAGEIRO_P2" />
+        </Item>	
+        <Item>
+          <EntryPointInfo ref="ENTRY_POINT_BAGRE_PASSAGEIRO_D3" />
+          <EntryPointAnimInfo ref="ENTRY_POINT_ANIM_BAGRE_PASSAGEIRO_D3" />
+        </Item>
+        <Item>
+          <EntryPointInfo ref="ENTRY_POINT_BAGRE_PASSAGEIRO_P3" />
+          <EntryPointAnimInfo ref="ENTRY_POINT_ANIM_BAGRE_PASSAGEIRO_P3" />
+        </Item>	
+      </EntryPoints>
+      <LayoutFlags>StreamAnims UseLeanSteerAnims UseDoorOscillation</LayoutFlags>
+      <BicycleInfo ref="NULL" />
+      <AnimRateSet ref="NULL" />
+      <HandsUpClipSetId>busted_vehicle_van</HandsUpClipSetId>
+      <SteeringWheelOffset x="0.000000" y="0.350000" z="0.320000" />
+      <MaxXAcceleration value="25.000000" />
+      <BodyLeanXApproachSpeed value="15.000000" />
+      <BodyLeanXSmallDelta value="0.100000" />
+      <LookBackApproachSpeedScale value="1.000000" />
+      <FirstPersonAdditiveIdleClipSets />
+      <FirstPersonRoadRageClipSets />
+      <CellphoneClipsets>
+        <CellphoneClipsetDS>ANIM_GROUP_CELLPHONE_IN_CAR_DS</CellphoneClipsetDS>
+        <CellphoneClipsetPS>ANIM_GROUP_CELLPHONE_IN_CAR_PS</CellphoneClipsetPS>
+        <CellphoneClipsetDS_FPS>ANIM_GROUP_CELLPHONE_IN_CAR_DS_FPS</CellphoneClipsetDS_FPS>
+        <CellphoneClipsetPS_FPS>ANIM_GROUP_CELLPHONE_IN_CAR_DS_FPS</CellphoneClipsetPS_FPS>
+      </CellphoneClipsets>
+    </Item>
+  </VehicleLayoutInfos>
+
+
+<!-------------------------------------------------------------------------------------  CONFIG GERAL ASSENTOS  --------------------------------------------------------------------------------------------------------------------------------------------------->
+<!---------------------------------------------------------------------------------------  BAGRE - BOPE  ----------------------------------------------------------------------------------------------------------------------------------------------------->
+
+
+
+
+
+
+
+
+<!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------  ANIMAÇOES IDLE  ------------------------------------------------------------------------------------------------------------------------------------------------------>
+
+
+  <VehicleSeatAnimInfos>
+<!-------------------------------------------------------  PASSAGEIRO - MOTORISTA  -------------------------------------------------->
+    <Item type="CVehicleSeatAnimInfo">
+      <Name>SEAT_ANIM_BAGRE_FRONT_MOTORISTA</Name>
+      <DriveByInfo ref="NULL" />
+      <InsideClipSetMap ref="INSIDE_CLIPSET_MAP_VAN_ZHABA_FRONT_LEFT" />
+      <PanicClipSet />
+      <AgitatedClipSet />
+	  <DuckedClipSet />
+      <LowLODIdleAnim>VAN_FRONT_DS_IDLE</LowLODIdleAnim>
+      <SeatAmbientContext />
+      <InVehicleMoveNetwork>VEHICLE_DEFAULT</InVehicleMoveNetwork>
+      <SeatAnimFlags>UseStandardInVehicleAnims UseCloseDoorBlendAnims PreventShuffleJack</SeatAnimFlags>
+      <SteeringSmoothing value="0.100000" />
+      <ExitToAimInfoName />
+      <MaleGestureClipSetId />
+      <FemaleGestureClipSetId />
+    </Item>
+<!-----------------------------------------------------------  ATIRADOR - 1  --------------------------------------------------------->
+    <Item type="CVehicleSeatAnimInfo">
+      <Name>SEAT_ANIM_BAGRE_ATIRADOR_1</Name>
+      <DriveByInfo ref="NULL" />
+      <InsideClipSetMap ref="INSIDE_CLIPSET_MAP_BAGRE_ATIRADOR" />
+      <PanicClipSet />
+      <AgitatedClipSet />
+	  <DuckedClipSet />
+      <LowLODIdleAnim>BUS_PASSENGER</LowLODIdleAnim>
+      <SeatAmbientContext />
+      <InVehicleMoveNetwork>VEHICLE_DEFAULT</InVehicleMoveNetwork>
+      <SeatAnimFlags>CannotBeJacked UseStandardInVehicleAnims PreventShuffleJack DisableAbnormalExits</SeatAnimFlags>
+      <SteeringSmoothing value="0.100000" />
+      <ExitToAimInfoName>STANDARD</ExitToAimInfoName>
+      <MaleGestureClipSetId />
+      <FemaleGestureClipSetId />
+    </Item>
+<!----------------------------------------------------------  PASSAGEIRO - D  ------------------------------------------------------>
+    <Item type="CVehicleSeatAnimInfo">
+      <Name>SEAT_ANIM_BAGRE_PASSAGEIRO_D</Name>
+      <DriveByInfo ref="DRIVEBY_BAGRE_ARMA_VISIVEL" />
+      <InsideClipSetMap ref="INSIDE_CLIPSET_MAP_BAGRE_PASSAGEIRO_D" />
+      <PanicClipSet />
+      <AgitatedClipSet />
+	  <DuckedClipSet />
+      <LowLODIdleAnim>BUS_PASSENGER</LowLODIdleAnim>
+      <SeatAmbientContext />
+      <InVehicleMoveNetwork>VEHICLE_DEFAULT</InVehicleMoveNetwork>
+      <SeatAnimFlags>CannotBeJacked UseStandardInVehicleAnims PreventShuffleJack DisableAbnormalExits WeaponRemainsVisible NoIK</SeatAnimFlags>
+      <SteeringSmoothing value="0.100000" />
+      <ExitToAimInfoName>STANDARD</ExitToAimInfoName>
+      <MaleGestureClipSetId />
+      <FemaleGestureClipSetId />
+    </Item>
+<!----------------------------------------------------------  PASSAGEIRO - P  ------------------------------------------------------>
+    <Item type="CVehicleSeatAnimInfo">
+      <Name>SEAT_ANIM_BAGRE_PASSAGEIRO_P</Name>
+      <DriveByInfo ref="DRIVEBY_BAGRE_ARMA_VISIVEL" />
+      <InsideClipSetMap ref="INSIDE_CLIPSET_MAP_BAGRE_PASSAGEIRO_P" />
+      <PanicClipSet />
+      <AgitatedClipSet />
+	  <DuckedClipSet />
+      <LowLODIdleAnim>BUS_PASSENGER</LowLODIdleAnim>
+      <SeatAmbientContext />
+      <InVehicleMoveNetwork>VEHICLE_DEFAULT</InVehicleMoveNetwork>
+      <SeatAnimFlags>CannotBeJacked UseStandardInVehicleAnims PreventShuffleJack DisableAbnormalExits WeaponRemainsVisible NoIK</SeatAnimFlags>
+      <SteeringSmoothing value="0.100000" />
+      <ExitToAimInfoName>STANDARD</ExitToAimInfoName>
+      <MaleGestureClipSetId />
+      <FemaleGestureClipSetId />
+    </Item>
+<!----------------------------------------------------------  PASSAGEIRO - D1  ------------------------------------------------------>
+    <Item type="CVehicleSeatAnimInfo">
+      <Name>SEAT_ANIM_BAGRE_PASSAGEIRO_D1</Name>
+      <DriveByInfo ref="DRIVEBY_BAGRE_ARMA_VISIVEL" />
+      <InsideClipSetMap ref="INSIDE_CLIPSET_MAP_BAGRE_PASSAGEIRO_D1" />
+      <PanicClipSet />
+      <AgitatedClipSet />
+	  <DuckedClipSet />
+      <LowLODIdleAnim>BUS_PASSENGER</LowLODIdleAnim>
+      <SeatAmbientContext />
+      <InVehicleMoveNetwork>VEHICLE_DEFAULT</InVehicleMoveNetwork>
+      <SeatAnimFlags>CannotBeJacked UseStandardInVehicleAnims PreventShuffleJack DisableAbnormalExits WeaponRemainsVisible NoIK</SeatAnimFlags>
+      <SteeringSmoothing value="0.100000" />
+      <ExitToAimInfoName>STANDARD</ExitToAimInfoName>
+      <MaleGestureClipSetId />
+      <FemaleGestureClipSetId />
+    </Item>
+<!----------------------------------------------------------  PASSAGEIRO - P1  ------------------------------------------------------>
+    <Item type="CVehicleSeatAnimInfo">
+      <Name>SEAT_ANIM_BAGRE_PASSAGEIRO_P1</Name>
+      <DriveByInfo ref="DRIVEBY_BAGRE_ARMA_VISIVEL" />
+      <InsideClipSetMap ref="INSIDE_CLIPSET_MAP_BAGRE_PASSAGEIRO_P1" />
+      <PanicClipSet />
+      <AgitatedClipSet />
+	  <DuckedClipSet />
+      <LowLODIdleAnim>BUS_PASSENGER</LowLODIdleAnim>
+      <SeatAmbientContext />
+      <InVehicleMoveNetwork>VEHICLE_DEFAULT</InVehicleMoveNetwork>
+      <SeatAnimFlags>CannotBeJacked UseStandardInVehicleAnims PreventShuffleJack DisableAbnormalExits WeaponRemainsVisible NoIK</SeatAnimFlags>
+      <SteeringSmoothing value="0.100000" />
+      <ExitToAimInfoName>STANDARD</ExitToAimInfoName>
+      <MaleGestureClipSetId />
+      <FemaleGestureClipSetId />
+    </Item>
+<!----------------------------------------------------------  PASSAGEIRO - D2  ------------------------------------------------------>
+    <Item type="CVehicleSeatAnimInfo">
+      <Name>SEAT_ANIM_BAGRE_PASSAGEIRO_D2</Name>
+      <DriveByInfo ref="DRIVEBY_BAGRE_ARMA_VISIVEL" />
+      <InsideClipSetMap ref="INSIDE_CLIPSET_MAP_BAGRE_PASSAGEIRO_P1" />
+      <PanicClipSet />
+      <AgitatedClipSet />
+	  <DuckedClipSet />
+      <LowLODIdleAnim>BUS_PASSENGER</LowLODIdleAnim>
+      <SeatAmbientContext />
+      <InVehicleMoveNetwork>VEHICLE_DEFAULT</InVehicleMoveNetwork>
+      <SeatAnimFlags>CannotBeJacked UseStandardInVehicleAnims PreventShuffleJack DisableAbnormalExits WeaponRemainsVisible NoIK</SeatAnimFlags>
+      <SteeringSmoothing value="0.100000" />
+      <ExitToAimInfoName>STANDARD</ExitToAimInfoName>
+      <MaleGestureClipSetId />
+      <FemaleGestureClipSetId />
+    </Item>
+<!----------------------------------------------------------  PASSAGEIRO - P2  ------------------------------------------------------>
+    <Item type="CVehicleSeatAnimInfo">
+      <Name>SEAT_ANIM_BAGRE_PASSAGEIRO_P2</Name>
+      <DriveByInfo ref="DRIVEBY_BAGRE_ARMA_VISIVEL" />
+      <InsideClipSetMap ref="INSIDE_CLIPSET_MAP_BAGRE_PASSAGEIRO_D" />
+      <PanicClipSet />
+      <AgitatedClipSet />
+	  <DuckedClipSet />
+      <LowLODIdleAnim>BUS_PASSENGER</LowLODIdleAnim>
+      <SeatAmbientContext />
+      <InVehicleMoveNetwork>VEHICLE_DEFAULT</InVehicleMoveNetwork>
+      <SeatAnimFlags>CannotBeJacked UseStandardInVehicleAnims PreventShuffleJack DisableAbnormalExits WeaponRemainsVisible NoIK</SeatAnimFlags>
+      <SteeringSmoothing value="0.100000" />
+      <ExitToAimInfoName>STANDARD</ExitToAimInfoName>
+      <MaleGestureClipSetId />
+      <FemaleGestureClipSetId />
+    </Item>
+<!----------------------------------------------------------  PASSAGEIRO - D3  ------------------------------------------------------>
+    <Item type="CVehicleSeatAnimInfo">
+      <Name>SEAT_ANIM_BAGRE_PASSAGEIRO_D3</Name>
+      <DriveByInfo ref="DRIVEBY_BAGRE_ARMA_VISIVEL" />
+      <InsideClipSetMap ref="INSIDE_CLIPSET_MAP_BAGRE_PASSAGEIRO_P" />
+      <PanicClipSet />
+      <AgitatedClipSet />
+	  <DuckedClipSet />
+      <LowLODIdleAnim>BUS_PASSENGER</LowLODIdleAnim>
+      <SeatAmbientContext />
+      <InVehicleMoveNetwork>VEHICLE_DEFAULT</InVehicleMoveNetwork>
+      <SeatAnimFlags>CannotBeJacked UseStandardInVehicleAnims PreventShuffleJack DisableAbnormalExits WeaponRemainsVisible NoIK</SeatAnimFlags>
+      <SteeringSmoothing value="0.100000" />
+      <ExitToAimInfoName>STANDARD</ExitToAimInfoName>
+      <MaleGestureClipSetId />
+      <FemaleGestureClipSetId />
+    </Item>
+<!----------------------------------------------------------  PASSAGEIRO - P3  ------------------------------------------------------>
+    <Item type="CVehicleSeatAnimInfo">
+      <Name>SEAT_ANIM_BAGRE_PASSAGEIRO_P3</Name>
+      <DriveByInfo ref="DRIVEBY_BAGRE_ARMA_VISIVEL" />
+      <InsideClipSetMap ref="INSIDE_CLIPSET_MAP_BAGRE_PASSAGEIRO_P3" />
+      <PanicClipSet />
+      <AgitatedClipSet />
+	  <DuckedClipSet />
+      <LowLODIdleAnim>BUS_PASSENGER</LowLODIdleAnim>
+      <SeatAmbientContext />
+      <InVehicleMoveNetwork>VEHICLE_DEFAULT</InVehicleMoveNetwork>
+      <SeatAnimFlags>CannotBeJacked UseStandardInVehicleAnims PreventShuffleJack DisableAbnormalExits WeaponRemainsVisible NoIK</SeatAnimFlags>
+      <SteeringSmoothing value="0.100000" />
+      <ExitToAimInfoName>STANDARD</ExitToAimInfoName>
+      <MaleGestureClipSetId />
+      <FemaleGestureClipSetId />
+    </Item>
+  </VehicleSeatAnimInfos> 
+
+
+<!----------------------------------------------------------------------------------------  ANIMAÇOES IDLE  ------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+
+
+
+
+
+
+
+<!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------  ANIMAÇOES DE ENTRADA/SAÍDA  ------------------------------------------------------------------------------------------------------------------------------------------>
+
+
+  <VehicleEntryPointAnimInfos>
+<!-------------------------------------------------------  PASSAGEIRO - MOTORISTA  -------------------------------------------------->
+    <Item type="CVehicleEntryPointAnimInfo">
+      <Name>ENTRY_POINT_ANIM_BAGRE_FRONT_MOTORISTA</Name>
+      <CommonClipSetMap ref="COMMON_CLIPSET_MAP_VAN_ZHABA_LHS" />
+      <EntryClipSetMap ref="ENTRY_CLIPSET_MAP_VAN_ZHABA_LHS_FRONT_LEFT" />
+      <ExitClipSetMap ref="EXIT_CLIPSET_MAP_VAN_ZHABA_LHS_FRONT_LEFT" />
+      <AlternateTryLockedDoorClipId />
+      <AlternateForcedEntryClipId />
+      <AlternateJackFromOutSideClipId />
+      <AlternateBeJackedFromOutSideClipId />
+      <AlternateEntryPointClipSetId />
+      <EnterVehicleMoveNetwork>ENTER_VEHICLE_STD</EnterVehicleMoveNetwork>
+      <EntryTranslation x="-2.043100" y="-1.750000" z="-0.363700" />
+      <OpenDoorTranslation x="0.000000" y="0.290000" />
+      <OpenDoorHeadingChange value="0.000000" />
+      <EntryHeadingChange value="-1.533000" />
+      <ExtraZForMPPlaneWarp value="-2.000000" />
+      <EntryPointFlags>WarpOut JackIncludesGetIn PreventJackInterrupt DontCloseDoorOutside HasClimbDown HasClimbUpFromWater JackVariationsIncludeGetIn DeadJackIncludesGetIn</EntryPointFlags>
+      <EntryAnimVariations ref="NULL" />
+	  <NMJumpFromVehicleTuningSet />
+    </Item>
+<!-----------------------------------------------------------  ATIRADOR - 1  --------------------------------------------------------->
+    <Item type="CVehicleEntryPointAnimInfo">
+      <Name>ENTRY_POINT_ANIM_BAGRE_ATIRADOR_1</Name>
+      <CommonClipSetMap ref="COMMON_CLIPSET_MAP_TRUCK_LEFT" />
+      <EntryClipSetMap ref="ENTRY_CLIPSET_MAP_TANK_SCARAB_REAR_RIGHT_SIDE" />
+      <ExitClipSetMap ref="EXIT_CLIPSET_MAP_TANK_SCARAB_REAR_RIGHT_SIDE" />
+      <AlternateTryLockedDoorClipId />
+      <AlternateForcedEntryClipId />
+      <AlternateJackFromOutSideClipId />
+      <AlternateBeJackedFromOutSideClipId />
+      <AlternateEntryPointClipSetId />
+      <EnterVehicleMoveNetwork>ENTER_VEHICLE_STD</EnterVehicleMoveNetwork>
+      <EntryTranslation x="-2.980000" y="0.40000" z="0.500000" />
+      <OpenDoorTranslation x="0.000000" y="0.000000" />
+      <OpenDoorHeadingChange value="0.000000" />
+      <EntryHeadingChange value="-1.570000" />
+      <ExtraZForMPPlaneWarp value="-2.000000" />
+      <EntryPointFlags>UseVehicleRelativeEntryPosition JackIncludesGetIn FixUpMoverToEntryPointOnExit UseGetUpAfterJack JackVariationsIncludeGetIn DeadJackIncludesGetIn</EntryPointFlags>
+      <EntryAnimVariations ref="NULL" />
+      <NMJumpFromVehicleTuningSet />
+    </Item>
+<!----------------------------------------------------------  PASSAGEIRO - D  ------------------------------------------------------>
+    <Item type="CVehicleEntryPointAnimInfo">
+      <Name>ENTRY_POINT_ANIM_BAGRE_PASSAGEIRO_D</Name>
+      <CommonClipSetMap ref="COMMON_CLIPSET_MAP_TRUCK_LEFT" />
+      <EntryClipSetMap ref="ENTRY_CLIPSET_MAP_TANK_SCARAB_REAR_LEFT_SIDE" />
+      <ExitClipSetMap ref="EXIT_CLIPSET_MAP_TANK_SCARAB_REAR_LEFT_SIDE" />
+      <AlternateTryLockedDoorClipId />
+      <AlternateForcedEntryClipId />
+      <AlternateJackFromOutSideClipId />
+      <AlternateBeJackedFromOutSideClipId />
+      <AlternateEntryPointClipSetId />
+      <EnterVehicleMoveNetwork>ENTER_VEHICLE_STD</EnterVehicleMoveNetwork>
+      <EntryTranslation x="-0.460000" y="-4.980000" z="0.500000" />
+      <OpenDoorTranslation x="0.000000" y="0.000000" />
+      <OpenDoorHeadingChange value="0.000000" />
+      <EntryHeadingChange value="-0.060000" />
+      <ExtraZForMPPlaneWarp value="-2.000000" />
+      <EntryPointFlags>UseVehicleRelativeEntryPosition JackIncludesGetIn FixUpMoverToEntryPointOnExit UseGetUpAfterJack JackVariationsIncludeGetIn DeadJackIncludesGetIn</EntryPointFlags>
+      <EntryAnimVariations ref="NULL" />
+      <NMJumpFromVehicleTuningSet />
+    </Item>
+<!----------------------------------------------------------  PASSAGEIRO - P  ------------------------------------------------------>
+    <Item type="CVehicleEntryPointAnimInfo">
+      <Name>ENTRY_POINT_ANIM_BAGRE_PASSAGEIRO_P</Name>
+      <CommonClipSetMap ref="COMMON_CLIPSET_MAP_TRUCK_LEFT" />
+      <EntryClipSetMap ref="ENTRY_CLIPSET_MAP_TANK_SCARAB_REAR_RIGHT_SIDE" />
+      <ExitClipSetMap ref="EXIT_CLIPSET_MAP_TANK_SCARAB_REAR_RIGHT_SIDE" />
+      <AlternateTryLockedDoorClipId />
+      <AlternateForcedEntryClipId />
+      <AlternateJackFromOutSideClipId />
+      <AlternateBeJackedFromOutSideClipId />
+      <AlternateEntryPointClipSetId />
+      <EnterVehicleMoveNetwork>ENTER_VEHICLE_STD</EnterVehicleMoveNetwork>
+      <EntryTranslation x="0.460000" y="-4.980000" z="0.500000" />
+      <OpenDoorTranslation x="0.000000" y="0.000000" />
+      <OpenDoorHeadingChange value="0.000000" />
+      <EntryHeadingChange value="0.060000" />
+      <ExtraZForMPPlaneWarp value="-2.000000" />
+      <EntryPointFlags>UseVehicleRelativeEntryPosition JackIncludesGetIn FixUpMoverToEntryPointOnExit UseGetUpAfterJack JackVariationsIncludeGetIn DeadJackIncludesGetIn</EntryPointFlags>
+      <EntryAnimVariations ref="NULL" />
+      <NMJumpFromVehicleTuningSet />
+    </Item>
+<!----------------------------------------------------------  PASSAGEIRO - D1  ------------------------------------------------------>
+    <Item type="CVehicleEntryPointAnimInfo">
+      <Name>ENTRY_POINT_ANIM_BAGRE_PASSAGEIRO_D1</Name>
+      <CommonClipSetMap ref="COMMON_CLIPSET_MAP_TRUCK_LEFT" />
+      <EntryClipSetMap ref="ENTRY_CLIPSET_MAP_TANK_SCARAB_REAR_LEFT_SIDE" />
+      <ExitClipSetMap ref="EXIT_CLIPSET_MAP_TANK_SCARAB_REAR_LEFT_SIDE" />
+      <AlternateTryLockedDoorClipId />
+      <AlternateForcedEntryClipId />
+      <AlternateJackFromOutSideClipId />
+      <AlternateBeJackedFromOutSideClipId />
+      <AlternateEntryPointClipSetId />
+      <EnterVehicleMoveNetwork>ENTER_VEHICLE_STD</EnterVehicleMoveNetwork>
+      <EntryTranslation x="-0.460000" y="-4.980000" z="0.500000" />
+      <OpenDoorTranslation x="0.000000" y="0.000000" />
+      <OpenDoorHeadingChange value="0.000000" />
+      <EntryHeadingChange value="-0.060000" />
+      <ExtraZForMPPlaneWarp value="-2.000000" />
+      <EntryPointFlags>UseVehicleRelativeEntryPosition JackIncludesGetIn FixUpMoverToEntryPointOnExit UseGetUpAfterJack JackVariationsIncludeGetIn DeadJackIncludesGetIn</EntryPointFlags>
+      <EntryAnimVariations ref="NULL" />
+      <NMJumpFromVehicleTuningSet />
+    </Item>
+<!----------------------------------------------------------  PASSAGEIRO - P1  ------------------------------------------------------>
+    <Item type="CVehicleEntryPointAnimInfo">
+      <Name>ENTRY_POINT_ANIM_BAGRE_PASSAGEIRO_P1</Name>
+      <CommonClipSetMap ref="COMMON_CLIPSET_MAP_TRUCK_LEFT" />
+      <EntryClipSetMap ref="ENTRY_CLIPSET_MAP_TANK_SCARAB_REAR_RIGHT_SIDE" />
+      <ExitClipSetMap ref="EXIT_CLIPSET_MAP_TANK_SCARAB_REAR_RIGHT_SIDE" />
+      <AlternateTryLockedDoorClipId />
+      <AlternateForcedEntryClipId />
+      <AlternateJackFromOutSideClipId />
+      <AlternateBeJackedFromOutSideClipId />
+      <AlternateEntryPointClipSetId />
+      <EnterVehicleMoveNetwork>ENTER_VEHICLE_STD</EnterVehicleMoveNetwork>
+      <EntryTranslation x="0.460000" y="-4.980000" z="0.500000" />
+      <OpenDoorTranslation x="0.000000" y="0.000000" />
+      <OpenDoorHeadingChange value="0.000000" />
+      <EntryHeadingChange value="0.060000" />
+      <ExtraZForMPPlaneWarp value="-2.000000" />
+      <EntryPointFlags>UseVehicleRelativeEntryPosition JackIncludesGetIn FixUpMoverToEntryPointOnExit UseGetUpAfterJack JackVariationsIncludeGetIn DeadJackIncludesGetIn</EntryPointFlags>
+      <EntryAnimVariations ref="NULL" />
+      <NMJumpFromVehicleTuningSet />
+    </Item>
+<!----------------------------------------------------------  PASSAGEIRO - D2  ------------------------------------------------------>
+    <Item type="CVehicleEntryPointAnimInfo">
+      <Name>ENTRY_POINT_ANIM_BAGRE_PASSAGEIRO_D2</Name>
+      <CommonClipSetMap ref="COMMON_CLIPSET_MAP_TRUCK_LEFT" />
+      <EntryClipSetMap ref="ENTRY_CLIPSET_MAP_TANK_SCARAB_REAR_LEFT_SIDE" />
+      <ExitClipSetMap ref="EXIT_CLIPSET_MAP_TANK_SCARAB_REAR_LEFT_SIDE" />
+      <AlternateTryLockedDoorClipId />
+      <AlternateForcedEntryClipId />
+      <AlternateJackFromOutSideClipId />
+      <AlternateBeJackedFromOutSideClipId />
+      <AlternateEntryPointClipSetId />
+      <EnterVehicleMoveNetwork>ENTER_VEHICLE_STD</EnterVehicleMoveNetwork>
+      <EntryTranslation x="-0.460000" y="-4.980000" z="0.500000" />
+      <OpenDoorTranslation x="0.000000" y="0.000000" />
+      <OpenDoorHeadingChange value="0.000000" />
+      <EntryHeadingChange value="-0.060000" />
+      <ExtraZForMPPlaneWarp value="-2.000000" />
+      <EntryPointFlags>UseVehicleRelativeEntryPosition JackIncludesGetIn FixUpMoverToEntryPointOnExit UseGetUpAfterJack JackVariationsIncludeGetIn DeadJackIncludesGetIn</EntryPointFlags>
+      <EntryAnimVariations ref="NULL" />
+      <NMJumpFromVehicleTuningSet />
+    </Item>
+<!----------------------------------------------------------  PASSAGEIRO - P2  ------------------------------------------------------>
+    <Item type="CVehicleEntryPointAnimInfo">
+      <Name>ENTRY_POINT_ANIM_BAGRE_PASSAGEIRO_P2</Name>
+      <CommonClipSetMap ref="COMMON_CLIPSET_MAP_TRUCK_LEFT" />
+      <EntryClipSetMap ref="ENTRY_CLIPSET_MAP_TANK_SCARAB_REAR_RIGHT_SIDE" />
+      <ExitClipSetMap ref="EXIT_CLIPSET_MAP_TANK_SCARAB_REAR_RIGHT_SIDE" />
+      <AlternateTryLockedDoorClipId />
+      <AlternateForcedEntryClipId />
+      <AlternateJackFromOutSideClipId />
+      <AlternateBeJackedFromOutSideClipId />
+      <AlternateEntryPointClipSetId />
+      <EnterVehicleMoveNetwork>ENTER_VEHICLE_STD</EnterVehicleMoveNetwork>
+      <EntryTranslation x="0.460000" y="-4.980000" z="0.500000" />
+      <OpenDoorTranslation x="0.000000" y="0.000000" />
+      <OpenDoorHeadingChange value="0.000000" />
+      <EntryHeadingChange value="0.060000" />
+      <ExtraZForMPPlaneWarp value="-2.000000" />
+      <EntryPointFlags>UseVehicleRelativeEntryPosition JackIncludesGetIn FixUpMoverToEntryPointOnExit UseGetUpAfterJack JackVariationsIncludeGetIn DeadJackIncludesGetIn</EntryPointFlags>
+      <EntryAnimVariations ref="NULL" />
+      <NMJumpFromVehicleTuningSet />
+    </Item>
+<!----------------------------------------------------------  PASSAGEIRO - D3  ------------------------------------------------------>
+    <Item type="CVehicleEntryPointAnimInfo">
+      <Name>ENTRY_POINT_ANIM_BAGRE_PASSAGEIRO_D3</Name>
+      <CommonClipSetMap ref="COMMON_CLIPSET_MAP_TRUCK_LEFT" />
+      <EntryClipSetMap ref="ENTRY_CLIPSET_MAP_TANK_SCARAB_REAR_LEFT_SIDE" />
+      <ExitClipSetMap ref="EXIT_CLIPSET_MAP_TANK_SCARAB_REAR_LEFT_SIDE" />
+      <AlternateTryLockedDoorClipId />
+      <AlternateForcedEntryClipId />
+      <AlternateJackFromOutSideClipId />
+      <AlternateBeJackedFromOutSideClipId />
+      <AlternateEntryPointClipSetId />
+      <EnterVehicleMoveNetwork>ENTER_VEHICLE_STD</EnterVehicleMoveNetwork>
+      <EntryTranslation x="-0.460000" y="-4.980000" z="0.500000" />
+      <OpenDoorTranslation x="0.000000" y="0.000000" />
+      <OpenDoorHeadingChange value="0.000000" />
+      <EntryHeadingChange value="-0.060000" />
+      <ExtraZForMPPlaneWarp value="-2.000000" />
+      <EntryPointFlags>UseVehicleRelativeEntryPosition JackIncludesGetIn FixUpMoverToEntryPointOnExit UseGetUpAfterJack JackVariationsIncludeGetIn DeadJackIncludesGetIn</EntryPointFlags>
+      <EntryAnimVariations ref="NULL" />
+      <NMJumpFromVehicleTuningSet />
+    </Item>
+<!----------------------------------------------------------  PASSAGEIRO - P3  ------------------------------------------------------>
+    <Item type="CVehicleEntryPointAnimInfo">
+      <Name>ENTRY_POINT_ANIM_BAGRE_PASSAGEIRO_P3</Name>
+      <CommonClipSetMap ref="COMMON_CLIPSET_MAP_TRUCK_LEFT" />
+      <EntryClipSetMap ref="ENTRY_CLIPSET_MAP_TANK_SCARAB_REAR_RIGHT_SIDE" />
+      <ExitClipSetMap ref="EXIT_CLIPSET_MAP_TANK_SCARAB_REAR_RIGHT_SIDE" />
+      <AlternateTryLockedDoorClipId />
+      <AlternateForcedEntryClipId />
+      <AlternateJackFromOutSideClipId />
+      <AlternateBeJackedFromOutSideClipId />
+      <AlternateEntryPointClipSetId />
+      <EnterVehicleMoveNetwork>ENTER_VEHICLE_STD</EnterVehicleMoveNetwork>
+      <EntryTranslation x="0.460000" y="-4.980000" z="0.500000" />
+      <OpenDoorTranslation x="0.000000" y="0.000000" />
+      <OpenDoorHeadingChange value="0.000000" />
+      <EntryHeadingChange value="0.060000" />
+      <ExtraZForMPPlaneWarp value="-2.000000" />
+      <EntryPointFlags>UseVehicleRelativeEntryPosition JackIncludesGetIn FixUpMoverToEntryPointOnExit UseGetUpAfterJack JackVariationsIncludeGetIn DeadJackIncludesGetIn</EntryPointFlags>
+      <EntryAnimVariations ref="NULL" />
+      <NMJumpFromVehicleTuningSet />
+    </Item>
+  </VehicleEntryPointAnimInfos>
+
+
+<!----------------------------------------------------------------------------------------  ANIMAÇOES DE ENTRADA/SAÍDA  ------------------------------------------------------------------------------------------------------------------------------------------>
+<!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+
+
+ <VehicleDriveByInfos>
+<!------------------------------------------------------  PASSAGEIRO - ARMA VISIVEL -------------------------------------------------->
+    <Item type="CVehicleDriveByInfo">
+      <Name>DRIVEBY_BAGRE_ARMA_VISIVEL</Name>
+      <MinAimSweepHeadingAngleDegs value="0.000000" />
+      <MaxAimSweepHeadingAngleDegs value="0.000000" />
+	  <FirstPersonMinAimSweepHeadingAngleDegs value="0.000000" />
+	  <FirstPersonMaxAimSweepHeadingAngleDegs value="0.000000" />
+	  <FirstPersonUnarmedMinAimSweepHeadingAngleDegs value="0.000000" />
+	  <FirstPersonUnarmedMaxAimSweepHeadingAngleDegs value="0.000000" />
+      <MinRestrictedAimSweepHeadingAngleDegs value="0.000000" />
+      <MaxRestrictedAimSweepHeadingAngleDegs value="0.000000" />
+      <MinSmashWindowAngleDegs value="0.000000" />
+      <MaxSmashWindowAngleDegs value="0.000000" />
+	  <MinSmashWindowAngleFirstPersonDegs value="0.000000" />
+      <MaxSmashWindowAngleFirstPersonDegs value="0.000000" />
+      <MaxSpeedParam value="0.500000" />
+      <MaxLongitudinalLeanBlendWeightDelta value="0.250000" />
+      <MaxLateralLeanBlendWeightDelta value="0.250000" />
+      <ApproachSpeedToWithinMaxBlendDelta value="1.000000" />
+      <SpineAdditiveBlendInDelay value="0.050000" />
+      <SpineAdditiveBlendInDurationStill value="0.150000" />
+      <SpineAdditiveBlendInDuration value="0.750000" />
+      <SpineAdditiveBlendOutDelay value="0.000000" />
+      <SpineAdditiveBlendOutDuration value="0.500000" />
+      <MinUnarmedDrivebyYawIfWindowRolledUp value="-3.140000" />
+      <MaxUnarmedDrivebyYawIfWindowRolledUp value="0.450000" />
+      <DriveByAnimInfos>
+        <Item ref="VAN_DB_ANIM_INFO_TWO_HANDED_RPS" />
+      </DriveByAnimInfos>
+      <DriveByCamera />
+      <DriveByFlags>UseMountedProjectileTask</DriveByFlags>
+    </Item>
+ </VehicleDriveByInfos>
+
+
+
+</CVehicleMetadataMgr>
