@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CVehicleModelInfoVariation>
+  <variationData>
+    <Item>
+      <modelName>estelar211r</modelName>
+      <colors>
+        <Item>
+          <indices content="char_array">
+			5
+            0
+            111
+            156
+			2
+			112   
+          </indices>
+          <liveries>
+            <Item value="false" />
+            <Item value="true" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+          </liveries>
+        </Item>  
+      </colors>
+      <kits>
+        <Item>311218_estelar211r_modkit</Item>
+      </kits>
+      <windowsWithExposedEdges />
+      <plateProbabilities>
+        <Probabilities>
+          <Item>
+            <Name>Standard White</Name>
+            <Value value="100" />
+          </Item>
+        </Probabilities>
+      </plateProbabilities>
+      <lightSettings value="1234" />
+      <sirenSettings value="7770222395" />
+    </Item> 
+  </variationData>
+</CVehicleModelInfoVariation>
