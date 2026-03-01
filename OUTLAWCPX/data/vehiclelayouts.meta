@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CVehicleMetadataMgr>
+  <ClipSetMaps>
+<!--------------------------------->
+    <Item type="CClipSetMap">
+      <Name>INSIDE_CLIPSET_MAP_OUTLAWCPX</Name>
+      <Maps>
+        <Item>
+          <ClipSetId>veh@outlawcpx@rps@base</ClipSetId>
+          <VarClipSetId>InsideVarClipSet</VarClipSetId>
+          <ConditionFlags />
+          <InformationFlags />
+        </Item>
+      </Maps>
+    </Item>
+    <Item type="CClipSetMap">
+      <Name>INSIDE_CLIPSET_MAP_OUTLAWCPX2</Name>
+      <Maps>
+        <Item>
+          <ClipSetId>veh@outlawcpx@rds@base</ClipSetId>
+          <VarClipSetId>InsideVarClipSet</VarClipSetId>
+          <ConditionFlags />
+          <InformationFlags />
+        </Item>
+      </Maps>
+    </Item>
+<!--------------------------------->
+   </ClipSetMaps>
+
+  <VehicleLayoutInfos>
+<!--------------------------------->
+    <Item type="CVehicleLayoutInfo">
+      <Name>LAYOUT_STD_OUTLAWCPX</Name>
+      <Seats>
+        <Item>
+          <SeatInfo ref="SEAT_STANDARD_FRONT_LEFT" />
+          <SeatAnimInfo ref="SEAT_ANIM_STD_OUTLAW_FRONT_LEFT" />
+        </Item>
+        <Item>
+          <SeatInfo ref="SEAT_STANDARD_FRONT_RIGHT" />
+          <SeatAnimInfo ref="SEAT_ANIM_STD_OUTLAW_FRONT_RIGHT" />
+        </Item>
+        <Item>
+          <SeatInfo ref="SEAT_STANDARD_REAR_LEFT" />
+          <SeatAnimInfo ref="SEAT_ANIM_OUTLAWCPX_REAR_LEFT" />
+        </Item>
+        <Item>
+          <SeatInfo ref="SEAT_STANDARD_REAR_RIGHT" />
+          <SeatAnimInfo ref="SEAT_ANIM_OUTLAWCPX_REAR_RIGHT" />
+        </Item>
+      </Seats>
+      <EntryPoints>
+        <Item>
+          <EntryPointInfo ref="ENTRY_POINT_STANDARD_FRONT_LEFT" />
+          <EntryPointAnimInfo ref="ENTRY_POINT_ANIM_STANDARD_FRONT_LEFT" />
+        </Item>
+        <Item>
+          <EntryPointInfo ref="ENTRY_POINT_STANDARD_FRONT_RIGHT" />
+          <EntryPointAnimInfo ref="ENTRY_POINT_ANIM_STANDARD_FRONT_RIGHT" />
+        </Item>
+        <Item>
+          <EntryPointInfo ref="ENTRY_POINT_HELI_REAR_LEFT" />
+          <EntryPointAnimInfo ref="ENTRY_POINT_ANIM_HELI_REAR_LEFT" />
+        </Item>
+        <Item>
+          <EntryPointInfo ref="ENTRY_POINT_HELI_REAR_RIGHT" />
+          <EntryPointAnimInfo ref="ENTRY_POINT_ANIM_HELI_REAR_RIGHT" />
+        </Item>
+      </EntryPoints>
+      <LayoutFlags>StreamAnims UseDoorOscillation UseLeanSteerAnims UseSteeringWheelIk UseFinerAlignTolerance</LayoutFlags>
+      <BicycleInfo ref="NULL" />
+      <AnimRateSet ref="STD_LOW_ANIM_RATE_SET" />
+      <HandsUpClipSetId>busted_vehicle_std</HandsUpClipSetId>
+      <SteeringWheelOffset x="0.000000" y="0.350000" z="0.320000" />
+      <MaxXAcceleration value="4.000000" />
+      <BodyLeanXApproachSpeed value="5.000000" />
+      <BodyLeanXSmallDelta value="0.300000" />
+      <LookBackApproachSpeedScale value="1.000000" />
+      <FirstPersonAdditiveIdleClipSets>
+        <Item>clipset@veh@std@ds@idle_a</Item>
+        <Item>clipset@veh@std@ds@idle_b</Item>
+        <Item>clipset@veh@std@ds@idle_c</Item>
+        <Item>clipset@veh@std@ds@idle_d</Item>
+        <Item>clipset@veh@std@ds@idle_e</Item>
+      </FirstPersonAdditiveIdleClipSets>
+      <FirstPersonRoadRageClipSets>
+        <Item>clipset@veh@std@ds@hit_wheel@idle_a</Item>
+        <Item>clipset@veh@std@ds@hit_wheel@idle_b</Item>
+        <Item>clipset@veh@std@ds@hit_wheel@idle_c</Item>
+      </FirstPersonRoadRageClipSets>
+      <CellphoneClipsets>
+        <CellphoneClipsetDS>ANIM_GROUP_CELLPHONE_IN_CAR_DS</CellphoneClipsetDS>
+        <CellphoneClipsetPS>ANIM_GROUP_CELLPHONE_IN_CAR_PS</CellphoneClipsetPS>
+        <CellphoneClipsetDS_FPS>ANIM_GROUP_CELLPHONE_IN_CAR_DS_FPS</CellphoneClipsetDS_FPS>
+        <CellphoneClipsetPS_FPS>ANIM_GROUP_CELLPHONE_IN_CAR_DS_FPS</CellphoneClipsetPS_FPS>
+      </CellphoneClipsets>
+    </Item>
+<!--------------------------------->
+  </VehicleLayoutInfos>
+  
+
+   <VehicleSeatAnimInfos>
+<!--------------------------------->
+    <Item type="CVehicleSeatAnimInfo">
+      <Name>SEAT_ANIM_OUTLAWCPX_REAR_RIGHT</Name>
+      <DriveByInfo ref="DRIVEBY_OUTLAWCPX_DIREITO" />
+      <InsideClipSetMap ref="INSIDE_CLIPSET_MAP_OUTLAWCPX" />
+      <PanicClipSet />
+      <AgitatedClipSet />
+	  <DuckedClipSet>veh@outlawcpx@ps@idle_duck</DuckedClipSet>
+      <LowLODIdleAnim>HELI_REAR_PS_IDLE</LowLODIdleAnim>
+      <SeatAmbientContext />
+      <InVehicleMoveNetwork>VEHICLE_DEFAULT</InVehicleMoveNetwork>
+      <SeatAnimFlags>WeaponRemainsVisible FallsOutWhenDead UseStandardInVehicleAnims NoIK RagdollAtExtremeVehicleOrientation CanDetachViaRagdoll RagdollWhenVehicleUpsideDown PreventShuffleJack</SeatAnimFlags>
+      <SteeringSmoothing value="0.100000" />
+      <ExitToAimInfoName />
+      <MaleGestureClipSetId />
+      <FemaleGestureClipSetId />
+    </Item>
+    <Item type="CVehicleSeatAnimInfo">
+      <Name>SEAT_ANIM_OUTLAWCPX_REAR_LEFT</Name>
+      <DriveByInfo ref="DRIVEBY_OUTLAWCPX_ESQUERDO" />
+      <InsideClipSetMap ref="INSIDE_CLIPSET_MAP_OUTLAWCPX2" />
+      <PanicClipSet />
+      <AgitatedClipSet />
+	  <DuckedClipSet>veh@outlawcpx@ds@idle_duck</DuckedClipSet>
+      <LowLODIdleAnim>HELI_REAR_DS_IDLE</LowLODIdleAnim>
+      <SeatAmbientContext />
+      <InVehicleMoveNetwork>VEHICLE_DEFAULT</InVehicleMoveNetwork>
+      <SeatAnimFlags>WeaponRemainsVisible FallsOutWhenDead UseStandardInVehicleAnims NoIK RagdollAtExtremeVehicleOrientation CanDetachViaRagdoll RagdollWhenVehicleUpsideDown PreventShuffleJack</SeatAnimFlags>
+      <SteeringSmoothing value="0.100000" />
+      <ExitToAimInfoName />
+      <MaleGestureClipSetId />
+      <FemaleGestureClipSetId />
+    </Item>
+<!--------------------------------->
+  </VehicleSeatAnimInfos>
+   <VehicleDriveByInfos>
+    <Item type="CVehicleDriveByInfo">
+      <Name>DRIVEBY_OUTLAWCPX_ESQUERDO</Name>
+      <MinAimSweepHeadingAngleDegs value="0.000000" />
+      <MaxAimSweepHeadingAngleDegs value="0.000000" />
+	  <FirstPersonMinAimSweepHeadingAngleDegs value="0.000000" />
+	  <FirstPersonMaxAimSweepHeadingAngleDegs value="0.000000" />
+	  <FirstPersonUnarmedMinAimSweepHeadingAngleDegs value="0.000000" />
+	  <FirstPersonUnarmedMaxAimSweepHeadingAngleDegs value="0.000000" />
+      <MinRestrictedAimSweepHeadingAngleDegs value="0.000000" />
+      <MaxRestrictedAimSweepHeadingAngleDegs value="0.000000" />
+      <MinSmashWindowAngleDegs value="0.000000" />
+      <MaxSmashWindowAngleDegs value="0.000000" />
+	  <MinSmashWindowAngleFirstPersonDegs value="0.000000" />
+      <MaxSmashWindowAngleFirstPersonDegs value="0.000000" />
+      <MaxSpeedParam value="0.500000" />
+      <MaxLongitudinalLeanBlendWeightDelta value="0.250000" />
+      <MaxLateralLeanBlendWeightDelta value="0.250000" />
+      <ApproachSpeedToWithinMaxBlendDelta value="1.000000" />
+      <SpineAdditiveBlendInDelay value="0.050000" />
+      <SpineAdditiveBlendInDurationStill value="0.150000" />
+      <SpineAdditiveBlendInDuration value="0.750000" />
+      <SpineAdditiveBlendOutDelay value="0.000000" />
+      <SpineAdditiveBlendOutDuration value="0.500000" />
+      <DriveByAnimInfos>
+        <Item ref="OUTLAWCPX_DB_ANIM_INFO_ONE_HANDED_RDS" />
+        <Item ref="OUTLAWCPX_DB_ANIM_INFO_TWO_HANDED_RDS" />
+      </DriveByAnimInfos>
+      <DriveByCamera>FROGGER_REAR_RIGHT_PASSENGER_AIM_CAMERA</DriveByCamera>
+      <DriveByFlags>DampenRecoil UseThreeAnimIntroOutro UsePedAsCamEntity AllowSingleSideOvershoot UseBlockingAnimsOutsideAimRange</DriveByFlags>
+    </Item>
+    <Item type="CVehicleDriveByInfo">
+      <Name>DRIVEBY_OUTLAWCPX_DIREITO</Name>
+      <MinAimSweepHeadingAngleDegs value="0.000000" />
+      <MaxAimSweepHeadingAngleDegs value="0.000000" />
+	  <FirstPersonMinAimSweepHeadingAngleDegs value="0.000000" />
+	  <FirstPersonMaxAimSweepHeadingAngleDegs value="0.000000" />
+	  <FirstPersonUnarmedMinAimSweepHeadingAngleDegs value="0.000000" />
+	  <FirstPersonUnarmedMaxAimSweepHeadingAngleDegs value="0.000000" />
+      <MinRestrictedAimSweepHeadingAngleDegs value="0.000000" />
+      <MaxRestrictedAimSweepHeadingAngleDegs value="0.000000" />
+      <MinSmashWindowAngleDegs value="0.000000" />
+      <MaxSmashWindowAngleDegs value="0.000000" />
+	  <MinSmashWindowAngleFirstPersonDegs value="0.000000" />
+      <MaxSmashWindowAngleFirstPersonDegs value="0.000000" />
+      <MaxSpeedParam value="0.500000" />
+      <MaxLongitudinalLeanBlendWeightDelta value="0.250000" />
+      <MaxLateralLeanBlendWeightDelta value="0.250000" />
+      <ApproachSpeedToWithinMaxBlendDelta value="1.000000" />
+      <SpineAdditiveBlendInDelay value="0.050000" />
+      <SpineAdditiveBlendInDurationStill value="0.150000" />
+      <SpineAdditiveBlendInDuration value="0.750000" />
+      <SpineAdditiveBlendOutDelay value="0.000000" />
+      <SpineAdditiveBlendOutDuration value="0.500000" />
+      <DriveByAnimInfos>
+        <Item ref="OUTLAWCPX_DB_ANIM_INFO_ONE_HANDED_RPS" />
+        <Item ref="OUTLAWCPX_DB_ANIM_INFO_TWO_HANDED_RPS" />
+      </DriveByAnimInfos>
+      <DriveByCamera>FROGGER_REAR_RIGHT_PASSENGER_AIM_CAMERA</DriveByCamera>
+      <DriveByFlags>DampenRecoil UseThreeAnimIntroOutro UsePedAsCamEntity AllowSingleSideOvershoot UseBlockingAnimsOutsideAimRange</DriveByFlags>
+    </Item>
+   </VehicleDriveByInfos>
+ <VehicleDriveByAnimInfos>
+<!--------------------------------->
+    <Item type="CVehicleDriveByAnimInfo">
+      <Name>OUTLAWCPX_DB_ANIM_INFO_TWO_HANDED_RDS</Name>
+      <WeaponGroup ref="DRIVEBY_DEFAULT_TWO_HANDED" />
+      <DriveByClipSet>veh@drivebyoutlawcpx@rear_ds_1h</DriveByClipSet>
+      <FirstPersonDriveByClipSet />
+      <AltFirstPersonDriveByClipSets />
+      <Network>REAR_HELI_DRIVEBY</Network>
+    </Item>
+    <Item type="CVehicleDriveByAnimInfo">
+      <Name>OUTLAWCPX_DB_ANIM_INFO_ONE_HANDED_RDS</Name>
+      <WeaponGroup ref="DRIVEBY_DEFAULT_ONE_HANDED" />
+      <DriveByClipSet>veh@drivebyoutlawcpx@rear_ds_1h</DriveByClipSet>
+      <FirstPersonDriveByClipSet />
+      <AltFirstPersonDriveByClipSets />
+      <Network>REAR_HELI_DRIVEBY</Network>
+    </Item>
+    <Item type="CVehicleDriveByAnimInfo">
+      <Name>OUTLAWCPX_DB_ANIM_INFO_TWO_HANDED_RPS</Name>
+      <WeaponGroup ref="DRIVEBY_DEFAULT_TWO_HANDED" />
+      <DriveByClipSet>veh@drivebyoutlawcpx@rear_ps_1h</DriveByClipSet>
+      <FirstPersonDriveByClipSet />
+      <AltFirstPersonDriveByClipSets />
+      <Network>REAR_HELI_DRIVEBY</Network>
+    </Item>
+    <Item type="CVehicleDriveByAnimInfo">
+      <Name>OUTLAWCPX_DB_ANIM_INFO_ONE_HANDED_RPS</Name>
+      <WeaponGroup ref="DRIVEBY_DEFAULT_ONE_HANDED" />
+      <DriveByClipSet>veh@drivebyoutlawcpx@rear_ps_1h</DriveByClipSet>
+      <FirstPersonDriveByClipSet />
+      <AltFirstPersonDriveByClipSets />
+      <Network>REAR_HELI_DRIVEBY</Network>
+    </Item>
+<!--------------------------------->
+ </VehicleDriveByAnimInfos>
+</CVehicleMetadataMgr>

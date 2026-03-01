@@ -1,0 +1,893 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CVehicleMetadataMgr>
+
+
+<!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------  SEATINFO  ---------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+
+  <VehicleSeatInfos> 
+<!-----------------------------------------------------  CAÇAMBA - FRONTAL ESQUERDO  ------------------------------------------------->
+	<Item type="CVehicleSeatInfo">
+      <Name>SEAT_EXTRA_POWERGOOSE_LEFT_1</Name>
+      <SeatBoneName>seat_dside_r1</SeatBoneName>
+      <ShuffleLink />
+      <RearSeatLink />
+      <DefaultCarTask>TASK_DRIVE_WANDER</DefaultCarTask>
+      <SeatFlags />
+      <HairScale value="0.000000" />
+    </Item>
+<!-----------------------------------------------------  CAÇAMBA - FRONTAL DIREITO  -------------------------------------------------->
+	<Item type="CVehicleSeatInfo">
+      <Name>SEAT_EXTRA_POWERGOOSE_RIGHT_1</Name>
+      <SeatBoneName>seat_pside_r1</SeatBoneName>
+      <ShuffleLink />
+      <RearSeatLink />
+      <DefaultCarTask>TASK_DRIVE_WANDER</DefaultCarTask>
+      <SeatFlags />
+      <HairScale value="0.000000" />
+    </Item>
+<!-----------------------------------------------------  CAÇAMBA - TRASEIRO ESQUERDO  ------------------------------------------------>
+	<Item type="CVehicleSeatInfo">
+      <Name>SEAT_EXTRA_POWERGOOSE_LEFT_2</Name>
+      <SeatBoneName>seat_dside_r2</SeatBoneName>
+      <ShuffleLink />
+      <RearSeatLink />
+      <DefaultCarTask>TASK_DRIVE_WANDER</DefaultCarTask>
+      <SeatFlags />
+      <HairScale value="0.000000" />
+    </Item>	
+<!-----------------------------------------------------  CAÇAMBA - TRASEIRO DIREITO  ------------------------------------------------->
+    <Item type="CVehicleSeatInfo">
+      <Name>SEAT_EXTRA_POWERGOOSE_RIGHT_2</Name>
+      <SeatBoneName>seat_pside_r2</SeatBoneName>
+      <ShuffleLink />
+      <RearSeatLink />
+      <DefaultCarTask>TASK_DRIVE_WANDER</DefaultCarTask>
+      <SeatFlags />
+      <HairScale value="0.000000" />
+    </Item>
+  </VehicleSeatInfos>
+
+
+<!------------------------------------------------------------------------------------------  SEATINFO  ---------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+
+
+
+<!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------  ENTRYPOINT  -------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+
+  <VehicleEntryPointInfos>
+<!-----------------------------------------------------  CAÇAMBA - FRONTAL ESQUERDO  ------------------------------------------------->
+    <Item type="CVehicleEntryPointInfo">
+      <Name>ENTRY_POINT_POWERGOOSE_LEFT_1</Name>
+      <DoorBoneName />
+      <SecondDoorBoneName />
+      <DoorHandleBoneName />
+      <WindowId>INVALID</WindowId>
+      <VehicleSide>SIDE_LEFT</VehicleSide>
+      <AccessableSeats>
+        <Item ref="SEAT_EXTRA_POWERGOOSE_LEFT_1" />
+      </AccessableSeats>
+      <VehicleExtraPointsInfo ref="NULL" />
+      <Flags />
+      <BlockJackReactionSides />
+    </Item>
+<!-----------------------------------------------------  CAÇAMBA - FRONTAL DIREITO  -------------------------------------------------->
+	<Item type="CVehicleEntryPointInfo">
+      <Name>ENTRY_POINT_POWERGOOSE_RIGHT_1</Name>
+      <DoorBoneName />
+      <SecondDoorBoneName />
+      <DoorHandleBoneName />
+      <WindowId>INVALID</WindowId>
+      <VehicleSide>SIDE_RIGHT</VehicleSide>
+      <AccessableSeats>
+        <Item ref="SEAT_EXTRA_POWERGOOSE_RIGHT_1" />
+      </AccessableSeats>
+      <VehicleExtraPointsInfo ref="NULL" />
+      <Flags />
+      <BlockJackReactionSides />
+    </Item>
+<!-----------------------------------------------------  CAÇAMBA - TRASEIRO ESQUERDO  ------------------------------------------------>
+    <Item type="CVehicleEntryPointInfo">
+      <Name>ENTRY_POINT_POWERGOOSE_LEFT_2</Name>
+      <DoorBoneName />
+      <SecondDoorBoneName />
+      <DoorHandleBoneName />
+      <WindowId>INVALID</WindowId>
+      <VehicleSide>SIDE_LEFT</VehicleSide>
+      <AccessableSeats>
+        <Item ref="SEAT_EXTRA_POWERGOOSE_LEFT_2" />
+      </AccessableSeats>
+      <VehicleExtraPointsInfo ref="NULL" />
+      <Flags />
+      <BlockJackReactionSides />
+    </Item>
+<!-----------------------------------------------------  CAÇAMBA - TRASEIRO DIREITO  ------------------------------------------------->
+    <Item type="CVehicleEntryPointInfo">
+      <Name>ENTRY_POINT_POWERGOOSE_RIGHT_2</Name>
+      <DoorBoneName />
+      <SecondDoorBoneName />
+      <DoorHandleBoneName />
+      <WindowId>INVALID</WindowId>
+      <VehicleSide>SIDE_RIGHT</VehicleSide>
+      <AccessableSeats>
+        <Item ref="SEAT_EXTRA_POWERGOOSE_RIGHT_2" />
+      </AccessableSeats>
+      <VehicleExtraPointsInfo ref="NULL" />
+      <Flags />
+      <BlockJackReactionSides />
+    </Item>
+  </VehicleEntryPointInfos> 
+
+
+<!------------------------------------------------------------------------------------------  ENTRYPOINT  -------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+
+
+
+<!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------  CLIP SETS  --------------------------------------------------------------------------------------------------------------------------------------------------------->
+  
+  
+  <ClipSetMaps>
+<!----------------------------------------------------  PASSAGEIRO - FRONTAL DIREITO  ------------------------------------------------>
+   <Item type="CClipSetMap">
+      <Name>INSIDE_CLIPSET_MAP_POWERGOOSE_FRONT_RIGHT_1</Name>
+      <Maps>
+        <Item>
+          <ClipSetId>veh@powergoose@fps1@base</ClipSetId>
+          <VarClipSetId>InsideVarClipSet</VarClipSetId>
+          <ConditionFlags />
+          <InformationFlags />
+        </Item>
+      </Maps>
+    </Item>
+<!----------------------------------------------------  PASSAGEIRO - TRASEIRO ESQUERDO  ---------------------------------------------->
+    <Item type="CClipSetMap">
+      <Name>INSIDE_CLIPSET_MAP_POWERGOOSE_FRONT_LEFT_2</Name>
+      <Maps>
+        <Item>
+          <ClipSetId>veh@powergoose@fds2@base</ClipSetId>
+          <VarClipSetId>InsideVarClipSet</VarClipSetId>
+          <ConditionFlags />
+          <InformationFlags />
+        </Item>
+      </Maps>
+    </Item>
+<!----------------------------------------------------  PASSAGEIRO - TRASEIRO DIREITO ------------------------------------------------>
+    <Item type="CClipSetMap">
+      <Name>INSIDE_CLIPSET_MAP_POWERGOOSE_FRONT_RIGHT_2</Name>
+      <Maps>
+        <Item>
+          <ClipSetId>veh@powergoose@fps2@base</ClipSetId>
+          <VarClipSetId>InsideVarClipSet</VarClipSetId>
+          <ConditionFlags />
+          <InformationFlags />
+        </Item>
+      </Maps>
+    </Item>
+<!-----------------------------------------------------  CAÇAMBA - FRONTAL ESQUERDO  ------------------------------------------------->
+    <Item type="CClipSetMap">
+      <Name>INSIDE_CLIPSET_MAP_POWERGOOSE_REAR_LEFT_1</Name>
+      <Maps>
+        <Item>
+          <ClipSetId>veh@powergoose@rds1@base</ClipSetId>
+          <VarClipSetId>InsideVarClipSet</VarClipSetId>
+          <ConditionFlags />
+          <InformationFlags />
+        </Item>
+      </Maps>
+    </Item>
+<!-----------------------------------------------------  CAÇAMBA - FRONTAL DIREITO  -------------------------------------------------->
+    <Item type="CClipSetMap">
+      <Name>INSIDE_CLIPSET_MAP_POWERGOOSE_REAR_RIGHT_1</Name>
+      <Maps>
+        <Item>
+          <ClipSetId>veh@powergoose@rps1@base</ClipSetId>
+          <VarClipSetId>InsideVarClipSet</VarClipSetId>
+          <ConditionFlags />
+          <InformationFlags />
+        </Item>
+      </Maps>
+    </Item>
+<!-----------------------------------------------------  CAÇAMBA - TRASEIRO ESQUERDO  ------------------------------------------------>
+    <Item type="CClipSetMap">
+      <Name>INSIDE_CLIPSET_MAP_POWERGOOSE_REAR_LEFT_2</Name>
+      <Maps>
+        <Item>
+          <ClipSetId>veh@powergoose@rds2@base</ClipSetId>
+          <VarClipSetId>InsideVarClipSet</VarClipSetId>
+          <ConditionFlags />
+          <InformationFlags />
+        </Item>
+      </Maps>
+    </Item>
+<!-----------------------------------------------------  CAÇAMBA - TRASEIRO DIREITO  ------------------------------------------------->
+    <Item type="CClipSetMap">
+      <Name>INSIDE_CLIPSET_MAP_POWERGOOSE_REAR_RIGHT_2</Name>
+      <Maps>
+        <Item>
+          <ClipSetId>veh@powergoose@rps2@base</ClipSetId>
+          <VarClipSetId>InsideVarClipSet</VarClipSetId>
+          <ConditionFlags />
+          <InformationFlags />
+        </Item>
+      </Maps>
+    </Item>
+   </ClipSetMaps>
+   
+   
+<!------------------------------------------------------------------------------------------  CLIP SETS  --------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+
+
+
+
+
+
+
+<!---------------------------------------------------------------------------------------  POWERGOOSE - BOPE  ----------------------------------------------------------------------------------------------------------------------------------------------------->
+<!-------------------------------------------------------------------------------------  CONFIG GERAL ASSENTOS  --------------------------------------------------------------------------------------------------------------------------------------------------->
+
+
+  <VehicleLayoutInfos>
+     <Item type="CVehicleLayoutInfo">
+      <Name>LAYOUT_POWERGOOSE</Name>
+      <Seats>
+        <Item>
+          <SeatInfo ref="SEAT_STANDARD_FRONT_LEFT" />
+          <SeatAnimInfo ref="SEAT_ANIM_STANDARD_FRONT_LEFT" />
+        </Item>
+        <Item>
+          <SeatInfo ref="SEAT_STANDARD_FRONT_RIGHT" />
+          <SeatAnimInfo ref="SEAT_ANIM_POWERGOOSE_FRONT_RIGHT_1" />
+        </Item>
+        <Item>
+          <SeatInfo ref="SEAT_STANDARD_REAR_LEFT" />
+          <SeatAnimInfo ref="SEAT_ANIM_POWERGOOSE_FRONT_LEFT_2" />
+        </Item>
+        <Item>
+          <SeatInfo ref="SEAT_STANDARD_REAR_RIGHT" />
+          <SeatAnimInfo ref="SEAT_ANIM_POWERGOOSE_FRONT_RIGHT_2" />
+        </Item>
+        <Item>
+          <SeatInfo ref="SEAT_EXTRA_POWERGOOSE_LEFT_1" />
+          <SeatAnimInfo ref="SEAT_ANIM_POWERGOOSE_REAR_LEFT_1" />
+        </Item>
+        <Item>
+          <SeatInfo ref="SEAT_EXTRA_POWERGOOSE_RIGHT_1" />
+          <SeatAnimInfo ref="SEAT_ANIM_POWERGOOSE_REAR_RIGHT_1" />
+        </Item>
+		<Item>
+          <SeatInfo ref="SEAT_EXTRA_POWERGOOSE_LEFT_2" />
+          <SeatAnimInfo ref="SEAT_ANIM_POWERGOOSE_REAR_LEFT_2" />
+        </Item>
+        <Item>
+          <SeatInfo ref="SEAT_EXTRA_POWERGOOSE_RIGHT_2" />
+          <SeatAnimInfo ref="SEAT_ANIM_POWERGOOSE_REAR_RIGHT_2" />
+        </Item>
+      </Seats>
+      <EntryPoints>
+        <Item>
+          <EntryPointInfo ref="ENTRY_POINT_STANDARD_FRONT_LEFT" />
+          <EntryPointAnimInfo ref="ENTRY_POINT_ANIM_STANDARD_FRONT_LEFT" />
+        </Item>
+        <Item>
+          <EntryPointInfo ref="ENTRY_POINT_STANDARD_FRONT_RIGHT" />
+          <EntryPointAnimInfo ref="ENTRY_POINT_ANIM_STANDARD_FRONT_RIGHT" />
+        </Item>
+        <Item>
+          <EntryPointInfo ref="ENTRY_POINT_STANDARD_REAR_LEFT" />
+          <EntryPointAnimInfo ref="ENTRY_POINT_ANIM_STANDARD_REAR_LEFT" />
+        </Item>
+        <Item>
+          <EntryPointInfo ref="ENTRY_POINT_STANDARD_REAR_RIGHT" />
+          <EntryPointAnimInfo ref="ENTRY_POINT_ANIM_STANDARD_REAR_RIGHT" />
+        </Item>
+		<Item>
+          <EntryPointInfo ref="ENTRY_POINT_POWERGOOSE_LEFT_1" />
+          <EntryPointAnimInfo ref="ENTRY_POINT_ANIM_POWERGOOSE_REAR_LEFT_1" />
+        </Item>
+        <Item>
+          <EntryPointInfo ref="ENTRY_POINT_POWERGOOSE_RIGHT_1" />
+          <EntryPointAnimInfo ref="ENTRY_POINT_ANIM_POWERGOOSE_REAR_RIGHT_1" />
+        </Item>
+        <Item>
+          <EntryPointInfo ref="ENTRY_POINT_POWERGOOSE_LEFT_2" />
+          <EntryPointAnimInfo ref="ENTRY_POINT_ANIM_POWERGOOSE_REAR_LEFT_2" />
+        </Item>
+        <Item>
+          <EntryPointInfo ref="ENTRY_POINT_POWERGOOSE_RIGHT_2" />
+          <EntryPointAnimInfo ref="ENTRY_POINT_ANIM_POWERGOOSE_REAR_RIGHT_2" />
+        </Item>
+      </EntryPoints>
+      <LayoutFlags>StreamAnims UseLeanSteerAnims UseDoorOscillation</LayoutFlags>
+      <BicycleInfo ref="NULL" />
+      <HandsUpClipSetId>busted_vehicle_std</HandsUpClipSetId>
+      <SteeringWheelOffset x="0.000000" y="0.350000" z="0.320000" />
+	  <MaxXAcceleration value="4.00000" />
+	  <BodyLeanXApproachSpeed value="5.00000" />
+	  <BodyLeanXSmallDelta value="0.30000" />
+	  <FirstPersonAdditiveIdleClipSets>
+        <Item>clipset@veh@std@ds@idle_a</Item>
+		<Item>clipset@veh@std@ds@idle_b</Item>
+		<Item>clipset@veh@std@ds@idle_c</Item>
+		<Item>clipset@veh@std@ds@idle_d</Item>
+		<Item>clipset@veh@std@ds@idle_e</Item>
+	  </FirstPersonAdditiveIdleClipSets>
+	  <FirstPersonRoadRageClipSets>
+        <Item>clipset@veh@std@ds@hit_wheel@idle_a</Item>
+		<Item>clipset@veh@std@ds@hit_wheel@idle_b</Item>
+		<Item>clipset@veh@std@ds@hit_wheel@idle_c</Item>
+	  </FirstPersonRoadRageClipSets>
+    </Item>	
+  </VehicleLayoutInfos>
+
+
+<!-------------------------------------------------------------------------------------  CONFIG GERAL ASSENTOS  --------------------------------------------------------------------------------------------------------------------------------------------------->
+<!---------------------------------------------------------------------------------------  POWERGOOSE - BOPE  ----------------------------------------------------------------------------------------------------------------------------------------------------->
+
+
+
+
+
+
+
+
+<!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------  ANIMAÇOES IDLE  ------------------------------------------------------------------------------------------------------------------------------------------------------>
+
+
+  <VehicleSeatAnimInfos>
+<!----------------------------------------------------  PASSAGEIRO - FRONTAL DIREITO  ------------------------------------------------>
+    <Item type="CVehicleSeatAnimInfo">
+      <Name>SEAT_ANIM_POWERGOOSE_FRONT_RIGHT_1</Name>
+      <DriveByInfo ref="DRIVEBY_POWERGOOSE_FRONT_RIGHT_1" />
+      <InsideClipSetMap ref="INSIDE_CLIPSET_MAP_POWERGOOSE_FRONT_RIGHT_1" />
+      <PanicClipSet />
+      <AgitatedClipSet />
+	  <DuckedClipSet>clipset@veh@std@ps@idle_duck</DuckedClipSet>
+      <LowLODIdleAnim>STD_CAR_FRONT_PS_IDLE</LowLODIdleAnim>
+      <SeatAmbientContext />
+      <InVehicleMoveNetwork>VEHICLE_DEFAULT</InVehicleMoveNetwork>
+      <SeatAnimFlags>UseStandardInVehicleAnims UseCloseDoorBlendAnims PreventShuffleJack WeaponRemainsVisible</SeatAnimFlags>
+      <SteeringSmoothing value="0.100000" />
+      <ExitToAimInfoName>STANDARD</ExitToAimInfoName>
+      <MaleGestureClipSetId />
+      <FemaleGestureClipSetId />
+    </Item>
+<!----------------------------------------------------  PASSAGEIRO - TRASEIRO ESQUERDO  ---------------------------------------------->
+    <Item type="CVehicleSeatAnimInfo">
+      <Name>SEAT_ANIM_POWERGOOSE_FRONT_LEFT_2</Name>
+      <DriveByInfo ref="DRIVEBY_POWERGOOSE_FRONT_LEFT_2" />
+      <InsideClipSetMap ref="INSIDE_CLIPSET_MAP_POWERGOOSE_FRONT_LEFT_2" />
+      <PanicClipSet />
+      <AgitatedClipSet />
+	  <DuckedClipSet>clipset@veh@std@rds@idle_duck</DuckedClipSet>
+      <LowLODIdleAnim>STD_CAR_REAR_DS_IDLE</LowLODIdleAnim>
+      <SeatAmbientContext />
+      <InVehicleMoveNetwork>VEHICLE_DEFAULT</InVehicleMoveNetwork>
+      <SeatAnimFlags>UseStandardInVehicleAnims UseCloseDoorBlendAnims PreventShuffleJack WeaponRemainsVisible</SeatAnimFlags>
+      <SteeringSmoothing value="0.100000" />
+      <ExitToAimInfoName>STANDARD</ExitToAimInfoName>
+      <MaleGestureClipSetId />
+      <FemaleGestureClipSetId />
+    </Item>
+<!----------------------------------------------------  PASSAGEIRO - TRASEIRO DIREITO ------------------------------------------------>
+    <Item type="CVehicleSeatAnimInfo">
+      <Name>SEAT_ANIM_POWERGOOSE_FRONT_RIGHT_2</Name>
+      <DriveByInfo ref="DRIVEBY_POWERGOOSE_FRONT_RIGHT_2" />
+      <InsideClipSetMap ref="INSIDE_CLIPSET_MAP_POWERGOOSE_FRONT_RIGHT_2" />
+      <PanicClipSet />
+      <AgitatedClipSet />
+	  <DuckedClipSet>clipset@veh@std@rps@idle_duck</DuckedClipSet>
+      <LowLODIdleAnim>STD_CAR_REAR_PS_IDLE</LowLODIdleAnim>
+      <SeatAmbientContext />
+      <InVehicleMoveNetwork>VEHICLE_DEFAULT</InVehicleMoveNetwork>
+      <SeatAnimFlags>WeaponAttachedToLeftHand UseStandardInVehicleAnims UseCloseDoorBlendAnims PreventShuffleJack WeaponRemainsVisible</SeatAnimFlags>
+      <SteeringSmoothing value="0.100000" />
+      <ExitToAimInfoName>STANDARD</ExitToAimInfoName>
+      <MaleGestureClipSetId />
+      <FemaleGestureClipSetId />
+    </Item>
+<!-----------------------------------------------------  CAÇAMBA - FRONTAL ESQUERDO  ------------------------------------------------->
+	<Item type="CVehicleSeatAnimInfo">
+      <Name>SEAT_ANIM_POWERGOOSE_REAR_LEFT_1</Name>
+      <DriveByInfo ref="DRIVEBY_POWERGOOSE_REAR_LEFT_1" />
+      <InsideClipSetMap ref="INSIDE_CLIPSET_MAP_POWERGOOSE_REAR_LEFT_1" />
+      <PanicClipSet />
+      <AgitatedClipSet />
+      <DuckedClipSet />
+      <FemaleClipSet />
+      <LowriderLeanClipSet />
+      <AltLowriderLeanClipSet />
+      <LowLODIdleAnim>VAN_REAR_DS_IDLE</LowLODIdleAnim>
+      <SeatAmbientContext />
+      <InVehicleMoveNetwork>VEHICLE_DEFAULT</InVehicleMoveNetwork>
+      <SeatAnimFlags>CannotBeJacked CanDetachViaRagdoll UseStandardInVehicleAnims PreventShuffleJack RagdollWhenVehicleUpsideDown SimulateBumpiness RagdollAtExtremeVehicleOrientation WeaponRemainsVisible</SeatAnimFlags>
+      <SteeringSmoothing value="0.100000" />
+      <ExitToAimInfoName />
+      <MaleGestureClipSetId />
+      <FemaleGestureClipSetId />
+      <FPSMinSteeringRateOverride value="-1.000000" />
+      <FPSMaxSteeringRateOverride value="-1.000000" />
+      <SeatCollisionBoundsOffset x="0.000000" y="0.000000" z="0.000000" />
+    </Item>
+<!-----------------------------------------------------  CAÇAMBA - FRONTAL DIREITO  -------------------------------------------------->
+    <Item type="CVehicleSeatAnimInfo">
+      <Name>SEAT_ANIM_POWERGOOSE_REAR_RIGHT_1</Name>
+      <DriveByInfo ref="DRIVEBY_POWERGOOSE_REAR_RIGHT_1" />
+      <InsideClipSetMap ref="INSIDE_CLIPSET_MAP_POWERGOOSE_REAR_RIGHT_1" />
+      <PanicClipSet />
+      <AgitatedClipSet />
+      <DuckedClipSet />
+      <FemaleClipSet />
+      <LowriderLeanClipSet />
+      <AltLowriderLeanClipSet />
+      <LowLODIdleAnim>VAN_REAR_PS_IDLE</LowLODIdleAnim>
+      <SeatAmbientContext />
+      <InVehicleMoveNetwork>VEHICLE_DEFAULT</InVehicleMoveNetwork>
+      <SeatAnimFlags>CannotBeJacked CanDetachViaRagdoll UseStandardInVehicleAnims PreventShuffleJack RagdollWhenVehicleUpsideDown SimulateBumpiness RagdollAtExtremeVehicleOrientation WeaponRemainsVisible</SeatAnimFlags>
+      <SteeringSmoothing value="0.100000" />
+      <ExitToAimInfoName />
+      <MaleGestureClipSetId />
+      <FemaleGestureClipSetId />
+      <FPSMinSteeringRateOverride value="-1.000000" />
+      <FPSMaxSteeringRateOverride value="-1.000000" />
+      <SeatCollisionBoundsOffset x="0.000000" y="0.000000" z="0.000000" />
+    </Item>
+<!-----------------------------------------------------  CAÇAMBA - TRASEIRO ESQUERDO  ------------------------------------------------>
+	<Item type="CVehicleSeatAnimInfo">
+      <Name>SEAT_ANIM_POWERGOOSE_REAR_LEFT_2</Name>
+      <DriveByInfo ref="DRIVEBY_POWERGOOSE_REAR_LEFT_2" />
+      <InsideClipSetMap ref="INSIDE_CLIPSET_MAP_POWERGOOSE_REAR_LEFT_2" />
+      <PanicClipSet />
+      <AgitatedClipSet />
+	  <DuckedClipSet />
+      <LowLODIdleAnim>HELI_REAR_DS_IDLE</LowLODIdleAnim>
+      <SeatAmbientContext />
+      <InVehicleMoveNetwork>VEHICLE_DEFAULT</InVehicleMoveNetwork>
+      <SeatAnimFlags>UseStandardInVehicleAnims PreventShuffleJack FallsOutWhenDead CanDetachViaRagdoll RagdollWhenVehicleUpsideDown RagdollAtExtremeVehicleOrientation WeaponRemainsVisible</SeatAnimFlags>
+      <SteeringSmoothing value="0.100000" />
+      <ExitToAimInfoName />
+      <MaleGestureClipSetId />
+      <FemaleGestureClipSetId />
+    </Item>
+<!-----------------------------------------------------  CAÇAMBA - TRASEIRO DIREITO  ------------------------------------------------->
+    <Item type="CVehicleSeatAnimInfo">
+      <Name>SEAT_ANIM_POWERGOOSE_REAR_RIGHT_2</Name>
+      <DriveByInfo ref="DRIVEBY_POWERGOOSE_REAR_RIGHT_2" />
+      <InsideClipSetMap ref="INSIDE_CLIPSET_MAP_POWERGOOSE_REAR_RIGHT_2" />
+      <PanicClipSet />
+      <AgitatedClipSet />
+	  <DuckedClipSet />
+      <LowLODIdleAnim>HELI_REAR_PS_IDLE</LowLODIdleAnim>
+      <SeatAmbientContext />
+      <InVehicleMoveNetwork>VEHICLE_DEFAULT</InVehicleMoveNetwork>
+      <SeatAnimFlags>UseStandardInVehicleAnims PreventShuffleJack FallsOutWhenDead CanDetachViaRagdoll RagdollWhenVehicleUpsideDown RagdollAtExtremeVehicleOrientation WeaponRemainsVisible</SeatAnimFlags>
+      <SteeringSmoothing value="0.100000" />
+      <ExitToAimInfoName />
+      <MaleGestureClipSetId />
+      <FemaleGestureClipSetId />
+    </Item>
+  </VehicleSeatAnimInfos> 
+
+
+<!----------------------------------------------------------------------------------------  ANIMAÇOES IDLE  ------------------------------------------------------------------------------------------------------------------------------------------------------>
+<!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+
+
+
+
+
+
+
+<!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------  ANIMAÇOES DE ENTRADA/SAÍDA  ------------------------------------------------------------------------------------------------------------------------------------------>
+
+
+  <VehicleEntryPointAnimInfos>
+<!-----------------------------------------------------  CAÇAMBA - FRONTAL ESQUERDO  ------------------------------------------------->
+    <Item type="CVehicleEntryPointAnimInfo">
+      <Name>ENTRY_POINT_ANIM_POWERGOOSE_REAR_LEFT_1</Name>
+      <CommonClipSetMap ref="COMMON_CLIPSET_MAP_TRUCK_LEFT" />
+      <EntryClipSetMap ref="ENTRY_CLIPSET_MAP_VAN_REAR_LEFT" />
+      <ExitClipSetMap ref="EXIT_CLIPSET_MAP_VAN_REAR_LEFT" />
+      <AlternateTryLockedDoorClipId />
+      <AlternateForcedEntryClipId />
+      <AlternateJackFromOutSideClipId />
+      <AlternateBeJackedFromOutSideClipId />
+      <AlternateEntryPointClipSetId />
+      <EnterVehicleMoveNetwork>ENTER_VEHICLE_STD</EnterVehicleMoveNetwork>
+      <EntryTranslation x="-1.870359" y="-1.176154" z="0.600000" />
+      <OpenDoorTranslation x="0.000000" y="0.000000" />
+      <OpenDoorHeadingChange value="0.000000" />
+      <EntryHeadingChange value="-1.570800" />
+      <ExtraZForWaterEntry value="0.000000" />
+      <EntryPointFlags>UseVehicleRelativeEntryPosition JackIncludesGetIn UseGetUpAfterJack JackVariationsIncludeGetIn DeadJackIncludesGetIn</EntryPointFlags>
+      <EntryAnimVariations ref="NULL" />
+      <NMJumpFromVehicleTuningSet />
+    </Item>
+<!-----------------------------------------------------  CAÇAMBA - FRONTAL DIREITO  -------------------------------------------------->
+    <Item type="CVehicleEntryPointAnimInfo">
+      <Name>ENTRY_POINT_ANIM_POWERGOOSE_REAR_RIGHT_1</Name>
+      <CommonClipSetMap ref="COMMON_CLIPSET_MAP_TRUCK_LEFT" />
+      <EntryClipSetMap ref="ENTRY_CLIPSET_MAP_VAN_REAR_RIGHT" />
+      <ExitClipSetMap ref="EXIT_CLIPSET_MAP_VAN_REAR_RIGHT" />
+      <AlternateTryLockedDoorClipId />
+      <AlternateForcedEntryClipId />
+      <AlternateJackFromOutSideClipId />
+      <AlternateBeJackedFromOutSideClipId />
+      <AlternateEntryPointClipSetId />
+      <EnterVehicleMoveNetwork>ENTER_VEHICLE_STD</EnterVehicleMoveNetwork>
+      <EntryTranslation x="1.977000" y="-1.100000" z="0.600000" />
+      <OpenDoorTranslation x="0.000000" y="0.000000" />
+      <OpenDoorHeadingChange value="0.000000" />
+      <EntryHeadingChange value="1.570800" />
+      <ExtraZForWaterEntry value="0.000000" />
+      <EntryPointFlags>UseVehicleRelativeEntryPosition JackIncludesGetIn UseGetUpAfterJack JackVariationsIncludeGetIn DeadJackIncludesGetIn</EntryPointFlags>
+      <EntryAnimVariations ref="NULL" />
+      <NMJumpFromVehicleTuningSet />
+    </Item>
+<!-----------------------------------------------------  CAÇAMBA - TRASEIRO ESQUERDO  ------------------------------------------------>
+    <Item type="CVehicleEntryPointAnimInfo">
+      <Name>ENTRY_POINT_ANIM_POWERGOOSE_REAR_LEFT_2</Name>
+      <CommonClipSetMap ref="COMMON_CLIPSET_MAP_TRUCK_RIGHT" />
+      <EntryClipSetMap ref="ENTRY_CLIPSET_MAP_HELI_REAR_RIGHT" />
+      <ExitClipSetMap ref="EXIT_CLIPSET_MAP_HELI_REAR_RIGHT" />
+      <AlternateTryLockedDoorClipId />
+      <AlternateForcedEntryClipId />
+      <AlternateJackFromOutSideClipId />
+      <AlternateBeJackedFromOutSideClipId />
+      <AlternateEntryPointClipSetId />
+      <EnterVehicleMoveNetwork>ENTER_VEHICLE_STD</EnterVehicleMoveNetwork>
+      <EntryTranslation x="1.061200" y="-0.232100" z="0.043100" />
+      <OpenDoorTranslation x="0.000000" y="0.000000" />
+      <OpenDoorHeadingChange value="-1.570000" />
+      <EntryHeadingChange value="1.570000" />
+      <ExtraZForWaterEntry value="0.000000" />
+      <EntryPointFlags>JackIncludesGetIn UseGetUpAfterJack JackVariationsIncludeGetIn DeadJackIncludesGetIn</EntryPointFlags>
+      <EntryAnimVariations ref="NULL" />
+    </Item>
+<!-----------------------------------------------------  CAÇAMBA - TRASEIRO DIREITO  ------------------------------------------------>
+    <Item type="CVehicleEntryPointAnimInfo">
+      <Name>ENTRY_POINT_ANIM_POWERGOOSE_REAR_RIGHT_2</Name>
+      <CommonClipSetMap ref="COMMON_CLIPSET_MAP_TRUCK_LEFT" />
+      <EntryClipSetMap ref="ENTRY_CLIPSET_MAP_HELI_REAR_LEFT" />
+      <ExitClipSetMap ref="EXIT_CLIPSET_MAP_HELI_REAR_LEFT" />
+      <AlternateTryLockedDoorClipId />
+      <AlternateForcedEntryClipId />
+      <AlternateJackFromOutSideClipId />
+      <AlternateBeJackedFromOutSideClipId />
+      <AlternateEntryPointClipSetId />
+      <EnterVehicleMoveNetwork>ENTER_VEHICLE_STD</EnterVehicleMoveNetwork>
+      <EntryTranslation x="-1.169200" y="-0.376600" z="0.053800" />
+      <OpenDoorTranslation x="0.000000" y="0.000000" />
+      <OpenDoorHeadingChange value="1.570000" />
+      <EntryHeadingChange value="-1.570000" />
+      <ExtraZForWaterEntry value="0.000000" />
+      <EntryPointFlags>JackIncludesGetIn UseGetUpAfterJack JackVariationsIncludeGetIn DeadJackIncludesGetIn</EntryPointFlags>
+      <EntryAnimVariations ref="NULL" />
+    </Item>
+  </VehicleEntryPointAnimInfos>
+
+
+<!----------------------------------------------------------------------------------------  ANIMAÇOES DE ENTRADA/SAÍDA  ------------------------------------------------------------------------------------------------------------------------------------------>
+<!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+
+
+
+
+
+
+
+<!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------  DRIVEBY INFO  -------------------------------------------------------------------------------------------------------------------------------------------------->
+
+
+   <VehicleDriveByInfos>
+<!----------------------------------------------------  PASSAGEIRO - FRONTAL DIREITO  ------------------------------------------------>
+    <Item type="CVehicleDriveByInfo">
+      <Name>DRIVEBY_POWERGOOSE_FRONT_RIGHT_1</Name>
+      <MinAimSweepHeadingAngleDegs value="0.000000" />
+      <MaxAimSweepHeadingAngleDegs value="0.000000" />
+	  <FirstPersonMinAimSweepHeadingAngleDegs value="0.000000" />
+	  <FirstPersonMaxAimSweepHeadingAngleDegs value="0.000000" />
+	  <FirstPersonUnarmedMinAimSweepHeadingAngleDegs value="0.000000" />
+	  <FirstPersonUnarmedMaxAimSweepHeadingAngleDegs value="0.000000" />
+      <MinRestrictedAimSweepHeadingAngleDegs value="0.000000" />
+      <MaxRestrictedAimSweepHeadingAngleDegs value="0.000000" />
+      <MinSmashWindowAngleDegs value="0.000000" />
+      <MaxSmashWindowAngleDegs value="0.000000" />
+	  <MinSmashWindowAngleFirstPersonDegs value="0.000000" />
+      <MaxSmashWindowAngleFirstPersonDegs value="0.000000" />
+      <MaxSpeedParam value="0.500000" />
+      <MaxLongitudinalLeanBlendWeightDelta value="0.250000" />
+      <MaxLateralLeanBlendWeightDelta value="0.250000" />
+      <ApproachSpeedToWithinMaxBlendDelta value="1.000000" />
+      <SpineAdditiveBlendInDelay value="0.050000" />
+      <SpineAdditiveBlendInDurationStill value="0.150000" />
+      <SpineAdditiveBlendInDuration value="0.750000" />
+      <SpineAdditiveBlendOutDelay value="0.000000" />
+      <SpineAdditiveBlendOutDuration value="0.500000" />
+      <MinUnarmedDrivebyYawIfWindowRolledUp value="-3.140000" />
+      <MaxUnarmedDrivebyYawIfWindowRolledUp value="0.450000" />
+      <DriveByAnimInfos>
+        <Item ref="STD_DB_ANIM_INFO_UNARMED_RPS" />
+        <Item ref="STD_DB_ANIM_POWERGOOSE_ONE_HANDED_PS" />
+        <Item ref="VAN_DB_ANIM_INFO_TWO_HANDED_RPS" />
+      </DriveByAnimInfos>
+      <DriveByCamera />
+      <DriveByFlags>UseMountedProjectileTask LeftHandedFirstPersonAnims LeftHandedUnarmedFirstPersonAnims</DriveByFlags>
+    </Item>
+<!----------------------------------------------------  PASSAGEIRO - TRASEIRO ESQUERDO  ---------------------------------------------->
+    <Item type="CVehicleDriveByInfo">
+      <Name>DRIVEBY_POWERGOOSE_FRONT_LEFT_2</Name>
+      <MinAimSweepHeadingAngleDegs value="0.000000" />
+      <MaxAimSweepHeadingAngleDegs value="0.000000" />
+	  <FirstPersonMinAimSweepHeadingAngleDegs value="0.000000" />
+	  <FirstPersonMaxAimSweepHeadingAngleDegs value="0.000000" />
+	  <FirstPersonUnarmedMinAimSweepHeadingAngleDegs value="0.000000" />
+	  <FirstPersonUnarmedMaxAimSweepHeadingAngleDegs value="0.000000" />
+      <MinRestrictedAimSweepHeadingAngleDegs value="0.000000" />
+      <MaxRestrictedAimSweepHeadingAngleDegs value="0.000000" />
+      <MinSmashWindowAngleDegs value="0.000000" />
+      <MaxSmashWindowAngleDegs value="0.000000" />
+	  <MinSmashWindowAngleFirstPersonDegs value="0.000000" />
+      <MaxSmashWindowAngleFirstPersonDegs value="0.000000" />
+      <MaxSpeedParam value="0.500000" />
+      <MaxLongitudinalLeanBlendWeightDelta value="0.250000" />
+      <MaxLateralLeanBlendWeightDelta value="0.250000" />
+      <ApproachSpeedToWithinMaxBlendDelta value="1.000000" />
+      <SpineAdditiveBlendInDelay value="0.050000" />
+      <SpineAdditiveBlendInDurationStill value="0.150000" />
+      <SpineAdditiveBlendInDuration value="0.750000" />
+      <SpineAdditiveBlendOutDelay value="0.000000" />
+      <SpineAdditiveBlendOutDuration value="0.500000" />
+      <MinUnarmedDrivebyYawIfWindowRolledUp value="-3.140000" />
+      <MaxUnarmedDrivebyYawIfWindowRolledUp value="0.450000" />
+      <DriveByAnimInfos>
+        <Item ref="STD_DB_ANIM_INFO_UNARMED_RPS" />
+        <Item ref="STD_DB_ANIM_POWERGOOSE_ONE_HANDED_RDS" />
+        <Item ref="VAN_DB_ANIM_INFO_TWO_HANDED_RPS" />
+      </DriveByAnimInfos>
+      <DriveByCamera />
+      <DriveByFlags>UseMountedProjectileTask LeftHandedProjctiles</DriveByFlags>
+    </Item>
+<!----------------------------------------------------  PASSAGEIRO - TRASEIRO DIREITO ------------------------------------------------>
+    <Item type="CVehicleDriveByInfo">
+      <Name>DRIVEBY_POWERGOOSE_FRONT_RIGHT_2</Name>
+      <MinAimSweepHeadingAngleDegs value="0.000000" />
+      <MaxAimSweepHeadingAngleDegs value="0.000000" />
+	  <FirstPersonMinAimSweepHeadingAngleDegs value="0.000000" />
+	  <FirstPersonMaxAimSweepHeadingAngleDegs value="0.000000" />
+	  <FirstPersonUnarmedMinAimSweepHeadingAngleDegs value="0.000000" />
+	  <FirstPersonUnarmedMaxAimSweepHeadingAngleDegs value="0.000000" />
+      <MinRestrictedAimSweepHeadingAngleDegs value="0.000000" />
+      <MaxRestrictedAimSweepHeadingAngleDegs value="0.000000" />
+      <MinSmashWindowAngleDegs value="0.000000" />
+      <MaxSmashWindowAngleDegs value="0.000000" />
+	  <MinSmashWindowAngleFirstPersonDegs value="0.000000" />
+      <MaxSmashWindowAngleFirstPersonDegs value="0.000000" />
+      <MaxSpeedParam value="0.500000" />
+      <MaxLongitudinalLeanBlendWeightDelta value="0.250000" />
+      <MaxLateralLeanBlendWeightDelta value="0.250000" />
+      <ApproachSpeedToWithinMaxBlendDelta value="1.000000" />
+      <SpineAdditiveBlendInDelay value="0.050000" />
+      <SpineAdditiveBlendInDurationStill value="0.150000" />
+      <SpineAdditiveBlendInDuration value="0.750000" />
+      <SpineAdditiveBlendOutDelay value="0.000000" />
+      <SpineAdditiveBlendOutDuration value="0.500000" />
+      <MinUnarmedDrivebyYawIfWindowRolledUp value="-3.140000" />
+      <MaxUnarmedDrivebyYawIfWindowRolledUp value="0.450000" />
+      <DriveByAnimInfos>
+        <Item ref="STD_DB_ANIM_INFO_UNARMED_RPS" />
+        <Item ref="STD_DB_ANIM_POWERGOOSE_ONE_HANDED_RPS" />
+        <Item ref="VAN_DB_ANIM_INFO_TWO_HANDED_RPS" />
+      </DriveByAnimInfos>
+      <DriveByCamera />
+      <DriveByFlags>UseMountedProjectileTask LeftHandedFirstPersonAnims LeftHandedUnarmedFirstPersonAnims</DriveByFlags>
+    </Item>
+<!-----------------------------------------------------  CAÇAMBA - FRONTAL ESQUERDO  ------------------------------------------------->
+    <Item type="CVehicleDriveByInfo">
+      <Name>DRIVEBY_POWERGOOSE_REAR_LEFT_1</Name>
+      <MinAimSweepHeadingAngleDegs value="0.000000" />
+      <MaxAimSweepHeadingAngleDegs value="0.000000" />
+	  <FirstPersonMinAimSweepHeadingAngleDegs value="0.000000" />
+	  <FirstPersonMaxAimSweepHeadingAngleDegs value="0.000000" />
+	  <FirstPersonUnarmedMinAimSweepHeadingAngleDegs value="0.000000" />
+	  <FirstPersonUnarmedMaxAimSweepHeadingAngleDegs value="0.000000" />
+      <MinRestrictedAimSweepHeadingAngleDegs value="0.000000" />
+      <MaxRestrictedAimSweepHeadingAngleDegs value="0.000000" />
+      <MinSmashWindowAngleDegs value="0.000000" />
+      <MaxSmashWindowAngleDegs value="0.000000" />
+	  <MinSmashWindowAngleFirstPersonDegs value="0.000000" />
+      <MaxSmashWindowAngleFirstPersonDegs value="0.000000" />
+      <MaxSpeedParam value="0.500000" />
+      <MaxLongitudinalLeanBlendWeightDelta value="0.250000" />
+      <MaxLateralLeanBlendWeightDelta value="0.250000" />
+      <ApproachSpeedToWithinMaxBlendDelta value="1.000000" />
+      <SpineAdditiveBlendInDelay value="0.050000" />
+      <SpineAdditiveBlendInDurationStill value="0.150000" />
+      <SpineAdditiveBlendInDuration value="0.750000" />
+      <SpineAdditiveBlendOutDelay value="0.000000" />
+      <SpineAdditiveBlendOutDuration value="0.500000" />
+      <DriveByAnimInfos>
+        <Item ref="VAN_DB_ANIM_INFO_ONE_HANDED_RDS" />
+        <Item ref="VAN_DB_ANIM_INFO_TWO_HANDED_RDS" />
+      </DriveByAnimInfos>
+      <DriveByCamera />
+      <DriveByFlags>UseThreeAnimIntroOutro UsePedAsCamEntity AllowSingleSideOvershoot</DriveByFlags>
+    </Item>
+<!-----------------------------------------------------  CAÇAMBA - FRONTAL DIREITO  -------------------------------------------------->
+    <Item type="CVehicleDriveByInfo">
+      <Name>DRIVEBY_POWERGOOSE_REAR_RIGHT_1</Name>
+      <MinAimSweepHeadingAngleDegs value="0.000000" />
+      <MaxAimSweepHeadingAngleDegs value="0.000000" />
+	  <FirstPersonMinAimSweepHeadingAngleDegs value="0.000000" />
+	  <FirstPersonMaxAimSweepHeadingAngleDegs value="0.000000" />
+	  <FirstPersonUnarmedMinAimSweepHeadingAngleDegs value="0.000000" />
+	  <FirstPersonUnarmedMaxAimSweepHeadingAngleDegs value="0.000000" />
+      <MinRestrictedAimSweepHeadingAngleDegs value="0.000000" />
+      <MaxRestrictedAimSweepHeadingAngleDegs value="0.000000" />
+      <MinSmashWindowAngleDegs value="0.000000" />
+      <MaxSmashWindowAngleDegs value="0.000000" />
+	  <MinSmashWindowAngleFirstPersonDegs value="0.000000" />
+      <MaxSmashWindowAngleFirstPersonDegs value="0.000000" />
+      <MaxSpeedParam value="0.500000" />
+      <MaxLongitudinalLeanBlendWeightDelta value="0.250000" />
+      <MaxLateralLeanBlendWeightDelta value="0.250000" />
+      <ApproachSpeedToWithinMaxBlendDelta value="1.000000" />
+      <SpineAdditiveBlendInDelay value="0.050000" />
+      <SpineAdditiveBlendInDurationStill value="0.150000" />
+      <SpineAdditiveBlendInDuration value="0.750000" />
+      <SpineAdditiveBlendOutDelay value="0.000000" />
+      <SpineAdditiveBlendOutDuration value="0.500000" />
+      <DriveByAnimInfos>
+        <Item ref="VAN_DB_ANIM_INFO_ONE_HANDED_RPS" />
+        <Item ref="VAN_DB_ANIM_INFO_TWO_HANDED_RPS" />
+      </DriveByAnimInfos>
+      <DriveByCamera />
+      <DriveByFlags>UseThreeAnimIntroOutro UsePedAsCamEntity AllowSingleSideOvershoot</DriveByFlags>
+    </Item>
+<!-----------------------------------------------------  CAÇAMBA - TRASEIRO ESQUERDO  ------------------------------------------------>
+    <Item type="CVehicleDriveByInfo">
+      <Name>DRIVEBY_POWERGOOSE_REAR_LEFT_2</Name>
+      <MinAimSweepHeadingAngleDegs value="0.000000" />
+      <MaxAimSweepHeadingAngleDegs value="0.000000" />
+	  <FirstPersonMinAimSweepHeadingAngleDegs value="0.000000" />
+	  <FirstPersonMaxAimSweepHeadingAngleDegs value="0.000000" />
+	  <FirstPersonUnarmedMinAimSweepHeadingAngleDegs value="0.000000" />
+	  <FirstPersonUnarmedMaxAimSweepHeadingAngleDegs value="0.000000" />
+      <MinRestrictedAimSweepHeadingAngleDegs value="0.000000" />
+      <MaxRestrictedAimSweepHeadingAngleDegs value="0.000000" />
+      <MinSmashWindowAngleDegs value="0.000000" />
+      <MaxSmashWindowAngleDegs value="0.000000" />
+	  <MinSmashWindowAngleFirstPersonDegs value="0.000000" />
+      <MaxSmashWindowAngleFirstPersonDegs value="0.000000" />
+      <MaxSpeedParam value="0.500000" />
+      <MaxLongitudinalLeanBlendWeightDelta value="0.250000" />
+      <MaxLateralLeanBlendWeightDelta value="0.250000" />
+      <ApproachSpeedToWithinMaxBlendDelta value="1.000000" />
+      <SpineAdditiveBlendInDelay value="0.050000" />
+      <SpineAdditiveBlendInDurationStill value="0.150000" />
+      <SpineAdditiveBlendInDuration value="0.750000" />
+      <SpineAdditiveBlendOutDelay value="0.000000" />
+      <SpineAdditiveBlendOutDuration value="0.500000" />
+      <DriveByAnimInfos>
+        <Item ref="VAN_DB_ANIM_INFO_ONE_HANDED_RDS" />
+        <Item ref="VAN_DB_ANIM_INFO_TWO_HANDED_RDS" />
+      </DriveByAnimInfos>
+      <DriveByCamera />
+      <DriveByFlags>UseThreeAnimIntroOutro UsePedAsCamEntity AllowSingleSideOvershoot</DriveByFlags>
+    </Item>
+<!-----------------------------------------------------  CAÇAMBA - TRASEIRO DIREITO  ------------------------------------------------->
+    <Item type="CVehicleDriveByInfo">
+      <Name>DRIVEBY_POWERGOOSE_REAR_RIGHT_2</Name>
+      <MinAimSweepHeadingAngleDegs value="0.000000" />
+      <MaxAimSweepHeadingAngleDegs value="0.000000" />
+	  <FirstPersonMinAimSweepHeadingAngleDegs value="0.000000" />
+	  <FirstPersonMaxAimSweepHeadingAngleDegs value="0.000000" />
+	  <FirstPersonUnarmedMinAimSweepHeadingAngleDegs value="0.000000" />
+	  <FirstPersonUnarmedMaxAimSweepHeadingAngleDegs value="0.000000" />
+      <MinRestrictedAimSweepHeadingAngleDegs value="0.000000" />
+      <MaxRestrictedAimSweepHeadingAngleDegs value="0.000000" />
+      <MinSmashWindowAngleDegs value="0.000000" />
+      <MaxSmashWindowAngleDegs value="0.000000" />
+	  <MinSmashWindowAngleFirstPersonDegs value="0.000000" />
+      <MaxSmashWindowAngleFirstPersonDegs value="0.000000" />
+      <MaxSpeedParam value="0.500000" />
+      <MaxLongitudinalLeanBlendWeightDelta value="0.250000" />
+      <MaxLateralLeanBlendWeightDelta value="0.250000" />
+      <ApproachSpeedToWithinMaxBlendDelta value="1.000000" />
+      <SpineAdditiveBlendInDelay value="0.050000" />
+      <SpineAdditiveBlendInDurationStill value="0.150000" />
+      <SpineAdditiveBlendInDuration value="0.750000" />
+      <SpineAdditiveBlendOutDelay value="0.000000" />
+      <SpineAdditiveBlendOutDuration value="0.500000" />
+      <DriveByAnimInfos>
+        <Item ref="VAN_DB_ANIM_INFO_ONE_HANDED_RPS" />
+        <Item ref="VAN_DB_ANIM_INFO_TWO_HANDED_RPS" />
+      </DriveByAnimInfos>
+      <DriveByCamera />
+      <DriveByFlags>UseThreeAnimIntroOutro UsePedAsCamEntity AllowSingleSideOvershoot</DriveByFlags>
+    </Item>
+   </VehicleDriveByInfos>
+
+
+<!----------------------------------------------------------------------------------------------  DRIVEBY INFO  -------------------------------------------------------------------------------------------------------------------------------------------------->
+<!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+
+
+
+<!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------  DRIVEBY ANIM  -------------------------------------------------------------------------------------------------------------------------------------------------->
+
+
+ <VehicleDriveByAnimInfos>
+<!----------------------------------------------------  PASSAGEIRO - FRONTAL DIREITO  ------------------------------------------------>
+    <Item type="CVehicleDriveByAnimInfo">
+      <Name>STD_DB_ANIM_POWERGOOSE_ONE_HANDED_PS</Name>
+      <WeaponGroup ref="DRIVEBY_DEFAULT_ONE_HANDED" />
+      <DriveByClipSet>drive_by@std_ps</DriveByClipSet>
+      <FirstPersonDriveByClipSet>driveby@first_person@passenger_left_handed@1h</FirstPersonDriveByClipSet>
+      <AltFirstPersonDriveByClipSets>
+        <Item>
+          <Weapons>
+            <Item>WEAPON_MICROSMG</Item>
+          </Weapons>
+          <ClipSet>driveby@first_person@passenger_left_handed@smg</ClipSet>
+        </Item>
+	  </AltFirstPersonDriveByClipSets>
+      <Network>STD_CAR_DRIVEBY</Network>
+      <UseOverrideAngles value="true" />
+      <OverrideMinAimAngle value="-225.000000" />
+      <OverrideMaxAimAngle value="225.000000" />
+      <OverrideMinRestrictedAimAngle value="-225.000000" />
+      <OverrideMaxRestrictedAimAngle value="225.000000" />
+    </Item>
+<!----------------------------------------------------  PASSAGEIRO - TRASEIRO ESQUERDO  ---------------------------------------------->
+    <Item type="CVehicleDriveByAnimInfo">
+      <Name>STD_DB_ANIM_POWERGOOSE_ONE_HANDED_RDS</Name>
+      <WeaponGroup ref="DRIVEBY_DEFAULT_REAR_ONE_HANDED" />
+      <DriveByClipSet>drive_by@std_rds</DriveByClipSet>
+      <FirstPersonDriveByClipSet />
+      <AltFirstPersonDriveByClipSets />
+      <Network>STD_CAR_DRIVEBY</Network>
+      <UseOverrideAngles value="true" />
+      <OverrideMinAimAngle value="-225.000000" />
+      <OverrideMaxAimAngle value="225.000000" />
+      <OverrideMinRestrictedAimAngle value="-225.000000" />
+      <OverrideMaxRestrictedAimAngle value="225.000000" />
+    </Item>
+<!----------------------------------------------------  PASSAGEIRO - TRASEIRO DIREITO ------------------------------------------------>
+    <Item type="CVehicleDriveByAnimInfo">
+      <Name>STD_DB_ANIM_POWERGOOSE_ONE_HANDED_RPS</Name>
+      <WeaponGroup ref="DRIVEBY_DEFAULT_REAR_ONE_HANDED" />
+      <DriveByClipSet>drive_by@std_rps</DriveByClipSet>
+      <FirstPersonDriveByClipSet />
+      <AltFirstPersonDriveByClipSets />
+      <Network>STD_CAR_DRIVEBY</Network>
+      <UseOverrideAngles value="true" />
+      <OverrideMinAimAngle value="-225.000000" />
+      <OverrideMaxAimAngle value="225.000000" />
+      <OverrideMinRestrictedAimAngle value="-225.000000" />
+      <OverrideMaxRestrictedAimAngle value="225.000000" />
+    </Item>
+ </VehicleDriveByAnimInfos>
+
+
+<!----------------------------------------------------------------------------------------------  DRIVEBY ANIM  -------------------------------------------------------------------------------------------------------------------------------------------------->
+<!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+</CVehicleMetadataMgr>
